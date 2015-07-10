@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GerbView-ja\n"
 "POT-Creation-Date: 2015-07-05 11:46+0900\n"
-"PO-Revision-Date: 2015-07-05 20:38+0900\n"
+"PO-Revision-Date: 2015-07-09 00:15+0900\n"
 "Last-Translator: kinichiro <kinichiro.inoguchi@gmail.com>\n"
 "Language-Team: kicad.jp <kicad@kicad.jp>\n"
 "Language: ja\n"
@@ -182,11 +182,11 @@ msgid ""
 "Misunderstandings between the PCB designer and photoplot operator account "
 "for a large percent of the bad film produced in this industry."
 msgstr ""
-"設計ソフトウェアがいかに強力であるかに関わらず、最終的にフィルムを作成するた"
-"めにガーバー形式のフォトプロットのファイルを作成する必要があります。いらだち"
-"は、フォトプロットのファイルに含まれていることをよく理解することによって減少"
-"できます。PCB設計者とフォトプロットオペレータ間の誤解が、この業界の不良フィル"
-"ム製造の責任の大部分を占めます。"
+"設計ソフトウェアがいかに強力であっても、最終的にはフィルムを作成するために"
+"ガーバー形式のフォトプロットのファイルを作成する必要があります。問題の悪化"
+"は、フォトプロットのファイルに含まれている内容をよく理解することによって減少"
+"できます。PCB設計者とフォトプロットのオペレータ間の誤解が、この業界の不良フィ"
+"ルム製造の責任の大部分を占めます。"
 
 #. type: Title ~
 #: GerbView_chapter_02.adoc:27
@@ -205,12 +205,13 @@ msgid ""
 "controller converts Gerber commands into the appropriate table movements, "
 "wheel rotation and shutter opening."
 msgstr ""
-"フォトプロットファイルの詳細に入る前に、フォトプロッタに関する短い議論が、次"
-"の素材を容易に要約することができます。初期のフォトプロッタは、高コントラスト"
-"フィルム片が取り付けられた高精度のサーボ制御XYテーブルから成りました。明るい"
-"光源は、開口部ホイールを通して、シャッターを通して導かれ、フィルム上に集束さ"
-"れます。コントローラは、ガーバーのコマンドを、適切なテーブルの動き、ホイール"
-"の回転そしてシャッターのオープンにコマンド変換します。"
+"フォトプロットファイルの詳細に入る前に、フォトプロッタに関して少し議論してお"
+"くことで、以降の読み物を容易に理解できるようになります。初期のフォトプロッタ"
+"は、高コントラストフィルム片が取り付けられた高精度のサーボ制御XYテーブルから"
+"構成されていました。明るい光源は、開口部ホイールを通して、シャッターを通して"
+"導かれ、フィルム上に集束されます。コントローラは、ガーバーのコマンドを、適切"
+"なテーブルの動き、ホイールの回転そしてシャッターのオープンにコマンド変換しま"
+"す。"
 
 #. type: Target for macro image
 #: GerbView_chapter_02.adoc:37
@@ -249,7 +250,7 @@ msgstr "images/dcodes_0EC000000CF385D8124.png"
 #: GerbView_chapter_02.adoc:48
 #, no-wrap
 msgid "*Figure 2* Plotter Operation\n"
-msgstr "*図 2* プロッタの操作\n"
+msgstr "*図２* プロッタの操作\n"
 
 #. type: Title ~
 #: GerbView_chapter_02.adoc:50
@@ -268,12 +269,12 @@ msgid ""
 "storage space is measured in hundreds of megabytes instead of hundreds of "
 "bytes."
 msgstr ""
-"ガーバーデータベースの美しさはそのシンプルさです。そこには必須のコマンド４つ"
-"と座標データだけがあります。データベースは、初期のマシンが脆弱なパンチ紙テー"
-"プによるものであったため、シンプルかつコンパクトでなければなりませんでした。"
-"ストレージ容量が数百バイトではなく数百メガバイトで計算される時代に、できるだ"
-"け少ないバイトにできるだけ多くの情報を詰め込んでいることが、今日遭遇する多く"
-"の \"問題\" の原因です。"
+"ガーバーのデータベースの美しさはそのシンプルさです。そこには必須のコマンド４"
+"つと座標データだけがあります。データベースは、初期のマシンが脆弱なパンチ紙"
+"テープによるものであったため、シンプルかつコンパクトでなければなりませんでし"
+"た。ストレージ容量が数百バイトではなく数百メガバイトで計算される時代に、でき"
+"るだけ少ないバイトにできるだけ多くの情報を詰め込んでいることが、今日遭遇する"
+"多くの \"問題\" の原因です。"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:68
@@ -292,7 +293,7 @@ msgstr ""
 "ロッタオペレータにデザイナーから渡されますが、しばしばエラーの原因となりま"
 "す。また、非標準の拡張機能を作成する誘惑には抗えません。全てのフォトプロッタ"
 "メーカーは、基本的なガーバーコマンドに加えて、彼らが自分のマシンを差別化する"
-"ために必要と思う機能をサポートします。結果、ある人にとってお機能は、別の人に"
+"ために必要と思う機能をサポートします。結果、ある人にとっての機能は、別の人に"
 "とっての未サポート問題となります。"
 
 #. type: Title ~
@@ -350,7 +351,7 @@ msgstr ""
 "右端の行番号は、ファイルの一部ではありません。ガーバーの予備知識なしでこの"
 "ファイルを調べても、各行が特定のマシンのコマンドを表し、アスタリスク（*）がコ"
 "マンド終端の文字であることを正しく推測できるでしょう。異なる種類のコマンドが"
-"あるようです： G 、 D 、 M で始まる命令と座標データ x 、 y 。"
+"いくつかあります： G 、 D 、 M で始まる命令と座標データ x 、 y 。"
 
 #. type: Title ~
 #: GerbView_chapter_02.adoc:98
@@ -438,8 +439,8 @@ msgid ""
 "*Figure 3* Left: correctly displayed. Right: Viewer set to incremental\n"
 "when data is absolute.\n"
 msgstr ""
-"*図 3* 左: 正しく表示されている。右: ビューアが増分座標の設定\n"
-"データが絶対座標の時に\n"
+"*図 3* 左: 正しく表示されている。右: ビューア設定は増分座標、\n"
+"データは絶対座標。\n"
 
 #. type: Title ^
 #: GerbView_chapter_02.adoc:135
@@ -610,8 +611,8 @@ msgid ""
 " 70      11      72      23\n"
 " 71      12      73      24\n"
 msgstr ""
-"Dコード 開口部 Dコード 開口部\n"
-"       位置        位置\n"
+"Dコード 開口部  Dコード 開口部\n"
+"        位置            位置\n"
 " 10      1       20      13\n"
 " 11      2       21      14\n"
 " 12      3       22      15\n"
@@ -637,7 +638,7 @@ msgid ""
 "specialized commands for rare or obsolete machines."
 msgstr ""
 "D10 から D19 が整然と並んでいます。そして、11番目の位置に D20 の代わりに D70 "
-"と D71 が侵入しています。マッピングは、D30 が出現することが期待される点まで続"
+"と D71 が侵入してきます。マッピングは、D30 が出現することが期待される点まで続"
 "いて、2ヶ所は飛びます。代わりに D72 と D73 が飛び込んできます。多くのフォトプ"
 "ロッタとCAMソフトウェアは、Dコードによる開口部の説明や、開口部の位置の参照の"
 "入力を求めてきます。Dコードには 3 から 9 の間のものがありますが、それらは稀ま"
@@ -647,7 +648,7 @@ msgstr ""
 #: GerbView_chapter_02.adoc:221
 #, no-wrap
 msgid "Miscellaneous M Codes"
-msgstr "その他の M コード"
+msgstr "その他の Mコード"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:230
@@ -660,13 +661,13 @@ msgid ""
 "stopped - however many CAM softwares see the M02 at the beginning of the "
 "file and ignore anything following it."
 msgstr ""
-"ファイルの最後に M02*コマンドがあります。ガーバーは M コード、その他のコード"
-"を呼び出します。使用される唯一の一般的な M コードはファイルの最後にあり、"
-"M00、M01 そして M02 でこれらは全て異なるタイプのプログラムの \"停止\" コマン"
-"ドです。時折、ガーバーファイルの先頭に M02 があることがあります。どうやら一部"
-"のアプリケーションは、以前のファイルの実行が停止していることを保証するために"
-"これを発行するようです。しかし、多くのCAMソフトウェアは、ファイルの先頭の "
-"M02 を見て、それに続くものを無視します。"
+"ファイルの最後に M02*コマンドがあります。ガーバーは Mコード、つまりその他の"
+"コードを呼び出します。使用される唯一の一般的な Mコードはファイルの最後にあ"
+"り、M00、M01 そして M02 でこれらは全て異なるタイプのプログラムの \"停止\" コ"
+"マンドです。時折、ガーバーファイルの先頭に M02 があることがあります。どうやら"
+"一部のアプリケーションは、以前のファイルの実行が停止していることを保証するた"
+"めにこれを発行するようです。しかし、多くのCAMソフトウェアは、ファイルの先頭"
+"の M02 を見て、それに続くものを無視します。"
 
 #. type: Title ~
 #: GerbView_chapter_02.adoc:232
@@ -682,9 +683,9 @@ msgid ""
 "techniques to minimize the number of bytes required to represent the data. "
 "These are:"
 msgstr ""
-"座標データはガーバーファイルの大部分を構成します。手動で、テーブルの動きをプ"
-"リントアウトから追うことは困難です。なぜならガーバーはデータを表現するために"
-"必要なバイト数を最小限にするためにいくつかの技術を使うからです。"
+"座標データはガーバーファイルの大部分を構成します。人手で、テーブルの動きをプ"
+"リントアウトから追うことは困難です。なぜならガーバーは、データを表現するため"
+"に必要なバイト数を最小限にするために、いくつかの技術を使うからです。"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:240
@@ -716,7 +717,7 @@ msgid ""
 "make is to assume that the person receiving their data knows you data "
 "format. Consider the following Gerber commands:"
 msgstr ""
-"事前にあることを知っていれのなら小数点は冗長です。小数点は、適切な位置にフォ"
+"事前にあることを知っているのなら小数点は冗長です。小数点は、適切な位置にフォ"
 "トプロッタ制御ソフトウェアによって再挿入する必要があります。初心者の設計者が"
 "やってしまう最も一般的なエラーは、データを受け取る人があなたのデータの書式を"
 "知っていると仮定することです。次のガーバーのコマンドを考えてみましょう："
@@ -757,9 +758,9 @@ msgid ""
 "format. When you receive a Gerber file, always ask for the data\n"
 "format.__*\n"
 msgstr ""
-"*ルール 1* __ガーバーファイルを送る時は常にデータ書式も提供すること\n"
+"*ルール 1* __ガーバーファイルを送る時は常にデータ書式も提供すること。\n"
 "ガーバーファイルを受け取ったら常にデータ書式を\n"
-"要求すること__\n"
+"要求すること。__\n"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:273
@@ -802,7 +803,7 @@ msgid ""
 "The designers of the Gerber database didn't rest after eliminating the "
 "decimal point. They must have looked at a printout and thought,"
 msgstr ""
-"ガーバーのデータベースの設計者は小数点の問題を解決した後も休めませんでした。"
+"ガーバーのデータベースの設計者は小数点の問題を解決した後も休みませんでした。"
 "彼らは印刷出力を見て考えました。"
 
 #. type: Plain text
@@ -813,7 +814,7 @@ msgid ""
 "from the right side of the number.\""
 msgstr ""
 "\"前方にある余分なゼロは必要だろうか？それらを取り去ると仮定しよう。数字の右"
-"側から小数点をカウントすれば座標の値を把握することはできる。\""
+"側から小数点をカウントすれば座標の値を把握することができる。\""
 
 #. type: delimited block |
 #: GerbView_chapter_02.adoc:296
@@ -837,7 +838,8 @@ msgid ""
 "tape this was a very significant reduction."
 msgstr ""
 "ゼロの抑制をしなければ48バイトが使われます。先頭ゼロを抑制すれば同じ情報を表"
-"すのに33バイトが必要です。紙テープの時代はこれはとても意義のある削減でした。"
+"すのに33バイトですみます。紙テープの時代にはこれはとても意義のある削減でし"
+"た。"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:304
@@ -902,9 +904,9 @@ msgid ""
 "all. One sharp eyed programmer noticed that the same coordinate would appear "
 "over and over again when the table moved only along X or Y."
 msgstr ""
-"小数点と冗長なゼロの抑制を解決した後、データベース設計者は成果に満足すると思"
-"うかもしれません。そんなことはありません。慧眼のプログラマは、テーブルがX軸か"
-"Y軸だけに沿って動く時、同じ座標が何度も繰り返し現れることに気付きました。"
+"小数点と冗長なゼロの抑制を解決した後、データベース設計者は成果に満足したと思"
+"いますか。そんなことはありません。慧眼のプログラマは、テーブルがX軸かY軸だけ"
+"に沿って動く時、同じ座標が何度も繰り返し現れることに気付きました。"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:332
@@ -1052,11 +1054,11 @@ msgid ""
 "reading and writing Gerber data with arcs and few rude surprises are "
 "surfacing."
 msgstr ""
-"そうするように指示された場合ガーバーフォトプロッタは、円弧を描くことができま"
-"す。過去には、円形のコマンドはほとんどPCBの製造に使用しませんでした。フレック"
-"ス回路基板は、ストレスを低減するために湾曲配線を使用し、高速ロジックは信号反"
-"射を低減するために滑らかな半径を使用します。ガーバーデータの読み書きについて"
-"の関心が新たにされます。"
+"そうするように指示された場合ガーバーのフォトプロッタは、円弧を描くことができ"
+"ます。過去には、円形のコマンドはほとんどPCBの製造に使用しませんでした。フレッ"
+"クス回路基板は、ストレスを低減するために湾曲配線を使用し、高速ロジックは信号"
+"反射を低減するために滑らかな半径を使用します。ガーバーデータの読み書きについ"
+"ての関心が新たにされます。"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:398
@@ -1119,10 +1121,10 @@ msgid ""
 "either offer RS274X as an option or only output RS274X -- such as Cadence's "
 "Allegro."
 msgstr ""
-"あなたがPCBの設計者ならば、おそらくガーバー **RS274X** 拡張についてもっと多く"
-"のことを聞いているでしょう。多くのPCBレイアウトプログラムの最新バージョンは、"
-"オプションとしての RS274X 、または出力のみとしての RS274X のどちらかを提供し"
-"ています。 -- 丁度 Cadence の Allegro のようにです。"
+"あなたがPCB設計者ならば、おそらくガーバー **RS274X** 拡張についてもっと多くの"
+"ことを聞いているでしょう。多くのPCBレイアウトプログラムの最新バージョンは、オ"
+"プションとしての RS274X 、または出力のみとしての RS274X のどちらかを提供して"
+"います。 -- 丁度 Cadence の Allegro のようにです。"
 
 #. type: Title ^
 #: GerbView_chapter_03.adoc:23
@@ -1271,7 +1273,7 @@ msgstr ""
 #. type: Plain text
 #: GerbView_chapter_03.adoc:73
 msgid "where:"
-msgstr "どこに:"
+msgstr "ここで:"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:75
@@ -1402,7 +1404,7 @@ msgid ""
 "got confused then your film came out wrong. With RS274X a command near the "
 "beginning of the file can invert the film's polarity."
 msgstr ""
-"古い RS274D ではフォトプロットのオペレータに、所望するフィルムの極性を手動で"
+"古い RS274D ではフォトプロットのオペレータに、期待するフィルムの極性を人手で"
 "指示する必要がありました。オペレータが注意を怠るか混乱してしまった場合には、"
 "フィルムは間違って出力されました。ファイルの先頭近くの RS274X コマンドは、"
 "フィルムの極性を反転することができます。"
@@ -1450,7 +1452,7 @@ msgid ""
 msgstr ""
 "古い RS274D 仕様の主要な欠点の一つは、各開口部の定義がデータファイルの一部で"
 "はないということでした。代わりにそれは紙または以下のようなテキストファイルと"
-"して手動で転送されました："
+"して人手で転送されました："
 
 #. type: Title +
 #: GerbView_chapter_03.adoc:148
@@ -1527,8 +1529,8 @@ msgid ""
 "With 274X even complex apertures are described using macros that the "
 "photoplotter (and hopefully your CAM software) synthesizes on-the-fly."
 msgstr ""
-"RS274X では、複雑な開口部でさえ、フォトプロッタ（できればあなたのCAMソフト"
-"ウェア）が即座に合成するマクロを使って記述されます。"
+"RS274X では、複雑な開口部でさえ、フォトプロッタ（うまくいけばあなたのCAMソフ"
+"トウェア）が即座に合成するマクロを使って記述されます。"
 
 #. type: Title +
 #: GerbView_chapter_03.adoc:178
@@ -1589,7 +1591,7 @@ msgstr "%ADD\\{code}C,\\{$1}X\\{$2}X\\{$3}*%"
 #: GerbView_chapter_03.adoc:197 GerbView_chapter_03.adoc:237
 #: GerbView_chapter_03.adoc:330
 msgid "where"
-msgstr "どこに"
+msgstr "ここで:"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:199 GerbView_chapter_03.adoc:239
@@ -1642,40 +1644,40 @@ msgstr ""
 #. type: Plain text
 #: GerbView_chapter_03.adoc:218
 msgid "%ADD21C,.100*% _(a) 0.10 diameter circle on d21_"
-msgstr "%ADD21C,.100*% _(A) d21 の 直径 0.10 の円形 _"
+msgstr "%ADD21C,.100*% _ A. d21 の 直径 0.10 の円形 _"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:220
 msgid "%ADD22C,.100X.050*% _(b) 0.10 dia circle with 0.05 hole_"
-msgstr "%ADD22C,.100X.050*% _(B) d22 の 直径 0.10 で穴径 0.05 の円形 _"
+msgstr "%ADD22C,.100X.050*% _ B. d22 の 直径 0.10 で穴径 0.05 の円形 _"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:222
 msgid "_on d22._"
-msgstr "_ d22 _"
+msgstr " "
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:224
 msgid "%ADD23C,.100X.050X.050*% _(c) 0.10 dia circle with 0.05 square_"
 msgstr ""
-"%ADD23C,.100X.050X.050*% _(C) d23 の 直径 0.10 で角穴サイズ 0.05 の正方形 _"
+"%ADD23C,.100X.050X.050*% _ C. d23 の 直径 0.10 で角穴サイズ 0.05 の正方形 _"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:226
 msgid "_hole on d23_"
-msgstr "_d23_"
+msgstr " "
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:228
 msgid "%ADD24C,.100X.050X.025*% _(d) 0.10 dia circle with 0.05 x 0.025_"
 msgstr ""
-"%ADD24C,.100X.050X.025*% _(D) d24 の 直径 0.10 で角穴サイズ 0.05 x 0.025 の円"
+"%ADD24C,.100X.050X.025*% _ D. d24 の 直径 0.10 で角穴サイズ 0.05 x 0.025 の円"
 "形 _"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:230
 msgid "_rectangular hole on d24_"
-msgstr "_rectangular hole on d24_"
+msgstr " "
 
 #. type: Title +
 #: GerbView_chapter_03.adoc:232
@@ -1789,90 +1791,96 @@ msgstr ""
 #: GerbView_chapter_03.adoc:284
 #, no-wrap
 msgid "*Primitive Name* *Primitive Number* *Description and Parameter Number*\n"
-msgstr "*基本要素名* *基本要素番号* *説明とパラメータ番号*\n"
+msgstr "*基本要素名*    *基本要素番号*    *説明とパラメータ番号*\n"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:286
 msgid "Circle (1) round"
-msgstr "Circle (1) 円形"
+msgstr " Circle          (1)               円形"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:288
 msgid "Line Vector (2 or 20) rectangle defined by endpoints"
-msgstr "Line Vector (2 or 20) 終点の幅と回転で定義される矩形"
+msgstr " Line Vector     (2 or 20)         終点の幅と回転で定義される矩形"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:290
 msgid "width and rotation. Square ends."
-msgstr "width and rotation. Square ends."
+msgstr " "
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:292
 msgid "Line Center (21) rect - defined by center and length, width"
-msgstr "Line Center (21) 中心と長さ、幅と回転で定義される矩形。"
+msgstr ""
+" Line Center     (21)              中心と長さ、幅と回転で定義される矩形。"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:294
 msgid "and rotation. Square ends."
-msgstr "and rotation. Square ends."
+msgstr " "
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:296
 msgid "Line-Lower Left (22) rect - defined by lower left coordinate,"
-msgstr "Line-Lower Left (22) 左下座標の長さ、幅そして回転で定義される矩形"
+msgstr ""
+" Line-Lower Left (22)              左下座標の長さ、幅そして回転で定義される矩"
+"形"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:298
 msgid "length, width and rotation."
-msgstr "length, width and rotation."
+msgstr " "
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:300
 msgid "Outline (4) outlines an area defined by coordinate pairs."
-msgstr "Outline (4) 座標のペアで定義された領域の外形"
+msgstr " Outline         (4)               座標のペアで定義された領域の外形"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:302
 msgid "max vertice=50."
-msgstr "最大頂点 = 50"
+msgstr " "
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:304
 msgid "Polygon (5) a regular polygon with 3-10 sides. defined"
-msgstr "Polygon (5) 3-10辺を有するポリゴン。中心、外径そして回転で定義"
+msgstr ""
+" Polygon         (5)               3-10辺を有するポリゴン。中心、外径そして回"
+"転で定義"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:306
 msgid "by center, outer diameter and rotation."
-msgstr "by center, outer diameter and rotation."
+msgstr " "
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:308
 msgid "Moire (6) target defined by center, number of circles"
 msgstr ""
-"Moire (6) 中心、円形の数、円形の厚み、十字線の長さ、厚み、および回転によって"
-"定義"
+" Moire           (6)               中心、円形の数、円形の厚み、十字線の長さ、"
+"厚み、および回転によって定義"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:310
 msgid "circle thickness, cross hair length, thickness"
-msgstr "circle thickness, cross hair length, thickness"
+msgstr " "
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:312
 msgid "and rotation."
-msgstr "and rotation."
+msgstr " "
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:314
 msgid "Thermal (7) thermal relief defined by outer diameter, inner"
 msgstr ""
-"Thermal (7) 外径、内径、十字線の厚さ、そして回転で定義されるサーマルリリーフ"
+" Thermal         (7)               外径、内径、十字線の厚さ、そして回転で定義"
+"されるサーマルリリーフ"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:316
 msgid "diameter, crosshair thickness and rotation."
-msgstr "diameter, crosshair thickness and rotation."
+msgstr " "
 
 #. type: Title +
 #: GerbView_chapter_03.adoc:318
@@ -1934,17 +1942,17 @@ msgstr "0,0 - 最初の2つのパラメータ: 中心の X、Y"
 #. type: Plain text
 #: GerbView_chapter_03.adoc:342
 msgid "0.100 - third parm: outer diameter (solid black see (a) above)"
-msgstr "0.100 - 3番目のパラメータ: 外径（黒く塗りつぶし、上の(A)を参照）"
+msgstr "0.100 - 3番目のパラメータ: 外径（黒く塗りつぶし、上の A. を参照）"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:344
 msgid "0.050 - fourth parm: inner diameter (clear see (b) above)"
-msgstr "0.050 - 4番目のパラメータ: 内径（透明、上の(B)を参照）"
+msgstr "0.050 - 4番目のパラメータ: 内径（透明、上の B. を参照）"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:346
 msgid "0.025 - fifth parm: crosshair width (clear see (c) above)"
-msgstr "0.025 - 5番目のパラメータ: 十字線の幅（透明、上の(C)を参照）"
+msgstr "0.025 - 5番目のパラメータ: 十字線の幅（透明、上の C. を参照）"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:348
@@ -1966,7 +1974,7 @@ msgid ""
 "omissions. Here's how it used to be done:"
 msgstr ""
 "複数のガーバーファイルからフォトツールを構築することは、PCB業界では標準的に行"
-"われています。しかしフォトプロッタのオペレータへの指示はいつも手動でなされて"
+"われています。しかしフォトプロッタのオペレータへの指示はいつも人手でなされて"
 "きており、エラーと漏れの余地を残しています。ここにそれがどのようになされてき"
 "たのか示します:"
 
@@ -2137,7 +2145,7 @@ msgstr "基板の端を定義し、そしてクリアランス"
 #. type: Plain text
 #: GerbView_chapter_03.adoc:431
 msgid "for the inner trace."
-msgstr "内部トレースのための"
+msgstr "内部トレースのため"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:433
@@ -2281,10 +2289,10 @@ msgid ""
 "will see more use in the future for describing complex data often "
 "encountered in IC packages, RF and microwave circuits and analog devices."
 msgstr ""
-"G36 / G37 のポリゴンコマンドは RS274X 仕様に先行しており、新しいガーバーフォ"
-"トプロッタだけがサポートしています。しかし、それは非常に強力なコマンドであ"
-"り、ICパッケージ、RFおよびマイクロ波回路やアナログ機器で遭遇する複雑なデータ"
-"を記述するために今後さらに利用されていくでしょう。"
+"G36 / G37 のポリゴンコマンドは RS274X 仕様に先行しており、新しいガーバーの"
+"フォトプロッタだけがサポートしています。しかし、それは非常に強力なコマンドで"
+"あり、ICパッケージ、RFおよびマイクロ波回路やアナログ機器で遭遇する複雑なデー"
+"タを記述するために今後さらに利用されていくでしょう。"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:515
