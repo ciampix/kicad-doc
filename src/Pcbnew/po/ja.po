@@ -1,10 +1,9 @@
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: Pcbnew\n"
 "POT-Creation-Date: 2015-07-05 11:48+0900\n"
-"PO-Revision-Date: 2015-07-08 03:27+0900\n"
-"Last-Translator: kinichiro <kinichiro.inoguchi@gmail.com>\n"
+"PO-Revision-Date: 2015-07-10 21:48+0900\n"
+"Last-Translator: starfort <starfort@nifty.com>\n"
 "Language-Team: kicad.jp <kicad@kicad.jp>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.7\n"
 
-# UD1：0900_07072015
+# PR1:07102015 proofreading - chapter1, 2
 #. type: Title =
 #: Pcbnew.adoc:7
 #, no-wrap
@@ -36,6 +35,7 @@ msgstr "_リファレンス・マニュアル_"
 msgid "*Copyright*\n"
 msgstr "*著作権*\n"
 
+# 07102015：訂正２行目（30>3.0）
 #. type: Plain text
 #: Pcbnew.adoc:21
 msgid ""
@@ -46,10 +46,10 @@ msgid ""
 "org/licenses/by/3.0/), version 3.0 or later."
 msgstr ""
 "このドキュメントは以下の貢献者により著作権所有 ©2010–2014 されています。あな"
-"たは、GNUGeneralPublicLicense ( http://wwwgnuorg/licenses/gpl.html ),version3"
-"以降、あるいはクリエイティブ·コモンズライセンス ( http://creativecommonsorg/"
-"licenses/by/30/ ),version30以降のいずれかの条件の下で、それを配布し、そして/"
-"または、それを変更することができます。"
+"たは、GNU General Public License ( http://www.gnu.org/licenses/gpl.html ) の"
+"バージョン3以降、あるいはクリエイティブ・コモンズライセンス ( http://"
+"creativecommons.org/licenses/by/3.0/ ) のバージョン3以降のいずれかの条件の下"
+"で、配布または変更することができます 。"
 
 #. type: Plain text
 #: Pcbnew.adoc:23
@@ -625,8 +625,8 @@ msgid ""
 "by their reference. In this situation, the 'Timestamp' option of the netlist "
 "dialog may be selected before re-reading the netlist:"
 msgstr ""
-"回路の部品を変更せずに回路図の記述を変更することが時々あります(これはR5、U4の"
-"ようなリファレンスに関わることになります)。そのためPCBには(多分、シルクスク"
+"回路の部品を変更せずに回路図の記述を変更することが時々あります(これはR5、U4…"
+"のようなリファレンスに関わることになります)。そのためPCBには(多分、シルクスク"
 "リーン表示を除いて)変更がありません。そうは言っても、内部的にはコンポーネント"
 "とモジュールはリファレンスで表現されます。この状況では、ネットリストを再読み"
 "込みする前に、ネットリストダイアログの'タイムスタンプ'オプションが選択される"
@@ -834,8 +834,8 @@ msgid ""
 "Select parameters (net name, layer...).  To switch on the layer and "
 "highlight this net is not mandatory but it is good practice."
 msgstr ""
-"パラメータ(ネット名、レイヤー・・・)を選択する。レイヤーを切り替えてこのネッ"
-"トをハイライトさせることは必須ではありませんが、好ましい習慣です。"
+"パラメータ(ネット名、レイヤー…)を選択する。レイヤーを切り替えてこのネットをハ"
+"イライトさせることは必須ではありませんが、好ましい習慣です。"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:35
@@ -926,7 +926,7 @@ msgstr "優先度"
 #. type: Plain text
 #: Pcbnew_zones.adoc:62
 msgid "..."
-msgstr "・・・"
+msgstr "…"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:66
@@ -3436,8 +3436,8 @@ msgid ""
 msgstr ""
 "フォトプロッタやドリル穴あけ機のための原点座標を設定します。右部ツールバーよ"
 "り、置としたい座標でクリックすることにより、補助軸を移動させます。アイコン "
-"image:images/icons/pcb_offset.png を選択し、原点位ファイルメニューよりプロッ"
-"トを選択し、作業を行います。 "
+"image:images/icons/pcb_offset.png[] を選択し、原点位ファイルメニューよりプ"
+"ロットを選択し、作業を行います。 "
 
 # 07072015：/ja/へ変更
 #. type: Plain text
@@ -4732,8 +4732,8 @@ msgid ""
 "many libraries when loading modules."
 msgstr ""
 "PcbNewはモジュール読み込みの際に多くのライブラリを検索することが出来るので、"
-"異なる種類の部品用にそれぞれ異なるライブラリー(コネクタ用、ディスクリート"
-"用・・・)を作成することは、通常、良い考えです。"
+"異なる種類の部品用にそれぞれ異なるライブラリー(コネクタ用、ディスクリート用…)"
+"を作成することは、通常、良い考えです。"
 
 #. type: Plain text
 #: Pcbnew_managing_libs.adoc:252
@@ -5014,7 +5014,7 @@ msgid ""
 "other layers. Use this layer only to draw board outlines.\n"
 msgstr ""
 "*PCB外形* 層:\n"
-"** この層は回路基板外形図用に予約されています。この層に配置されているすべての要素(グラフィック、テキスト・・・)は、他のすべての層に現れます。\n"
+"** この層は回路基板外形図用に予約されています。この層に配置されているすべての要素(グラフィック、テキスト…)は、他のすべての層に現れます。\n"
 "基板外形を作成するためにのみこの層を使用して下さい。\n"
 
 #. type: Title ~
@@ -7593,7 +7593,7 @@ msgstr ""
 #: Pcbnew_introduction.adoc:3
 #, no-wrap
 msgid "Introduction to Pcbnew"
-msgstr "Pcbnew入門"
+msgstr "Pcbnew 入門"
 
 #. type: Title ~
 #: Pcbnew_introduction.adoc:6
@@ -7610,6 +7610,7 @@ msgstr ""
 "Pcbnewは、Linux、Microsoft WindowsやApple OS Xオペレーティングシステムで使用"
 "可能な強力なプリント回路基板のソフトウェアツールです。"
 
+# 07102015：変更
 #. type: Plain text
 #: Pcbnew_introduction.adoc:14
 #| msgid ""
@@ -7621,10 +7622,11 @@ msgid ""
 "Eeschema, which provides the Netlist file - this describes the electrical "
 "connections of the PCB being designed."
 msgstr ""
-"Pcbnew は、回路図キャプチャソフトウェアプログラム Eeschema に関連付けて使用さ"
-"れます。Eeschema はネットリストファイル（これは PCB を設計するための電気的な"
-"接続について記述します）を提供します。"
+"Pcbnew は、回路図キャプチャソフトウェアプログラム Eeschema と連携して使用され"
+"ます。Eeschema はネットリストファイル（これは設計する PCB の電気的な接続を記"
+"述します）を提供します。"
 
+# 07102015：変更
 #. type: Plain text
 #: Pcbnew_introduction.adoc:19
 msgid ""
@@ -7632,11 +7634,12 @@ msgid ""
 "produced by Eeschema, to a module that is used by Pcbnew.  This can be done "
 "either interactively or automatically using equivalence files."
 msgstr ""
-"第2のプログラムCvPcbはPcbnewによって使用されているモジュールに、Eeschemaに"
-"よって生成されたネットリスト内の各コンポーネントを割り当てるために使用されま"
-"す。これは、equivalenceファイルを使用して対話的に、または自動的に行うことがで"
+"第２のプログラム CvPcb は Pcbnew によって使用されているモジュールに、"
+"Eeschema によって生成されたネットリスト内の各コンポーネントを割り当てるために"
+"使用されます。これは、等価ファイルを使用して対話的または自動的に行うことがで"
 "きます。"
 
+# 07102015：変更
 #. type: Plain text
 #: Pcbnew_introduction.adoc:25
 msgid ""
@@ -7647,7 +7650,7 @@ msgid ""
 msgstr ""
 "Pcbnew は、モジュールのライブラリを管理します。各々のモジュールとは、フットプ"
 "リント（部品への接続を提供するパッドのレイアウト）を含む物理的なコンポーネン"
-"トを示す図です。必要なモジュールは CvPcb によって生成されるネットリストの読み"
+"トを示す図です。必要なモジュールは CvPcb によって生成されたネットリストの読み"
 "込み中に自動的にロードされます。"
 
 #. type: Plain text
@@ -7669,6 +7672,7 @@ msgstr ""
 "ルの値（及び条件付での任意のリファレンス）の修正、回路図上の電気的な接続など"
 "を自動的にそして直ちに取り込み、反映します。"
 
+# 07102015：変更
 #. type: Plain text
 #: Pcbnew_introduction.adoc:35
 msgid ""
@@ -7677,9 +7681,10 @@ msgid ""
 "dynamically as track and module movements are made."
 msgstr ""
 "Pcbnew は、ラッツネスト表示という回路図上で接続されているモジュールのパッドを"
-"接続する細い線を提供します。これらの接続は、配線とモジュールの移動が発生した"
-"途端に動的に動きます。"
+"接続する細い線を提供します。これらの接続は、配線とモジュールの移動に追従して"
+"動的に動きます。"
 
+# 07102015：変更
 #. type: Plain text
 #: Pcbnew_introduction.adoc:38
 #| msgid ""
@@ -7689,18 +7694,20 @@ msgid ""
 "Pcbnew has an active Design Rules Check (DRC) function which automatically "
 "indicates any error of track layout in real time."
 msgstr ""
-"Pcbnew は、リアルタイムに配線レイアウトの様々なエラーをアクティブに検出するデ"
-"ザインルールチェック (DRC) 機能を持ちます。"
+"Pcbnew は、リアルタイムに配線レイアウトの様々なエラーを検出する動的なデザイン"
+"ルールチェック (DRC) 機能を持ちます。"
 
+# 07102015：変更
 #. type: Plain text
 #: Pcbnew_introduction.adoc:41
 msgid ""
 "Pcbnew can automatically generate a copper plane, with or without thermal "
 "breaks on the pads."
 msgstr ""
-"Pcbnew は、基板への部品実装にハンダ付けを容易にするための、サーマル切り欠きを"
-"持つ(或いは持たない)銅箔面を自動的に生成することが出来ます。"
+"Pcbnew は、パッドへのサーマルパターンのある(或いは、ない)銅箔面を自動的に生成"
+"することが出来ます。"
 
+# 07102015：変更
 #. type: Plain text
 #: Pcbnew_introduction.adoc:45
 #| msgid ""
@@ -7712,9 +7719,9 @@ msgid ""
 "the circuit board. An Export/Import in SPECCTRA dsn format allows the use of "
 "more advanced auto-routers."
 msgstr ""
-"Pcbnew は、配線の設計をアシストするためのシンプルながら効果的なオートルーター"
-"を持っています。より高度な外部のオートルータを使用するため、SPECCTRA dsn "
-"フォーマットのファイルをインポート／エクスポートを使用することが出来ます。"
+"Pcbnew は、配線設計を補助するための簡単ながら効果的なオートルーターを持ってい"
+"ます。より高度な外部のオートルータを使用するために、SPECCTRA dsn フォーマット"
+"のファイルをインポート／エクスポートすることも出来ます。"
 
 #. type: Plain text
 #: Pcbnew_introduction.adoc:49
@@ -7763,6 +7770,7 @@ msgstr "主要な設計上の特徴"
 msgid "Pcbnew has an internal resolution of 1/10000 inch."
 msgstr "Pcbnewは1/10000インチの内部分解能を持っています。"
 
+# 07102015：変更
 #. type: Plain text
 #: Pcbnew_introduction.adoc:65
 msgid ""
@@ -7770,16 +7778,16 @@ msgid ""
 "solder mask, component adhesive, solder paste, drawings and comments...) and "
 "manages in real time the hairline indication (rats nest) of missing tracks."
 msgstr ""
-"Pcbnewは16の導体層に加え、12のテクニカル層(シルクスクリーン、ソルダーマスク"
-"(レジスト)、コンポーネント接着剤、ソルダペースト、図形及びコメント・・・)を扱"
-"い、リアルタイムでの未配線の細線表示(ラッツネスト)を管理します。"
+"Pcbnew は３２の導体層に加え、１４のテクニカル層（シルクスクリーン、ソルダーマ"
+"スク（レジスト）、コンポーネント接着剤、ソルダペースト、図形及びコメント…）を"
+"扱い、リアルタイムでの未配線のラッツネスト（細線表示）を管理します。"
 
 #. type: Plain text
 #: Pcbnew_introduction.adoc:68
 msgid ""
 "The display of the PCB elements (tracks, pads, text, drawings...)  can be "
 "customizable:"
-msgstr "各要素(配線、パッド、文字、図形・・・)の表示はカスタマイズが可能です:"
+msgstr "各要素(配線、パッド、文字、図形…)の表示はカスタマイズが可能です:"
 
 #. type: Plain text
 #: Pcbnew_introduction.adoc:70
@@ -7798,7 +7806,7 @@ msgid ""
 "copper, modules...), which is useful for high-density multi-layer circuits."
 msgstr ""
 "高密度多層回路のために便利な、特定の要素の非表示(導体層、テクニカル層、銅箔"
-"面、モジュール・・・)。"
+"面、モジュール…)。"
 
 #. type: Plain text
 #: Pcbnew_introduction.adoc:77
@@ -7815,7 +7823,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_introduction.adoc:79
 msgid "Modules can be rotated to any angle, with a step of 0.1 degree."
-msgstr "モジュールは0.1度刻みで任意の角度で回転できます。"
+msgstr "モジュールは 0.1 度刻みで任意の角度で回転できます。"
 
 #. type: Plain text
 #: Pcbnew_introduction.adoc:83
@@ -7824,8 +7832,8 @@ msgid ""
 "for the production of ultra high frequency circuits). In addition several "
 "basic pads can be grouped."
 msgstr ""
-"パッドは円形、長方形、楕円形や台形(高周波回路の製造に必要)にすることができま"
-"す。加えて、いくつかの基本的なパッドは、グループ化することができます。"
+"パッドは円形、長方形、楕円形や台形（高周波回路の製造に必要）にすることができ"
+"ます。加えて、いくつかの基本的なパッドは、グループ化することができます。"
 
 #. type: Plain text
 #: Pcbnew_introduction.adoc:86
@@ -7836,15 +7844,17 @@ msgstr ""
 "各パッドのサイズや、パッドを配置する層などを設定・調整できます。ドリル穴をオ"
 "フセットすることができます。"
 
+# 07102015：変更
 #. type: Plain text
 #: Pcbnew_introduction.adoc:89
 msgid ""
 "Pcbnew can automatically generate copper planes, with automatic generation "
 "of thermal breaks around the pads concerned."
 msgstr ""
-"Pcbnewは、パッド周辺のサーマル切り欠きを自動的に生成する銅箔パターンを自動的"
-"に生成することができます。"
+"Pcbnew は、パッド周辺のサーマルパターンを自動生成し、銅箔パターンを自動的に生"
+"成することができます。"
 
+# 07102015：変更
 #. type: Plain text
 #: Pcbnew_introduction.adoc:95
 msgid ""
@@ -7854,44 +7864,48 @@ msgid ""
 "to a library. In addition all footprints on the PCB can be saved to a "
 "library by creating a footprint archive."
 msgstr ""
-"モジュール・エディタはPcbnewツールバーからアクセスすることができます。エディ"
-"タは、PCBまたはライブラリからモジュールの作成や変更を可能にし、その後のいずれ"
-"かに保存されます。PCBに保存されたモジュールは、その後、ライブラリに保存するこ"
-"とができます。さらに、PCB上のすべてのモジュールは、フットプリントのアーカイブ"
-"を作成することにより、ライブラリに保存することができます。"
+"フットプリント・エディタは Pcbnew ツールバーから実行できます。エディタでは、"
+"PCB またはライブラリからフットプリントの作成や変更ができ、その後いずれかに保"
+"存されます。PCB に保存されたフットプリントは、続けてライブラリに保存すること"
+"ができます。さらに、PCB 上のすべてのフットプリントは、フットプリントのアーカ"
+"イブを作成することにより、ライブラリに保存することができます。"
 
 #. type: Plain text
 #: Pcbnew_introduction.adoc:98
 msgid ""
 "Pcbnew generates in an extremely simple way all the documents necessary:"
-msgstr "Pcbnewは、すべての必要なドキュメントを非常に単純な方法で生成します:"
+msgstr "Pcbnew は、すべての必要なドキュメントを非常に単純な方法で生成します:"
 
 #. type: Plain text
 #: Pcbnew_introduction.adoc:100
 msgid "Fabrication outputs:"
 msgstr "製造用出力:"
 
+# 07102015：変更
 #. type: Plain text
 #: Pcbnew_introduction.adoc:102
 #, no-wrap
 msgid "** Files for Photoplotters in GERBER RS274X format.\n"
-msgstr "** フォトプロッタ用ガーバーRS274Xフォーマットファイル。\n"
+msgstr "** フォトプロッタ用ファイル（ガーバー RS274X フォーマット）。\n"
 
+# 07102015：変更
 #. type: Plain text
 #: Pcbnew_introduction.adoc:104
 #, no-wrap
 msgid "** Files for drilling in EXCELLON format.\n"
-msgstr "** 穴あけ用EXCELLONフォーマットファイル。\n"
+msgstr "** 穴あけ用ファイル（EXCELLON フォーマット）。\n"
 
+# 07102015：変更
 #. type: Plain text
 #: Pcbnew_introduction.adoc:106
 msgid "Plot files in HPGL, SVG and DXF format."
-msgstr "HPGL,SVG,DXFフォーマットでの作画ファイル"
+msgstr "プロットファイル（HPGL, SVG, DXF フォーマット）。"
 
+# 07102015：変更
 #. type: Plain text
 #: Pcbnew_introduction.adoc:108
 msgid "Plot and drilling maps in POSTSCRIPT format."
-msgstr "POSTSCRIPTフォーマットでの作画とドリルマップ。"
+msgstr "プロットとドリルのマップ（POSTSCRIPT フォーマット）。"
 
 #. type: Plain text
 #: Pcbnew_introduction.adoc:110
@@ -7904,10 +7918,11 @@ msgstr "ローカルプリンタ出力。"
 msgid "General remarks"
 msgstr "一般的な注意事項"
 
+# 07102015：変更
 #. type: Plain text
 #: Pcbnew_introduction.adoc:115
 msgid "Pcbnew requires a 3 button mouse. The 3rd button is mandatory."
-msgstr "Pcbnewは3ボタンマウスが必要です3ボタンは必須です。"
+msgstr "Pcbnew は３ボタンマウスを必要とします。３つ目のボタンは必須です。"
 
 #. type: Plain text
 #: Pcbnew_introduction.adoc:117
@@ -7915,8 +7930,8 @@ msgid ""
 "Finally it should be noted that the diagrammatic tool Eeschema and CvPcb are "
 "needed to create the required netlists."
 msgstr ""
-"最終的に必要とされるネットリストを作成するには、回路図ツールEeschemaとCvPcbが"
-"必要になることに留意すべきです。"
+"最終的に必要とされるネットリストを作成するには、回路図ツール Eeschema と "
+"CvPcb が必要になることに留意すべきです。"
 
 #. type: Title -
 #: Pcbnew_creating_editing_modules.adoc:2
@@ -7928,7 +7943,7 @@ msgstr "ModEdit - モジュールの作成と編集"
 #: Pcbnew_creating_editing_modules.adoc:5
 #, no-wrap
 msgid "ModEdit overview"
-msgstr "ModEditの概要"
+msgstr "ModEdit の概要"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:8
@@ -8335,7 +8350,7 @@ msgid ""
 "by the real reference (U1, IC3...)."
 msgstr ""
 "このテキストはモジュールのリファレンスとしても機能しますが、最終的に、それは"
-"正しいリファレンス(U1、IC3・・・)に置き換えられます。"
+"正しいリファレンス(U1、IC3…)に置き換えられます。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:187
@@ -8486,8 +8501,8 @@ msgid ""
 "important for circuit manufacture and documentation."
 msgstr ""
 "パッドが属する層を正しく定義することに注意した方がよいでしょう。特に、導体層"
-"は定義が容易ですが、非導体層(ハンダレジスト、ハンダパッド・・・)の管理は、回"
-"路製作およびドキュメントのために同様に重要です。"
+"は定義が容易ですが、非導体層(ハンダレジスト、ハンダパッド…)の管理は、回路製作"
+"およびドキュメントのために同様に重要です。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:246
@@ -9010,7 +9025,7 @@ msgid ""
 "different sizes (resistors, capacitors, SMD components...)"
 msgstr ""
 "同じような形状でサイズの異なるフットプリント（抵抗器、コンデンサー、SMDコン"
-"ポーネント・・・）には同じ３Ｄファイルを使用。"
+"ポーネント…）には同じ３Ｄファイルを使用。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:441
@@ -9029,7 +9044,7 @@ msgid ""
 msgstr ""
 "そのようなファイルを指定すると、コンポーネントを3Dで見ることが可能です。"
 
-# 0707215：/ja/へ変更
+# 07072015：/ja/へ変更
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:446
 msgid "image:images/Modedit_footprint_3d_preview.png[]"
@@ -9125,7 +9140,7 @@ msgid ""
 "template`. This file is used as the initial configuration for all new "
 "projects."
 msgstr ""
-"デフォルトの設定ファイル `kicad.pro`は、KiCadインストールディレクトリ下 "
+"デフォルトの設定ファイル `kicad.pro` は、KiCadインストールディレクトリ下 "
 "`kicad/share/template` にあります。このファイルは、すべての新規プロジェクトの"
 "初期設定として使用されます。"
 
@@ -9142,6 +9157,7 @@ msgstr "この設定により、ロードされるライブラリを変更する
 msgid "To do this:"
 msgstr "以下のようにします:"
 
+# 07102015：変更
 #. type: Plain text
 #: Pcbnew_installation.adoc:26
 msgid ""
@@ -9150,15 +9166,15 @@ msgid ""
 "local/kicad/bin/pcbnew` if the binaries are located in `/usr/local/kicad/"
 "bin`."
 msgstr ""
-"直接あるいはkicadを使って、pcbnewを起動します。Windowsの場合には、 `C:\\kicad"
-"\\bin\\pcbnew.exe` そしてLinuxで、バイナリが  `/usr/local/kicad/bin` にある場"
-"合には、 `/usr/local/kicad/bin/kicad` あるいは `/usr/local/kicad/bin/pcbnew` "
+"直接あるいは kicad を使って、pcbnew を起動します。Windows では `C:\\kicad"
+"\\bin\\pcbnew.exe` 、そしてLinux ではバイナリが  `/usr/local/kicad/bin` にあ"
+"る場合、 `/usr/local/kicad/bin/kicad` あるいは `/usr/local/kicad/bin/pcbnew` "
 "で起動できます。"
 
 #. type: Plain text
 #: Pcbnew_installation.adoc:27
 msgid "Select Preferences - Libs and Dir."
-msgstr "“設定”メニューより”ライブラリ”を選択します。"
+msgstr "“設定” メニューより ”ライブラリ” を選択します。"
 
 #. type: Plain text
 #: Pcbnew_installation.adoc:28
@@ -9172,13 +9188,14 @@ msgid ""
 "pro`."
 msgstr ""
 "変更されたコンフィグレーションを `kicad/share/template/kicad.pro` に保存しま"
-"す(“設定”メニューより”設定の保存”)"
+"す。( “設定” メニューより ”設定の保存” )"
 
+# 07102015：変更
 #. type: Title ~
 #: Pcbnew_installation.adoc:32
 #, no-wrap
 msgid "Managing Footprint Libraries: legacy versions"
-msgstr "フットフットプリントライブラリの管理: 以前のバージョン"
+msgstr "フットプリント・ライブラリの管理: 以前のバージョン"
 
 #. type: Plain text
 #: Pcbnew_installation.adoc:36
@@ -9241,12 +9258,14 @@ msgstr ""
 "ログで “上” と “下” ボタンを使ってライブラリリストの順番を変えるか、フットプ"
 "リントエディタを使って固有の名前のフットプリントにします。"
 
+# 07102015：訂正
 #. type: Title ~
 #: Pcbnew_installation.adoc:56
 #, no-wrap
 msgid "Managing Footprint Libraries: .pretty repositories"
-msgstr "フットフットプリントライブラリの管理: .pretty リポジトリ"
+msgstr "フットプリント・ライブラリの管理: .pretty リポジトリ"
 
+# 07102015：発行からリリースへ変更
 #. type: Plain text
 #: Pcbnew_installation.adoc:62
 msgid ""
@@ -9255,10 +9274,10 @@ msgid ""
 "previous section is no longer valid. The library table manager is accessible "
 "by:"
 msgstr ""
-"rXXXX を発行するにあたって、Pcbnew はフットプリントライブラリを管理するために"
-"実装された新しいフットプリントライブラリテーブルを使用します。前のセクション"
-"の情報はもはや無効です。ライブラリテーブルマネージャは次のように呼び出せま"
-"す。:"
+"rXXXX をリリースするにあたって、Pcbnew はフットプリントライブラリを管理するた"
+"めに実装された新しいフットプリントライブラリテーブルを使用します。前のセク"
+"ションの情報はもはや無効です。ライブラリテーブルマネージャは次のように呼び出"
+"せます。:"
 
 # 07072015：/ja/へ変更
 #. type: Plain text
@@ -9279,7 +9298,7 @@ msgstr "下の図は、フットプリントライブラリテーブル編集ダ
 msgid "image:images/Footprint_tables_list.png[]"
 msgstr "image:images/ja/Footprint_tables_list.png[]"
 
-# 追記＞これはまた、Eagle や GEDA のような別の PCB エディタからのライブラリを読み出しをサポートします。
+# 07102015：日本語修正
 #. type: Plain text
 #: Pcbnew_installation.adoc:79
 msgid ""
@@ -9296,7 +9315,7 @@ msgstr ""
 "ブラリを使用する以前の方法に代わって、フットプリントを探す時に使われます。こ"
 "の仕組みによって適切なライブラリから正しいフットプリントを確実にロードできる"
 "ので、別のライブラリにある同じ名前のフットプリントを呼び出すことができます。"
-"これはまた、Eagle や GEDA のような別の PCB エディタからのライブラリを読み出し"
+"これはまた、Eagle や GEDA のような別の PCB エディタからのライブラリの読み出し"
 "をサポートします。"
 
 #. type: Title ^
@@ -9431,7 +9450,6 @@ msgstr ""
 msgid "Environment Variable Substitution"
 msgstr "環境変数の代替"
 
-# 変更＞デフォルトのフットプリントライブラリに代わって自分のライブラリを置けるよう `$KISYSMOD` を上書きできます。
 #. type: Plain text
 #: Pcbnew_installation.adoc:157
 msgid ""
@@ -9605,7 +9623,6 @@ msgstr ""
 "    | allow_pretty_writing_to_this_dir=${HOME}/pretty/github.pretty\n"
 "    | Liftoff's GH footprints\n"
 
-# 変更＞優先されます
 #. type: Plain text
 #: Pcbnew_installation.adoc:231
 msgid ""
@@ -9621,6 +9638,7 @@ msgstr ""
 "へフットプリントを保存すると、ローカルに保存したフットプリントと同じ名前の"
 "フットプリントを読み込む際に GitHub のアップデートは適用されなくなります。"
 
+# 07102015：訂正
 #. type: Plain text
 #: Pcbnew_installation.adoc:239
 msgid ""
@@ -9633,9 +9651,9 @@ msgid ""
 "Path” setting."
 msgstr ""
 "常に GitHub ライブラリごとに個別のローカル `*.pretty` ディレクトリを確保し、"
-"複数から一つのディレクトリを参照して纏めてはいけません。また、フットプリント"
-"ライブラリテーブルの入力項目に同じ COW (`*.pretty`) ディレクトリを使用しては"
-"いけません。 これは恐らく混乱を招くでしょう。オプション "
+"何回も同じディレクトリを参照することでこれらを結合してはいけません。また、"
+"フットプリントライブラリテーブルの入力項目に同じ COW (`*.pretty`) ディレクト"
+"リを使用してはいけません。 これは恐らく混乱を招くでしょう。オプション "
 "`allow_pretty_writing_to_this_dir` の値は、 “ライブラリパス” の設定と同様、パ"
 "スを作るにあたって `${}` 表示を使い、環境変数を拡大できます。"
 
@@ -9687,7 +9705,6 @@ msgstr ""
 msgid "Usage Patterns"
 msgstr "使用パターン"
 
-# 追加＞プロジェクト固有のフットプリントテーブルは、現在開かれているネットリストファイルに対してのみ有効です。
 #. type: Plain text
 #: Pcbnew_installation.adoc:273
 msgid ""
