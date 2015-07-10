@@ -10,7 +10,7 @@ Applications Manager
 
 Artwork Conversion Software, Inc.
 
-© 1991 Artwork Conversion Software, Inc.
+(C) 1991 Artwork Conversion Software, Inc.
 
 <<<
 
@@ -149,13 +149,16 @@ D-codes are instructions to the photoplotter that naturally include the
 letter "D." The first three D-codes control the movement of the x-y
 table.
 
-D01 (D1): move to the x-y location specified with the shutter *open* .
+[width="90%",cols="20%,80%",grid="none",frame="none"]
+|====================================================
+|D01 (D1): |move to the x-y location specified with the shutter *open* .
 
-D02 (D2): move to the x-y location specified with the shutter *closed* .
+|D02 (D2): |move to the x-y location specified with the shutter *closed* .
 
-D03 (D3): move to the x-y location specified with the shutter *closed* ;
-
+|D03 (D3): |move to the x-y location specified with the shutter *closed* ;
 *then open and close the shutter* -known as flashing the exposure.
+
+|====================================================
 
 D01 is the command that ``draws'' lines. D02 is the command to move the
 table without exposing any film. D01 and D02 correspond to moving the
@@ -170,9 +173,11 @@ on most circuit boards.
 D01, D02 and D03 commands follow their coordinate data. For example the
 following sequence of commands:
 
+----
  X0Y0D02*
  X450Y330D01*
  X455Y300D03*
+----
 
 would move the table position to 0,0 with the shutter closed and then
 would draw a line from 0,0 to 450,330. A flash would be located at
@@ -190,23 +195,23 @@ Each slot is filled with a piece of film. The wheel rotates, positioning
 the desired aperture in the light path. Table 1 shows the correspondence
 between D-code and aperture position.
 
-.*Table 1.* D-codes vs. Apertures
-----
-D-code Aperture D-code Aperture
-       Position        Position
- 10      1       20      13
- 11      2       21      14
- 12      3       22      15
- 13      4       23      16
- 14      5       24      17
- 15      6       25      18
- 16      7       26      19
- 17      8       27      20
- 18      9       28      21
- 19      10      29      22
- 70      11      72      23
- 71      12      73      24
-----
+.D-codes vs. Apertures
+[width="60%",grid="none",frame="topbot",options="header",halign="center"]
+|====================================================
+|D-code |Aperture Position |D-code |Aperture Position
+|10     |1                 |20     |13
+|11     |2                 |21     |14
+|12     |3                 |22     |15
+|13     |4                 |23     |16
+|14     |5                 |24     |17
+|15     |6                 |25     |18
+|16     |7                 |26     |19
+|17     |8                 |27     |20
+|18     |9                 |28     |21
+|19     |10                |29     |22
+|70     |11                |72     |23
+|71     |12                |73     |24
+|====================================================
 
 One can see that it proceeds logically from D10 through D19. Then,
 instead of D20 mapping into position 11, D70 and D71 intrude. The
@@ -249,9 +254,11 @@ software in the correct location. One of the most common errors that
 novice designers make is to assume that the person receiving their data
 knows you data format. Consider the following Gerber commands:
 
+----
  X00560Y00320D02*
  X00670Y00305D01*
  X00700Y00305D01*
+----
 
 The table moves along X from 00560 to 00670 during the first two
 commands. But what does 00560 represent? It could be 5.6 inches, 0.56
@@ -287,7 +294,7 @@ decimal point. They must have looked at a printout and thought,
 You can still figure out the coordinate value if you count decimal
 points from the right side of the number."
 
-[width="50%",grid="none",frame="none",options="header"]
+[width="80%",grid="none",frame="topbot",options="header"]
 |============================================
 |No Zero Suppression|Leading Zero Suppression
 |X00560Y00320D02*   |X560Y230D2*
@@ -302,7 +309,7 @@ the days of paper tape this was a very significant reduction.
 Depending on the data you might be better off leaving the leading zeros
 on and suppressing the trailing zeros.
 
-[width="50%",grid="none",frame="none",options="header"]
+[width="80%",grid="none",frame="topbot",options="header"]
 |============================================
 |No Zero Suppression|Trailing Zero Suppression
 |X00560Y00320D02*   |X0056Y0032D2*
@@ -330,7 +337,7 @@ would appear over and over again when the table moved only along X or Y.
 "Why not remember the last value of X and Y; output a coordinate only if
 it changes!"
 
-[width="50%",grid="none",frame="none",options="header",]
+[width="80%",grid="none",frame="topbot",options="header",]
 |=================================
 |All Coordinates|Modal Coordinates
 |X560Y230D2*    |X560Y230D2*
@@ -355,7 +362,7 @@ For example, if you have a string of draw commands why repeat the D01
 command again and again. Let it stay in effect until another command
 (D02 or D03) occurs to change it.
 
-[width="80%",grid="none",frame="none",options="header"]
+[width="80%",grid="none",frame="topbot",options="header"]
 |========================
 |D1 not modal|D1 modal
 |X560Y230D2* |X560Y230D2*
@@ -396,9 +403,13 @@ surprises are surfacing.
 
 The basic format for circular interpolation is:
 
+----
  GNN XNNNN YNNNN INNNN JNNNN DNN *
+----
 
+----
 _Example:_ +G02X40Y30150J0D01*+
+----
 
 Where G02 indicates clockwise rotation, G03 indicates counterclockwise
 rotation and G75 turns on full 360 degree circular. I, J are additional
