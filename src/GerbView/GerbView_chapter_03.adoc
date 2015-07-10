@@ -7,7 +7,7 @@ Applications Manager
 
 Artwork Conversion Software, Inc. 
 
-© 1995 Artwork Conversion Software, Inc.
+(C) 1995 Artwork Conversion Software, Inc.
 
 <<<
 
@@ -98,12 +98,16 @@ Mn = misc code
 Examples
 ^^^^^^^^
 
+----
 %FSLAX24Y24*%
+----
 
-Format Statement Leading Zeros Suppression, Absolute Coordinates
+Format Statement Leading Zeros Suppression, Absolute Coordinates,
 format=2.4
 
+----
 %FSTIX44Y44*%
+----
 
 Format Statement Trailing Zero Supression, Incremental Coordinates,
 format=4.4
@@ -114,9 +118,11 @@ Embedded Units
 RS274X files can use coordinate and aperture units of either inches or
 millimeters. The statements:
 
-%MOIN*% indicates inches
+----
+%MOIN*% - indicates inches
 
-%MOMM*% indicates millimeters
+%MOMM*% - indicates millimeters
+----
 
 Image Polarity
 ^^^^^^^^^^^^^^
@@ -128,9 +134,11 @@ command near the beginning of the file can invert the film's polarity.
 
 image:images/rs274x_1F700000047006E6E3A.png[rs274x_1F700000047006E6E3A_png]
 
+----
 %IPPOS*% - positive (left)
 
 %IPNEG*% - negative (right)
+----
 
 Do not confuse image polarity with individual layer polarity. It is
 possible to build up a very complex plot by combining individual dark
@@ -147,17 +155,21 @@ below:
 Aperture Definitions
 ++++++++++++++++++++
 
-D-code Shape SizeX Size Y
+[width="80%",grid="none",frame="topbot",options="header"]
+|===============================
+|D-code |Shape   |Size X |Size Y
 
-d10 round 0.010
+|d10    |round   |0.010  |
 
-d11 square 0.030
+|d11    |square  |0.030  |
 
-d12 rect 0.060 0.020
+|d12    |rect    |0.060  |0.020
 
-d13 thermal 0.050
+|d13    |thermal |0.050  |
 
-d14 oblong 0.060 0.025
+|d14    |oblong  |0.060  |0.025
+
+|===============================
 
 Some apertures are obvious - the round, square and rectangle. But both
 the oblong and the thermal are subject to the photoplot operator's
@@ -191,65 +203,64 @@ rectangular hole if desired.
 Standard Circle
 +++++++++++++++
 
+----
 %ADD\{code}C,\{$1}X\{$2}X\{$3}*%
+----
 
-where
+where:
 
-AD -aperture description parameter
+AD = aperture description parameter
 
-D\{code} d-code to which this aperture is assigned (10-999)
+D\{code} = d-code to which this aperture is assigned (10-999)
 
-C tells 274X this is a circle macro
+C = tells 274X this is a circle macro
 
-$1 value (inches or mm) of the outside diameter
+$1 = value (inches or mm) of the outside diameter
 
-$2 optional, if present defines the diameter of the hole
+$2 = optional, if present defines the diameter of the hole
 
-$3 optional, if present the $2 and $3 represent the size of
-
-a rectangular hole.
+$3 = optional, if present the $2 and $3 represent the size of a rectangular hole
 
 Circle Examples
 +++++++++++++++
 
 image:images/rs274x_20300000099C4F54E0A.png[rs274x_20300000099C4F54E0A_png]
 
-%ADD21C,.100*% _(a) 0.10 diameter circle on d21_
+[width="90%",cols="40%,10%,50%",grid="none",frame="topbot"]
+|===============================
+|%ADD21C,.100*%           |A |_0.10 diameter circle on d21_
 
-%ADD22C,.100X.050*% _(b) 0.10 dia circle with 0.05 hole_
+|%ADD22C,.100X.050*%      |B |_0.10 dia circle with 0.05 hole on d22_
 
-_on d22._
+|%ADD23C,.100X.050X.050*% |C |_0.10 dia circle with 0.05 square hole on d23_
 
-%ADD23C,.100X.050X.050*% _(c) 0.10 dia circle with 0.05 square_
+|%ADD24C,.100X.050X.025*% |D |_0.10 dia circle with 0.05 x 0.025
+rectangular hole on d24_
 
-_hole on d23_
-
-%ADD24C,.100X.050X.025*% _(d) 0.10 dia circle with 0.05 x 0.025_
-
-_rectangular hole on d24_
+|===============================
 
 Standard Rectangles
 +++++++++++++++++++
 
+----
 %ADD\{code}R,\{$1}X\{$2}X\{$3}X\{$4}*%
+----
 
-where
+where:
 
-AD -aperture description parameter
+AD = aperture description parameter
 
-D\{code} d-code to which this aperture is assigned (10-999)
+D\{code} = d-code to which this aperture is assigned (10-999)
 
-R tells 274X this is a rectangle macro
+R = tells 274X this is a rectangle macro
 
-$1 value (inches or mm) of rect's length in X
+$1 = value (inches or mm) of rect's length in X
 
-$2 value if rect's height in Y
+$2 = value if rect's height in Y
 
-$3 optional, if present defines the diameter of the hole
+$3 = optional, if present defines the diameter of the hole
 
-$4 optional, if present the $2 and $3 represent the size of
-
-a rectangular hole.
+$4 = optional, if present the $2 and $3 represent the size of a rectangular hole
 
 For details on the obround and polygon (which are rarely used) see
 _Gerber Format Guide, Doc 0000-000-RM-00._
@@ -280,39 +291,34 @@ Remember we said a macro is like a programming language - the complex
 aperture is built from one or more shapes called primitives. Available
 primitives include:
 
-*Primitive Name* *Primitive Number* *Description and Parameter Number*
+[width="90%",cols="30%,10%,60%",grid="none",frame="topbot",options="header"]
+|===============================
+|*Primitive Name* |*Primitive Number* |*Description and Parameter Number*
 
-Circle (1) round
+|Circle           |(1)       |round
 
-Line Vector (2 or 20) rectangle defined by endpoints
-
+|Line Vector      |(2 or 20) |rectangle defined by endpoints
 width and rotation. Square ends.
 
-Line Center (21) rect - defined by center and length, width
-
+|Line Center      |(21)      |rect - defined by center and length, width
 and rotation. Square ends.
 
-Line-Lower Left (22) rect - defined by lower left coordinate,
-
+|Line-Lower Left  |(22)      |rect - defined by lower left coordinate,
 length, width and rotation.
 
-Outline (4) outlines an area defined by coordinate pairs.
-
+|Outline          |(4)       |outlines an area defined by coordinate pairs.
 max vertice=50.
 
-Polygon (5) a regular polygon with 3-10 sides. defined
-
+|Polygon          |(5)       |a regular polygon with 3-10 sides. defined
 by center, outer diameter and rotation.
 
-Moire (6) target defined by center, number of circles
+|Moire            |(6)       |target defined by center, number of circles
+circle thickness, cross hair length, thickness and rotation.
 
-circle thickness, cross hair length, thickness
-
-and rotation.
-
-Thermal (7) thermal relief defined by outer diameter, inner
-
+|Thermal          |(7)       |thermal relief defined by outer diameter, inner
 diameter, crosshair thickness and rotation.
+
+|===============================
 
 Aperture Macro Example - Thermal Relief
 +++++++++++++++++++++++++++++++++++++++
@@ -322,29 +328,31 @@ though it could be built from other primitives.
 
 image:images/rs274x_1E8000000787CC18D07.png[rs274x_1E8000000787CC18D07_png]
 
+----
 %AMTHERM100*7,0,0,0.100,0.050,0.025,0.0*%
 
 %ADD32THERM100*% _assigns THERM100 to d-code 32_
+----
 
-where
+where:
 
-AM - aperture macro
+AM = aperture macro
 
-THERM100 - name of the macro
+THERM100 = name of the macro
 
-* - terminates name
+_*_ = terminates name
 
-7 - primitive 7, which is a thermal relief
+7 = primitive 7, which is a thermal relief
 
-0,0 - first two parms: x,y center
+0,0 = first two parms: x,y center
 
-0.100 - third parm: outer diameter (solid black see (a) above)
+0.100 = third parm: outer diameter (solid black see (a) above)
 
-0.050 - fourth parm: inner diameter (clear see (b) above)
+0.050 = fourth parm: inner diameter (clear see (b) above)
 
-0.025 - fifth parm: crosshair width (clear see (c) above)
+0.025 = fifth parm: crosshair width (clear see (c) above)
 
-0.0 - sixth parm: crosshair rotation (not used here)
+0.0 = sixth parm: crosshair rotation (not used here)
 
 Multiple Layers
 ^^^^^^^^^^^^^^^
@@ -354,31 +362,21 @@ phototool from multiple Gerber files. However the instructions to the
 photoplotter operator have always been manual - leaving room for errors
 and omissions. Here's how it used to be done:
 
+----
 Plotting Instructions for XYZ
-
 Film1: top
-
 targets.gbr pos
-
 comp.gbr pos
-
 padmaster.gbr pos
-
 Film2: bottom
-
 targets.gbr pos
-
 sold.gbr pos
-
 padmaster.gbr pos
-
 Film3: vcc
-
 vcc1.gbr neg
-
 clearance.gbr neg
-
 traces.gbr pos
+----
 
 RS274X includes two special commands, *%LPD*%* and *%LPC*%* that
 organizes data inside the file by layer. With a few judicious LPD/LPC
@@ -399,69 +397,62 @@ layer) to draw the trace.
 
 G04 Image Parameters _*_
 
-%MOIN*%
+[width="90%",cols="35%,65%",grid="none",frame="topbot"]
+|=======================================================================
+|%MOIN*%                  |
 
-%FSLAX24Y24*%
+|%FSLAX24Y24*%            |
 
-%IPNEG*% this will reverse polarity of the entire film,
+|%IPNEG*%                 |this will reverse polarity of the entire film,
+eliminating the need to stroke the metal area of the powerplane.
 
-eliminating the need to stroke the metal area
+|%ADD10C,,,*%             |here we define some round apertures and a thermal
 
-of the powerplane.
+|%ADD11C...*%             |
 
-%ADD10C,,,*% here we define some round apertures and a thermal
+|%ADD12C...*%             |
 
-%ADD11C...*%
+|%AMTHERMAL*...*%         |
 
-%ADD12C...*%
+|%ADD13THERMAL*%          |
 
-%AMTHERMAL*...*%
+|G04*                     |
 
-%ADD13THERMAL*%
-
-G04*
-
-%LNINTERNAL_VCC*% this is our basic vcc powerplane layer consisting
-
+|%LNINTERNAL_VCC*%        |this is our basic vcc powerplane layer consisting
 of clearance pads, thermal reliefs, the outer trace
-
 that defines the board edge, and the clearance
-
 for the inner trace.
 
-%LPD*% indicates digitized data is dark. However when the
+|%LPD*%                    |indicates digitized data is dark. However when the
+entire film is reversed the digitzied data will be clear.
 
-entire film is reversed the digitzied data will be
+|G54D10*                   |
 
-clear.
+|data                      |
 
-G54D10*
+|data                      |
 
-data
+|data                      |
 
-data
+|G04 NEW LAYER _*_         |
 
-data
+|%LNTRACE_VCC*%            |this defines the circuit trace and two pads A,B
 
-G04 NEW LAYER _*_
-
-%LNTRACE_VCC*% this defines the circuit trace and two pads A,B
-
-%LPC*% note that the data here is clear or reversed out.
-
+|%LPC*%                    |note that the data here is clear or reversed out.
 however when the entire film is negated the digitized
-
 data will be black on the film.
 
-G54D12*
+|G54D12*                   |
 
-data
+|data                      |
 
-data
+|data                      |
 
-data
+|data                      |
 
-M02* end of the job
+|M02*                      |end of the job
+
+|=======================================================================
 
 [width="100%",cols="100%",]
 |=======================================================================
@@ -520,41 +511,44 @@ Sample Usage of G36/G37
 
 G04 G36/G37 Polygon Example _*_
 
-%MOIN*%
+[width="90%",cols="35%,65%",grid="none",frame="topbot"]
+|=======================================================================
+|%MOIN*%                  |
 
-%FSLAX24Y24*%
+|%FSLAX24Y24*%            |
 
-%IPPOS*%
+|%IPPOS*%                 |
 
-%ADD10C,,,*% here we define some apertures
+|%ADD10C,,,*%             |here we define some apertures
 
-%ADD11C...*%
+|%ADD11C...*%             |
 
-%ADD12C...*%
+|%ADD12C...*%             |
 
-G04*
+|G04*                     |
 
-%LPD*%
+|%LPD*%                   |
 
-G54D10* select D10
+|G54D10*                  |select D10
 
-G01*
+|G01*                     |
 
-G36* switch into polygon mode. The diameter and
-
+|G36*                     |switch into polygon mode. The diameter and
 shape of D10 no longer matters.
 
-X123Y123D02* move to initial position with pen up
+|X123Y123D02*             |move to initial position with pen up
 
-X234D01* draw a line (edge)
+|X234D01*                 |draw a line (edge)
 
-Y456D01* draw a line (edge)
+|Y456D01*                 |draw a line (edge)
 
-X234D01* draw a line (edge)
+|X234D01*                 |draw a line (edge)
 
-Y123D01* draw a line (edge) back to original start
+|Y123D01*                 |draw a line (edge) back to original start
 
-G37* end polygon mode.
+|G37*                     |end polygon mode.
+
+|=======================================================================
 
 [cols="^"]
 |=======================================================================
