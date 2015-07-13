@@ -1,5 +1,5 @@
-:author: The KiCad Team
-:doctype: article
+﻿:author: The KiCad Team
+:doctype: book
 :toc:
 :ascii-ids:
 
