@@ -43,8 +43,7 @@ _https://launchpad.net/~kicad-developers_
 may 23, 2015.
 
 [[introduction-to-pl_editor]]
-Introduction to *Pl_Editor*
--------------------------
+== Introduction to *Pl_Editor* ==
 
 Pl_Editor is a page layout editor tool to create custom title blocks,
 and frame references.
