@@ -131,7 +131,7 @@ dependent on the paper size**.
 [[reference-corners-and-coordinates]]
 === Reference corners and coordinates:
 
-image:images/en/page_property_1.png[]
+image::images/en/page_property_1.png[scalewidth="90%"]
 
 * When the page size is changed, the position of the item, relative to
   its reference corner does not change.
@@ -141,18 +141,20 @@ image:images/en/page_property_1.png[]
 For rectangles and segments, which have two defined points, each point
 has its reference corner.
 
+<<<
+
 [[rotation]]
 === Rotation
 
 Items which have a position defined by just one point (texts and
 poly-polygons) can be rotated:
 
-[width="97%",cols="42%,58%",]
+[width="100%",cols="42%,58%",valign="middle"]
 |=======================================================================
-|image:images/en/text_noriented.png[]
+|image:images/en/text_noriented.png[width="42%",valign="center"]
 |Normal: Rotation = 0
 
-|image:images/en/text_rotated.png[]
+|image:images/en/text_rotated.png[width="42%",valign="bottom"]
 |Rotated: Rotation = 20 and 10 degrees.
 |=======================================================================
 
@@ -163,7 +165,7 @@ Items can be repeated:
 
 This is useful to create grid and grid labels.
 
-image:images/en/page_property_2.png[]
+image::images/en/page_property_2.png[scaledwidth="90%"]
 
 [[texts-and-formats]]
 == Texts and formats
@@ -211,16 +213,16 @@ Example:
 
 "Size: %Z" displays "Size: A4" or "Size: USLetter"
 
-[width="100%",cols="34%,66%",]
+[width="100%",cols="66%,34%",valign="middle"]
 |=======================================================================
-|image:images/en/show_fields_data.png[]
+|image:images/en/show_fields_data.png[width="66%"]
 a|User display mode:
 
 image:images/icons/title_block_preview.png[] activated.
 
 Title block displayed like in Eeschema and Pcbnew
 
-|image:images/en/show_fields_codes.png[]
+|image:images/en/show_fields_codes.png[width="66%"]
 a|“Native” display mode:
 
 image:images/icons/title_block_edit.png[] activated.
@@ -228,6 +230,8 @@ image:images/icons/title_block_edit.png[] activated.
 The native texts entered in Pl_Editor, with their format symbols.
 
 |=======================================================================
+
+<<<
 
 [[multi-line-texts]]
 === Multi-line texts:
@@ -242,10 +246,10 @@ There are 2 ways to insert a new line in texts:
 
 Here is an example:
 
-[width="77%",cols="50%,50%",]
+[width="100%",cols="50%,50%",valign="middle"]
 |================================================================
-|image:images/en/multi_line.png[]
-a|image:images/en/options_multi_line.png[]
+|image:images/en/multi_line.png[width="40%"]
+a|image:images/en/options_multi_line.png[width="70%"]
 
 Setup
 
@@ -261,19 +265,19 @@ text.
 
 Here is a two lines text, in _comment 2_ field:
 
-image:images/en/insert_newline_code.png[]
+image::images/en/insert_newline_code.png[scaledwidth="60%"]
 
 Here is the actual text:
 
-image:images/en/multi_line_2.png[]
+image::images/en/multi_line_2.png[scaledwidth="40%"]
 
 However, if you really want the *“\n”* inside the text, enter *“\\n”*.
 
-image:images/en/insert_slashnewline_code.png[]
+image::images/en/insert_slashnewline_code.png[scaledwidth="60%"]
 
 And the displayed text:
 
-image:images/en/multi_line_3.png[]
+image::images/en/multi_line_3.png[scaledwidth="80%"]
 
 [[constraints]]
 == Constraints
@@ -288,9 +292,9 @@ Usually page layout items are displayed on all pages.
 But if a user want some items to be displayed only on page 1, or not on
 page 1, the “page 1 option” this is possible by setting this option:
 
-[width="100%",cols="29%,71%",]
+[width="100%",cols="50%,50%",valign="middle"]
 |=================================================================
-|image:images/en/display_options.png[]
+|image:images/en/display_options.png[width="70%"]
 a|Page 1 option:
 
 * None: no constraint.
@@ -302,7 +306,7 @@ a|Page 1 option:
 [[text-full-size-constraint]]
 === Text full size constraint
 
-image:images/en/constraint_options.png[]
+image::images/en/constraint_options.png[scaledwidth="40%"]
 
 Only for texts, one can set 2 parameters :
 
@@ -319,16 +323,16 @@ fit the full text size with this bounding box.
 When the actual full text size is smaller than the max size X and/or the
 max size Y, the text height and/or the text width is not modified.
 
-[width="84%",cols="46%,54%",]
+[width="100%",cols="70%,30%",valign="middle"]
 |================================================================
-|image:images/en/constraints_none.png[]
+|image:images/en/constraints_none.png[width="70%"]
 a|The text with no bounding box.
 
 Max size X = 0,0
 
 Max size Y = 0,0
 
-|image:images/en/constraints_defined.png[]
+|image:images/en/constraints_defined.png[width="70%"]
 a|The *same* text with constraint.
 
 Max size X = 40,0
@@ -339,14 +343,16 @@ Max size Y = 0,0
 
 A multi line text, constrained:
 
-[width="77%",cols="50%,50%",]
+[width="100%",cols="50%,50%",valign="middle"]
 |================================================================
-|image:images/en/block_constraints.png[] a|
-image:images/en/constraint_options.png[]
+|image:images/en/block_constraints.png[width="40%"] a|
+image:images/en/constraint_options.png[width="70%"]
 
 Setup
 
 |================================================================
+
+<<<
 
 [[invoking-pl_editor]]
 == Invoking Pl_Editor
@@ -364,20 +370,22 @@ From a command line, the syntax is pl_editor <*.kicad_wks file to open>.
 
 The image below shows the main window of Pl_Editor.
 
-image:images/en/main_window.png[]
+image::images/en/main_window.png[scaledwidth="90%"]
 
 The left pane contains the list of basic items.
 
 The right pane is the item settings editor.
 
+<<<
+
 [[main-window-toolbar]]
 === Main Window Toolbar
 
-image:images/en/main_toolbar.png[]
+image::images/en/main_toolbar.png[scaledwidth="90%"]
 
 The top toolbar allows for easy access to the following commands:
 
-[width="100%",cols="28%,72%",]
+[width="100%",cols="28%,72%",valign="middle"]
 |=======================================================================
 |image:images/icons/page_new_layout.png[] |Select
 the net list file to be processed.
@@ -411,11 +419,11 @@ text format symbols are replaced by the user texts.
 page layout in native mode: texts are displayed “as is”, with the
 contained formats, without any replacement.
 
-|image:images/en/set_base_corner.png[]
+|image:images/en/set_base_corner.png[width="50%"]
 |Reference corner selection, for coordinates displayed to the status
 bar.
 
-|image:images/en/set_current_page.png[] a|
+|image:images/en/set_current_page.png[width="70%"] a|
 Selection of the page number (page & or other pages).
 
 This selection has meaning only if some items than have a page option,
@@ -488,10 +496,12 @@ Bitmap2Component.
 The status bar is located a the bottom of the Pl_Editor and provides
 useful information to the user.
 
-image:images/en/status_bar.png[]
+image::images/en/status_bar.png[scaledwidth="90%"]
 
 Coordinates are *always relative to the corner* selected as
 **reference**.
+
+<<<
 
 [[left-window]]
 == Left window
@@ -506,44 +516,50 @@ selected item.
 
 **-> A selected item is also drawn in a different color on draw panel**.
 
-[width="94%",cols="42%,58%",]
+[width="100%",cols="50%,50%",valign="middle"]
 |=======================================================================
-|image:images/en/project_tree.png[]
+|image:images/en/project_tree.png[width="70%"]
 |Design tree: the item 19 is selected, and shown in highlighted on the
 draw panel.
 |=======================================================================
+
+<<<
 
 [[right-window]]
 == Right window
 
 The right window is the edit window.
 
-[width="80%",cols="50%,50%",]
+[width="80%",cols="50%,50%",valign="middle"]
 |=======================================================================
-|image:images/en/property_none.png[]
-|image:images/en/property_main.png[]
+|image:images/en/property_none.png[width="50%"]
+|image:images/en/property_main.png[width="50%"]
 |=======================================================================
 
 On this dialog you can set the page property and the item property of the
 current item.
 
+<<<
+
 Displayed settings depend on the selected item:
 
-[width="80%",cols="50%,50%",]
+[width="80%",cols="50%,50%",valign="middle"]
 |=======================================================================
-|image:images/en/property_line.png[]
-|image:images/en/property_text.png[]
+|image:images/en/property_line.png[width="50%"]
+|image:images/en/property_text.png[width="50%"]
 
 |Settings for lines and rectangles
 |Settings for texts
 
-|image:images/en/property_polyline.png[]
-|image:images/en/property_bitmap.png[]
+|image:images/en/property_polyline.png[width="50%"]
+|image:images/en/property_bitmap.png[width="50%"]
 
 |Settings for poly-polygons
 |Setting for bitmaps
 
 |=======================================================================
+
+<<<
 
 [[interactive-edition]]
 == Interactive edition
@@ -559,9 +575,9 @@ An item can be selected:
 
 When selected, this item is drawn in yellow.
 
-[width="77%",cols="50%,50%",]
+[width="100%",cols="50%,50%",valign="middle"]
 |=======================================================================
-|image:images/edit_line.png[]
+|image:images/edit_line.png[width="50%"]
 |The starting point (image:images/edit_line_start.png[])
 and the ending point (image:images/edit_line_end.png[])
 are highlighted.
@@ -571,21 +587,21 @@ When right clicking on the item, a pop-up menu is displayed.
 
 The pop menu options slightly depend on the selection:
 
-[width="100%",cols="34%,33%,33%",]
+[width="100%",cols="34%,33%,33%",valign="middle"]
 |=======================================================================
-|image:images/en/context_line_move_start.png[]
-|image:images/en/context_line_move_end.png[]
-|image:images/en/context_line_move.png[]
+|image:images/en/context_line_move_start.png[width="50%"]
+|image:images/en/context_line_move_end.png[width="50%"]
+|image:images/en/context_line_move.png[width="50%"]
 |=======================================================================
 
 If more than one item is found, a menu clarification will be shown, to
 select the item:
 
-image:images/en/dialog_select_element.png[]
+image::images/en/dialog_select_element.png[scaledwidth="50%"]
 
-[width="100%",cols="35%,65%",]
+[width="100%",cols="35%,65%",valign="middle"]
 |=======================================================================
-|image:images/drag_element.png[] |Once
+|image:images/drag_element.png[width="50%"] |Once
 selected, the item, or one of its end points, can be moved by moving the
 mouse and placed (right clicking on the mouse).
 |=======================================================================
@@ -598,10 +614,10 @@ the left window or the draw area.
 
 A popup menu is displayed:
 
-[width="77%",cols="50%,50%",]
+[width="80%",cols="50%,50%",valign="middle"]
 |=======================================================================
-|image:images/en/context_createnew.png[]
-|image:images/en/context_createnew2.png[]
+|image:images/en/context_createnew.png[width="60%"]
+|image:images/en/context_createnew2.png[width="60%"]
 
 |Pop up menu in left window |Pop up menu in draw area.
 |=======================================================================
@@ -615,15 +631,17 @@ layout description file.
 The Append Page Layout Descr File option append this file, to insert the
 logo (a poly polygon)
 
+<<<
+
 [[adding-lines-rectangles-and-texts]]
 === Adding lines, rectangles and texts
 
 When clicking on the option, a dialog is opened:
 
-[width="77%",cols="50%,50%",]
+[width="80%",cols="50%,50%",valign="middle"]
 |=======================================================================
-|image:images/en/dialog_newline.png[]
-|image:images/en/dialog_newtext.png[]
+|image:images/en/dialog_newline.png[width="50%"]
+|image:images/en/dialog_newtext.png[width="50%"]
 
 |Adding line or rectangle |Adding text
 |=======================================================================
