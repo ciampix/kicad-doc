@@ -249,7 +249,7 @@ schematic using KiCad.
     tools: __EESchema__, __Schematic Library Editor__, __PCBnew__,
     __PCB Footprint Editor__, __GerbView__, __Bitmap2Component__,
     __PCB Calculator__ and __Pl Editor__. Refer to the work-flow chart
-    to give you an idea how the main tools are used.
+    to give you an idea of how the main tools are used.
 +
 image:images/kicad_main_window.png[KiCad Main Window]
 
@@ -373,7 +373,7 @@ be connected. We will see later on why this is the case.
 
 22. Organise all components on your schematic sheet as shown below.
 +
-image:images/1000000000000279000001D2A3715F27.png[1000000000000279000001D2A3715F27_png]
+image:images/eeschema_placed_components.png[eeschema_placed_components]
 
 23. We now need to create the schematic component 'MYCONN3' for our
     3-pin connector. You can jump to the section titled
@@ -390,7 +390,7 @@ image:images/1000000000000279000001D2A3715F27.png[1000000000000279000001D2A3715F
     zoom in before/while doing this. Reposition 'J?' under the component as
     shown below. Labels can be moved around as many times as you please.
 +
-image:images/10000000000000950000007B843ADE6A.png[10000000000000950000007B843ADE6A_png]
+image:images/eeschema_myconn3.png[eeschema_myconn3]
 
 26. It is time to place the power and ground symbols. Click on the
     'Place a power port' button image:icons/add_power.png[add_power_png] on
@@ -409,7 +409,7 @@ image:images/10000000000000950000007B843ADE6A.png[10000000000000950000007B843ADE
     right of the VSS pin of the microcontroller. Your schematic should now
     look something like this:
 +
-image:images/1000000000000303000002A0130916D9.png[1000000000000303000002A0130916D9_png]
+image:images/eeschema_placed_components2.png[eeschema_placed_components2]
 
 29. Next, we will wire all our components. Click on the 'Place wire'
     icon image:icons/add_line.png[Place wire] on the right
@@ -429,7 +429,7 @@ use the g key (grab) option and not the m key (move) option. Using the
 grab option will keep the wires connected. Review step 24 in case you
 have forgotten how to move a component.
 +
-image:images/1000000000000134000000D9A9B4ED54.png[1000000000000134000000D9A9B4ED54_png]
+image:images/eeschema_first_wire.png[eeschema_first_wire]
 
 31. Repeat this process and wire up all the other components as shown
     below. To terminate a wire just double-click. When wiring up the
@@ -437,7 +437,7 @@ image:images/1000000000000134000000D9A9B4ED54.png[1000000000000134000000D9A9B4ED
     symbol and the middle top of the GND symbol. See the screenshot
     below.
 +
-image:images/100000000000033200000294961F4BAD.png[100000000000033200000294961F4BAD_png]
+image:images/eeschema_all_wires.png[eeschema_all_wires]
 
 32. We will now consider an alternative way of making a connection
     using labels. Pick a net labelling tool by clicking on the 'Place
@@ -467,7 +467,7 @@ image:images/100000000000033200000294961F4BAD.png[100000000000033200000294961F4B
 
 37. Below you can see what the final result should look like.
 +
-image:images/1000000000000340000002A2DDE0F6DA.png[1000000000000340000002A2DDE0F6DA_png]
+image:images/eeschema_all_labels.png[eeschema_all_labels]
 
 38. Let's now deal with unconnected wires. Any pin or wire that is not
     connected will generate a warning when checked by KiCad. To avoid
@@ -480,7 +480,7 @@ image:images/1000000000000340000002A2DDE0F6DA.png[1000000000000340000002A2DDE0F6
     pins 2, 3, 4 and 5. An X will appear to signify that the lack of a
     wire connection is intentional.
 +
-image:images/10000000000001C8000000FEEDCB5FB8.png[10000000000001C8000000FEEDCB5FB8_png]
+image:images/eeschema_noconnect.png[eeschema_noconnect]
 
 40. Some components have power pins that are invisible. You can make
     them visible by clicking on the 'Show hidden pins' icon
@@ -495,7 +495,7 @@ image:images/10000000000001C8000000FEEDCB5FB8.png[10000000000001C8000000FEEDCB5F
     'PWR_FLAG'. Place two of them. Connect them to a GND pin and to
     VCC as shown below.
 +
-image:images/100000000000010700000125A4376EBB.png[100000000000010700000125A4376EBB_png]
+image:images/eeschema_powerflag.png[eeschema_powerflag]
 +
 NOTE: This will avoid the classic schematic checking warning:
 Warning Pin power_in not driven (Net xx)
@@ -695,7 +695,7 @@ have been placed with this option.
     been extensively used to place the many series of 'Wire to bus entry'
     using the icon image:icons/add_line2bus.png[add_line2bus_png].
 +
-image:images/10000000000004A2000001E05B3D8DFF.png[10000000000004A2000001E05B3D8DFF_png]
+image:images/eeschema_repeat_bus.png[eeschema_repeat_bus]
 
 [[layout-printed-circuit-boards]]
 == Layout printed circuit boards
@@ -758,7 +758,7 @@ move them around using the m key you will later note that you lose the
 track connection (the same occurs in the schematic editor). Bottom
 line, always use the g key option.
 +
-image:images/10000000000001FD000001B15F2BA74A.png[10000000000001FD000001B15F2BA74A_png]
+image:images/pcbnew_placement.png[pcbnew_placement]
 
 10. If the ratsnest disappears or the screen gets messy, right click
     and click 'Redraw view'. Note how one pin of the 100 ohm resistor
@@ -807,7 +807,7 @@ image:images/pcbnew_1.png[pcbnew_1_png]
     can then choose the widths of the track from the drop-down menu while
     you lay out your board. See the example below (inches).
 +
-image:images/1000000000000169000001178613965A.png[1000000000000169000001178613965A_png]
+image:images/pcbnew_track_width.png[pcbnew_track_width]
 
 17. Alternatively, you can add a Net Class in which you specify a set of
     options. Go to *Design Rules* -> *Design Rules* -> *Net Classes Editor*
@@ -827,7 +827,7 @@ image:images/1000000000000169000001178613965A.png[100000000000016900000117861396
 20. Repeat this process until all wires, except pin 3 of J1, are
     connected. Your board should look like the example below.
 +
-image:images/10000000000001F8000001B32F1802F1.png[10000000000001F8000001B32F1802F1_png]
+image:images/pcbnew_most_tracks.png[pcbnew_most_tracks]
 
 21. Let's now run a track on the other copper side of the PCB. Select
     'B.Cu' in the drag down menu on the top toolbar. Click on the 'Add
@@ -844,7 +844,7 @@ image:images/10000000000001F8000001B32F1802F1.png[10000000000001F8000001B32F1802
     will take you to the bottom layer where you can complete your
     track.
 +
-image:images/100000000000026E000002155D41D893.png[100000000000026E000002155D41D893_png]
+image:images/pcbnew_via.png[pcbnew_via]
 
 23. When you want to inspect a particular connection you can click on
     the 'Net highlight' icon
@@ -865,7 +865,7 @@ image:images/100000000000026E000002155D41D893.png[100000000000026E000002155D41D8
     area you have just traced. Click on 'Fill or Refill All Zones'. The
     board should fill in with green and look something like this:
 +
-image:images/10000000000001830000015C1D559586.png[10000000000001830000015C1D559586_png]
+image:images/pcbnew_filled.png[pcbnew_filled]
 
 26. Run the design rules checker by clicking on the 'Perform Design
     Rules Check' icon image:icons/erc.png[erc_png] on the top
@@ -1040,7 +1040,7 @@ image:images/pin_properties.png[Pin Properties]
     again where you want the bottom right corner of the rectangle to
     be.
 +
-image:images/10000000000000DD000000946E66C399.png[10000000000000DD000000946E66C399_png]
+image:images/component_outline.png[component_outline]
 
 8.  Save the component in your library __myLib.lib__. Click on the
     'New Library' icon image:icons/new_library.png[new_library_png],
@@ -1146,7 +1146,7 @@ Internet tool __quicklib__.
     icon image:icons/import.png[import_png], navigate to _demo1/library/_
     and select _myLib.lib._
 +
-image:images/10000000000002EE00000177A7337383.png[10000000000002EE00000177A7337383_png]
+image:images/library_myconn3.png[library_myconn3]
 
 6.  You can make this component and the whole library _myLib.lib_
     available to you by adding it to the KiCad library path. From
@@ -1235,7 +1235,7 @@ ENDDEF
 #End Library
 ----
 
-image:images/10000000000004800000026769DAE0A4.png[10000000000004800000026769DAE0A4_png]
+image:images/high_pin_count.png[high_pin_count]
 
 1.  The Python script presented here is a very powerful tool for
     manipulating both pin numbers and pin labels. Mind, however, that
