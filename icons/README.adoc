@@ -1,0 +1,6 @@
+KiCad icons
+===========
+
+This directory is imported from the https://github.com/KiCad/kicad-source-mirror[KiCad] build tree.
+To update icons use the `MAINTAIN_PNGS:BOOL=OFF` key in `build/CMakeCache.txt` then rebuild.
+The PNGs will be generated in `src/bitmaps_png/png_26`.

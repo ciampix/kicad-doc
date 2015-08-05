@@ -64,6 +64,7 @@ macro( KiCadDocumentation DOCNAME )
             add_custom_target( ${DOCNAME}_translate_${LANGUAGE}
                 COMMAND ${CMAKE_COMMAND} -E make_directory "${CMAKE_CURRENT_BINARY_DIR}/${LANGUAGE}"
                 COMMAND ${CMAKE_COMMAND} -E copy_directory ${CMAKE_CURRENT_SOURCE_DIR}/images ${CMAKE_CURRENT_BINARY_DIR}/${LANGUAGE}/images
+                COMMAND ${CMAKE_COMMAND} -E copy_directory ${CMAKE_SOURCE_DIR}/icons          ${CMAKE_CURRENT_BINARY_DIR}/${LANGUAGE}/icons
                 COMMAND ${CMAKE_COMMAND} -E copy ${CMAKE_CURRENT_SOURCE_DIR}/${DOCNAME}.adoc ${CMAKE_CURRENT_BINARY_DIR}/${LANGUAGE}/${DOCNAME}.adoc )
 
             # Deal with chapters for English only (simple copy)
@@ -86,6 +87,7 @@ macro( KiCadDocumentation DOCNAME )
             add_custom_target( ${DOCNAME}_translate_${LANGUAGE}
                 COMMAND ${CMAKE_COMMAND} -E make_directory "${CMAKE_CURRENT_BINARY_DIR}/${LANGUAGE}"
                 COMMAND ${CMAKE_COMMAND} -E copy_directory ${CMAKE_CURRENT_SOURCE_DIR}/images ${CMAKE_CURRENT_BINARY_DIR}/${LANGUAGE}/images
+                COMMAND ${CMAKE_COMMAND} -E copy_directory ${CMAKE_SOURCE_DIR}/icons          ${CMAKE_CURRENT_BINARY_DIR}/${LANGUAGE}/icons
                 COMMAND ${PO4A_COMMAND}-translate -f asciidoc -a ${CMAKE_CURRENT_SOURCE_DIR}/po/addendum.${LANGUAGE} -A utf-8 -M utf-8 -m ${CMAKE_CURRENT_SOURCE_DIR}/${DOCNAME}.adoc -p ${CMAKE_CURRENT_SOURCE_DIR}/po/${LANGUAGE}.po -k -0 -l ${CMAKE_CURRENT_BINARY_DIR}/${LANGUAGE}/${DOCNAME}.adoc )
 
             # Non-ascii languages needs some special treatments
