@@ -894,12 +894,12 @@ board for you.
 [width="100%",cols="32%,31%,37%",options="header"]
 |=========================================================
 |KiCad Layer Name |What it is |Gerber File Extension
-|Copper |Bottom Layer |.GBL
-|Component |Top Layer |.GTL
-|SilkS_Cmp |Top Overlay |.GTO
-|Mask_Cop |Bottom Solder Resist |.GBS
-|Mask_Cmp |Top Solder Resist |.GTS
-|Edges_Pcb |Edges |N/A
+|B.Cu Copper |Bottom Layer |.GBL
+|F.Cu Component |Top Layer |.GTL
+|F.SilkS SilkS_Cmp |Top Overlay |.GTO
+|B.Mask Mask_Cop |Bottom Solder Resist |.GBS
+|F.Mask Mask_Cmp |Top Solder Resist |.GTS
+|Edge.Cuts Edges_Pcb |Edges |N/A
 |=========================================================
 
 1.  Proceed by clicking on the 'Plot' button. To view all your Gerber
