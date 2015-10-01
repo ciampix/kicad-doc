@@ -71,23 +71,22 @@ decimal point and 4 follow it), units in inches, and a scale
 of 1.
 
 It is normally necessary to create files for all of the copper
-layers and, depending on the type of circuit, for the solder stop,
-solder mask, and silkscreen (component markings) layers. All of
-these files can be produced in one go, by selecting the appropriate
-check boxes.
+layers and, depending on the circuit, for the silkscreen, solder mask,
+and solder paste layers. All of these files can be produced in one
+step, by selecting the appropriate check boxes.
 
-For example, for a double-sided circuit with solder stop, silkscreen
-and solder mask (for CMS components), 8 files should be generated
+For example, for a double-sided circuit with silkscreen, solder mask
+and solder paste (for SMD components), 8 files should be generated
 ('xxxx' represents the name of the .brd file).
 
 * xxxx.copper.pho for the copper side.
 * xxxx.cmp.pho for the component side.
 * xxxx.silkscmp.pho for the component-side silkscreen markings.
 * xxxx.silkscu.pho for the copper-side silkscreen markings.
-* xxxx.soldpcmp.pho for the component-side solder mask.
-* xxxx.soldpcu.pho for the copper-side solder mask.
-* xxxx.maskcmp.pho for the component-side solder stop mask.
-* xxxx.maskcu.pho for the copper-side solder stop mask.
+* xxxx.soldpcmp.pho for the component-side solder paste.
+* xxxx.soldpcu.pho for the copper-side solder paste.
+* xxxx.maskcmp.pho for the component-side solder mask.
+* xxxx.maskcu.pho for the copper-side solder mask.
 
 GERBER file format:
 
@@ -212,11 +211,11 @@ image:images/Pcbnew_drill_origin_setting.png[]
 * Auxiliary axis: coordinates are relative to the auxiliary axis,
   use the icon (right toolbar) to set it.
 
-=== Generating cabling documentation
+=== Generating wiring documentation
 
-To produce cabling documentation files, the component and copper
+To produce wiring documentation files, the component and copper
 silkscreen layers can be traced. Usually, just the component-side
-silkscreen markings are sufficient for cabling a PCB. If the
+silkscreen markings are sufficient for wiring a PCB. If the
 copper-side silkscreen is used, the text it contains should be
 mirrored in order to be readable.
 
@@ -234,14 +233,14 @@ dialogue box will display the names of the file(s) created.
 The options described below (part of the Files/Plot dialogue) allow
 for fine-grained control of the tracing process. They are
 particularly useful when printing the silkscreen markings for
-cabling documentation.
+wiring documentation.
 
 image:images/Pcbnew_advanced_tracing_options.png[]
 
 The available options are:
 [cols="1,2"]
 |======
-|Use Proper Gerber  Extensions
+|Use Proper Gerber Extensions
 |GERBER format specific.
 When creating files, use specific extensions foe each file.
 If disabled the Gerber file extension is .pho.
@@ -259,5 +258,5 @@ Do not plot graphic items on edge layer.
 |Print other module texts
 |Enables the printing of other text fields on the silkscreen.
 |Force Print Invisible Texts
-|Forces printing of fields (reference, value) declared as invisible. In combination with Print Module Reference and Print Module Value, this option enables production of documents for guiding cabling and repair. These options have proven necessary for circuits using components that are too small (CMS) to allow readable placement of two separate text fields.
+|Forces printing of fields (reference, value) declared as invisible. In combination with Print Module Reference and Print Module Value, this option enables production of documents for guiding wiring and repair. These options have proven necessary for circuits using components that are too small (SMD) to allow readable placement of two separate text fields.
 |======
