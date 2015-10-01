@@ -18,8 +18,8 @@ In Pcbnew it is possible to execute commands using various means:
 ** The right mouse button reveals a pop-up menu the content of
    which depends on the element under the mouse arrow.
 
-* Keyboard (Function keys F1, F2, F3, F4, Shift, Delete, +, -, Page Up,
-  Page Down and “Space” bar). The “Escape” key generally cancels an
+* Keyboard (Function keys `F1`, `F2`, `F3`, `F4`, `Shift`, `Delete`, `+`, `-`, `Page Up`,
+  `Page Down` and `Space bar`). The `Escape` key generally cancels an
   operation in progress.
 
 The screenshot below illustrates some of the possible accesses to these
@@ -33,10 +33,10 @@ image:images/Right-click_legacy_menu.png[]
 
 * Left button
 
-** Single click displays the characteristics of the module or text under
+** Single-click displays the characteristics of the module or text under
    the cursor in the lower status bar.
 
-** Double click displays the editor (if the element is editable) of the
+** Double-click displays the editor (if the element is editable) of the
    element under the cursor.
 
 * Centre button/wheel
@@ -61,8 +61,8 @@ The framework of the block is traced by moving the mouse while
 holding down the left mouse button. The operation is executed when
 the button is released.
 
-By holding down one of the hotkeys “Shift” or “Ctrl”, or both keys
-“Shift” and “Ctrl” together, while the block is drawn the operation
+By holding down one of the hotkeys `Shift` or `Ctrl`, or both keys
+`Shift` and `Ctrl` together, while the block is drawn the operation
 invert, rotate or delete is automatically selected as shown in the
 table below:
 
@@ -71,11 +71,11 @@ table below:
 | Action | Effect
 | Left mouse button held down
 | Trace framework to move block
-| Shift + Left mouse button held down
+| `Shift` + Left mouse button held down
 | Trace framework for invert block
-| Ctrl + Left mouse button held down
+| `Ctrl` + Left mouse button held down
 | Trace framework for rotating block 90°
-| Shift + Ctrl + Left mouse button held down
+| `Shift` + `Ctrl` + Left mouse button held down
 | Trace framework to delete the block
 | Centre mouse button held down
 | Trace framework to zoom to block
@@ -86,7 +86,7 @@ When moving a block:
 * Move block to new position and operate left mouse button to place
   the elements.
 * To cancel the operation use the right mouse button
-  and select Cancel Block from the menu (or press the Esc key).
+  and select Cancel Block from the menu (or press the `Esc` key).
 
 Alternatively if no key is pressed when drawing the block use the
 right mouse button to display the pop-up menu and select the
@@ -160,8 +160,8 @@ The framework of the block is traced by moving the mouse while
 holding down the left mouse button. The operation is executed when
 the button is released.
 
-By holding down one of the keys “Shift” or “Ctrl”, both “Shift” and
-“Ctrl” together, or “Alt”, while the block is drawn the operation
+By holding down one of the keys `Shift` or `Ctrl`, both `Shift` and
+`Ctrl` together, or `Alt`, while the block is drawn the operation
 invert, rotate, delete or copy is automatically selected as shown in
 the table below:
 
@@ -170,13 +170,13 @@ the table below:
 | Action | Effect
 | Left mouse button held down
 | Move block
-| Shift + Left mouse button held down
+| `Shift` + Left mouse button held down
 | Invert (mirror) block
-| Ctrl + Left mouse button held down
+| `Ctrl` + Left mouse button held down
 | Rotate block 90°
-| Shift + Ctrl + Left mouse button held down
+| `Shift` + `Ctrl` + Left mouse button held down
 | Delete the block
-| Alt + Left mouse button held down
+| `Alt` + Left mouse button held down
 | Copy the block
 |====
 
@@ -222,7 +222,6 @@ image:images/Pcbnew_top_menu_bar.png[]
 
 image:images/Pcbnew_file_menu.png[]
 
-
 The File menu allows the loading and saving of printed circuits files, as well as printing and plotting the circuit board. It enables the export (with the format GenCAD 1.4) of the circuit for use with automatic testers.
 
 ==== Edit menu
@@ -260,7 +259,7 @@ Allows:
 * Hide/Show the Layers manager (colors selection for displaying layers and other elements. Also enables the display of elements to be turned on and off).
 * Management of general options (units,  etc.).
 * The management of other display options.
-* Creation, edition (and re-read) of the hot keys file.
+* Creation, editing (and re-read) of the hot keys file.
 
 ==== Dimensions menu
 
@@ -284,7 +283,7 @@ image:images/Pcbnew_design_rules_menu.png[]
 Provides access to 2 dialogs:
 
 * Setting Design Rules (tracks and vias sizes, clerances).
-* Setting Layers (Number, enabled and layers names)
+* Setting Layers (number, enabled and layers names)
 
 ==== The Display 3D Model menu
 
@@ -487,7 +486,7 @@ This gives immediate access to:
 * Additionally a right-click on an element enables editing of the most
   commonly modified element parameters.
 
-The screenshot below shows what the pop-up window looks like.
+The screenshots below show what the pop-up windows looks like.
 
 === Available modes
 
