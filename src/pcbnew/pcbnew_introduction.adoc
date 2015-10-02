@@ -15,7 +15,7 @@ automatically loaded during the reading of the Netlist. Any changes to footprint
 selection or annotation can be changed in the schematic and updated in pcbnew
 by regenerating the netlist and reading it in pcbnew again.
 
-Pcbnew provides a design rules check (DRC) tool which prevents track and pad clearence
+Pcbnew provides a design rules check (DRC) tool which prevents track and pad clearance
 issues as well as preventing nets from being connected that aren't connected
 in the netlist/schematic. When using the interactive router it continuously 
 runs the design rules check and will help automatically route individual traces.
@@ -68,7 +68,7 @@ The footprint editor provides many time saving tools such as:
 Footprint pads have a variety of properties that can be adjusted. The pads can be 
 round, rectangular, oval or trapezoidal. For through-hole parts drills can be offset
 inside the pad and be round or a slot. Individual pads can also be rotated and have
-unique soldermask, net, or paste clearence. Pads can also have a solid connection
+unique soldermask, net, or paste clearance. Pads can also have a solid connection
 or a thermal relief connection for easier manufacturing. Any combination of unique
 pads can be placed within a footprint.
 
