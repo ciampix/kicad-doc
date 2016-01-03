@@ -1,6 +1,7 @@
 PO4A-HEADER: mode=after; position=^\[\[contributors\]\]; beginboundary=\[\[
 [[translation]]
-*Traduction*
+*Traducción*
 
 //Translators put your names below here in the addendum file
-Marc Berlioux <marc.berlioux@gmail.com>, 2015-2016
+Antonio Morales <antonio1010.mr@gmail.com>, 2015-2016
+
