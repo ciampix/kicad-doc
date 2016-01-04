@@ -50,13 +50,49 @@ Published on January 3, 2016.
 
 [[_style]]
 == Style
+=== Medium Dependend Styles
+- documentation for electronic display
+  - uses a sans serif font for better readability
+  - has top, bottom, left and rigt margin of 2em
+- documentation for print
+  - may use a serif font (though the trend in print also goes sans serif)
+  - has top, bottom, left and right margin of 2 cm
+
 === Paragraphs
+- paragraphs are set in a 12 pt font
 - Each paragraph starts with a capital letter
+
+=== Headings
+- first level headings are set in a 18 pt bold font
+- second level headings are set in a 16 pt bold font
+- third level headings are set in a 14 pt bold font
+- forth and lower level headings are set in a 12 pt bold font
+- headings have a padding top and bottom of 12 pt
+- headings are numbered with arabic numbers
+- headings have no additional indentation relative to the paragraphs
+
+== Quotes
+- double quotes (") are used for 
+- single quotes (') are used for
+- typographic quotes (`` '') are used for
 
 === Lists
 - There are only two kinds of lists used: numbered lists, unnumbered lists
 - Numbered lists use arabic numbers, roman numbers may be used in indented lists (2nd level)
 - Unnumbered lists use bullets for the first level and hyphens for the second level
+
+=== Tables
+- the caption for tables is put above the table
+- tables should be kept short enough to fit on a single page for readability
+- the header of the table is set in bold font
+- the header may get a shaded background (20% grey)
+
+=== Code Examples
+- code examples are command line examples or script examples or similar
+- code examples are set in a monospaced font
+- the caption for code examples is put above the example
+- code examples are displayed with a frame around them and a shaded background (20% grey)
+
 [[_structure]]
 == Structure
 
