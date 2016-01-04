@@ -53,45 +53,82 @@ Published on January 3, 2016.
 === Medium Dependend Styles
 * documentation for electronic display
 ** uses a sans serif font for better readability
-** has top, bottom, left and rigt margin of 2em
+** has top, bottom, left and right margin of 2em
 * documentation for print
 ** may use a serif font (though the trend in print also goes sans serif)
 ** has top, bottom, left and right margin of 2 cm
 
 === Paragraphs
-* paragraphs are set in a 12 pt font
-* Each paragraph starts with a capital letter
+* Paragraphs are set in a 12 pt font.
+* Each paragraph starts with a capital letter.
 
 === Headings
-* first level headings are set in a 18 pt bold font
-* second level headings are set in a 16 pt bold font
-* third level headings are set in a 14 pt bold font
-* forth and lower level headings are set in a 12 pt bold font
-* headings have a padding top and bottom of 12 pt
-* headings are numbered with arabic numbers
-* headings have no additional indentation relative to the paragraphs
+* There is only a maximum of four levels of headings that are numbered within a document and may occur in a table of contents.
+* Headings are written with capital letters for each noun, verb, adjective and adverb.
+* Headings have no additional indentation relative to the paragraphs.
+* Headings are numbered with arabic numbers.
+* Headings have a padding top and bottom of 12 pt.
+* *First level headings* are set in a 18 pt bold font.
+** First level headings are numbered concecutively with a single leading number.
+** First level headings are used to form chapters.
+** Chapters may stand alone without any sections.
+* *Second level headings* are set in a 16 pt bold font
+** Second level headings are numbered with two numbers seperated by a period. The first number is the number of the chapter, the second number is the concecutive number of the section in that chapter.
+** Second level headings are used to form sections.
+** Sections may only exist if there is more than one section or it contains more than one subsection.
+* *Third level headings* are set in a 14 pt bold font.
+** Third level headings are numbered with three numbers seperated by a period. The first number is the number of the chapter, the second number of the section and the third is the concecutive number of the subsection in that section.
+** Third level headings are used to form subsections.
+** Subsections may only exist if there is more than one subsection or it contains more than one sub-subsection.
+* *Forth and lower level headings* are set in a 12 pt bold font.
+** Forth level headings are numbered analog to the lower level headings numbering scheme.
+** Forth level headings are used to form sub-subsections.
+** Sub-subsections may only exist if there is more than one sub-subsection.
+* *Fifth level headings* are not numbered and are only used for subheadings e.g. in a chapter with no sections.
 
-== Quotes
-* double quotes (") are used for 
-* single quotes (') are used for
-* typographic quotes (`` '') are used for
+== Quotes and Quotations
+* *Single quotes* (') are used for literal names of files and such (e.g. 'netlist.net' or '*.sch').
+* *Double quotes* (") are used for naming things that would literally look different (e.g. "n-dash" vs. '–' or "alpha" vs. 'α' or "netlist file" vs. 'netlist.net').
+* *Typographic quotes* (`` '') are used for inline quotations like ``These are not the diodes you're looking for.''.
+* *Block quotes* are used to quote larger amounts of text.
+** Block quotes are indented with a padding left and right by 2em.
+** Block quotes have a padding top and bottom of 12pt.
+** Block quotes have a frame of 2px with a color of 50% grey.
 
 === Lists
-* There are only two kinds of lists used: numbered lists, unnumbered lists
-* Ordered lists use arabic numbers, roman numbers may be used in indented lists (2nd level)
-* Unordered lists use bullets for the first level and hyphens for the second level for display
+* There are only two kinds of lists in use: ordered (numbered) lists and unordered (unnumbered) lists.
+* *Unordered lists* use the bullet character (•) for the first level and hyphens ("n-dash": '–') for the second level for displaying the list elements.
+** Unordered lists are the default lists.
+** Up to three list levels are allowed.
+** When an unordered list is used to explain things, the first item of the list entry (thing to explain) is set in bold font
+* *Ordered lists* use arabic numbers, the second level of an ordered list uses lowercase letters
+** Ordered lists are used for working instructions and such where the order of steps is important
+** More than two list levels are not allowed.
 
 === Tables
-* the caption for tables is put above the table
-* tables should be kept short enough to fit on a single page for readability
-* the header of the table is set in bold font
-* the header may get a shaded background (20% grey)
+* The caption for tables is put above the table, set in bold font and left aligned.
+* Captions are useful for reference such as "look on Table 3.2 row 6".
+* The caption of tables is numbered with two numbers separated by a period. The first number is the number of the current chapter, the second number is the concecutive number of the table in the current chapter. 
+** Example: *Table 2.3: Table Example*
+* Tables should be kept short enough to fit on a single page for readability.
+* The header of the table is set in bold font.
+* The lines between table cells are drawn in a grey color (80% grey). 
+
+=== Images
+* The caption for images is put below the image, set in bold font and left aligned.
+* The caption of images starts with the text 'Image ' is numbered with two numbers separated by a period. The first number is the number of the current chapter, the second number is the concecutive number of the table in the current chapter.
+** Example: *Image 1.3: Example Image*
+* The image size for online display should not exceed 640 pixels width.
+* The image size for online display of tool icons should be between 24x24 and 32x32 pixels.
+* Images for print should not contain less than 150 dpi pixel density for high image quality. Screenshots are generally not good for print output.
+* Images from screenshots should be made in PNG format, JPG is inferior for this kind of images.
+
 
 === Code Examples
-* code examples are command line examples or script examples or similar
+* code examples are command line examples, script examples, text file contents or similar
 * code examples are set in a monospaced font
 * the caption for code examples is put above the example
-* code examples are displayed with a frame around them and a shaded background (20% grey)
+* code examples are displayed with a thin frame around them and a shaded background (≈80% grey)
 
 [[_structure]]
 == Structure
