@@ -666,8 +666,8 @@ msgid ""
 "library have been made.\n"
 msgstr ""
 "|image:images/icons/save_library.png[icons/save_library_png]\n"
-"|Sauver la librairie courante sur disque. L'icône sera inactive (grisée) si "
-"aucune librairie n'a été sélectionnée, ou si aucune modification de la "
+"|Sauver la librairie courante sur disque. L'icône sera inactive (grisée) si\n "
+"aucune librairie n'a été sélectionnée, ou si aucune modification de la \n"
 "librairie courante n'a été effectuée.\n"
 
 #. type: delimited block |
@@ -689,7 +689,7 @@ msgid ""
 "defined by the project if no library is currently selected.\n"
 msgstr ""
 "|image:images/icons/delete.png[icons/delete_png]\n"
-"|Supprimer un composant en librairie de travail, ou d'une des librairies "
+"|Supprimer un composant en librairie de travail, ou d'une des librairies\n "
 "définies dans le projet, si aucune librairie n'a été selectionnée.\n"
 
 #. type: delimited block |
@@ -701,7 +701,7 @@ msgid ""
 "to edit.\n"
 msgstr ""
 "|image:images/icons/library_browse.png[icons/library_browse_png]\n"
-"|Ouvre le Visualisateur de librairies et de composants, pour choisir le "
+"|Ouvre le Visualisateur de librairies et de composants, pour choisir le \n"
 "composant à éditer\n"
 
 #. type: delimited block |
@@ -743,7 +743,7 @@ msgid ""
 "changed.\n"
 msgstr ""
 "|image:images/icons/save_part_in_mem.png[icons/save_part_in_mem_png]\n"
-"|Mettre à jour le composant en librairie de travail. Opération effectuée en "
+"|Mettre à jour le composant en librairie de travail. Opération effectuée en \n"
 "mémoire, le fichier de librairie n'est pas modifié.\n"
 
 #. type: delimited block |
@@ -776,7 +776,7 @@ msgid ""
 "libraries are not automatically added to the project.\n"
 msgstr ""
 "|image:images/icons/new_library.png[icons/new_library_png]\n"
-"|Sauver le composant courant dans une nouvelle librairie. Note : la nouvelle "
+"|Sauver le composant courant dans une nouvelle librairie. Note : la nouvelle \n"
 "librairie n'est pas ajoutée automatiquement au projet.\n"
 
 #. type: delimited block |
@@ -854,7 +854,7 @@ msgstr ""
 msgid ""
 "|image:images/icons/zoom_fit_in_page.png[]|Zoom to fit component in display.\n"
 msgstr ""
-"|image:images/icons/zoom_fit_in_page.png[]|Ajuster la feuille de schéma à "
+"|image:images/icons/zoom_fit_in_page.png[]|Ajuster la feuille de schéma à \n"
 "l'écran. (Zoom automatique).\n"
 
 #. type: delimited block |
@@ -866,7 +866,7 @@ msgid ""
 "component does not have an alternate body style.\n"
 msgstr ""
 "|image:images/icons/morgan1.png[icons/morgan1_png]\n"
-"|Afficher sous représentation normale. Le bouton sera désactivé si le "
+"|Afficher sous représentation normale. Le bouton sera désactivé si le \n"
 "composant courant n'a pas de représentation alternative.\n"
 
 #. type: delimited block |
@@ -878,7 +878,7 @@ msgid ""
 "component does not have an alternate body style.\n"
 msgstr ""
 "|image:images/icons/morgan2.png[icons/morgan2_png]\n"
-"|Afficher la représentation De Morgan. Affiche la représentation alternative. "
+"|Afficher la représentation De Morgan. Affiche la représentation alternative. \n"
 "Le bouton sera désactivé si le composant courant n'en a pas.\n"
 
 #. type: delimited block |
@@ -890,7 +890,7 @@ msgid ""
 "documentation is defined for the current component.\n"
 msgstr ""
 "|image:images/icons/datasheet.png[icons/datasheet_png]\n"
-"|Afficher la documentation ou un document associé, datasheet ou autre. Le "
+"|Afficher la documentation ou un document associé, datasheet ou autre. Le \n"
 "bouton sera désactivé si le composant courant n'en a pas.\n"
 
 #. type: delimited block |
@@ -904,7 +904,7 @@ msgid ""
 msgstr ""
 "|image:images/toolbar_libedit_part.png[alt=\"images/toolbar_libedit_part.png\""
 ",width=\"80%\"]\n"
-"|Selection de l'unité à afficher. Le menu déroulant sera désactivé si le "
+"|Selection de l'unité à afficher. Le menu déroulant sera désactivé si le \n"
 "composant n'est pas multi-unités.\n"
 
 #. type: delimited block |
@@ -918,7 +918,7 @@ msgid ""
 msgstr ""
 "|image:images/toolbar_libedit_alias.png[alt=\"images/toolbar_libedit_part.png"
 "\",width=\"80%\"]\n"
-"|Sélection de l'alias. Le menu déroulant sera désactivé si le composant n'a "
+"|Sélection de l'alias. Le menu déroulant sera désactivé si le composant n'a \n"
 "pas d'alias.\n"
 
 #. type: delimited block |
@@ -930,7 +930,7 @@ msgid ""
 "components with multiple units and alternate symbols.\n"
 msgstr ""
 "|image:images/icons/pin2pin.png[icons/pin2pin_png]\n"
-"|Éditer pins, unité par unité, ou forme par forme, pour les composants avec "
+"|Éditer pins, unité par unité, ou forme par forme, pour les composants avec \n"
 "de multiple unités, ou des représentations alternatives.\n"
 
 #. type: delimited block |
@@ -973,10 +973,10 @@ msgid ""
 "cursor.\n"
 msgstr ""
 "|image:images/icons/cursor.png[icons/cursor_png]\n"
-"|Arrêter l'outil courant. Outil de sélection. Un click droit dans ce mode "
-"ouvre le menu contextuel de l'élément situé sous le curseur. Un simple click "
-"gauche affiche les attributs de l'élément dans le panneau de message situé au "
-"bas de la fenêtre. Un double-clic ouvre la boite de dialogue d'édition des "
+"|Arrêter l'outil courant. Outil de sélection. Un click droit dans ce mode \n"
+"ouvre le menu contextuel de l'élément situé sous le curseur. Un simple click \n"
+"gauche affiche les attributs de l'élément dans le panneau de message situé au \n"
+"bas de la fenêtre. Un double-clic ouvre la boite de dialogue d'édition des \n"
 "propriétés de l'élément.\n"
 
 #. type: delimited block |
@@ -987,7 +987,7 @@ msgid ""
 "|Pin tool. Left-click to add a new pin.\n"
 msgstr ""
 "|image:images/icons/pin.png[icons/pin_png]\n"
-"|Ajouter des pins au composant. Un click gauche pour ajouter une nouvelle "
+"|Ajouter des pins au composant. Un click gauche pour ajouter une nouvelle \n"
 "pin.\n"
 
 #. type: delimited block |
@@ -998,7 +998,7 @@ msgid ""
 "|Graphical text tool. Left-click to add a new graphical text item.\n"
 msgstr ""
 "|image:images/icons/add_text.png[icons/add_text_png]\n"
-"|Ajouter des textes graphiques au composant. Un click gauche pour ajouter un "
+"|Ajouter des textes graphiques au composant. Un click gauche pour ajouter un \n"
 "nouvel élément de texte graphique.\n"
 
 #. type: delimited block |
@@ -1011,8 +1011,8 @@ msgid ""
 "the rectangle.\n"
 msgstr ""
 "|image:images/icons/add_rectangle.png[icons/add_rectangle_png]\n"
-"|Ajouter des rectangles graphiques au dessin du composant. Un click gauche "
-"pour placer le premier coin du rectangle. Un deuxième click gauche pour "
+"|Ajouter des rectangles graphiques au dessin du composant. Un click gauche \n"
+"pour placer le premier coin du rectangle. Un deuxième click gauche pour \n"
 "placer le coin opposé du rectangle.\n"
 
 #. type: delimited block |
@@ -1024,7 +1024,7 @@ msgid ""
 "the center. Left-click again to define the radius of the cicle.\n"
 msgstr ""
 "|image:images/icons/add_circle.png[icons/add_circle_png]\n"
-"|Ajouter des cercles au composant. Un click gauche pour placer le centre du "
+"|Ajouter des cercles au composant. Un click gauche pour placer le centre du \n"
 "cercle. Un deuxième click gauche pour définir le rayon.\n"
 
 #. type: delimited block |
@@ -1037,8 +1037,8 @@ msgid ""
 "again to defint the second arc end point.\n"
 msgstr ""
 "|image:images/icons/add_arc.png[icons/add_arc_png]\n"
-"|Ajouter des arcs au composant. Un click gauche pour placer le centre de "
-"l'arc. Un deuxième click gauche pour définir le début de l'arc. Un troisième "
+"|Ajouter des arcs au composant. Un click gauche pour placer le centre de \n"
+"l'arc. Un deuxième click gauche pour définir le début de l'arc. Un troisième \n"
 "click gauche pour définir le deuxième point de l'arc.\n"
 
 #. type: delimited block |
@@ -1051,9 +1051,9 @@ msgid ""
 "Double-left-click to complete the polygon.\n"
 msgstr ""
 "|image:images/icons/add_polygon.png[icons/add_polygon_png]\n"
-"|Addition de lignes ou polygones graphiques au composant. Un click gauche "
-"pour débuter le tracé d'un nouveau segment de polygone, d'autres clicks "
-"gauches pour ajouter des segments au polygone. Un double-click pour terminer "
+"|Addition de lignes ou polygones graphiques au composant. Un click gauche \n"
+"pour débuter le tracé d'un nouveau segment de polygone, d'autres clicks \n"
+"gauches pour ajouter des segments au polygone. Un double-click pour terminer \n"
 "le polygone.\n"
 
 #. type: delimited block |
@@ -1064,7 +1064,7 @@ msgid ""
 "|Anchor tool. Left-click to set the anchor position of the component.\n"
 msgstr ""
 "|image:images/icons/anchor.png[icons/anchor_png]\n"
-"|Positionner l'ancre du composant. Un click gauche pour définir la position "
+"|Positionner l'ancre du composant. Un click gauche pour définir la position \n"
 "du point d'ancrage du composant.\n"
 
 #. type: delimited block |
@@ -1085,7 +1085,7 @@ msgid ""
 "|Delete tool. Left-click to delete an object from the current component.\n"
 msgstr ""
 "|image:images/icons/delete.png[icons/delete_png]\n"
-"|Suppression d'éléments. Un click gauche sur un élément pour le supprimer du "
+"|Suppression d'éléments. Un click gauche sur un élément pour le supprimer du \n"
 "composant courant.\n"
 
 #. type: Title ====
@@ -1143,7 +1143,7 @@ msgid ""
 "|Toggle full screen cursor on and off.\n"
 msgstr ""
 "|image:images/icons/cursor_shape.png[icons/cursor_shape_png]\n"
-"|Change la forme du curseur. Change le curseur, soit court, soit s'étendant "
+"|Change la forme du curseur. Change le curseur, soit court, soit s'étendant \n"
 "sur toute la zone de dessin.\n"
 
 #. type: Title ===
@@ -4828,7 +4828,7 @@ msgid ""
 "all files located in kicad/bin."
 msgstr ""
 "Les exemples ci-dessus supposent que xsltproc est installé sur votre PC sous "
-"Windows et que tous les fichiers sont situés dans F:\kicad\bin."
+"Windows et que tous les fichiers sont situés dans F:\\kicad\\bin."
 
 #. type: Title ====
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:876
@@ -5145,7 +5145,7 @@ msgid ""
 "|*sheetpath* |path of the sheet inside the hierarchy: identify the sheet\n"
 "within the full schematic hierarchy.\n"
 msgstr ""
-"|*sheetpath* |chemin de la feuille schématique dans la hiérarchie : identifie "
+"|*sheetpath* |chemin de la feuille schématique dans la hiérarchie : identifie \n"
 "la feuille à l'intérieur de la schématique hiérarchique complète.\n"
 
 #. type: delimited block |
@@ -7424,7 +7424,7 @@ msgid ""
 "|Create a new schematic (only in standalone mode).\n"
 msgstr ""
 "|image:images/icons/new_sch.png[new schematic icon]\n"
-"|Nouveau Projet Schématique. Créer un nouveau schéma (seulement en mode "
+"|Nouveau Projet Schématique. Créer un nouveau schéma (seulement en mode \n"
 "standalone).\n"
 
 #. type: delimited block |
@@ -7495,7 +7495,7 @@ msgid ""
 "|Copy last selected element or block in the current sheet.\n"
 msgstr ""
 "|image:images/icons/paste.png[icons/paste_png]\n"
-"|Copie des éléments sauvegardés, depuis le presse-papier dans la feuille "
+"|Copie des éléments sauvegardés, depuis le presse-papier dans la feuille \n"
 "courante.\n"
 
 #. type: delimited block |
@@ -7506,7 +7506,7 @@ msgid ""
 "|Undo: Cancel the last change (up to 10 levels).\n"
 msgstr ""
 "|image:images/icons/undo.png[icons/undo_png]\n"
-"|Défaire la dernière édition (Ctrl+Z). Annule les dernières modifications "
+"|Défaire la dernière édition (Ctrl+Z). Annule les dernières modifications \n"
 "(jusqu'à 10).\n"
 
 #. type: delimited block |
@@ -7517,7 +7517,7 @@ msgid ""
 "|Redo (up to 10 levels).\n"
 msgstr ""
 "|image:images/icons/redo.png[icons/redo_png]\n"
-"|Refaire la dernière commande (Ctrl+Y). Rétablit les dernières modifications "
+"|Refaire la dernière commande (Ctrl+Y). Rétablit les dernières modifications \n"
 "(jusqu'à 10).\n"
 
 #. type: delimited block |
@@ -7686,7 +7686,7 @@ msgid ""
 "\"footprint\" fields.\n"
 msgstr ""
 "|image:images/icons/import_footprint_names.png[Import Footprint Names icon]\n"
-"|Importer le fichier d'association composants/empreintes (fichier .cmp créé "
+"|Importer le fichier d'association composants/empreintes (fichier .cmp créé \n"
 "par CvPcb).\n"
 
 #. type: Plain text
@@ -7742,8 +7742,8 @@ msgid ""
 "the schematic).\n"
 msgstr ""
 "|image:images/icons/hierarchy_cursor.png[icons/hierarchy_cursor_png]\n"
-"|Naviguer dans la hiérarchie : cet outil permet d'ouvrir les sous-feuilles de "
-"la schématique courante (clic sur le symbole de cette sous-feuille), ou de "
+"|Naviguer dans la hiérarchie : cet outil permet d'ouvrir les sous-feuilles de \n"
+"la schématique courante (clic sur le symbole de cette sous-feuille), ou de \n"
 "remonter dans la hiérarchie (clic dans une zone libre du schéma).\n"
 
 #. type: delimited block |
@@ -7764,7 +7764,7 @@ msgid ""
 "|Display the power symbol selector.\n"
 msgstr ""
 "|image:images/icons/add_power.png[Add Power icon]\n"
-"|Placer un symbole de type power : ouvre le sélecteur de symboles "
+"|Placer un symbole de type power : ouvre le sélecteur de symboles \n"
 "d'alimentation.\n"
 
 #. type: delimited block |
@@ -7797,8 +7797,8 @@ msgid ""
 "a connection, thus they should not be used to connect wires together.\n"
 msgstr ""
 "|image:images/icons/add_line2bus.png[icons/add_line2bus_png]\n"
-"|Placer une entrée de bus (type fil vers bus). Ces éléments sont seulement "
-"graphiques et ne créent pas de liaisons électriques, ils ne doivent donc pas "
+"|Placer une entrée de bus (type fil vers bus). Ces éléments sont seulement \n"
+"graphiques et ne créent pas de liaisons électriques, ils ne doivent donc pas \n"
 "être utilisés pour relier des fils ensemble.\n"
 
 #. type: delimited block |
@@ -7821,8 +7821,8 @@ msgid ""
 "pins are intentionally left not connected or are missed.\n"
 msgstr ""
 "|image:images/icons/noconn.png[icons/noconn_png]\n"
-"|Placer un symbole de non connexion. Pour marquer les pins de composants qui "
-"sont volontairement non connectées. Utile pour la vérification des règles "
+"|Placer un symbole de non connexion. Pour marquer les pins de composants qui\n "
+"sont volontairement non connectées. Utile pour la vérification des règles \n"
 "électriques (ERC).\n"
 
 #. type: delimited block |
@@ -7835,7 +7835,7 @@ msgid ""
 "connected to one of the ends of the other wire).\n"
 msgstr ""
 "|image:images/icons/add_junction.png[icons/add_junction_png]\n"
-"|Placer une jonction. Elles sont placées pour relier deux fils qui se "
+"|Placer une jonction. Elles sont placées pour relier deux fils qui se \n"
 "croisent , ou un fil et une pin, quand cela peut être ambigu.\n"
 
 #. type: delimited block |
@@ -7848,8 +7848,8 @@ msgid ""
 "have to use global or hierarchical labels.\n"
 msgstr ""
 "|image:images/icons/add_line_label.png[icons/add_line_label_png]\n"
-"|Placer un nom de net label local. Deux fils avec le même label, **dans la "
-"même feuille schématique**, seront connectés. Pour des connexions entre "
+"|Placer un nom de net label local. Deux fils avec le même label, **dans la\n "
+"même feuille schématique**, seront connectés. Pour des connexions entre \n"
 "différentes feuilles, utiliser des labels globaux, ou hiérarchiques.\n"
 
 #. type: delimited block |
@@ -7862,7 +7862,7 @@ msgid ""
 "different sheets.\n"
 msgstr ""
 "|image:images/icons/add_glabel.png[Global label icon]\n"
-"|Placer un label global. Tous les labels globaux portant le même nom seront "
+"|Placer un label global. Tous les labels globaux portant le même nom seront \n"
 "connectés, dans toutes les feuilles de la hiérarchie.\n"
 
 #. type: delimited block |
@@ -7876,7 +7876,7 @@ msgid ""
 msgstr ""
 "|image:images/icons/add_hierarchical_label.png[icons/add_hierarchical_label_pn"
 "g]\n"
-"|Placer un label hiérarchique. Permet d'établir une connexion entre une "
+"|Placer un label hiérarchique. Permet d'établir une connexion entre une \n"
 "feuille et la feuille parente qui la contient.\n"
 
 #. type: delimited block |
@@ -7907,9 +7907,9 @@ msgid ""
 msgstr ""
 "|image:images/icons/import_hierarchical_label.png[icons/import_hierarchical_la"
 "bel_png]\n"
-"|Placer une pin hiérarchique importée à partir du label hiérarchique "
-"correspondant. Ces labels hiérarchiques doivent déjà être en place dans la "
-"sous-feuille. Équivalentes à des pins de composants, elles doivent être "
+"|Placer une pin hiérarchique importée à partir du label hiérarchique \n"
+"correspondant. Ces labels hiérarchiques doivent déjà être en place dans la \n"
+"sous-feuille. Équivalentes à des pins de composants, elles doivent être \n"
 "reliées par des fils.\n"
 
 #. type: delimited block |
@@ -7922,7 +7922,7 @@ msgid ""
 "label to already exist in the subsheet itself.\n"
 msgstr ""
 "|image:images/icons/add_hierar_pin.png[icons/add_hierar_pin_png]\n"
-"|Addition de pins de hiérarchie dans les feuilles. Elles sont placées par "
+"|Addition de pins de hiérarchie dans les feuilles. Elles sont placées par \n"
 "leurs noms et n'ont pas besoin d'exister déjà dans la sous-feuille.\n"
 
 #. type: delimited block |
@@ -7933,7 +7933,7 @@ msgid ""
 "|Draw a line. These are only graphical and do not connect anything.\n"
 msgstr ""
 "|image:images/icons/add_dashed_line.png[icons/add_dashed_line_png]\n"
-"|Placer lignes ou polygones graphiques. Seulement graphiques, ne relient rien "
+"|Placer lignes ou polygones graphiques. Seulement graphiques, ne relient rien \n"
 "électriquement.\n"
 
 #. type: delimited block |
@@ -7976,10 +7976,10 @@ msgid ""
 "the \"Undelete\" function of the general toolbar allows you to cancel last\n"
 "deletions.\n"
 msgstr ""
-"Si plusieurs éléments superposés sont sélectionnés, la priorité est donnée au "
-"plus petit (par priorité décroissante : jonction, \"Non Connexion\", fil, "
-"bus, text, composant). Ceci s'applique aussi aux feuilles hiérarchiques. Note "
-": le bouton \"Défaire\" de la barre d'outils principale vous permet d'annuler "
+"Si plusieurs éléments superposés sont sélectionnés, la priorité est donnée au \n"
+"plus petit (par priorité décroissante : jonction, \"Non Connexion\", fil, \n"
+"bus, text, composant). Ceci s'applique aussi aux feuilles hiérarchiques. Note \n"
+": le bouton \"Défaire\" de la barre d'outils principale vous permet d'annuler \n"
 "les dernières suppressions.\n"
 
 #. type: Title ===
@@ -9901,7 +9901,7 @@ msgstr "images/fr/file_menu.png"
 msgid ""
 "|New Schematic Project |Clear current schematic and initialize a new one\n"
 msgstr ""
-"|Nouveau Projet Schématique |Efface le schéma courant et débute un nouveau "
+"|Nouveau Projet Schématique |Efface le schéma courant et débute un nouveau \n"
 "fichier\n"
 
 #. type: delimited block |
@@ -9941,7 +9941,7 @@ msgid ""
 "|Save Current Sheet Only |Save current sheet, but not others in a\n"
 "hierarchy.\n"
 msgstr ""
-"|Sauver la feuille courante seule|Enregistrer la feuille courante, mais pas "
+"|Sauver la feuille courante seule|Enregistrer la feuille courante, mais pas \n"
 "les autres de la hiérarchie.\n"
 
 #. type: delimited block |
@@ -9949,7 +9949,7 @@ msgstr ""
 #, no-wrap
 msgid "|Save Current Sheet As... |Save current sheet with a new name.\n"
 msgstr ""
-"|Sauver la feuille courante sous..|Enregistrer la feuille courante avec un "
+"|Sauver la feuille courante sous..|Enregistrer la feuille courante avec un \n"
 "nouveau nom.\n"
 
 #. type: delimited block |
@@ -9957,7 +9957,7 @@ msgstr ""
 #, no-wrap
 msgid "|Page Settings |Configure page dimensions and title block.\n"
 msgstr ""
-"|Ajustage Opt Page|Ajustage des options de la page, taille et contenu du "
+"|Ajustage Opt Page|Ajustage des options de la page, taille et contenu du \n"
 "cartouche.\n"
 
 #. type: delimited block |
@@ -10158,7 +10158,7 @@ msgstr ""
 msgid ""
 "|Grid Size: a|\n"
 "Grid size selection.\n"
-msgstr "|Dim Grille: a|Sélection de la taille de grille.\n"
+msgstr "|Dim Grille: a\n|Sélection de la taille de grille.\n"
 
 #. type: delimited block |
 #: eeschema_main_top_menu.adoc:99
@@ -10169,7 +10169,7 @@ msgid ""
 "grids are used for component building__.\n"
 msgstr ""
 "**Il est recommandé de travailler avec la taille de grille normale (0.050 "
-"inches ou 1,27 mm)**. "
+"inches ou 1,27 mm)**.\n"
 "__Les tailles de grille plus petites sont surtout utilisées pour le dessin de "
 "composant__.\n"
 
@@ -10186,7 +10186,7 @@ msgid ""
 "|Default line width: |Pen size used to draw objects that do not have a\n"
 "specified pen size.\n"
 msgstr ""
-"|Épaisseur ligne  par défaut:|Taille du pinceau pour le tracé des objets qui "
+"|Épaisseur ligne  par défaut:|Taille du pinceau pour le tracé des objets qui \n"
 "n'ont pas une taille définie.\n"
 
 #. type: delimited block |
@@ -10205,7 +10205,7 @@ msgid ""
 "|Repeat draw item horizontal displacement a|\n"
 "increment on X axis during element duplication (usual value 0)\n"
 msgstr ""
-"|Pas horizontal pour la répétition d'éléments|Décalage sur l'axe X lors de la "
+"|Pas horizontal pour la répétition d'éléments|\nDécalage sur l'axe X lors de la "
 "duplication d'éléments (valeur normale 0)\n"
 
 #. type: delimited block |
@@ -10215,7 +10215,7 @@ msgid ""
 "(after placing an item like a component, label or wire,::\n"
 "  a duplication is made by the _Insert_ key)\n"
 msgstr ""
-"(après le placement d'un élément comme un composant, un fil ou un label, une "
+"(après le placement d'un élément comme un composant, un fil ou un label, une \n"
 "copie peut être faite par l'appui sur la touche _Insert_)\n"
 
 #. type: delimited block |
@@ -10225,7 +10225,7 @@ msgid ""
 "|Repeat draw item vertical displacement |increment on Y axis during\n"
 "element duplication (usual value is 0.100 inches or 2,54 mm)\n"
 msgstr ""
-"|Pas vertical pour la répétition d'éléments|Décalage sur l'axe Y lors de la "
+"|Pas vertical pour la répétition d'éléments|Décalage sur l'axe Y lors de la \n"
 "duplication d'éléments (valeur normale 0,100 inches, soit 2,54mm)\n"
 
 #. type: delimited block |
@@ -10237,7 +10237,7 @@ msgid ""
 "in a number, such as bus members (usual value 1 or -1).\n"
 msgstr ""
 "|Incrémentation des labels en répétition|Incrémentation de la valeur des "
-"labels lors de la duplication de textes se terminant par un nombre, par "
+"labels lors de la duplication de textes se terminant par un nombre, par \n"
 "exemple les numéros de membres de bus (habituellement 1 ou -1).\n"
 
 #. type: delimited block |
@@ -10272,7 +10272,7 @@ msgid ""
 "pins. If checked,\n"
 "allows the display of power pins.\n"
 msgstr ""
-"|Afficher les pins invisibles: |Case cochée : affiche les pins invisibles (ou "
+"|Afficher les pins invisibles: |Case cochée : affiche les pins invisibles (ou \n"
 "__cachées__), le plus souvent des pins d'alimentation.\n"
 
 #. type: delimited block |
@@ -10304,7 +10304,7 @@ msgid ""
 "button cannot move the sheet area outside the displayed area.\n"
 msgstr ""
 "|Limiter le panning à la taille du \"scroll\" maximum |Case cochée :  le "
-"bouton du milieu de la souris ne peut déplacer la feuille en dehors de la "
+"bouton du milieu de la souris ne peut déplacer la feuille en dehors de la \n"
 "zone affichée.\n"
 
 #. type: delimited block |
@@ -10315,7 +10315,7 @@ msgid ""
 "if the cursor leaves the window during drawing or moving.\n"
 msgstr ""
 "|Pan lors du déplacement d'objets |Case cochée :  déplace automatiquement la "
-"vue de la feuille quand le curseur dépasse le bord de la fenêtre d'édition, "
+"vue de la feuille quand le curseur dépasse le bord de la fenêtre d'édition, \n"
 "pendant le dessin ou les déplacements.\n"
 
 #. type: delimited block |
@@ -10325,7 +10325,7 @@ msgid ""
 "|Allow buses and wires to be placed in H or V orientation only a|\n"
 "If checked, buses and wires can only be vertical or horizontal.\n"
 msgstr ""
-"|Limiter orientation bus et fils à H et V a|Case cochée :  les bus et les "
+"|Limiter orientation bus et fils à H et V a|Case cochée :  les bus et les \n"
 "fils ne peuvent être qu'horizontaux ou verticaux\n"
 
 #. type: delimited block |
@@ -12005,7 +12005,7 @@ msgid ""
 "displayed list.\n"
 msgstr ""
 "|image:images/icons/library.png[icons/library_png]\n"
-"|Sélection de la librairie désirée, qui peut aussi être sélectionnée dans la "
+"|Sélection de la librairie désirée, qui peut aussi être sélectionnée dans la \n"
 "liste affichée.\n"
 
 #. type: delimited block |
@@ -12017,7 +12017,7 @@ msgid ""
 "list.\n"
 msgstr ""
 "|image:images/icons/add_component.png[icons/add_component_png]\n"
-"|Sélection d'un composant, qui peut aussi être sélectionné parmi la liste "
+"|Sélection d'un composant, qui peut aussi être sélectionné parmi la liste \n"
 "affichée.\n"
 
 #. type: delimited block |
@@ -12085,7 +12085,7 @@ msgid ""
 "by the place component dialog frame from Eeschema.\n"
 msgstr ""
 "|image:images/icons/datasheet.png[icons/datasheet_png]\n"
-"|S'il existe, affiche les documents associés. Existe seulement lorsqu'il est "
+"|S'il existe, affiche les documents associés. Existe seulement lorsqu'il est \n"
 "appelé par la boite de dialogue de placement de composants de Eeschema.\n"
 
 #. type: delimited block |
