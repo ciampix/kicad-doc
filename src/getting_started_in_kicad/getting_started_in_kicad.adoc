@@ -702,18 +702,18 @@ A with some other sequential pins of component B. In this case you have
 two options: the labelling method we already saw or the use of a bus
 connection. Let's see how to do it.
 
-1.  Let us suppose that you have three 4-pin connectors that you want
+.  Let us suppose that you have three 4-pin connectors that you want
     to connect together pin to pin. Use the label option (press the l
     key) to label pin 4 of the P4 part. Name this label 'a1'. Now
     let's press the Ins key to have the same item automatically
     added on the pin below pin 4 (PIN 3). Notice how the label is
     automatically renamed 'a2'.
 
-2.  Press the Ins Key two more times. The Ins key corresponds to the
+.  Press the Ins Key two more times. The Ins key corresponds to the
     action 'Repeat last item' and it is an infinitely useful command
     that can make your life a lot easier.
 
-3.  Repeat the same labelling action on the two other connectors
+.  Repeat the same labelling action on the two other connectors
     CONN_2 and CONN_3 and you are done. If you proceed and make a PCB
     you will see that the three connectors are connected to each
     other. Figure 2 shows the result of what we described. For
@@ -724,34 +724,34 @@ connection. Let's see how to do it.
     entry], as shown in Figure 3. Mind, however, that there will be no
     effect on the PCB.
 
-4.  It should be pointed out that the short wire attached to the pins
+.  It should be pointed out that the short wire attached to the pins
     in Figure 2 is not strictly necessary. In fact, the labels could
     have been applied directly to the pins.
 
-5.  Let's take it one step further and suppose that you have a fourth
+.  Let's take it one step further and suppose that you have a fourth
     connector named CONN_4 and, for whatever reason, its labelling
     happens to be a little different (b1, b2, b3, b4). Now we want to
     connect _Bus a_ with _Bus b_ in a pin to pin manner. We want to do
     that without using pin labelling (which is also possible) but by
     instead using labelling on the bus line, with one label per bus.
 
-6.  Connect and label CONN_4 using the labelling method explained
+.  Connect and label CONN_4 using the labelling method explained
     before. Name the pins b1, b2, b3 and b4. Connect the pin to a
     series of 'Wire to bus entry' using the icon
     image:images/icons/add_line2bus.png[add_line2bus_png] and to a bus line
     using the icon image:images/icons/add_bus.png[add_bus_png]. See Figure
     4.
 
-7.  Put a label (press the l key option) on the bus of CONN_4 and name
+.  Put a label (press the l key option) on the bus of CONN_4 and name
     it 'b[1..4]'.
 
-8.  Put a label (press the l key option) on the previous a bus and name
+.  Put a label (press the l key option) on the previous a bus and name
     it 'a[1..4]'.
 
-9.  What we can now do is connect bus a[1..4] with bus b[1..4] using a
+.  What we can now do is connect bus a[1..4] with bus b[1..4] using a
     bus line with the button image:images/icons/add_bus.png[add_bus_png].
 
-10. By connecting the two buses together, pin a1 will be automatically
+. By connecting the two buses together, pin a1 will be automatically
     connected to pin b1, a2 will be connected to b2 and so on. Figure
     4 shows what the final result looks like. 
 +
@@ -760,7 +760,7 @@ be successfully used to repeat period item insertions. For instance,
 the short wires connected to all pins in Figure 2, Figure 3 and Figure 4
 have been placed with this option.
 
-11. The 'Repeat last item' option accessible via the Ins key has also
+. The 'Repeat last item' option accessible via the Ins key has also
     been extensively used to place the many series of 'Wire to bus entry'
     using the icon image:images/icons/add_line2bus.png[add_line2bus_png].
 +
@@ -958,15 +958,15 @@ Once your PCB is complete, you can generate Gerber files for each layer
 and send them to your favourite PCB manufacturer, who will make the
 board for you.
 
-1.  From KiCad, open the _Pcbnew_ software tool and load your board
+.  From KiCad, open the _Pcbnew_ software tool and load your board
     file by clicking on the icon
     image:images/icons/open_document.png[open_document_png].
 
-2.  Click on *File* -> **Plot**. Select 'Gerber' as the 'Plot Format'
+.  Click on *File* -> **Plot**. Select 'Gerber' as the 'Plot Format'
     and select the folder in which to put all Gerber files.
     Proceed by clicking on the 'Plot' button.
 
-3.  These are the layers you need to select for making a typical 2-layer
+.  These are the layers you need to select for making a typical 2-layer
     PCB:
 
 [width="100%",cols="20%,20%,20%,20%,20%",options="header"]
@@ -984,7 +984,7 @@ board for you.
 [[using-gerbview]]
 === Using GerbView
 
-1.  To view all your Gerber files go to the KiCad project manager and click
+.  To view all your Gerber files go to the KiCad project manager and click
     on the 'GerbView' icon.
     On the drop-down menu select 'Layer 1'. Click on *File* -> *Load Gerber
     file* or click on the icon
@@ -992,10 +992,10 @@ board for you.
     files one at a time. Note how they all get displayed one on top of the
     other.
 
-2.  Use the menu on the right to select/deselect which layer to show.
+.  Use the menu on the right to select/deselect which layer to show.
     Carefully inspect each layer before sending them for production.
 
-3.  To generate the drill file, from _Pcbnew_ go again to the *File* ->
+.  To generate the drill file, from _Pcbnew_ go again to the *File* ->
     *Plot* option. Default settings should be fine.
 
 [[automatically-route-with-freerouter]]
@@ -1013,7 +1013,7 @@ and it is needed to build by yourself to use with KiCad.
 Source code of Freerouter can be found on this site:
 https://github.com/nikropht/FreeRouting
 
-1.  From _Pcbnew_ click on *File* -> *Export* -> *Specctra DSN*
+.  From _Pcbnew_ click on *File* -> *Export* -> *Specctra DSN*
     or click on *Tools* -> *FreeRoute* -> **Export a Specctra
     Design (*.dsn) file** and save the file locally.
     Launch FreeRouter and click on the 'Open Your Own Design'
@@ -1024,13 +1024,13 @@ that opens a file viewer with a little document inside named
 **Freerouter Guidelines**. Please follow these guidelines to
 use FreeRoute effectively.
 
-2.  FreeRouter has some features that KiCad does not currently have,
+.  FreeRouter has some features that KiCad does not currently have,
     both for manual routing and for automatic routing. FreeRouter
     operates in two main steps: first, routing the board and then
     optimising it. Full optimisation can take a long time, however you
     can stop it at any time need be.
 
-3.  You can start the automatic routing by clicking on the
+.  You can start the automatic routing by clicking on the
     'Autorouter' button on the top bar. The bottom bar gives you
     information about the on-going routing process. If the 'Pass'
     count gets above 30, your board probably can not be autorouted
@@ -1038,16 +1038,16 @@ use FreeRoute effectively.
     better and try again. The goal in rotation and position of parts
     is to lower the number of crossed airlines in the ratsnest.
 
-4.  Making a left-click on the mouse can stop the automatic routing
+.  Making a left-click on the mouse can stop the automatic routing
     and automatically start the optimisation process. Another
     left-click will stop the optimisation process. Unless you really
     need to stop, it is better to let FreeRouter finish its job.
 
-5.  Click on the *File* -> *Export Specctra Session File* menu and
+.  Click on the *File* -> *Export Specctra Session File* menu and
     save the board file with the _.ses_ extension. You do not really
     need to save the FreeRouter rules file.
 
-6.  Back to __Pcbnew__. You can import your freshly routed board by
+.  Back to __Pcbnew__. You can import your freshly routed board by
     clicking on the link *Tools* -> *FreeRoute* and then on the icon
     'Back Import the Spectra Session (.ses) File' and selecting
     your _.ses_ file.
