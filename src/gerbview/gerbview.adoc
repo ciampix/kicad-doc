@@ -51,9 +51,13 @@ viewer. Up to 32 files can be displayed at once.
 For more information about the Gerber file format please read
 http://www.ucamco.com/files/downloads/file/81/the_gerber_file_format_specification.pdf[The Gerber File Format Specification].
 
-== Main window
+== Interface
+
+=== Main window
 
 image::images/gerbview_main_screen.png[scaledwidth="95%",alt="gerbview_main_screen_png"]
+
+<<<<<
 
 === Top toolbar
 
@@ -94,6 +98,8 @@ image::images/gerbview_top_toolbar.png[scaledwidth="95%",alt="gerbview_top_toolb
 |image:images/gerbview_top_info.png[width="70%",alt="gerbview_top_info_png"]
 |Display info about active layer
 |=======================================================================
+
+<<<<<
 
 === Left toolbar
 
@@ -137,6 +143,25 @@ image::images/gerbview_top_toolbar.png[scaledwidth="95%",alt="gerbview_top_toolb
 
 |=======================================================================
 
+<<<<<
+
+=== Layers Manager
+
+image::images/gerbview_layer_manager.png[scaledwidth="40%",alt="gerbview_layer_manager_png"]
+
+The Layers Manager controls and displays visibility of all layers. An arrow
+indicates the active layer, and each layer can be shown or hidden with
+the checkboxes.
+
+The active layer is drawn on top of other layers. When loading a new file,
+the active layer is used which replaces previous items on that layer.
+
+Mouse button assignments:
+
+* Left click: select the active layer
+* Right click: show/hide/sort layers options
+* Middle click (on color swatch): select the layer color
+
 == Commands in menu bar
 
 === File menu
@@ -162,53 +187,43 @@ image::images/gerbview_misc_menu.png[scaledwidth="25%",alt="gerbview_misc_menu_p
   text editor.
 * *Clear Layer* erases the contents of the active layer.
 
-== Layers Manager
-
-image::images/gerbview_layer_manager.png[scaledwidth="40%",alt="gerbview_layer_manager_png"]
-
-The Layers Manager controls and displays visibility of all layers. An arrow
-indicates the active layer, and each layer can be shown or hidden with
-the checkboxes.
-
-The active layer is drawn on top of other layers. When loading a new file,
-the active layer is used which replaces previous items on that layer.
-
-Mouse button assignments:
-
-* Left click: select the active layer
-* Right click: show/hide/sort layers options
-* Middle click (on color swatch): select the layer color
-
 == Display modes
 
-=== Raw mode image:images/icons/gbr_select_mode0.png[gbr_select_mode0_png]
+GerbView has three display modes which are useful for different
+situations or requirements.
 
+NOTE: Stacked mode and Transparency mode provide a better graphical
+experience, but may be slower then Raw mode on some computers.
+
+=== Raw mode
+
+This mode is selected by
+image:images/icons/gbr_select_mode0.png[gbr_select_mode0_png].
 Each file and each item in the file are drawn in the order files are
-loaded. However, the active layer is draw last.
+loaded. However, the active layer is drawn last.
 
-When Gerber files have negative items (drawn in black), artifacts are
-visible on layers beneath the active layer.
+When Gerber files have negative items (drawn in black), artifacts may be
+visible on already-drawn layers.
 
 image::images/gerbview_mode_raw_stack.png[scaledwidth="60%",alt="gerbview_mode_raw_stack_png"]
 
-=== Stacked mode image:images/icons/gbr_select_mode1.png[gbr_select_mode1_png]
+=== Stacked mode
 
-Each file is drawn in the order files are loaded. Again, the active
-layer is draw last.
+Invoked by image:images/icons/gbr_select_mode1.png[gbr_select_mode1_png],
+each file is drawn in the order files are loaded. Again, the active
+layer is drawn last.
 
 When Gerber files have negative items (drawn in black) there are no
-artifacts on already drawn layers because this mode draws each file in
+artifacts on already-drawn layers because this mode draws each file in
 a local buffer before it is shown on screen.
-
-This mode may be slow as a tradeoff with the improved graphics.
 
 image::images/gerbview_mode_raw_stack.png[scaledwidth="60%",alt="gerbview_mode_raw_stack_png"]
 
-=== Transparency mode image:images/icons/gbr_select_mode2.png[gbr_select_mode2_png]
+=== Transparency mode
 
-Layers are blended together, with the active layer on top.
-
-This mode may also be slow as a tradeoff with the improved graphics.
+Use image:images/icons/gbr_select_mode2.png[gbr_select_mode2_png] to display in this
+mode, where no artifacts are present and layers are blended together with the active
+layer on top.
 
 image::images/gerbview_mode_transparency.png[scaledwidth="60%",alt="gerbview_mode_transparency_png"]
 
