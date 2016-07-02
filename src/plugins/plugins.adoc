@@ -64,7 +64,7 @@ eventually be developed to make it possible for users to implement
 data Importers and Exporters.
 
 
-[[REF:PLUGIN_CLASSES]]
+[[plugin-classes]]
 === Plugin Classes
 
 Plugins are divided into Plugin Classes since each plugin addresses
@@ -79,12 +79,12 @@ will be the focus of this document.
 
 Implementing a Plugin Class requires creating code within the KiCad
 source tree which manages the loading of plugin code. Within the
-KiCad source tree, the file *plugins/ldr/pluginldr.h* declares the
+KiCad source tree, the file `plugins/ldr/pluginldr.h` declares the
 base class for all plugin loaders.  This class declares the most
 basic functions which we would expect to find in any KiCad plugin
 (boilerplate code) and its implementation provides basic checks
 on version compatibility between the plugin loader and the
-available plugins. The header *plugins/ldr/3d/pluginldr3D.h* declares
+available plugins. The header `plugins/ldr/3d/pluginldr3D.h` declares
 a loader for the 3D Plugin Class. The loader is responsible for
 loading a given plugin and making its functions available to KiCad.
 Each instance of a plugin loader represents an actual plugin
@@ -100,7 +100,7 @@ KiCad's internal code for managing plugins unless a new Plugin
 Class is being developed; a plugin only needs to define the functions
 declared by their specific plugin class.
 
-The header *include/plugins/kicad_plugin.h* declares the generic
+The header `include/plugins/kicad_plugin.h` declares the generic
 functions required of all KiCad plugins; these functions identify
 the Plugin Class, provide the name of the specific plugin, provide
 version information for the Plugin Class API, provide version
@@ -133,10 +133,10 @@ void GetPluginVersion( unsigned char* Major, unsigned char* Minor,
 -----
 
 
-[[REF:CLASS_PLUGIN_3D]]
+[[class-plugin-3d]]
 ==== Plugin Class: PLUGIN_3D
 
-The header *include/plugins/3d/3d_plugin.h* declares the functions
+The header `include/plugins/3d/3d_plugin.h` declares the functions
 which must be implemented by all 3D plugins and defines a number of
 functions which are required by the plugin and which the user must
 not reimplement. The defined functions which the user must not
@@ -201,6 +201,7 @@ PLUGIN_3D class and walks the user through the setup and building of
 the code.
 
 
+[[basic-3d-plugin]]
 === Basic 3D Plugin
 
 This tutorial walks the user through the development of a very basic
@@ -317,7 +318,7 @@ directories. For OS X the FindPackage script presented here may require
 some adjustments.
 
 To configure and build the tutorial code we will use CMake and
-create a CMakeLists.txt script file:
+create a `CMakeLists.txt` script file:
 
 [source,bash]
 -----
@@ -362,7 +363,7 @@ export DEMO_SRC=${PWD}
 
 Now we create the plugin source itself:
 
-*.s3d_plugin_demo1.cpp*
+.s3d_plugin_demo1.cpp
 [source,c]
 -----
 #include <iostream>
@@ -552,6 +553,7 @@ The plugin will be built but not installed; you must copy the
 plugin file to KiCad's plugin directory if you wish to load the plugin.
 
 
+[[advanced-3d-plugin]]
 === Advanced 3D Plugin
 
 This tutorial walks the user through the development of a 3D plugin
@@ -576,7 +578,7 @@ used by the 3D Cache Manager. All plugins which support model
 visualization must translate the model data into a scene graph via
 this library.
 
-The first step is to extend CMakeLists.txt to build this tutorial project:
+The first step is to extend `CMakeLists.txt` to build this tutorial project:
 
 [source,bash]
 -----
@@ -597,7 +599,7 @@ Now we change to the source directory and create the source file:
 cd ${DEMO_SRC}
 -----
 
-*.s3d_plugin_demo2.cpp*
+.s3d_plugin_demo2.cpp
 [source,c]
 -----
 #include <cmath>
@@ -919,11 +921,11 @@ SCENEGRAPH* Load( char const* aFileName )
 Plugins are implemented via Application Programming Interface (API)
 implementations. Each Plugin Class has its specific API and in the
 3D Plugin tutorials we have seen examples of the implementation of
-the 3D Plugin API as declared by the header *3d_plugin.h*. Plugins
+the 3D Plugin API as declared by the header `3d_plugin.h`. Plugins
 may also rely on other APIs defined within the KiCad source tree;
 in the case of 3D plugins, all plugins which support visualization
 of models must interact with the Scene Graph API as declared in
-the header *ifsg_all.h* and its included headers.
+the header `ifsg_all.h` and its included headers.
 
 This section describes the details of available Plugin Class APIs
 and other KiCad APIs which may be required for implementations of
@@ -933,7 +935,7 @@ plugin classes.
 
 There is currently only one plugin class declared for KiCad: the 3D
 Plugin Class. All KiCad plugin classes must implement
-a basic set of functions declared in the header file *kicad_plugin.h*;
+a basic set of functions declared in the header file `kicad_plugin.h`;
 these declarations are referred to as the Base Kicad Plugin Class.
 No implementation of the Base Kicad Plugin Class exists; the header file
 exists purely to ensure that plugin developers implement these
@@ -952,12 +954,12 @@ invoke each function on behalf of the user.
 
 ==== API: Base Kicad Plugin Class
 
-The Base Kicad Plugin Class is defined by the header file *kicad_plugin.h*.
+The Base Kicad Plugin Class is defined by the header file `kicad_plugin.h`.
 This header must be included in the declaration of all other plugin
 classes; for an example see the 3D Plugin Class declaration in the
-header file *3d_plugin.h*. The prototypes for these functions were briefly
-described in <<REF:PLUGIN_CLASSES,Plugin Classes>>. The API is implemented
-by the base plugin loader as defined in *pluginldr.cpp*.
+header file `3d_plugin.h`. The prototypes for these functions were briefly
+described in <<plugin-classes,Plugin Classes>>. The API is implemented
+by the base plugin loader as defined in `pluginldr.cpp`.
 
 To help make sense of the functions required by the base KiCad plugin header
 we must look at what happens in the base Plugin Loader class. The Plugin
@@ -991,10 +993,10 @@ continues within the Plugin Loader's `Open()` implementation.
 
 ==== API: 3D Plugin Class
 
-The 3D Plugin Class is declared by the header file *3d_plugin.h* and it
+The 3D Plugin Class is declared by the header file `3d_plugin.h` and it
 extends the required plugin functions as described in
-<<REF:CLASS_PLUGIN_3D, Plugin Class: PLUGIN_3D>>. The corresponding
-Plugin Loader is defined in *pluginldr3D.cpp* and the loader implements
+<<class-plugin-3d,Plugin Class: PLUGIN_3D>>. The corresponding
+Plugin Loader is defined in `pluginldr3D.cpp` and the loader implements
 the following public functions in addition to the required API functions:
 
 [source,c]
@@ -1059,15 +1061,15 @@ as desired.
 
 === Scenegraph Class APIs
 
-The Scenegraph Class API is defined by the header *ifsg_all.h* and its
+The Scenegraph Class API is defined by the header `ifsg_all.h` and its
 included headers. The API consists of a number of helper routines with
-the namespace `S3D` as defined in *ifsg_api.h* and wrapper classes defined
-by the various *ifsg_*.h* headers; the wrappers support the underlying
+the namespace `S3D` as defined in `ifsg_api.h` and wrapper classes defined
+by the various `ifsg_*.h` headers; the wrappers support the underlying
 scene graph classes which, taken together, form a scene graph structure
 which is compatible with VRML2.0 static scene graphs. The headers,
 structures, classes and their public functions are as follows:
 
-*.sg_version.h*
+.sg_version.h
 [source,c]
 -----
 /*
@@ -1084,7 +1086,7 @@ structures, classes and their public functions are as follows:
 -----
 
 
-*.sg_types.h*
+.sg_types.h
 [source,c]
 -----
 /*
@@ -1110,10 +1112,10 @@ namespace S3D
 };
 -----
 
-The *sg_base.h* header contains declarations of basic data types used
+The `sg_base.h` header contains declarations of basic data types used
 by the scenegraph classes.
 
-*.sg_base.h*
+.sg_base.h
 [source,c]
 -----
 /*
@@ -1184,7 +1186,7 @@ scenegraph objects implement the public functions of this class but in
 some cases a particular function may have no meaning for a specific
 class.
 
-*.ifsg_node.h*
+.ifsg_node.h
 [source,c]
 -----
 class IFSG_NODE
@@ -1278,7 +1280,7 @@ and any number of referenced IFSG_SHAPE and IFSG_TRANSFORM nodes.
 A valid scenegraph must have a single `IFSG_TRANSFORM` object
 as a root.
 
-*.ifsg_transform.h*
+.ifsg_transform.h
 [source,c]
 -----
 /**
@@ -1308,7 +1310,7 @@ public:
 a single child or reference FACESET node and may contain a
 single child or reference APPEARANCE node.
 
-*.ifsg_shape.h*
+.ifsg_shape.h
 [source,c]
 -----
 /**
@@ -1332,7 +1334,7 @@ public:
 at the moment it only represents the equivalent of an Appearance
 node containing a Material node.
 
-*.ifsg_appearance.h*
+.ifsg_appearance.h
 [source,c]
 -----
 class IFSG_APPEARANCE : public IFSG_NODE
@@ -1388,7 +1390,7 @@ from the VRML2.0 analogue are as follows:
 . Colors are always per vertex.
 . The coordinate index set must describe triangular faces only.
 
-*.ifsg_faceset.h*
+.ifsg_faceset.h
 [source,c]
 -----
 /**
@@ -1410,7 +1412,7 @@ public:
 -----
 
 
-*.ifsg_coords.h*
+.ifsg_coords.h
 [source,c]
 -----
 /**
@@ -1449,7 +1451,7 @@ set except it must exclusively describe triangular
 faces, which implies that the total number of indices
 is divisible by 3.
 
-*.ifsg_coordindex.h*
+.ifsg_coordindex.h
 [source,c]
 -----
 /**
@@ -1484,7 +1486,7 @@ public:
 
 `IFSG_NORMALS` is equivalent to a VRML2.0 Normals node.
 
-*.ifsg_normals.h*
+.ifsg_normals.h
 [source,c]
 -----
 /**
@@ -1519,7 +1521,7 @@ public:
 
 `IFSG_COLORS` is similar to a VRML2.0 colors[] set.
 
-*.ifsg_colors.h*
+.ifsg_colors.h
 [source,c]
 -----
 /**
@@ -1553,9 +1555,9 @@ public:
 -----
 
 
-The remaining API functions are defined in *ifsg_api.h* as follows:
+The remaining API functions are defined in `ifsg_api.h` as follows:
 
-*.ifsg_api.h*
+.ifsg_api.h
 [source,c]
 -----
 namespace S3D
@@ -1718,5 +1720,5 @@ namespace S3D
 -----
 
 For actual usage examples of the Scenegraph API see the
-Advanced 3D Plugin tutorial above and the KiCad VRML1, VRML2,
+<<advanced-3d-plugin,Advanced 3D Plugin tutorial>> above and the KiCad VRML1, VRML2,
 and X3D parsers.
