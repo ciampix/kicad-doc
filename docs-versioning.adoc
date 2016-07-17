@@ -36,7 +36,7 @@ other words a snapshot of all languages, determined by git tags.
 
 == Tagging and Branching Strategy
 
-Every release of the documentaion is composed of the git tree using
+Every release of the documentation is composed of the git tree using
 the tags assigned on the given branch, usually the master branch.
 
 If, for some reason, there are going to be backported changes to some
@@ -58,7 +58,7 @@ the documentation maintainers call for a new release.
 
 == Branch Relations, Working Rules for Document
 
-KiCad application is developed on *lp:kicad* developement branch,
+KiCad application is developed on *lp:kicad* development branch,
 and new functions for the future release are developed here.
 On the other hand, stable version of KiCad is maintained on stable
 branch (e.g. *lp:kicad/4.0*), and bugfix version of stable KiCad
@@ -68,8 +68,8 @@ Having separate branches for devs and maintenance enables 2 different jobs
 independent.
 To follow this way of management, docs team also uses multi branches.
 
-The *master* branch is for docs developement and relates to *lp:kicad* KiCad
-application developement branch.
+The *master* branch is for docs development and relates to *lp:kicad* KiCad
+application development branch.
 We will update original English docs here.
 Docs stable branch (e.g. *4.0*) is for translation and relates to
 stable KiCad application branch (e.g. *lp:kicad/4.0*).
@@ -77,7 +77,7 @@ We will manage localized stable docs here.
 
 ```
 [[Application - launchpad]]
-<lp:kicad>     [+]--------------------[+]  -  -  -  - {developement}
+<lp:kicad>     [+]--------------------[+]  -  -  -  - {development}
                 |                      |
                 V                      V
 <stable>       [#]------$-----        [#]  -  -  -  - {bugfix, maintenance}
@@ -94,17 +94,19 @@ We will manage localized stable docs here.
 On *master* branch:
 
 - Writers update English .adoc files and related English menu screenshots.
-- Translation works are not accepted here, since those are invalidated soon
-  by updating .adoc files.
+- Translators have to understand that the master reference documents
+  (English .adoc) are volatile here, so translations will probably be
+  invalidated quickly. We don't reject translation works here, but would
+  recommend to post to stable branch.
 
 On stable branch (e.g. *4.0*):
 
 - Translators create Localized .po files and related localized menu screenshots
   for stable docs.
-- Basically, original English .adoc files are not modified here, since it
-  invalidates translation works for the stable release doc.
-  But if it is needed, we should try to find the way to avoid invalidation of
-  translation as far as we can.
+- In case if you want to modify original English .adoc files here for fixing
+  typo or something, be careful not to invalidate the translations by it.
+  Usually, it is resolved by also fixing the english typo in the `msgid` of all
+  po files.
 
 Branching stable from *master*:
 
