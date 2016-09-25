@@ -430,36 +430,19 @@ a 3D model with a footprint. Due to differences in 3D modeling
 software as well as differences in how users construct a
 model, in the vast majority of cases it is necessary for
 users to enter Offset and Rotation values to achieve the
-desired positioning of a 3D model. Offset values are currently
-in _inches_ for historical reasons but there is ongoing work
-to improve the UI. The Rotation values are given in degrees
-and are applied successively in the order ZYX; the convention
-used is that a positive angle results in a clockwise rotation
-of the part when viewing from the positive position of the
-axis towards the origin.
+desired positioning of a 3D model. The Rotation values are
+given in degrees and are applied successively in the order
+ZYX; the convention used is that a positive angle results
+in a clockwise rotation of the part when viewing from the
+positive position of the axis towards the origin.
 
-At the moment the 3D model is shown on its own but in the
-future a model of a simple board and footprint will be
-provided to assist the user in setting suitable values
-for the scale, offset, and rotation.
-
-KiCad initially supported only a subset of
-the VRML2 file format specification and the unit length
-was assumed to be 0.1 inches. The current version of
 KiCad supports 3D model formats via a plugin system and
 support is provided for the visual model formats VRML1,
-VRML2, and X3D as well as the MCAD format IDF. An
-experimental plugin which is not yet part of KiCad
-provides support for the MCAD formats STEP and IGES
-(see https://github.com/cbernardo/kicad_oce_3D[KiCad OCE Plugin]).
-For the moment the 3DViewer will only display VRML1,
-VRML2, and X3D models even though the previewer will
-show IDF models and even STEP and IGES models if the
-appropriate plugin is present.  This is due to the fact
-that the plugin system uses a different data represenation
-from the 3DViewer; work is currently being done to
-update the 3DViewer so that it can render all model
-formats supported by the available plugins.
+VRML2, and X3D as well as the MCAD format IDF. The MCAD
+formats IGES and STEP are supported via the OCE Plugin
+which requires a suitable version of the OpenCascade or
+OpenCascade Community Edition (OCE) software.
+
 
 ==== 3D Model Paths
 In the past KiCad used a fixed path to a directory of
