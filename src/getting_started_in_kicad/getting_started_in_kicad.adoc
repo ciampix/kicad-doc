@@ -86,7 +86,7 @@ http://www.kicad-pcb.org/
 
 
 [[download-and-install-kicad]]
-=== Downloading and installing KiCad
+== Downloading and installing KiCad
 
 KiCad runs on GNU/Linux, Apple OS X and Windows.
 You can find the most up to date instructions and download links at:
@@ -104,7 +104,7 @@ is the goal of the KiCad Development Team to keep the development
 branch as usable as possible during new feature development.
 
 [[under-linux]]
-==== Under GNU/Linux
+=== Under GNU/Linux
 
 Stable releases of KiCad can be found in most distribution's package
 managers as kicad and kicad-doc. If your distribution does not provide
@@ -133,7 +133,7 @@ Alternatively, you can download and install a pre-compiled version of
 KiCad, or directly download the source code, compile and install KiCad.
 
 [[under-apple-os-x]]
-==== Under Apple OS X
+=== Under Apple OS X
 
 Stable builds of KiCad for OS X can be found at:
 http://downloads.kicad-pcb.org/osx/stable/
@@ -142,7 +142,7 @@ Unstable nightly development builds can be found at:
 http://downloads.kicad-pcb.org/osx/
 
 [[under-Windows]]
-==== Under Windows
+=== Under Windows
 
 Stable builds of KiCad for Windows can be found at:
 http://downloads.kicad-pcb.org/windows/stable/
@@ -150,13 +150,52 @@ http://downloads.kicad-pcb.org/windows/stable/
 For Windows you can find nightly development builds at:
 http://downloads.kicad-pcb.org/windows/
 
-[[support]]
-=== Support
-If you have ideas, remarks or questions, or if you just need help:
 
-* https://forum.kicad.info/[Visit the forum]
-* Join the http://webchat.freenode.net/?channels=kicad[#kicad IRC channel] on Freenode
-* http://www.kicad-pcb.org/help/tutorials/[Watch tutorials]
+[[using-kicad]]
+== Using KiCad
+
+=== Shortcut keys
+
+KiCad has two kinds of related but different shortcut keys: accelerator keys and
+hotkeys. Both are used to speed up working in KiCad by using the keyboard instead
+of the mouse to change commands.
+
+==== Accelerator keys
+Accelerator keys have the same effect as clicking on a menu or toolbar icon:
+the command will be entered but nothing will happen until the left mouse button
+is clicked. Use an accelerator key when you want to enter a command mode but do not
+want any immediate action.
+
+Accelerator keys are shown on the right side of all menu panes:
+
+image::images/gsik_accelerator_keys.png[Accelerator keys]
+
+==== Hotkeys
+A hotkey is equal to an accelerator key plus a left mouse click. Using a
+hotkey starts the command immediately at the current cursor location. Use
+a hotkey to quickly change commands without interrupting your workflow.
+
+To view hotkeys within any KiCad tool go to *_Preferences -> Hotkeys ->
+List Current Keys_* or press the question mark ("?"):
+
+image::images/gsik_hotkeys.png[Hotkeys]
+
+You can edit the assignment of hotkeys, and import or export them, from the
+*_Preferences -> Hotkeys_* menu.
+
+NOTE: In this document, hotkeys are expressed with brackets like this: [a].
+If you see [a], just type the "a" key on the keyboard.
+
+==== Example
+Consider the simple example of adding a wire in a schematic.
+
+To use an accelerator key, press "Shift + W" to invoke the "Add wire" command
+(note the cursor will change). Next, left click on the desired wire start
+location to begin drawing the wire.
+
+With a hotkey, simply press [w] and the wire will immediately start from the
+current cursor location.
+
 
 [[kicad-work-flow]]
 == KiCad Workflow
@@ -213,60 +252,16 @@ which are functionally equivalent, but it may only be during layout that
 there is a strong case for choosing the exact gate or pin. Once the choice
 is made in the PCB, this change is then pushed back to the schematic.
 
+[[tutorial]]
+== Tutorial
 
-[[using-kicad]]
-== Using KiCad
+The follwing sections will step through creating PCB fabrication files for a
+new project. Each phase of this process will be covered in brief and should
+be used as a guide to become familiar with KiCad.
 
-=== Shortcut keys
 
-KiCad has two kinds of related but different shortcut keys: accelerator keys and
-hotkeys. Both are used to speed up working in KiCad by using the keyboard instead
-of the mouse to change commands.
-
-==== Accelerator keys
-Accelerator keys have the same effect as clicking on a menu or toolbar icon:
-the command will be entered but nothing will happen until the left mouse button
-is clicked. Use an accelerator key when you want to enter a command mode but do not
-want any immediate action.
-
-Accelerator keys are shown on the right side of all menu panes:
-
-image::images/gsik_accelerator_keys.png[Accelerator keys]
-
-==== Hotkeys
-A hotkey is equal to an accelerator key plus a left mouse click. Using a
-hotkey starts the command immediately at the current cursor location. Use
-a hotkey to quickly change commands without interrupting your workflow.
-
-To view hotkeys within any KiCad tool go to *_Preferences -> Hotkeys ->
-List Current Keys_* or press the question mark ("?"):
-
-image::images/gsik_hotkeys.png[Hotkeys]
-
-You can edit the assignment of hotkeys, and import or export them, from the
-*_Preferences -> Hotkeys_* menu.
-
-NOTE: In this document, hotkeys are expressed with brackets like this: [a].
-If you see [a], just type the "a" key on the keyboard.
-
-==== Example
-Consider the simple example of adding a wire in a schematic.
-
-To use an accelerator key, press "Shift + W" to invoke the "Add wire" command
-(note the cursor will change). Next, left click on the desired wire start
-location to begin drawing the wire.
-
-With a hotkey, simply press [w] and the wire will immediately start from the
-current cursor location.
-
-[[draw-electronic-schematics]]
-== Draw electronic schematics
-
-In this section we are going to learn how to draw an electronic
-schematic using KiCad.
-
-[[using-eeschema]]
-=== Using Eeschema
+[[creating-new-project]]
+== Creating a new project
 
 1.  Under Windows run kicad.exe. Under Linux type 'kicad' in your
     Terminal. You are now in the main window of the KiCad project
@@ -282,6 +277,13 @@ image::images/kicad_main_window.png[KiCad Main Window]
     Name the project file 'tutorial1'. The project file will automatically
     take the extension ".pro". KiCad prompts to create a dedicated directory,
     click "Yes" to confirm. All your project files will be saved here.
+
+
+[[using-eeschema]]
+== Using Eeschema
+
+[[draw-electronic-schematics]]
+=== Drawing a schematic
 
 3.  Let's begin by creating a schematic. Start the schematic editor
     __Eeschema__, image:images/icons/eeschema.png[Eeschema]. It is the first
@@ -531,162 +533,9 @@ Warning Pin power_in not driven (Net xx)
     comments on the schematic use the 'Place graphic text (comment)'
     icon image:images/icons/add_text.png[add_text_png] on the right toolbar.
 
-45. All components now need to have unique identifiers. In fact, many
-    of our components are still named 'R?' or 'J?'. Identifier
-    assignation can be done automatically by clicking on the 'Annotate
-    schematic' icon image:images/icons/annotate.png[annotate_png] on the top
-    toolbar.
-
-46. In the Annotate Schematic window, select 'Use the entire
-    schematic' and click on the 'Annotation' button. Click OK in the
-    confirmation message and then click 'Close'. Notice how all the
-    '?' have been replaced with numbers. Each identifier is now
-    unique. In our example, they have been named 'R1', 'R2', 'U1',
-    'D1' and 'J1'.
-
-47. We will now check our schematic for errors. Click on the 'Perform
-    electrical rules check' icon image:images/icons/erc.png[erc_png] on the top
-    toolbar. Click on the 'Run' button. A report informing you of any errors or
-    warnings such as disconnected wires is generated. You should have 0 Errors
-    and 0 Warnings. In case of errors or warnings, a small green arrow will
-    appear on the schematic in the position where the error or the warning is
-    located. Check 'Create ERC file report' and press the 'Run' button again to
-    receive more information about the errors.
-+
-NOTE: If you have a warning with "No default editor found you must choose it",
-try setting the path to `c:\windows\notepad.exe` (windows) or `/usr/bin/gedit`
-(Linux).
-
-48. The schematic is now finished. We can now create a Netlist file to
-    which we will add the footprint of each component. Click on the
-    'Generate netlist' icon image:images/icons/netlist.png[netlist_png] on
-    the top toolbar. Click on the 'Generate' button and save under the default file name.
-
-49. After generating the Netlist file, click on the 'Run Cvpcb' icon
-    image:images/icons/cvpcb.png[cvpcb_png] on the top
-    toolbar. If a missing file error window pops up, just ignore it
-    and click OK.
-
-50. _Cvpcb_ allows you to link all the components in your schematic
-    with footprints in the KiCad library. The pane on the center shows
-    all the components used in your schematic. Here select 'D1'. In
-    the pane on the right you have all the available footprints, here
-    scroll down to 'LEDs:LED-5MM' and double click on it. 
-// missing image here?
-
-51. It is possible that the pane on the right shows only a selected
-    subgroup of available footprints. This is because KiCad is trying
-    to suggest to you a subset of suitable footprints. Click on the
-    icons image:images/icons/module_filtered_list.png[module_filtered_list_png],
-    image:images/icons/module_pin_filtered_list.png[module_pin_filtered_list_png] and
-    image:images/icons/module_library_list.png[module_library_list_png] to
-    enable or disable these filters.
-
-52. For 'IC1' select the 'Housings_DIP:DIP-8_W7.62mm' footprint.
-    For 'J1' select the 'Connect:Banana_Jack_3Pin' footprint.
-    For 'R1' and 'R2' select the 'Discret:R1' footprint.
-
-53. If you are interested in knowing what the footprint you are
-    choosing looks like, you have two options. You can click on the
-    'View selected footprint' icon
-    image:images/icons/show_footprint.png[show_footprint_png] for a preview
-    of the current footprint. Alternatively, click on the 'Display
-    footprint list documentation' icon
-    image:images/icons/datasheet.png[datasheet_png] and you will get a
-    multi-page PDF document with all available footprints. You can
-    print it out and check your components to make sure that the
-    dimensions match.
-
-54. You are done. You can now update your netlist file with all the
-    associated footprints. Click on *File* -> **Save As**. The default
-    name 'tutorial1.net' is fine, click save. Otherwise you can use the
-    icon image:images/icons/save.png[Save icon].  Your netlist file has now
-    been updated with all the footprints. Note that if you are missing
-    the footprint of any device, you will need to make your own
-    footprints. This will be explained in a later section of this
-    document.
-
-55. You can close _Cvpcb_ and go back to the _Eeschema_ schematic
-    editor. Save the project by clicking on *File* -> **Save Whole
-    Schematic Project**. Close the schematic editor.
-
-56. Switch to the KiCad project manager.
-
-57. The netlist file describes all components and their respective pin
-    connections. The netlist file is actually a text file that you can
-    easily inspect, edit or script.
-+
-NOTE: Library files (__*.lib__) are text files too and they are also
-easily editable or scriptable.
-
-58. To create a Bill Of Materials (BOM), go to the _Eeschema_ schematic
-    editor and click on the 'Bill of materials' icon
-    image:images/icons/bom.png[bom_png] on the top toolbar.
-    By default there is no plugin active. You add one, by clicking on
-    *Add Plugin* button. Select the *.xsl file you want to use, in
-    this case, we select __bom2csv.xsl__.
-+
-[NOTE]
-=====================================================================
-*Linux:*
-
-If xsltproc is missing, you can download and install it with:
-
- sudo apt-get install xsltproc
-
-for a Debian derived distro like Ubuntu, or
-
- sudo yum install xsltproc
-
-for a RedHat derived distro. If you use neither of the two kind of distro,
-use your distro package manager command to install the xsltproc package.
-
-xsl files are located at: _/usr/lib/kicad/plugins/_.
-
-*Apple OS X:*
-
-If xsltproc is missing, you can either install the Apple Xcode tool from
-the Apple site that should contain it, or download and install it with:
-
- brew install libxslt
-
-xsl files are located at: _/Library/Application Support/kicad/plugins/_.
-
-*Windows:*
-
-xsltproc.exe and the included xsl files will be located at
-_＜KiCad install directory＞\bin_ and
-_＜KiCad install directory＞\bin\scripting\plugins_, respectively.
-
-*All platforms:*
-
-You can get the latest bom2csv.xsl via:
-
-https://raw.githubusercontent.com/KiCad/kicad-source-mirror/master/eeschema/plugins/bom2csv.xsl
-=====================================================================
-+
-.KiCad automatically generates the command, for example:
----------
-xsltproc -o "%O" "/home/<user>/kicad/eeschema/plugins/bom2csv.xsl" "%I"
----------
-+
-.You may want to add the extension, so change this command line to:
----------
-xsltproc -o "%O.csv" "/home/<user>/kicad/eeschema/plugins/bom2csv.xsl" "%I"
----------
-+
-Press Help button for more info.
-
-59. Now press 'Generate'. The file (same name as your project) is
-    located in your project folder.  Open the **.csv* file with
-    LibreOffice Calc or Excel. An import window will appear, press OK.
-
-You are now ready to move to the PCB layout part, which is presented in
-the next section. However, before moving on let's take a quick look at
-how to connect component pins using a bus line.
 
 [[bus-connections-in-kicad]]
-=== Bus connections in KiCad
+=== Connecting to a bus
 
 Sometimes you might need to connect several sequential pins of component
 A with some other sequential pins of component B. In this case you have
@@ -757,14 +606,188 @@ have been placed with this option.
 +
 image::images/gsik_bus_connection.png[gsik_bus_connection_png]
 
-[[layout-printed-circuit-boards]]
-== Layout printed circuit boards
+
+[[annotating-schematic]]
+=== Annotating the schematic
+
+45. All components now need to have unique identifiers. In fact, many
+    of our components are still named 'R?' or 'J?'. Identifier
+    assignation can be done automatically by clicking on the 'Annotate
+    schematic' icon image:images/icons/annotate.png[annotate_png] on the top
+    toolbar.
+
+46. In the Annotate Schematic window, select 'Use the entire
+    schematic' and click on the 'Annotation' button. Click OK in the
+    confirmation message and then click 'Close'. Notice how all the
+    '?' have been replaced with numbers. Each identifier is now
+    unique. In our example, they have been named 'R1', 'R2', 'U1',
+    'D1' and 'J1'.
+
+
+[[electrical-rules-check]]
+=== Electrical rules check
+
+47. We will now check our schematic for errors. Click on the 'Perform
+    electrical rules check' icon image:images/icons/erc.png[erc_png] on the top
+    toolbar. Click on the 'Run' button. A report informing you of any errors or
+    warnings such as disconnected wires is generated. You should have 0 Errors
+    and 0 Warnings. In case of errors or warnings, a small green arrow will
+    appear on the schematic in the position where the error or the warning is
+    located. Check 'Create ERC file report' and press the 'Run' button again to
+    receive more information about the errors.
++
+NOTE: If you have a warning with "No default editor found you must choose it",
+try setting the path to `c:\windows\notepad.exe` (windows) or `/usr/bin/gedit`
+(Linux).
+
+
+[[assigning-footprints]]
+== Assigning footprints
+
+49. After generating the Netlist file, click on the 'Run Cvpcb' icon
+    image:images/icons/cvpcb.png[cvpcb_png] on the top
+    toolbar. If a missing file error window pops up, just ignore it
+    and click OK.
+
+50. _Cvpcb_ allows you to link all the components in your schematic
+    with footprints in the KiCad library. The pane on the center shows
+    all the components used in your schematic. Here select 'D1'. In
+    the pane on the right you have all the available footprints, here
+    scroll down to 'LEDs:LED-5MM' and double click on it. 
+// missing image here?
+
+51. It is possible that the pane on the right shows only a selected
+    subgroup of available footprints. This is because KiCad is trying
+    to suggest to you a subset of suitable footprints. Click on the
+    icons image:images/icons/module_filtered_list.png[module_filtered_list_png],
+    image:images/icons/module_pin_filtered_list.png[module_pin_filtered_list_png] and
+    image:images/icons/module_library_list.png[module_library_list_png] to
+    enable or disable these filters.
+
+52. For 'IC1' select the 'Housings_DIP:DIP-8_W7.62mm' footprint.
+    For 'J1' select the 'Connect:Banana_Jack_3Pin' footprint.
+    For 'R1' and 'R2' select the 'Discret:R1' footprint.
+
+53. If you are interested in knowing what the footprint you are
+    choosing looks like, you have two options. You can click on the
+    'View selected footprint' icon
+    image:images/icons/show_footprint.png[show_footprint_png] for a preview
+    of the current footprint. Alternatively, click on the 'Display
+    footprint list documentation' icon
+    image:images/icons/datasheet.png[datasheet_png] and you will get a
+    multi-page PDF document with all available footprints. You can
+    print it out and check your components to make sure that the
+    dimensions match.
+
+55. You can close _Cvpcb_ and go back to the _Eeschema_ schematic
+    editor. Save the project by clicking on *File* -> **Save Whole
+    Schematic Project**. Close the schematic editor.
+    
+
+[[saving-netlist]]
+== Saving a netlist
+
+48. The schematic is now finished. We can now create a Netlist file to
+    which we will add the footprint of each component. Click on the
+    'Generate netlist' icon image:images/icons/netlist.png[netlist_png] on
+    the top toolbar. Click on the 'Generate' button and save under the default file name.
+    
+54. You are done. You can now update your netlist file with all the
+    associated footprints. Click on *File* -> **Save As**. The default
+    name 'tutorial1.net' is fine, click save. Otherwise you can use the
+    icon image:images/icons/save.png[Save icon].  Your netlist file has now
+    been updated with all the footprints. Note that if you are missing
+    the footprint of any device, you will need to make your own
+    footprints. This will be explained in a later section of this
+    document.
+
+56. Switch to the KiCad project manager.
+
+57. The netlist file describes all components and their respective pin
+    connections. The netlist file is actually a text file that you can
+    easily inspect, edit or script.
++
+NOTE: Library files (__*.lib__) are text files too and they are also
+easily editable or scriptable.
+
+
+[[generating-bom]]
+== Generating a BOM
+58. To create a Bill Of Materials (BOM), go to the _Eeschema_ schematic
+    editor and click on the 'Bill of materials' icon
+    image:images/icons/bom.png[bom_png] on the top toolbar.
+    By default there is no plugin active. You add one, by clicking on
+    *Add Plugin* button. Select the *.xsl file you want to use, in
+    this case, we select __bom2csv.xsl__.
++
+[NOTE]
+=====================================================================
+*Linux:*
+
+If xsltproc is missing, you can download and install it with:
+
+ sudo apt-get install xsltproc
+
+for a Debian derived distro like Ubuntu, or
+
+ sudo yum install xsltproc
+
+for a RedHat derived distro. If you use neither of the two kind of distro,
+use your distro package manager command to install the xsltproc package.
+
+xsl files are located at: _/usr/lib/kicad/plugins/_.
+
+*Apple OS X:*
+
+If xsltproc is missing, you can either install the Apple Xcode tool from
+the Apple site that should contain it, or download and install it with:
+
+ brew install libxslt
+
+xsl files are located at: _/Library/Application Support/kicad/plugins/_.
+
+*Windows:*
+
+xsltproc.exe and the included xsl files will be located at
+_＜KiCad install directory＞\bin_ and
+_＜KiCad install directory＞\bin\scripting\plugins_, respectively.
+
+*All platforms:*
+
+You can get the latest bom2csv.xsl via:
+
+https://raw.githubusercontent.com/KiCad/kicad-source-mirror/master/eeschema/plugins/bom2csv.xsl
+=====================================================================
++
+.KiCad automatically generates the command, for example:
+---------
+xsltproc -o "%O" "/home/<user>/kicad/eeschema/plugins/bom2csv.xsl" "%I"
+---------
++
+.You may want to add the extension, so change this command line to:
+---------
+xsltproc -o "%O.csv" "/home/<user>/kicad/eeschema/plugins/bom2csv.xsl" "%I"
+---------
++
+Press Help button for more info.
+
+59. Now press 'Generate'. The file (same name as your project) is
+    located in your project folder.  Open the **.csv* file with
+    LibreOffice Calc or Excel. An import window will appear, press OK.
+
+You are now ready to move to the PCB layout part, which is presented in
+the next section. However, before moving on let's take a quick look at
+how to connect component pins using a bus line.
+
+
+[[using-pdbnew]]
+== Using Pcbnew
 
 It is now time to use the netlist file you generated to lay out the PCB.
 This is done with the _Pcbnew_ tool.
 
-[[using-pdbnew]]
-=== Using Pcbnew
+[[set-up-pcb]]
+=== Creating and setting up a PCB
 
 1.  From the KiCad project manager, click on the 'Pcbnew' icon
     image:images/icons/pcbnew.png[pcbnew_png]. The 'Pcbnew' window will
@@ -789,6 +812,10 @@ image::images/design_rules.png[Design Rules Window]
 4.  Click on the 'Global Design Rules' tab and set 'Min track width' to
     0.25'. Click the OK button to commit your changes and close the Design
     Rules Editor window.
+
+
+[[designing-pcb]]
+=== Designing a PCB
 
 5.  Now we will import the netlist file. Click on the 'Read Netlist'
     icon image:images/icons/netlist.png[netlist_png] on the top
@@ -940,111 +967,6 @@ image::images/pcbnew_3d_viewer.png[pcbnew_3d_viewer_png]
 28. Your board is complete. To send it off to a manufacturer you will
     need to generate all Gerber files.
 
-[[generate-gerber-files]]
-=== Generate Gerber files
-
-Once your PCB is complete, you can generate Gerber files for each layer
-and send them to your favourite PCB manufacturer, who will make the
-board for you.
-
-1.  From KiCad, open the _Pcbnew_ software tool and load your board
-    file by clicking on the icon
-    image:images/icons/open_document.png[open_document_png].
-
-2.  Click on *File* -> **Plot**. Select 'Gerber' as the 'Plot Format'
-    and select the folder in which to put all Gerber files.
-    Proceed by clicking on the 'Plot' button.
-
-3.  These are the layers you need to select for making a typical 2-layer
-    PCB:
-
-[width="100%",cols="20%,20%,20%,20%,20%",options="header"]
-|=========================================================
-|Layer |KiCad Layer Name |Old KiCad Layer Name |Default Gerber Extension
-    |"Use Protel filename extensions" is enabled
-|Bottom Layer |B.Cu |Copper |.GBR |.GBL
-|Top Layer |F.Cu |Component |.GBR |.GTL
-|Top Overlay |F.SilkS |SilkS_Cmp |.GBR |.GTO
-|Bottom Solder Resist |B.Mask |Mask_Cop |.GBR |.GBS
-|Top Solder Resist |F.Mask |Mask_Cmp |.GBR |.GTS
-|Edges |Edge.Cuts |Edges_Pcb |.GBR |.GM1
-|=========================================================
-
-[[using-gerbview]]
-=== Using GerbView
-
-1.  To view all your Gerber files go to the KiCad project manager and click
-    on the 'GerbView' icon.
-    On the drop-down menu select 'Layer 1'. Click on *File* -> *Load Gerber
-    file* or click on the icon
-    image:images/icons/gerber_file.png[gerber_file_png]. Load all generated Gerber
-    files one at a time. Note how they all get displayed one on top of the
-    other.
-
-2.  Use the menu on the right to select/deselect which layer to show.
-    Carefully inspect each layer before sending them for production.
-
-3.  To generate the drill file, from _Pcbnew_ go again to the *File* ->
-    *Plot* option. Default settings should be fine.
-
-[[automatically-route-with-freerouter]]
-=== Automatically route with FreeRouter
-
-Routing a board by hand is quick and fun, however, for a board with lots
-of components you might want to use an autorouter. Remember that you
-should first route critical traces by hand and then set the autorouter
-to do the boring bits. Its work will only account for the unrouted
-traces. The autorouter we will use here is FreeRouter from
-__freerouting.net__.
-
-NOTE: Freerouter is an open source java application,
-and it is needed to build by yourself to use with KiCad.
-Source code of Freerouter can be found on this site:
-https://github.com/nikropht/FreeRouting
-
-1.  From _Pcbnew_ click on *File* -> *Export* -> *Specctra DSN*
-    or click on *Tools* -> *FreeRoute* -> **Export a Specctra
-    Design (*.dsn) file** and save the file locally.
-    Launch FreeRouter and click on the 'Open Your Own Design'
-    button, browse for the _dsn_ file and load it.
-+
-NOTE: The *Tools* -> *FreeRoute* dialog has a nice help button
-that opens a file viewer with a little document inside named
-**Freerouter Guidelines**. Please follow these guidelines to
-use FreeRoute effectively.
-
-2.  FreeRouter has some features that KiCad does not currently have,
-    both for manual routing and for automatic routing. FreeRouter
-    operates in two main steps: first, routing the board and then
-    optimising it. Full optimisation can take a long time, however you
-    can stop it at any time need be.
-
-3.  You can start the automatic routing by clicking on the
-    'Autorouter' button on the top bar. The bottom bar gives you
-    information about the on-going routing process. If the 'Pass'
-    count gets above 30, your board probably can not be autorouted
-    with this router. Spread your components out more or rotate them
-    better and try again. The goal in rotation and position of parts
-    is to lower the number of crossed airlines in the ratsnest.
-
-4.  Making a left-click on the mouse can stop the automatic routing
-    and automatically start the optimisation process. Another
-    left-click will stop the optimisation process. Unless you really
-    need to stop, it is better to let FreeRouter finish its job.
-
-5.  Click on the *File* -> *Export Specctra Session File* menu and
-    save the board file with the _.ses_ extension. You do not really
-    need to save the FreeRouter rules file.
-
-6.  Back to __Pcbnew__. You can import your freshly routed board by
-    clicking on the link *Tools* -> *FreeRoute* and then on the icon
-    'Back Import the Spectra Session (.ses) File' and selecting
-    your _.ses_ file.
-
-If there is any routed trace that you do not like, you can delete it and
-re-route it again, using [Delete] and the routing tool, which is the
-'Add tracks' icon image:images/icons/add_tracks.png[Add Track icon] on the
-right toolbar.
 
 [[forward-annotation-in-kicad]]
 == Forward annotation in KiCad
@@ -1112,8 +1034,118 @@ those modifications in your schematic and netlist file. The Backward
 Annotation method, however, is not that useful and is therefore not
 described here.
 
+
+[[automatically-route-with-freerouter]]
+== Autorouting with FreeRouter
+
+Routing a board by hand is quick and fun, however, for a board with lots
+of components you might want to use an autorouter. Remember that you
+should first route critical traces by hand and then set the autorouter
+to do the boring bits. Its work will only account for the unrouted
+traces. The autorouter we will use here is FreeRouter from
+__freerouting.net__.
+
+NOTE: Freerouter is an open source java application,
+and it is needed to build by yourself to use with KiCad.
+Source code of Freerouter can be found on this site:
+https://github.com/nikropht/FreeRouting
+
+1.  From _Pcbnew_ click on *File* -> *Export* -> *Specctra DSN*
+    or click on *Tools* -> *FreeRoute* -> **Export a Specctra
+    Design (*.dsn) file** and save the file locally.
+    Launch FreeRouter and click on the 'Open Your Own Design'
+    button, browse for the _dsn_ file and load it.
++
+NOTE: The *Tools* -> *FreeRoute* dialog has a nice help button
+that opens a file viewer with a little document inside named
+**Freerouter Guidelines**. Please follow these guidelines to
+use FreeRoute effectively.
+
+2.  FreeRouter has some features that KiCad does not currently have,
+    both for manual routing and for automatic routing. FreeRouter
+    operates in two main steps: first, routing the board and then
+    optimising it. Full optimisation can take a long time, however you
+    can stop it at any time need be.
+
+3.  You can start the automatic routing by clicking on the
+    'Autorouter' button on the top bar. The bottom bar gives you
+    information about the on-going routing process. If the 'Pass'
+    count gets above 30, your board probably can not be autorouted
+    with this router. Spread your components out more or rotate them
+    better and try again. The goal in rotation and position of parts
+    is to lower the number of crossed airlines in the ratsnest.
+
+4.  Making a left-click on the mouse can stop the automatic routing
+    and automatically start the optimisation process. Another
+    left-click will stop the optimisation process. Unless you really
+    need to stop, it is better to let FreeRouter finish its job.
+
+5.  Click on the *File* -> *Export Specctra Session File* menu and
+    save the board file with the _.ses_ extension. You do not really
+    need to save the FreeRouter rules file.
+
+6.  Back to __Pcbnew__. You can import your freshly routed board by
+    clicking on the link *Tools* -> *FreeRoute* and then on the icon
+    'Back Import the Spectra Session (.ses) File' and selecting
+    your _.ses_ file.
+
+If there is any routed trace that you do not like, you can delete it and
+re-route it again, using [Delete] and the routing tool, which is the
+'Add tracks' icon image:images/icons/add_tracks.png[Add Track icon] on the
+right toolbar.
+
+
+[[generate-gerber-files]]
+== Generating Gerber and drill files
+
+Once your PCB is complete, you can generate Gerber files for each layer
+and send them to your favourite PCB manufacturer, who will make the
+board for you.
+
+1.  From KiCad, open the _Pcbnew_ software tool and load your board
+    file by clicking on the icon
+    image:images/icons/open_document.png[open_document_png].
+
+2.  Click on *File* -> **Plot**. Select 'Gerber' as the 'Plot Format'
+    and select the folder in which to put all Gerber files.
+    Proceed by clicking on the 'Plot' button.
+
+3.  These are the layers you need to select for making a typical 2-layer
+    PCB:
+
+[width="100%",cols="20%,20%,20%,20%,20%",options="header"]
+|=========================================================
+|Layer |KiCad Layer Name |Old KiCad Layer Name |Default Gerber Extension
+    |"Use Protel filename extensions" is enabled
+|Bottom Layer |B.Cu |Copper |.GBR |.GBL
+|Top Layer |F.Cu |Component |.GBR |.GTL
+|Top Overlay |F.SilkS |SilkS_Cmp |.GBR |.GTO
+|Bottom Solder Resist |B.Mask |Mask_Cop |.GBR |.GBS
+|Top Solder Resist |F.Mask |Mask_Cmp |.GBR |.GTS
+|Edges |Edge.Cuts |Edges_Pcb |.GBR |.GM1
+|=========================================================
+
+
+[[using-gerbview]]
+== Using GerbView
+
+1.  To view all your Gerber files go to the KiCad project manager and click
+    on the 'GerbView' icon.
+    On the drop-down menu select 'Layer 1'. Click on *File* -> *Load Gerber
+    file* or click on the icon
+    image:images/icons/gerber_file.png[gerber_file_png]. Load all generated Gerber
+    files one at a time. Note how they all get displayed one on top of the
+    other.
+
+2.  Use the menu on the right to select/deselect which layer to show.
+    Carefully inspect each layer before sending them for production.
+
+3.  To generate the drill file, from _Pcbnew_ go again to the *File* ->
+    *Plot* option. Default settings should be fine.
+
+
 [[make-schematic-components-in-kicad]]
-== Make schematic components in KiCad
+== Making schematic components
 
 Sometimes a component that you want to place on your schematic is not 
 in a KiCad library. This is quite normal and there is no reason to
@@ -1218,7 +1250,7 @@ image::images/gsik_myconn3_l.png[gsik_myconn3_l_png]
     defined search path' and _file.lib_ in 'Component library files'.
 
 [[export-import-and-modify-library-components]]
-=== Export, import and modify library components
+=== Exporting, importing and modifying library components
 
 Instead of creating a library component from scratch it is sometimes
 easier to start from one already made and modify it. In this section we
@@ -1264,7 +1296,7 @@ will see how to export a component from the KiCad standard library
     toolbar.
 
 [[make-schematic-components-with-quicklib]]
-=== Make schematic components with quicklib
+=== Making components with Quicklib
 
 This section presents an alternative way of creating the schematic
 component for MYCONN3 (see <<myconn3,MYCONN3>> above) using the
@@ -1303,7 +1335,7 @@ quite effective when you want to create components with a large pin
 count.
 
 [[make-a-high-pin-count-schematic-component]]
-=== Make a high pin count schematic component
+=== Making a high pin count component
 
 In the section titled _Make Schematic Components in quicklib_ we saw how
 to make a schematic component using the _quicklib_ web-based tool.
@@ -1387,7 +1419,7 @@ image::images/gsik_high_number_pins.png[gsik_high_number_pins_png]
     Regular Expression syntax: _http://gskinner.com/RegExr/._
 
 [[make-component-footprints]]
-== Make component footprints
+== Making component footprints
 
 Unlike other EDA software tools, which have one type of library that
 contains both the schematic symbol and the footprint variations, KiCad
@@ -1463,7 +1495,7 @@ image::images/pad_properties.png[Pad Properties]
     toolbar, using the default name MYCONN3.
 
 [[note-about-portability-of-kicad-project-files]]
-== Note about portability of KiCad project files
+== Portability of KiCad project files
 
 What files do you need to send to someone so that they can fully load
 and use your KiCad project?
@@ -1521,7 +1553,7 @@ tutorial1/
 ----------------------
 
 [[more-about-kicad-documentation]]
-== More about KiCad documentation
+== KiCad support and documentation
 
 This has been a quick guide on most of the features in KiCad. For more
 detailed instructions consult the help files which you can access
@@ -1552,10 +1584,9 @@ On OS X:
 
  /Library/Application Support/kicad/help/en
 
-[[kicad-documentation-on-the-web]]
-=== KiCad documentation on the Web
+If you have ideas, remarks or questions, or if you just need help:
 
-Latest KiCad documentations are available in multiple languages on the Web.
-
-http://kicad-pcb.org/help/documentation/
-
+* http://kicad-pcb.org/help/documentation/[View the documentation online]
+* https://forum.kicad.info/[Visit the forum]
+* Join the http://webchat.freenode.net/?channels=kicad[#kicad IRC channel] on Freenode
+* http://www.kicad-pcb.org/help/tutorials/[Watch tutorials]
