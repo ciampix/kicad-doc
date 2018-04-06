@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Eeschema-ja\n"
 "POT-Creation-Date: 2018-03-28 22:24+0900\n"
-"PO-Revision-Date: 2018-04-03 22:18+0900\n"
+"PO-Revision-Date: 2018-04-05 22:06+0900\n"
 "Last-Translator: asukiaaa <asukiaaa@gmail.com>\n"
 "Language-Team: kicad.jp <kicad@kicad.jp>\n"
 "Language: ja\n"
@@ -5801,9 +5801,9 @@ msgstr "ファイルメニュー"
 
 #. type: Target for macro image
 #: eeschema_main_top_menu.adoc:8
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "images/en/menu_file.png"
-msgstr "images/en/menu_file.png"
+msgstr "images/ja/menu_file.png"
 
 #. type: delimited block |
 #: eeschema_main_top_menu.adoc:13
@@ -5885,9 +5885,9 @@ msgstr "設定メニュー"
 
 #. type: Target for macro image
 #: eeschema_main_top_menu.adoc:40
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "images/en/menu_preferences.png"
-msgstr "images/en/menu_preferences.png"
+msgstr "images/ja/menu_preferences.png"
 
 #. type: delimited block |
 #: eeschema_main_top_menu.adoc:50
@@ -5921,9 +5921,9 @@ msgstr "シンボル ライブラリ テーブル"
 
 #. type: Target for macro image
 #: eeschema_main_top_menu.adoc:55
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "images/en/options_symbol_lib.png"
-msgstr "images/en/options_symbol_lib.png"
+msgstr "images/ja/options_symbol_lib.png"
 
 #. type: Plain text
 #: eeschema_main_top_menu.adoc:59
@@ -6058,9 +6058,9 @@ msgstr "表示設定"
 
 #. type: Target for macro image
 #: eeschema_main_top_menu.adoc:109
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "images/en/options_display.png"
-msgstr "images/en/options_display.png"
+msgstr "images/ja/options_display.png"
 
 #. type: delimited block |
 #: eeschema_main_top_menu.adoc:114
@@ -6153,89 +6153,68 @@ msgstr "*メモ:* 問題の発生や処理が遅くなる可能性があるの�
 #: eeschema_main_top_menu.adoc:146
 #, no-wrap
 msgid "Editing"
-msgstr ""
+msgstr "編集"
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_main_top_menu.adoc:148
-#, fuzzy, no-wrap
-#| msgid "Library settings"
+#, no-wrap
 msgid "Editing settings"
-msgstr "Library settings"
+msgstr "編集設定"
 
 #. type: Target for macro image
 #: eeschema_main_top_menu.adoc:148
-#, fuzzy, no-wrap
-#| msgid "images/en/options.png"
+#, no-wrap
 msgid "images/en/options_editing.png"
-msgstr "images/ja/options.png"
+msgstr "images/ja/options_editing.png"
 
 #. type: delimited block |
 #: eeschema_main_top_menu.adoc:154
-#, fuzzy, no-wrap
-#| msgid ""
-#| "|Measurement units: |Select the display and the cursor coordinate units\n"
-#| "(inches or millimeters).\n"
+#, no-wrap
 msgid ""
 "|Measurement units |Select the display and the cursor coordinate units\n"
 "(inches or millimeters).\n"
-msgstr ""
-"| 計測単位: | 表示とカーソル座標の単位\n"
-"（インチまたは mm ）を選択。\n"
+msgstr "| 計測単位 | 表示とカーソル座標の単位（インチまたは mm ）を選べます。\n"
 
 #. type: delimited block |
 #: eeschema_main_top_menu.adoc:159
-#, fuzzy, no-wrap
-#| msgid ""
-#| "(after placing an item like a component, label or wire,\n"
-#| "a duplication is made by the _Insert_ key)\n"
+#, no-wrap
 msgid ""
 "|Horizontal pitch of repeated items |\n"
 "Increment on X axis during element duplication (default: 0)\n"
 "(after placing an item like a symbol, label or wire,\n"
 "a duplication is made by the _Insert_ key)\n"
 msgstr ""
-"（コンポーネント、ラベル、配線といったアイテムの配置後、 ::\n"
-" _インサート_ キーにより複写される。)\n"
+"| 繰り返し配置の水平間隔 |\n"
+"アイテムをコピーする際のX軸の増加値（通常は0）\n"
+"（シンボル、ラベル、配線などの要素を設置した後に Insert キーを押すと、直前に扱っていた要素をコピーできます。）\n"
 
 #. type: delimited block |
 #: eeschema_main_top_menu.adoc:162
-#, fuzzy, no-wrap
-#| msgid ""
-#| "|Repeat draw item vertical displacement |increment on Y axis during\n"
-#| "element duplication (usual value is 0.100 inches or 2,54 mm)\n"
+#, no-wrap
 msgid ""
 "|Vertical pitch of repeated items| Increment on Y axis during\n"
 "element duplication (default: 0.100 inches or 2,54 mm).\n"
-msgstr ""
-"| アイテムを垂直方向にリピート | 要素複写する際のY軸の\n"
-"シフト値（通常、値は 0.100 inch あるいは 2,54 mm)\n"
+msgstr "| 繰り返し配置の垂直間隔 | アイテムをコピーする際のY軸の増加値（通常は 0.100 inch か 2,54 mm）。\n"
 
 #. type: delimited block |
 #: eeschema_main_top_menu.adoc:165
-#, fuzzy, no-wrap
-#| msgid ""
-#| "|Repeat label increment: |Increment of label value during duplication of texts ending\n"
-#| "in a number, such as bus members (usual value 1 or -1).\n"
+#, no-wrap
 msgid ""
 "|Increment of repeated labels |Increment of label value during duplication of texts ending\n"
 "in a number, such as bus members (usual value 1 or -1).\n"
-msgstr ""
-"| ラベルのカウントアップリピート: | バスの配線のように，一つずつカウントアップ\n"
-"する値 （通常、値は 1 か -1 ）。\n"
+msgstr "| 繰り返しラベルの増分値 | バスの配線のように、数字で終わるラベルの増加量（通常は 1 か -1 ）。\n"
 
 #. type: delimited block |
 #: eeschema_main_top_menu.adoc:167
-#, fuzzy, no-wrap
-#| msgid "|Default text size: |Text size used when creating new text items or labels\n"
+#, no-wrap
 msgid "|Default text size |Text size used when creating new text items or labels.\n"
-msgstr "| デフォルトペンサイズ: | 新しいテキストやラベルが新規作成される時に使用される。\n"
+msgstr "| デフォルトのテキストサイズ: | 新しいテキストやラベルが新規作成される時に使用されます。\n"
 
 #. type: delimited block |
 #: eeschema_main_top_menu.adoc:169
-#, fuzzy, no-wrap
-#| msgid "|Auto save time interval: |Time in minutes between saving backups.\n"
+#, no-wrap
 msgid "|Auto-save time interval |Time in minutes between saving backups.\n"
-msgstr "| 自動保存の間隔: | バックアップを保存する時間間隔（分）。\n"
+msgstr "| 自動保存の間隔 | バックアップを保存する間隔（分）。\n"
 
 #. type: delimited block |
 #: eeschema_main_top_menu.adoc:173
@@ -6245,6 +6224,8 @@ msgid ""
 "reference) in newly placed symbols might be moved to avoid collisions with\n"
 "other items.\n"
 msgstr ""
+"| シンボル フィールドを自動配置 | チェックされた場合、シンボル フィールド（値やリファレンス）は他のアイテムと衝突しないように移動して配置されます。\n"
+"\n"
 
 #. type: delimited block |
 #: eeschema_main_top_menu.adoc:177
@@ -6253,7 +6234,7 @@ msgid ""
 "|Allow field autoplace to change justification | Extension of 'Automatically\n"
 "place symbol fields' option. Enable text justification adjustment for symbol fields when placing\n"
 "a new part.\n"
-msgstr ""
+msgstr "| 揃えの変更によるフィールドの自動配置を許可 | 'シンボル フィールドを自動配置'の追加オプションです。新しいアイテムが配置された際に、シンボルフィールドのテキストを揃えます。\n"
 
 #. type: delimited block |
 #: eeschema_main_top_menu.adoc:181
@@ -6262,33 +6243,30 @@ msgid ""
 "|Always align autoplaced fields to the 50 mil grid |Extension of 'Automatically\n"
 "place symbol fields' option. If checked, fields are autoplaced using 50 mils\n"
 "grid, otherwise they are placed freely.\n"
-msgstr ""
+msgstr "| 常に 50 mil グリッドへ自動配置フィールドを整列 | 'シンボル フィールドを自動配置'の追加オプションです。チェックされた場合、フィールドは 50 mil のグリッドで配置されます。そうでなければ、自由な場所に配置されます。\n"
 
 #. type: Title =====
 #: eeschema_main_top_menu.adoc:184
-#, fuzzy, no-wrap
-#| msgid "*Contributors*\n"
+#, no-wrap
 msgid "Controls"
-msgstr "*貢献者*\n"
+msgstr "コントロール"
 
 #. type: Plain text
 #: eeschema_main_top_menu.adoc:187
 msgid "Redefine hotkeys and set up the user interface behavior."
-msgstr ""
+msgstr "ホットキーの再定義とインターフェースの動作設定を行なえます。"
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_main_top_menu.adoc:188
-#, fuzzy, no-wrap
-#| msgid "Color settings"
+#, no-wrap
 msgid "Controls settings"
-msgstr "Color settings"
+msgstr "コントロール設定"
 
 #. type: Target for macro image
 #: eeschema_main_top_menu.adoc:188
-#, fuzzy, no-wrap
-#| msgid "images/en/options.png"
+#, no-wrap
 msgid "images/en/options_controls.png"
-msgstr "images/ja/options.png"
+msgstr "images/ja/options_controls.png"
 
 #. type: Plain text
 #: eeschema_main_top_menu.adoc:192
@@ -6296,6 +6274,8 @@ msgid ""
 "Select a new hotkey by double clicking an action or right click on an action "
 "to show a popup menu:"
 msgstr ""
+"アクションをダブルクリックか右クリックすると、ポップアップメニューが表示され"
+"ます : "
 
 #. type: delimited block |
 #: eeschema_main_top_menu.adoc:200
@@ -6307,13 +6287,16 @@ msgid ""
 "|Undo All Changes | Reverts all recent hotkey changes for the action.\n"
 "|Restore All to Default | Sets all action hotkeys to their default values.\n"
 msgstr ""
+"| 編集 | アクションに対する新しいホットキーを定義します。（ダブルクリックするのと同じです。）\n"
+"| 変更を元に戻す | ホットキーに関する直近の変更を元に戻します。\n"
+"| デフォルト値を復元 | アクションのホットキーをデフォルト値にします。\n"
+"| 全ての変更を元に戻す | ホットキーに関する直近全ての変更をもとに戻します。\n"
+"| デフォルト値を全て復元 | 全てのアクションのホットキーをデフォルト値にします。\n"
 
 #. type: Plain text
 #: eeschema_main_top_menu.adoc:203
-#, fuzzy
-#| msgid "Description"
 msgid "Options description:"
-msgstr "概要"
+msgstr "オプションの説明 :"
 
 #. type: delimited block |
 #: eeschema_main_top_menu.adoc:208
@@ -6321,7 +6304,7 @@ msgstr "概要"
 msgid ""
 "|Center and warp cursor on zoom | If checked, the pointed location is warped\n"
 "to the screen center when zooming in/out.\n"
-msgstr ""
+msgstr "| カーソルを中心にしてズーム | チェックした場合、カーソルの中心が拡大や縮小の中心になります。\n"
 
 #. type: delimited block |
 #: eeschema_main_top_menu.adoc:212
@@ -6330,79 +6313,67 @@ msgid ""
 "|Use touchpad to pan |When enabled, view is panned using scroll wheels (or\n"
 "touchpad gestures) and to zoom one needs to hold Ctrl. Otherwise scroll wheels\n"
 "zoom in/out and Ctrl/Shift are the panning modifiers.\n"
-msgstr ""
+msgstr "| 画面のパンにタッチパッドを使用 | 有効にした場合、マウスホイール（またはタッチパッドのジェスチャー）を動かすとビューはパンされ、 Ctrl を押しながら動かすとズームします。そうでなければ、基本ズーム、 Ctrl か Shift を押しながらだとパンします。\n"
 
 #. type: delimited block |
 #: eeschema_main_top_menu.adoc:215
-#, fuzzy, no-wrap
-#| msgid ""
-#| "|Pan while moving object |If checked, automatically shifts the window\n"
-#| "if the cursor leaves the window during drawing or moving.\n"
+#, no-wrap
 msgid ""
 "|Pan while moving object |If checked, automatically pans the window\n"
 "if the cursor leaves the window during drawing or moving.\n"
-msgstr ""
-"| オブジェクト移動時に表示領域を移動 | チェックがある場合、配線作業や要素移動中にウィンドウから\n"
-"カーソルが出ようとすると、自動的にウィンドウが追従する。\n"
+msgstr "| オブジェクト移動時にパン | チェックした場合、配線作業や要素移動中にウィンドウからカーソルが出ようとすると、自動的にウィンドウが追従します。\n"
 
 #. type: Title =====
 #: eeschema_main_top_menu.adoc:218
-#, fuzzy, no-wrap
-#| msgid "Color settings"
+#, no-wrap
 msgid "Colors"
-msgstr "Color settings"
+msgstr "色"
 
 #. type: Plain text
 #: eeschema_main_top_menu.adoc:222
-#, fuzzy
-#| msgid ""
-#| "Color scheme for various graphic elements, and background color selection "
-#| "(either black or white)."
 msgid ""
 "Color scheme for various graphic elements. Click on any of the color "
 "swatches to select a new color for a particular element."
-msgstr "様々な要素の描画色と背景色（黒または白のみ）の設定。"
+msgstr ""
+"様々な要素の描画色です。色見本をクリックすると、その要素の新しい色を選択でき"
+"ます。"
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_main_top_menu.adoc:223
 #, no-wrap
 msgid "Color settings"
-msgstr "Color settings"
+msgstr "色設定"
 
 #. type: Target for macro image
 #: eeschema_main_top_menu.adoc:223
-#, fuzzy, no-wrap
-#| msgid "images/en/options.png"
+#, no-wrap
 msgid "images/en/options_color.png"
-msgstr "images/ja/options.png"
+msgstr "images/ja/options_color.png"
 
 #. type: Title =====
 #: eeschema_main_top_menu.adoc:226
-#, fuzzy, no-wrap
-#| msgid "Default hotkey list"
+#, no-wrap
 msgid "Default Fields"
-msgstr "以下はデフォルトのホットキーのリストです:"
+msgstr "デフォルトのフィールド"
 
 #. type: Plain text
 #: eeschema_main_top_menu.adoc:230
 msgid ""
 "Define additional custom fields and corresponding values that will appear in "
 "newly placed symbols."
-msgstr ""
+msgstr "シンボルに配置される追加のカスタムフィールドや関連する値を定義します。"
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_main_top_menu.adoc:231
-#, fuzzy, no-wrap
-#| msgid "Template Field Names settings"
+#, no-wrap
 msgid "Default Fields settings"
-msgstr "フィールド名のテンプレート"
+msgstr "デフォルトのフィールド設定"
 
 #. type: Target for macro image
 #: eeschema_main_top_menu.adoc:231
-#, fuzzy, no-wrap
-#| msgid "images/en/options.png"
+#, no-wrap
 msgid "images/en/options_default_fields.png"
-msgstr "images/ja/options.png"
+msgstr "images/ja/options_default_fields.png"
 
 #. type: Title ===
 #: eeschema_main_top_menu.adoc:234
@@ -6412,32 +6383,20 @@ msgstr "ヘルプメニュー"
 
 #. type: Plain text
 #: eeschema_main_top_menu.adoc:237
-#, fuzzy
-#| msgid ""
-#| "Access to on-line help (this document) for an extensive tutorial about "
-#| "KiCad. Use ``Copy Version Information'' when submitting bug reports to "
-#| "identify your build and system."
 msgid ""
 "Access to on-line help (this document) for an extensive tutorial about KiCad."
 msgstr ""
 "KiCad についての広範囲なチュートリアルについては、オンラインヘルプ（この文"
-"書）にアクセスします。ビルドと環境を明示してバグレポートを送る時は、“バージョ"
-"ン情報をコピー” を使って下さい。"
+"書）にアクセスします。"
 
 #. type: Plain text
 #: eeschema_main_top_menu.adoc:239
-#, fuzzy
-#| msgid ""
-#| "Access to on-line help (this document) for an extensive tutorial about "
-#| "KiCad. Use ``Copy Version Information'' when submitting bug reports to "
-#| "identify your build and system."
 msgid ""
 "Use ``Copy Version Information'' when submitting bug reports to identify "
 "your build and system."
 msgstr ""
-"KiCad についての広範囲なチュートリアルについては、オンラインヘルプ（この文"
-"書）にアクセスします。ビルドと環境を明示してバグレポートを送る時は、“バージョ"
-"ン情報をコピー” を使って下さい。"
+"バグレポートを送る時は、ビルドや環境の情報を明らかにするために、“バージョン情"
+"報をコピー” を使って下さい。"
 
 #. type: Title ==
 #: eeschema_introduction.adoc:2
@@ -6453,16 +6412,12 @@ msgstr "概要"
 
 #. type: Plain text
 #: eeschema_introduction.adoc:8
-#, fuzzy
-#| msgid ""
-#| "Eeschema is powerful schematic capture software distributed as part of "
-#| "KiCad and available under the following operating systems:"
 msgid ""
 "Eeschema is a schematic capture software distributed as a part of KiCad and "
 "available under the following operating systems:"
 msgstr ""
 "Eeschema は、KiCad の一部として配布されている強力な回路図エディタソフトウェア"
-"であり、次のオペレーティングシステムの下で利用可能です。:"
+"であり、次のオペレーティングシステムで利用可能です。:"
 
 #. type: Plain text
 #: eeschema_introduction.adoc:10
@@ -6471,10 +6426,8 @@ msgstr "Linux"
 
 #. type: Plain text
 #: eeschema_introduction.adoc:11
-#, fuzzy
-#| msgid "Apple OS X"
 msgid "Apple macOS"
-msgstr "Apple OS X"
+msgstr "Apple macOS"
 
 #. type: Plain text
 #: eeschema_introduction.adoc:12
@@ -6503,11 +6456,6 @@ msgstr ""
 
 #. type: Plain text
 #: eeschema_introduction.adoc:23
-#, fuzzy
-#| msgid ""
-#| "Eeschema is intended to work with PcbNew, which is KiCad's printed "
-#| "circuit design software. It can also export netlist files, which list all "
-#| "the electrical connections, for other packages."
 msgid ""
 "Eeschema is intended to cooperate with PcbNew, which is KiCad's printed "
 "circuit design software. It can also export netlist files, which lists all "
@@ -6519,20 +6467,14 @@ msgstr ""
 
 #. type: Plain text
 #: eeschema_introduction.adoc:28
-#, fuzzy
-#| msgid ""
-#| "Eeschema includes a component symbol editor, which can create and edit "
-#| "components and manage libraries.  It also integrates the following "
-#| "additional but essential functions needed for modern schematic capture "
-#| "software:"
 msgid ""
 "Eeschema includes a symbol library editor, which can create and edit symbols "
 "and manage libraries.  It also integrates the following additional but "
 "essential functions needed for modern schematic capture software:"
 msgstr ""
-"Eeschema は、コンポーネントの作成／編集やライブラリの管理ができるコンポーネン"
-"ト・ライブラリ・エディタを含んでいます。また、現代の回路図エディタソフトに必"
-"要不可欠な機能だけでなく、以下の追加機能も組み込まれています。：  "
+"Eeschema は、シンボルの作成／編集やライブラリの管理ができるシンボル ライブラ"
+"リ エディタを含んでいます。また、現代の回路図エディタソフトに必要不可欠な機能"
+"だけでなく、以下の追加機能も組み込まれています。：  "
 
 #. type: Plain text
 #: eeschema_introduction.adoc:31
@@ -6551,16 +6493,12 @@ msgstr ""
 
 #. type: Plain text
 #: eeschema_introduction.adoc:33
-#, fuzzy
-#| msgid ""
-#| "Bill of Materials generation (via Python scripts, which allow many "
-#| "configurable formats)."
 msgid ""
 "Bill of Materials generation (via Python or XSLT scripts, which allow many "
 "flexible formats)."
 msgstr ""
-"（様々なフォーマットを設定できるよう Python スクリプトを使用した）部品表 "
-"(BOM) の生成。"
+"（様々なフォーマットを設定できるよう Python か XSLT のスクリプトを使用した）"
+"部品表 (BOM) の生成。"
 
 #. type: Title ===
 #: eeschema_introduction.adoc:34
@@ -6570,12 +6508,6 @@ msgstr "技術的な概要"
 
 #. type: Plain text
 #: eeschema_introduction.adoc:40
-#, fuzzy
-#| msgid ""
-#| "Eeschema is limited only by the available memory. There is thus no real "
-#| "limitation to the number of components, component pins, connections, or "
-#| "sheets.  In the case of multi-sheet diagrams, the representation is "
-#| "hierarchical."
 msgid ""
 "Eeschema is limited only by the available memory. There is thus no real "
 "limitation to the number of components, component pins, connections or "
@@ -6588,11 +6520,9 @@ msgstr ""
 
 #. type: Plain text
 #: eeschema_introduction.adoc:42
-#, fuzzy
-#| msgid "Eeschema can use multi-sheet diagrams of these types:"
 msgid "Eeschema can use multi-sheet diagrams in a few ways:"
 msgstr ""
-"Eeschema は、次のタイプの複数のシートからなる回路図を扱うことができます:"
+"Eeschema は、いくつかの方法で複数のシートからなる回路図を扱うことができます:"
 
 #. type: Plain text
 #: eeschema_introduction.adoc:44
