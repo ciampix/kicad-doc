@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KiCadことはじめ\n"
 "POT-Creation-Date: 2018-03-28 22:24+0900\n"
-"PO-Revision-Date: 2018-04-07 16:13+0900\n"
+"PO-Revision-Date: 2018-04-07 16:15+0900\n"
 "Last-Translator: je6bmq <je6bmq@gmail.com>\n"
 "Language-Team: kicad.jp <kicad@kicad.jp>\n"
 "Language: ja\n"
@@ -1484,18 +1484,14 @@ msgstr ""
 #. type: Plain text
 #: getting_started_in_kicad.adoc:589
 #, fuzzy
-#| msgid ""
-#| "For 'IC1' select the 'Housings_DIP:DIP-8_W7.62mm' footprint.  For 'J1' "
-#| "select the 'Connect:Banana_Jack_3Pin' footprint.  For 'R1' and 'R2' "
-#| "select the 'Discret:R1' footprint."
 msgid ""
 "For 'IC1' select the 'Housings_DIP:DIP-8_W7.62mm' footprint.  For 'J1' "
 "select the 'Connectors:Banana_Jack_3Pin' footprint.  For 'R1' and 'R2' "
 "select the 'Discret:R1' footprint."
 msgstr ""
 "'IC1' にはフットプリント 'Housings_DIP:DIP-8_W7.62mm' を選択します。 'J1' に"
-"はフットプリント 'Connect:Banana_Jack_3Pin' を選択します。 'R1' と 'R2' には"
-"フットプリント 'Discret:R1' footprint を選択します。"
+"はフットプリント 'Connectors:Banana_Jack_3Pin' を選択します。 'R1' と 'R2' に"
+"はフットプリント 'Discret:R1' を選択します。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:600
