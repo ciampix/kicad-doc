@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KiCadことはじめ\n"
 "POT-Creation-Date: 2018-03-28 22:24+0900\n"
-"PO-Revision-Date: 2018-04-07 16:50+0900\n"
+"PO-Revision-Date: 2018-04-07 23:34+0900\n"
 "Last-Translator: je6bmq <je6bmq@gmail.com>\n"
 "Language-Team: kicad.jp <kicad@kicad.jp>\n"
 "Language: ja\n"
@@ -1122,7 +1122,6 @@ msgstr ""
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:440
-#, fuzzy
 msgid ""
 "Repeat the add-pin steps but this time select the GND part. Place a GND part "
 "under the GND pin of 'MYCONN3'. Place another GND symbol on the left of the "
@@ -1375,7 +1374,6 @@ msgstr ""
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:547
-#, fuzzy
 msgid ""
 "In the Annotate Schematic window, select 'Use the entire schematic' and "
 "click on the 'Annotate' button. Click OK in the confirmation message and "
@@ -1483,7 +1481,6 @@ msgstr ""
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:589
-#, fuzzy
 msgid ""
 "For 'IC1' select the 'Housings_DIP:DIP-8_W7.62mm' footprint.  For 'J1' "
 "select the 'Connectors:Banana_Jack_3Pin' footprint.  For 'R1' and 'R2' "
@@ -2022,7 +2019,6 @@ msgstr ""
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:813
-#, fuzzy
 msgid ""
 "All components are connected via a thin group of wires called __ratsnest__. "
 "Make sure that the 'Show/hide board ratsnest' button image:images/icons/"
@@ -2811,7 +2807,6 @@ msgstr ""
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1154
-#, fuzzy
 msgid ""
 "Now we can start creating our new component. From KiCad, start __Eeschema__, "
 "click on the 'Library Editor' icon image:images/icons/libedit."
@@ -3401,7 +3396,6 @@ msgstr "フットプリントの作成"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1397
-#, fuzzy
 msgid ""
 "Unlike other EDA software tools, which have one type of library that "
 "contains both the schematic symbol and the footprint variations, KiCad _."
