@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KiCadことはじめ\n"
 "POT-Creation-Date: 2018-03-28 22:24+0900\n"
-"PO-Revision-Date: 2018-04-07 16:42+0900\n"
+"PO-Revision-Date: 2018-04-07 16:50+0900\n"
 "Last-Translator: je6bmq <je6bmq@gmail.com>\n"
 "Language-Team: kicad.jp <kicad@kicad.jp>\n"
 "Language: ja\n"
@@ -3402,11 +3402,6 @@ msgstr "フットプリントの作成"
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1397
 #, fuzzy
-#| msgid ""
-#| "Unlike other EDA software tools, which have one type of library that "
-#| "contains both the schematic symbol and the footprint variations, KiCad _."
-#| "lib_ files contain schematic symbols and _.kicad_mod_ files contain "
-#| "footprints. _Cvpcb_ is used to successfully map footprints to symbols."
 msgid ""
 "Unlike other EDA software tools, which have one type of library that "
 "contains both the schematic symbol and the footprint variations, KiCad _."
@@ -3414,9 +3409,9 @@ msgid ""
 "footprints. _Cvpcb_ is used to map footprints to symbols."
 msgstr ""
 "他の、一種類のライブラリに回路図記号とフットプリントの両方を含むEDAソフトウェ"
-"ア・ツールと異なり、KiCadの _.lib_ ファイルはコンポーネントを、 _.kicad_mod_ "
-"ファイルはフットプリントを含んでいます。 _CvPcb_ はコンポーネントにフットプリ"
-"ントを割り当てるのに使われます。"
+"ア・ツールと異なり、KiCadの _.lib_ ファイルは回路図記号を、 _.kicad_mod_ ファ"
+"イルはフットプリントを含んでいます。 _CvPcb_ は回路図記号にフットプリントを割"
+"り当てるのに使われます。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1400
