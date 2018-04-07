@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KiCadことはじめ\n"
 "POT-Creation-Date: 2018-03-28 22:24+0900\n"
-"PO-Revision-Date: 2018-04-07 15:27+0900\n"
+"PO-Revision-Date: 2018-04-07 16:11+0900\n"
 "Last-Translator: je6bmq <je6bmq@gmail.com>\n"
 "Language-Team: kicad.jp <kicad@kicad.jp>\n"
 "Language: ja\n"
@@ -2033,21 +2033,16 @@ msgstr ""
 #. type: Plain text
 #: getting_started_in_kicad.adoc:813
 #, fuzzy
-#| msgid ""
-#| "All components are connected via a thin group of wires called "
-#| "__ratsnest__. Make sure that the 'Hide board ratsnest' button image:"
-#| "images/icons/general_ratsnest.png[general_ratsnest_png] is pressed. In "
-#| "this way you can see the ratsnest linking all components."
 msgid ""
 "All components are connected via a thin group of wires called __ratsnest__. "
 "Make sure that the 'Show/hide board ratsnest' button image:images/icons/"
 "general_ratsnest.png[general_ratsnest_png] is pressed. In this way you can "
 "see the ratsnest linking all components."
 msgstr ""
-"全てのコンポーネントは __ラッツネスト__ と呼ばれる細いワイヤで接続されていま"
-"す。'ボードのラッツネストを非表示' のボタン image:images/icons/"
+"全てのコンポーネントは __ラッツネスト__ と呼ばれる細いワイヤの組で接続されて"
+"います。'ボードのラッツネストを非表示' のボタン image:images/icons/"
 "general_ratsnest.png[general_ratsnest_png] が押されていることを確認します。 "
-"これでラッツネストが全てのコンポーネントをつないでいるのが見えます。 "
+"これでラッツネストが全てのコンポーネントを接続している様子が見えます。 "
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:817
