@@ -10517,32 +10517,22 @@ msgstr ""
 
 #. type: Title ==
 #: eeschema_viewlib.adoc:3
-#, fuzzy, no-wrap
-#| msgid "Symbol library"
+#, no-wrap
 msgid "Symbol Library Browser"
-msgstr "シンボルライブラリ"
+msgstr "シンボル ライブラリ ブラウザ"
 
 #. type: Plain text
 #: eeschema_viewlib.adoc:11
-#, fuzzy
-#| msgid ""
-#| "Viewlib allows you to quickly examine the content of libraries. Viewlib "
-#| "is called by the tool image:images/icons/library_browse.png[icons/"
-#| "library_browse_png] or by the \"place component\" tool available from the "
-#| "right-hand side toolbar."
 msgid ""
 "The Symbol Library Browser allows you to quickly examine the content of "
 "symbol libraries. The Symbol Library Viewer can be accessed by the main "
 "toolbar button image:images/icons/library_browse.png[icons/"
 "library_browse_png] or by the \"Library Browser\" entry in the \"Tool\" menu."
 msgstr ""
-"ライブラリブラウザを利用すると、ライブラリの内容をすばやく確認することができ"
-"ます。ライブラリブラウザは、次の２通りの方法で呼び出せます。１）メインツール"
-"バーのアイコン image:images/icons/library_browse.png[icons/"
-"library_browse_png] を左クリックする。２）右ツールバーの “コンポーネントの配"
-"置” を左クリックして有効化する -> 図面上で左クリックして “コンポーネントの選"
-"択” を呼び出す。 -> “コンポーネントの選択” の画面左下のシンボル表示部を左ク"
-"リックする。"
+"シンボル ライブラリ ブラウザを利用すると、ライブラリの内容をすばやく確認する"
+"ことができます。メインツールバーのアイコン image:images/icons/library_browse."
+"png[icons/library_browse_png] をクリックするか、\"ツール\" -> \"ライブラリ ブ"
+"ラウザ\"を選択すると、シンボル ライブラリ ブラウザを開けます。"
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_viewlib.adoc:12
@@ -10576,19 +10566,14 @@ msgstr "images/ja/eeschema_viewlib_select_library.png"
 
 #. type: Plain text
 #: eeschema_viewlib.adoc:22
-#, fuzzy
-#| msgid ""
-#| "To examine the library content you need to select the wanted library from "
-#| "the list on the left-hand side. Available components will then appear in "
-#| "the second list which allow you to select a component."
 msgid ""
 "To examine the contents of a library, select a library from the list on the "
 "left hand pane.  All symbols in the selected library will appear in the "
 "second pane.  Select a symbol name to view the symbol."
 msgstr ""
-"ライブラリの内容を確認するには、１番左端にあるリストからライブラリを選択する"
-"必要があります。利用可能なコンポーネントが左から２番目のリストに表示されま"
-"す。"
+"ライブラリの内容を確認するには、左側のリストからライブラリを選択する必要があ"
+"ります。選択したライブラリに含まれる利用可能な全てのシンボルが左から２番目の"
+"パネルに表示されます。シンボル名を選択すると、シンボルの内容を確認できます。"
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_viewlib.adoc:23
@@ -10606,14 +10591,14 @@ msgstr "images/ja/eeschema_viewlib_select_component.png"
 #: eeschema_viewlib.adoc:26
 #, no-wrap
 msgid "Symbol Library Browser Top Toolbar"
-msgstr ""
+msgstr "シンボル ライブラリ ブラウザ上部のツールバー"
 
 #. type: Plain text
 #: eeschema_viewlib.adoc:29
-#, fuzzy
-#| msgid "The top tool bar in Viewlib is shown below."
 msgid "The top tool bar in Symbol Library Brower is shown below."
-msgstr "ライブラリブラウザの上部に表示されているツールバーを以下に示します。"
+msgstr ""
+"シンボル ライブラリ ブラウザの上部に表示されているツールバーを以下に示しま"
+"す。"
 
 #. type: Target for macro image
 #: eeschema_viewlib.adoc:30
@@ -10640,45 +10625,34 @@ msgstr ""
 
 #. type: delimited block |
 #: eeschema_viewlib.adoc:43
-#, fuzzy, no-wrap
-#| msgid ""
-#| "|image:images/icons/add_component.png[icons/add_component_png]\n"
-#| "|Selection of the component which can be also selected in the displayed\n"
-#| "list.\n"
+#, no-wrap
 msgid ""
 "|image:images/icons/add_component.png[icons/add_component_png]\n"
 "|Selection of the symbol which can be also selected in the displayed\n"
 "list.\n"
 msgstr ""
 "|image:images/icons/add_component.png[icons/add_component_png]\n"
-"|一覧より表示するコンポーネント\n"
-"を選択します。\n"
+"|一覧からシンボルを選択します。\n"
 
 #. type: delimited block |
 #: eeschema_viewlib.adoc:46
-#, fuzzy, no-wrap
-#| msgid ""
-#| "|image:images/icons/lib_previous.png[icons/lib_previous_png]\n"
-#| "|Display previous component.\n"
+#, no-wrap
 msgid ""
 "|image:images/icons/lib_previous.png[icons/lib_previous_png]\n"
 "|Display previous symbol.\n"
 msgstr ""
 "|image:images/icons/lib_previous.png[icons/lib_previous_png]\n"
-"|リストで選択されている、1つ前のコンポーネントを表示します。\n"
+"|リストで選択されている、1つ前のシンボルを表示します。\n"
 
 #. type: delimited block |
 #: eeschema_viewlib.adoc:49
-#, fuzzy, no-wrap
-#| msgid ""
-#| "|image:images/icons/lib_next.png[icons/lib_next_png]\n"
-#| "|Display next component.\n"
+#, no-wrap
 msgid ""
 "|image:images/icons/lib_next.png[icons/lib_next_png]\n"
 "|Display next symbol.\n"
 msgstr ""
 "|image:images/icons/lib_next.png[icons/lib_next_png]\n"
-"|リストで選択されている、1つ次のコンポーネントを表示します。\n"
+"|リストで選択されている、1つ次のシンボルを表示します。\n"
 
 #. type: delimited block |
 #: eeschema_viewlib.adoc:53
@@ -10704,40 +10678,29 @@ msgstr ""
 
 #. type: delimited block |
 #: eeschema_viewlib.adoc:59
-#, fuzzy, no-wrap
-#| msgid ""
-#| "|image:images/toolbar_viewlib_part.png[alt=\"images/toolbar_viewlib_part.png\",width=\"70%\"]\n"
-#| "|Selection of the part, only for multi-part components.\n"
+#, no-wrap
 msgid ""
 "|image:images/toolbar_viewlib_part.png[alt=\"images/toolbar_viewlib_part.png\",width=\"70%\"]\n"
 "|Selection of the unit for symbols that contain multiple units.\n"
 msgstr ""
 "|image:images/ja/toolbar_viewlib_part.png[alt=\"images/toolbar_viewlib_part.png\",width=\"70%\"]\n"
-"|（代替シンボル表現が存在する場合）表現を選択します。\n"
+"|複数のユニットを持つシンボルの場合、ユニットを選択します。\n"
 
 #. type: delimited block |
 #: eeschema_viewlib.adoc:63
-#, fuzzy, no-wrap
-#| msgid ""
-#| "|image:images/icons/datasheet.png[icons/datasheet_png]\n"
-#| "|If it exist, display the associated documents. Exists only when called\n"
-#| "by the place component dialog frame from Eeschema.\n"
+#, no-wrap
 msgid ""
 "|image:images/icons/datasheet.png[icons/datasheet_png]\n"
 "|If it exist, display the associated documents. Exists only when called\n"
 "by the place symbol dialog frame from Eeschema.\n"
 msgstr ""
 "|image:images/icons/datasheet.png[icons/datasheet_png]\n"
-"|存在する場合、コンポーネントに関連したドキュメントを参照します。（ Eeschema の\n"
-" “コンポーネントの配置” ツールから呼び出された場合のみ有効）\n"
+"|関連ドキュメントが存在する場合、それ表示します。Eeschema の\n"
+" “シンボルの配置” ダイアログから呼び出された場合のみ有効です。\n"
 
 #. type: delimited block |
 #: eeschema_viewlib.adoc:68
-#, fuzzy, no-wrap
-#| msgid ""
-#| "|image:images/icons/export.png[icons/export_png]\n"
-#| "|Close Viewlib and place the selected component in Eeschema.\n"
-#| "This icon is only displayed when Viewlib has been called from Eeschema (click on a symbol in the component chooser).\n"
+#, no-wrap
 msgid ""
 "|image:images/icons/export.png[icons/export_png]\n"
 "|Close the browser and place the selected symbol in Eeschema.\n"
@@ -10745,8 +10708,8 @@ msgid ""
 "on a symbol in the component chooser).\n"
 msgstr ""
 "|image:images/icons/export.png[icons/export_png]\n"
-"|ライブラリブラウザを閉じ、選択されたコンポーネントを Eeschema 上に配置します。\n"
-"このアイコンは、ライブラリブラウザ(Viewlib)が Eeschema から呼び出された時だけ表示されます。（“コンポーネントの選択”の画面左下のシンボル表示部を左クリック）\n"
+"|ライブラリ ブラウザを閉じ、選択されたシンボルを Eeschema 上に配置します。\n"
+"このアイコンは、ライブラリ ブラウザが Eeschema から呼び出された時だけ表示されます。（“シンボルを選択”の画面でシンボルをダブルクリック）\n"
 
 #. type: Title ==
 #: eeschema_general_top_toolbar.adoc:3
@@ -10762,19 +10725,13 @@ msgstr "ページ設定"
 
 #. type: Plain text
 #: eeschema_general_top_toolbar.adoc:12
-#, fuzzy
-#| msgid ""
-#| "The Sheet Settings icon, image:images/icons/sheetset.png[Sheet Settings "
-#| "icon], allows you to define the sheet size and the contents of the title "
-#| "block."
 msgid ""
 "The Sheet Settings icon (image:images/icons/sheetset.png[Sheet Settings "
 "icon])  allows you to define the sheet size and the contents of the title "
 "block."
 msgstr ""
-"image:images/icons/sheetset.png[Sheet Settings icon] アイコンにより、ページ設"
-"定にアクセスできます。ここでは用紙サイズと右下隅にある表題欄のテキストセク"
-"ションを定義することができます。"
+"シート設定アイコン image:images/icons/sheetset.png[Sheet Settings icon] で"
+"シートのサイズと右下隅にある表題欄のテキストセクションを定義できます。"
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_general_top_toolbar.adoc:13
@@ -10801,16 +10758,11 @@ msgstr "検索ツール"
 
 #. type: Plain text
 #: eeschema_general_top_toolbar.adoc:25
-#, fuzzy
-#| msgid ""
-#| "The Find icon, image:images/icons/find.png[Find icon], can be used to "
-#| "access the search tool."
 msgid ""
 "The Find icon (image:images/icons/find.png[Find icon])  can be used to "
 "access the search tool."
 msgstr ""
-"image:images/icons/find.png[Find icon] アイコンは、検索ツールへのアクセスに使"
-"われます。"
+"検索アイコン image:images/icons/find.png[Find icon] で検索ツールを開けます。"
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_general_top_toolbar.adoc:26
@@ -10826,11 +10778,6 @@ msgstr "images/ja/find_dialog.png"
 
 #. type: Plain text
 #: eeschema_general_top_toolbar.adoc:31
-#, fuzzy
-#| msgid ""
-#| "You can search for a reference, a value, or a text string in the current "
-#| "sheet or in the whole hierarchy. Once found, the cursor will be "
-#| "positioned on the found element in the relevant sub-sheet."
 msgid ""
 "You can search for a reference, a value or a text string in the current "
 "sheet or in the whole hierarchy. Once found, the cursor will be positioned "
@@ -10848,39 +10795,24 @@ msgstr "ネットリストツール"
 
 #. type: Plain text
 #: eeschema_general_top_toolbar.adoc:38
-#, fuzzy
-#| msgid ""
-#| "The Netlist icon, image:images/icons/netlist.png[Netlist icon], opens the "
-#| "netlist generation tool."
 msgid ""
 "The Netlist icon (image:images/icons/netlist.png[Netlist icon])  opens the "
 "netlist generation tool."
 msgstr ""
-"image:images/icons/netlist.png[Netlist icon] アイコンで、ネットリストファイル"
-"を生成するツールを呼び出します。"
+"ネットリストアイコン image:images/icons/netlist.png[Netlist icon] でネットリ"
+"ストファイルを生成するツールを呼び出します。"
 
 #. type: Plain text
 #: eeschema_general_top_toolbar.adoc:40
-#, fuzzy
-#| msgid ""
-#| "The netlist file it creates describes all connections in the entire "
-#| "hierarchy."
 msgid ""
 "The tool creates a file which describe all connections in the entire "
 "hierarchy."
 msgstr ""
-"ネットリストファイルは、階層全体（通常のオプション）の全ての接続の記述を作成"
-"します。"
+"このツールは、階層全体（通常のオプション）の全ての接続を記述するファイルを作"
+"成します。"
 
 #. type: Plain text
 #: eeschema_general_top_toolbar.adoc:47
-#, fuzzy
-#| msgid ""
-#| "In a multisheet hierarchy, any local label is visible only inside the "
-#| "sheet to which it belongs.  Thus, the label TOTO of sheet 3 is different "
-#| "from the label TOTO of sheet 5 (if no connection has been intentionally "
-#| "introduced to connect them).  This is due to the fact that the sheet name "
-#| "path is internally associated with the local label."
 msgid ""
 "In a multisheet hierarchy, any local label is visible only inside the sheet "
 "to which it belongs.  For example: the label LABEL1 of sheet 3 is different "
@@ -10889,10 +10821,9 @@ msgid ""
 "path is internally associated with the local label."
 msgstr ""
 "マルチシートの階層において、ローカルラベルは自身が属するシート内だけで通用し"
-"ます。したがって、シート３のラベル TOTO は、シート５のラベル TOTO とは接続さ"
-"れません（意図的にそれらを接続していない場合）。これは、シート番号（アノテー"
-"ションコマンドによって更新される）がローカルラベルと関連付けられているからで"
-"す。"
+"ます。例えば、シート 3 のラベル 1 は、（意図的にそれらを接続していない場合）"
+"シート 5 のラベル 1 とは接続されません。これは、シート名がローカルラベルと関"
+"連付けられているからです。"
 
 #. type: Plain text
 #: eeschema_general_top_toolbar.adoc:52
@@ -10901,23 +10832,20 @@ msgid ""
 "take into account that other programs reading the generated netlist may have "
 "such constraints."
 msgstr ""
+"Eeschema のラベルのテキストの長さに制限はありませんが、ネットリストが含む値を"
+"他のプログラムが利用することを考慮してください。"
 
 #. type: Plain text
 #: eeschema_general_top_toolbar.adoc:57
-#, fuzzy
-#| msgid ""
-#| "Avoid spaces in the labels, because they will appear as separated words.  "
-#| "It is not a limitation of Eeschema, but of many netlist formats, which "
-#| "often assume that a label has no spaces."
 msgid ""
 "Avoid spaces in labels, because they will appear as separated words in the "
 "generated file. It is not a limitation of Eeschema, but of many netlist "
 "formats, which often assume that a label has no spaces."
 msgstr ""
-"区切られた単語として表示されてしまうため、ラベルの中では空白文字（半角スペー"
-"ス）を使うべきではありません。それは Eeschema の制限ではなく、多くのネットリ"
-"ストフォーマットにおいて、ラベルは空白文字を含んでいないものと定義されている"
-"からです。"
+"作成したファイルで、区切られた単語として表示されてしまうため、ラベルの中では"
+"空白文字（半角スペース）を使うべきではありません。それは Eeschema の制限では"
+"なく、多くのネットリストフォーマットにおいて、ラベルは空白文字を含んでいない"
+"ものと定義されているからです。"
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_general_top_toolbar.adoc:58
@@ -10939,10 +10867,9 @@ msgstr "オプション："
 
 #. type: delimited block |
 #: eeschema_general_top_toolbar.adoc:65
-#, fuzzy, no-wrap
-#| msgid "Check to select Pcbnew as the default format."
+#, no-wrap
 msgid "|Default Format |Check to select Pcbnew as the default format.\n"
-msgstr "デフォルトのフォーマットとして Pcbnew を選択するためには、チェックを入れてください。"
+msgstr "| デフォルトの出力形式 | チェックすると、デフォルトのフォーマットで Pcbnew を開きます。\n"
 
 #. type: Plain text
 #: eeschema_general_top_toolbar.adoc:68
@@ -10961,24 +10888,18 @@ msgstr "CadStar"
 
 #. type: Plain text
 #: eeschema_general_top_toolbar.adoc:72
-#, fuzzy
-#| msgid "Spice, for simulators"
 msgid "Spice (simulators)"
-msgstr "Spice, シミュレータ用"
+msgstr "Spice （シミュレータ用）"
 
 #. TODO describe how to create new plugins
 #. type: Plain text
 #: eeschema_general_top_toolbar.adoc:78
-#, fuzzy
-#| msgid ""
-#| "External plugins can be launched to extend the netlist formats list (a "
-#| "PadsPcb Plugin was added here)."
 msgid ""
 "External plugins can be added to extend the netlist formats list (PadsPcb "
 "Plugin was added in the picture above)."
 msgstr ""
-"“プラグインの追加” を使うと、外部プラグインでネットリスト・フォーマット・リス"
-"トを拡張できます（ PadsPcb プラグインなど）。"
+"外部プラグインを追加してネットリスト フォーマット リストを拡張できます（下記"
+"に示す PadsPcb プラグインなど）。"
 
 #. type: Plain text
 #: eeschema_general_top_toolbar.adoc:81
@@ -10986,6 +10907,8 @@ msgid ""
 "There is more information about creating netlists in <<create-a-netlist, "
 "Create a Netlist>> chapter."
 msgstr ""
+"<<create-a-netlist, ネットリストの作成>> にネットリスト作成に関する詳しい情報"
+"があります。"
 
 #. type: Title ===
 #: eeschema_general_top_toolbar.adoc:83
@@ -10995,18 +10918,13 @@ msgstr "アノテーションツール"
 
 #. type: Plain text
 #: eeschema_general_top_toolbar.adoc:88
-#, fuzzy
-#| msgid ""
-#| "The icon image:images/icons/annotate.png[icons_annotate_png] gives access "
-#| "to the annotation tool. This tool performs an automatic naming of all "
-#| "components in the schematic."
 msgid ""
 "The icon image:images/icons/annotate.png[icons_annotate_png] launches the "
 "annotation tool. This tool assigns references to components."
 msgstr ""
-"image:images/icons/annotate.png[icons_annotate_png] アイコンからアノテーショ"
-"ンツールを呼び出します。このツールは使用されている全てのコンポーネントに対し"
-"て自動的にリファレンス（参照番号）の割り付けを行います。"
+"image:images/icons/annotate.png[icons_annotate_png] でアノテーションツールを"
+"起動できます。このツールはコンポーネント対してリファレンス（参照番号）の割り"
+"付けを行います。"
 
 #. type: Plain text
 #: eeschema_general_top_toolbar.adoc:92
@@ -11021,16 +10939,12 @@ msgstr ""
 
 #. type: Plain text
 #: eeschema_general_top_toolbar.adoc:95
-#, fuzzy
-#| msgid ""
-#| "You can unconditionally annotate all the components, or only the new "
-#| "components, i.e. those which were not previously annotated."
 msgid ""
 "You can unconditionally annotate all the components or only the new "
 "components, i.e. those which were not previously annotated."
 msgstr ""
-"無条件に全てのコンポーネントに、または未だアノテートされていない新規のコン"
-"ポーネントだけに、アノテートできます。"
+"無条件に全てのコンポーネントを、もしくはまだアノテートされていない新規のコン"
+"ポーネントだけを、アノテートできます。"
 
 #. type: Plain text
 #: eeschema_general_top_toolbar.adoc:99
@@ -11040,48 +10954,43 @@ msgstr "*実行範囲*\n"
 
 #. type: delimited block |
 #: eeschema_general_top_toolbar.adoc:102
-#, fuzzy, no-wrap
-#| msgid "Use the entire schematic. All the sheets are re-annotated (usual Option)."
+#, no-wrap
 msgid "|Use the entire schematic| All sheets are re-annotated (default).\n"
-msgstr "全ての回路図、階層を使用：全てのシートを再アノテート (通常の選択)"
+msgstr "|全ての回路図、階層を使用 | 全てのシートを再アノテート (通常の選択)\n"
 
 #. type: delimited block |
 #: eeschema_general_top_toolbar.adoc:106
-#, fuzzy, no-wrap
-#| msgid "Use the current page only. Only the current sheet is re-annotated (this option is to be used only in special cases, for example to evaluate the amount of resistors in the current sheet.)."
+#, no-wrap
 msgid ""
 "|Use the current page only| Only the current sheet is re-annotated\n"
 "(this option is to be used only in special cases, for example to\n"
 "evaluate the amount of resistors in the current sheet.).\n"
-msgstr "現在のページでのみ使用：現在のシートのみ再アノテート（このオプションは特別な場合にのみ使用されます。 例えば、現在のシートの抵抗のみを対象としたい場合など）"
+msgstr "|現在のページでのみ使用 | 現在のシートのみ再アノテート（このオプションは特別な場合にのみ使用されます。 例えば、現在のシートの抵抗のみを対象としたい場合など）。\n"
 
 #. type: delimited block |
 #: eeschema_general_top_toolbar.adoc:109
-#, fuzzy, no-wrap
-#| msgid "Keep existing annotation. Conditional annotation, only the new components will be re-annotated (usual option)."
+#, no-wrap
 msgid ""
 "|Keep existing annotation| Conditional annotation, only the new\n"
 "components will be re-annotated (default).\n"
-msgstr "既存のアノテーションをキープ：条件付きのアノテーション。新しいコンポーネントのみ再アノテート（通常の選択）。"
+msgstr "|既存のアノテーションを保持 | 条件付きのアノテーション。新しいコンポーネントのみ再アノテート（通常の選択）。\n"
 
 #. type: delimited block |
 #: eeschema_general_top_toolbar.adoc:113
-#, fuzzy, no-wrap
-#| msgid "Reset existing annotation. Unconditional annotation, all the components will be re-annotated (this option is to be used when there are duplicated references)."
+#, no-wrap
 msgid ""
 "|Reset existing annotation| Unconditional annotation, all the\n"
 "components will be re-annotated (this option is to be used when there\n"
 "are duplicated references).\n"
-msgstr "既存のアノテーションをリセット：無条件のアノテーション。全てのコンポーネントを再アノテートします（このオプションは重複したリファレンスがある場合に使われます）。"
+msgstr "|既存のアノテーションをリセット |無条件のアノテーション。全てのコンポーネントを再アノテートします（このオプションは重複したリファレンスがある場合に使われます）。\n"
 
 #. type: delimited block |
 #: eeschema_general_top_toolbar.adoc:116
-#, fuzzy, no-wrap
-#| msgid "Reset, but do not swap any annotated multi-unit parts. This keeps all groups of multiple units (e.g. U2A, U2B) together when reannotating."
+#, no-wrap
 msgid ""
 "|Reset, but do not swap any annotated multi-unit parts| Keeps\n"
 "all groups of multiple units (e.g. U2A, U2B) together when reannotating.\n"
-msgstr "既存のアノテーションをリセット、ただし複数ユニットを持つ部品はキープ：再アノテートの時、全ての複数ユニットコンポーネントのグループ (例えば、U2A, U2B) を維持します。"
+msgstr "|既存のアノテーションをリセット、ただし複数ユニットを持つ部品はキープ |再アノテートの時、全ての複数ユニットコンポーネントのグループ (例えば、U2A, U2B) を維持します。\n"
 
 #. type: Plain text
 #: eeschema_general_top_toolbar.adoc:119
@@ -11091,12 +11000,11 @@ msgstr "*アノテーションの順番*\n"
 
 #. type: Plain text
 #: eeschema_general_top_toolbar.adoc:122
-#, fuzzy
-#| msgid "Selects the order in which components will be numbered."
 msgid ""
 "Selects the order in which components will be numbered (either horizontally "
 "or vertically)."
-msgstr "コンポーネントの番号付けを行う順番を選択します。"
+msgstr ""
+"コンポーネントの番号付けを行う順番（水平方向か垂直方向か）を選択します。"
 
 #. type: Plain text
 #: eeschema_general_top_toolbar.adoc:124
@@ -11107,7 +11015,7 @@ msgstr "*アノテーションの選択*\n"
 #. type: Plain text
 #: eeschema_general_top_toolbar.adoc:126
 msgid "Selects the assigned reference format."
-msgstr ""
+msgstr "割り当てられたリファレンスのフォーマットを選択。"
 
 #. type: Title ===
 #: eeschema_general_top_toolbar.adoc:128
@@ -11117,36 +11025,22 @@ msgstr "エレクトリカル・ルール・チェック (ERC) ツール"
 
 #. type: Plain text
 #: eeschema_general_top_toolbar.adoc:133
-#, fuzzy
-#| msgid ""
-#| "The icon image:images/icons/erc.png[ERC icon] gives access to the "
-#| "electrical rules check (ERC) tool."
 msgid ""
 "The icon image:images/icons/erc.png[ERC icon] launches the electrical rules "
 "check (ERC) tool."
 msgstr ""
 "image:images/icons/erc.png[ERC icon] アイコンで、エレクトリカル・ルール・"
-"チェック (ERC) ツールを呼出します。"
+"チェック (ERC) ツールを実行できます。"
 
 #. type: Plain text
 #: eeschema_general_top_toolbar.adoc:136
-#, fuzzy
-#| msgid ""
-#| "This tool performs a design verification and is particularly useful to "
-#| "detect forgotten connections, and inconsistencies."
 msgid ""
 "This tool performs a design verification and is able to detect forgotten "
 "connections, and inconsistencies."
-msgstr ""
-"このツールは設計の検証を行い、特に接続忘れや矛盾を検出するのに役立ちます。"
+msgstr "このツールは設計の検証を行い、接続忘れや矛盾を検出できます。"
 
 #. type: Plain text
 #: eeschema_general_top_toolbar.adoc:140
-#, fuzzy
-#| msgid ""
-#| "Once you have run the ERC, Eeschema places markers to highlight "
-#| "problems.  The diagnosis can then be given by left clicking on the "
-#| "marker. An error file can also be generated."
 msgid ""
 "Once you have run the ERC, Eeschema places markers to highlight problems.  "
 "The error description is displayed after left clicking on the marker. An "
@@ -11164,12 +11058,9 @@ msgstr "ERC ダイアログ：ERC"
 
 #. type: Plain text
 #: eeschema_general_top_toolbar.adoc:147
-#, fuzzy
-#| msgid "Errors are displayed in the Electrical Rules Checker dialog box:"
 msgid "Errors are displayed in the Electrical Rules Checker dialog:"
 msgstr ""
-"エラーはエレクトリカル・ルール・チェック (ERC) ダイアログボックスに表示されま"
-"す："
+"エラーはエレクトリカル・ルール・チェック (ERC) ダイアログに表示されます ："
 
 #. type: Plain text
 #: eeschema_general_top_toolbar.adoc:149
@@ -11188,10 +11079,9 @@ msgstr "エラー（エラーの発生数）"
 
 #. type: delimited block |
 #: eeschema_general_top_toolbar.adoc:157
-#, fuzzy, no-wrap
-#| msgid "Create ERC file report: check this option to generate an ERC report file."
+#, no-wrap
 msgid "|Create ERC file report |Check this option to generate an ERC report file.\n"
-msgstr "ERC レポートファイルの生成：ERC レポートファイルを生成するには、このオプションをチェックします。"
+msgstr "|ERC レポートファイルの生成 |ERC レポートファイルを生成するには、このオプションをチェックします。\n"
 
 #. type: Plain text
 #: eeschema_general_top_toolbar.adoc:160 eeschema_general_top_toolbar.adoc:197
@@ -11206,6 +11096,9 @@ msgid ""
 "|Run| Start an Electrical Rules Check.\n"
 "|Close| Close the dialog.\n"
 msgstr ""
+"|マーカーを削除 | 全ての ERC エラー/警告マーカーを削除します。\n"
+"|実行 | ERC （エレクトリカル ルール チェック）を実行します。\n"
+"|閉じる | ダイアログを閉じます。\n"
 
 #. type: Plain text
 #: eeschema_general_top_toolbar.adoc:171
@@ -11235,15 +11128,11 @@ msgstr "images/ja/dialog_erc_opts.png"
 
 #. type: Plain text
 #: eeschema_general_top_toolbar.adoc:179
-#, fuzzy
-#| msgid ""
-#| "This tab allows you to establish connectivity rules between pins; you can "
-#| "choose between 3 options for each case:"
 msgid ""
 "This tab allows you to define the connectivity rules between pins; you can "
 "choose between 3 options for each case:"
 msgstr ""
-"このタブページで、ピン間の接続ルールを設定できます。それぞれのケースに対し"
+"このタブページで、ピン間の接続ルールを定義できます。それぞれのケースに対し"
 "て、3つのオプションから選択できます。:"
 
 #. type: Plain text
@@ -11276,14 +11165,17 @@ msgid ""
 "|Test unique global labels |Report global lables that occur only once for a\n"
 "particular net. Normally it is required to have at least two make a connection.\n"
 msgstr ""
+"|同様のラベルを確認 | 大文字小文字だけが異なるラベル（例: label/Label/LaBeL）を報告します。\n"
+"ネット名は大文字と小文字を区別するため、このようなラベルは別のネットと認識されます。\n"
+"|固有のグローバルラベルを確認 | 一度しか使われていないグローバルラベルを報告します。通常、最低2つは接続のために使われている必要があります。\n"
 
 #. type: delimited block |
 #: eeschema_general_top_toolbar.adoc:201
 #, no-wrap
 msgid "|Initialize to Default| Restores the original settings.\n"
-msgstr ""
+msgstr "|デフォルトへ初期化 | もともとの設定に戻します。\n"
 
-#.  TODO cvpcb toolbar button
+#. TODO cvpcb toolbar button
 #. type: Title ===
 #: eeschema_general_top_toolbar.adoc:206
 #, no-wrap
@@ -11292,19 +11184,14 @@ msgstr "部品表 (BOM) ツール"
 
 #. type: Plain text
 #: eeschema_general_top_toolbar.adoc:212
-#, fuzzy
-#| msgid ""
-#| "The icon image:images/icons/bom.png[BOM icon] gives access to the bill of "
-#| "materials (BOM) generator. This menu allows the generation of a file "
-#| "listing of the components and/or hierarchical connections (global labels)."
 msgid ""
 "The icon image:images/icons/bom.png[BOM icon] launches the bill of materials "
 "(BOM) generator. This tool generates a file listing the components and/or "
 "hierarchical connections (global labels)."
 msgstr ""
-"image:images/icons/bom.png[BOM icon] アイコンで、部品表 (BOM) ツールを呼出し"
-"ます。このメニューから、コンポーネントと階層接続グローバルラベルの一覧表が生"
-"成できます。"
+"image:images/icons/bom.png[BOM icon] アイコンで、部品表 (BOM) ツールを起動し"
+"ます。このツールで、コンポーネントと階層接続グローバルラベルの一覧表を生成で"
+"きます。"
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_general_top_toolbar.adoc:213
@@ -11320,19 +11207,14 @@ msgstr "images/ja/dialog_bom.png"
 
 #. type: Plain text
 #: eeschema_general_top_toolbar.adoc:218
-#, fuzzy
-#| msgid ""
-#| "Eeschema's BOM generator makes use of external plugins, generally in XSLT "
-#| "or Python form. Some are provided, and will be installed inside the KiCad "
-#| "program files directory."
 msgid ""
 "Eeschema's BOM generator makes use of external plugins, either as XSLT or "
 "Python scripts. There are a few examples installed inside the KiCad program "
 "files directory."
 msgstr ""
-"Eeschema の部品表 (BOM) ツールは外部プラグイン (通常、XSLT 又は Python) を利"
-"用します。いくつかが提供中で、KiCad プログラムのあるディレクトリへインストー"
-"ルされます。"
+"Eeschema の部品表 (BOM) 作成ツールは XSLT または Python の外部プラグインを利"
+"用します。KiCad プログラムのあるディレクトリに、いくつかの例がインストールさ"
+"れています。"
 
 #. type: Plain text
 #: eeschema_general_top_toolbar.adoc:220
@@ -11381,25 +11263,30 @@ msgid ""
 "command. It may be necessary if plugin has provides a graphical user "
 "interface."
 msgstr ""
+"**Windows 環境** の BOM 作成ダイアログには、（赤い矢印で示している）外部プラ"
+"グインで表示ウィンドウをコントロールするための特別なオプションがあります。デ"
+"フォルトの設定では、 BOM 作成コマンドは隠れたウィンドウで実行され、 __Plugin "
+"info__ フィールドに結果が表示されます。このオプションを有効にすると、実行中の"
+"ウィンドウを表示します。 GUI でプラグインの動作確認を行う際に、この機能は必要"
+"になるでしょう。"
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_general_top_toolbar.adoc:237
 #, no-wrap
 msgid "BOM dialog extra option on MS Windows"
-msgstr ""
+msgstr "Windws環境における、BOM ダイアログの追加オプション"
 
 #. type: Target for macro image
 #: eeschema_general_top_toolbar.adoc:237
-#, fuzzy, no-wrap
-#| msgid "images/libedit_main_window.png"
+#, no-wrap
 msgid "images/bom_extra_option_windows.png"
-msgstr "images/ja/libedit_main_window.png"
+msgstr "images/bom_extra_option_windows.png"
 
 #. type: Title ===
 #: eeschema_general_top_toolbar.adoc:240
 #, no-wrap
 msgid "Edit Fields tool"
-msgstr ""
+msgstr "フィールド編集ツール"
 
 #. type: Plain text
 #: eeschema_general_top_toolbar.adoc:244
@@ -11407,17 +11294,17 @@ msgid ""
 "The icon image:images/icons/spreadsheet.png[Edit Fields icon] opens a "
 "spreadsheet to view and modify field values for all symbols."
 msgstr ""
+"The icon image:images/icons/spreadsheet.png[Edit Fields icon] アイコンで全て"
+"のシンボルを編集や閲覧するためのスプレッドシートを開けます。"
 
 #. type: Plain text
 #: eeschema_general_top_toolbar.adoc:246
-#, fuzzy
-#| msgid ""
-#| "image:images/en/libsettings.png[alt=\"Library settings\",width=\"50%\"]"
 msgid ""
 "image:images/en/dialog_edit_fields.png[alt=\"Symbol Dialog\",scaledwidth="
 "\"79%\"]"
 msgstr ""
-"image:images/ja/libsettings.png[alt=\"Library settings\",width=\"50%\"]"
+"image:images/en/dialog_edit_fields.png[alt=\"Symbol Dialog\",scaledwidth="
+"\"79%\"]"
 
 #. type: Plain text
 #: eeschema_general_top_toolbar.adoc:249
@@ -11425,13 +11312,14 @@ msgid ""
 "Once you modify field values, you need to either accept changes by clicking "
 "on 'Apply' button or undo them by clicking on 'Revert' button."
 msgstr ""
+"フィールドの値を変更したら、'適用'ボタンをクリックして変更を受理するか、'元に"
+"戻す'ボタンをクリックして変更を破棄する必要があります。"
 
 #. type: Title ===
 #: eeschema_general_top_toolbar.adoc:251
-#, fuzzy, no-wrap
-#| msgid "Import tool for footprint assignment:"
+#, no-wrap
 msgid "Import tool for footprint assignment"
-msgstr "フットプリント割当用インポート（バックアノテート）ツール"
+msgstr "フットプリント割当用インポート（バックアノテート）ツール :"
 
 #. type: Title ====
 #: eeschema_general_top_toolbar.adoc:254
@@ -11441,16 +11329,12 @@ msgstr "アクセス:"
 
 #. type: Plain text
 #: eeschema_general_top_toolbar.adoc:259
-#, fuzzy
-#| msgid ""
-#| "The icon image:images/icons/import_footprint_names.png[Import Footprint "
-#| "Names icon] gives access to the back-annotate tool."
 msgid ""
 "The icon image:images/icons/import_footprint_names.png[Import Footprint "
 "Names icon] launches the back-annotate tool."
 msgstr ""
 "image:images/icons/import_footprint_names.png[Import Footprint Names icon] ア"
-"イコンで、バックアノテートツールを呼出します。"
+"イコンで、バックアノテートツールを起動します。"
 
 #. type: Plain text
 #: eeschema_general_top_toolbar.adoc:261
@@ -11475,64 +11359,46 @@ msgstr "概要"
 
 #. type: Plain text
 #: eeschema_create_a_netlist.adoc:10
-#, fuzzy
-#| msgid ""
-#| "A netlist is a file which describes electrical connections between "
-#| "components. In the netlist file you can find:"
 msgid ""
 "A netlist is a file which describes electrical connections between symbols. "
 "These connections are referred to as nets.  In the netlist file you can find:"
 msgstr ""
-"ネットリストはコンポーネント間の電気的接続を記述したファイルです。ネットリス"
-"トのファイルには，次のものが含まれます:"
+"ネットリストはシンボル間の電気的接続を記述したファイルです。これらの接続は"
+"ネットとして参照されます。ネットリストのファイルには，次のものが含まれます:"
 
 #. type: Plain text
 #: eeschema_create_a_netlist.adoc:12
-#, fuzzy
-#| msgid "The list of the components"
 msgid "The list of the symbols"
-msgstr "コンポーネントのリスト。"
+msgstr "シンボルのリスト"
 
 #. type: Plain text
 #: eeschema_create_a_netlist.adoc:13
-#, fuzzy
-#| msgid "Global connections between buses"
 msgid "The list of connections (nets) between symbols."
-msgstr "バスのシート間接続"
+msgstr "シンボル間の接続（ネット）一覧"
 
 #. type: Plain text
 #: eeschema_create_a_netlist.adoc:18
-#, fuzzy
-#| msgid ""
-#| "Different netlist formats exist. Sometimes the components list and the "
-#| "equi-potential list are two separate files. This netlist is fundamental "
-#| "in the use of schematic capture software, because the netlist is the link "
-#| "with other electronic CAD software, like:"
 msgid ""
 "Many different netlist formats exist. Sometimes the symbols list and the "
 "list of nets are two separate files. This netlist is fundamental in the use "
 "of schematic capture software, because the netlist is the link with other "
 "electronic CAD software such as:"
 msgstr ""
-"いろいろな異なるネットリストのフォーマットが存在します。コンポーネントのリス"
-"トと等電位リストが２つの別々のファイルであることもあります。回路図入力 "
+"いろいろな異なるネットリストのフォーマットが存在します。シンボルのリストと"
+"ネットのリストが２つの別々のファイルであることもあります。回路図入力 "
 "(capture) ソフトウェアにとって、このネットリストはなくてはならないものです。"
-"それはネットリストが、次のような他の電子系 CAD ソフトウェアとのリンクとなるか"
-"らです。:"
+"なぜなら、ネットリストは次のような他の電子系 CAD ソフトウェアを紐付けるからで"
+"す。:"
 
 #. type: Plain text
 #: eeschema_create_a_netlist.adoc:20
-#, fuzzy
-#| msgid "PCB software."
 msgid "PCB layout software."
-msgstr "PCB ソフトウェア。（基板設計ソフト）"
+msgstr "PCB レイアウト ソフトウェア。（基板設計ソフト）"
 
 #. type: Plain text
 #: eeschema_create_a_netlist.adoc:21
-#, fuzzy
-#| msgid "Schematic and PCB Simulators."
 msgid "Schematic and electrical signal simulators."
-msgstr "回路および PCB シミュレータ。"
+msgstr "回路および電気的な信号シミュレータ。"
 
 #. type: Plain text
 #: eeschema_create_a_netlist.adoc:22
@@ -11576,16 +11442,12 @@ msgstr "ネットリストフォーマット"
 
 #. type: Plain text
 #: eeschema_create_a_netlist.adoc:37
-#, fuzzy
-#| msgid ""
-#| "Select the tool image:images/icons/netlist.png[Netlist icon] to open the "
-#| "netlist creation dialog box."
 msgid ""
 "Select the tool image:images/icons/netlist.png[Netlist icon] to open the "
 "netlist creation dialog."
 msgstr ""
 "image:images/icons/netlist.png[Netlist icon] ツールを選択し、ネットリスト作成"
-"ダイアログボックスを開きます。"
+"ダイアログを開きます。"
 
 #. type: Plain text
 #: eeschema_create_a_netlist.adoc:39
@@ -11623,12 +11485,6 @@ msgstr "images/ja/eeschema_netlist_dialog_spice.png"
 
 #. type: Plain text
 #: eeschema_create_a_netlist.adoc:51
-#, fuzzy
-#| msgid ""
-#| "Using the different tabs you can select the desired format. In Spice "
-#| "format you can generate netlists with either equi-potential names (it is "
-#| "more legible) or net numbers (old Spice versions accept numbers only). By "
-#| "clicking the Netlist button, you will be asked for a netlist file name."
 msgid ""
 "Using the different tabs you can select the desired format. In Spice format "
 "you can generate netlists with either net names which makes the SPICE file "
@@ -11636,19 +11492,15 @@ msgid ""
 "clicking the Netlist button, you will be asked for a netlist file name."
 msgstr ""
 "それぞれのタブで希望するフォーマットを選択できます。Spice フォーマットでは、"
-"等電位の名称（その方が読みやすい）か、またはネット番号（ Spice の古いバージョ"
-"ンは番号のみ受け付ける）のどちらかでネットリストを生成することが可能です。"
-"ネットリストボタンをクリックすると、ネットリストファイルの名前を入力するよう"
-"促されます。"
+"可読性を上げるためにネットの名前を付けたり、古い Spice で使われるネット番号の"
+"どちらかを付けて、ネットリストを生成することが可能です。ネットリストボタンを"
+"クリックすると、ネットリストファイルの名前を入力するよう促されます。"
 
 #. type: Plain text
 #: eeschema_create_a_netlist.adoc:54
-#, fuzzy
-#| msgid ""
-#| "With big projects, the netlist generation can take up to several minutes."
 msgid ""
 "The netlist generation can take up to several minutes for large schematics."
-msgstr "大きなプロジェクトでは、ネットリストの生成に数分かかることがあります。"
+msgstr "大きな回路図のネットリストの生成には、数分かかることがあります。"
 
 #. type: Title ===
 #: eeschema_create_a_netlist.adoc:56
@@ -11899,22 +11751,15 @@ msgstr "ネットリスト名の注意事項"
 
 #. type: Plain text
 #: eeschema_create_a_netlist.adoc:172
-#, fuzzy
-#| msgid ""
-#| "Many software tools that use netlists do not accept spaces in the "
-#| "component names, pins, equi-potential nets or others. Systematically "
-#| "avoid spaces in labels, or names and value fields of components or their "
-#| "pins."
 msgid ""
 "Many software tools that use netlists do not accept spaces in the component "
 "names, pins, nets or other informations. Avoid using spaces in labels, or "
 "names and value fields of components or their pins to ensure maximum "
 "compatibility."
 msgstr ""
-"ネットリストを使用する多くのソフトウェアツールは，コンポーネント名，ピン名，"
-"等電位名（equipotentials）あるいは他の名前に空白文字（半角スペース (space) ）"
-"の使用を認めません。特に、ラベルあるいはコンポーネントやそのピンの名前と数値"
-"欄に空白を使用しないで下さい。"
+"ネットリストを使用する多くのソフトウェアツールは、コンポーネント名、ピン、"
+"ネットあるいは他の情報に半角スペースを利用できません。互換性を保つために、ラ"
+"ベル、コンポーネントの名称や値のフィールド、ピンに空白を使用しないで下さい。"
 
 #. type: Plain text
 #: eeschema_create_a_netlist.adoc:177
@@ -12048,13 +11893,10 @@ msgstr ""
 
 #. type: Plain text
 #: eeschema_create_a_netlist.adoc:221
-#, fuzzy
-#| msgid ""
-#| "Also note that the equipotential GND must be named 0 (zero) for Pspice."
 msgid "Also note that the GND net must be named 0 (zero) for Pspice."
 msgstr ""
-"また Pspice の場合、等電位の GND は０（ゼロ）という名前にしなければならないこ"
-"とに注意して下さい。"
+"また Pspice の場合、 GND のネットは 0 （ゼロ）という名前にしなければならない"
+"ことに注意して下さい。"
 
 #. type: Title ===
 #: eeschema_create_a_netlist.adoc:223
@@ -12550,16 +12392,12 @@ msgstr "コンポーネントのフィールド"
 
 #. type: Plain text
 #: eeschema_libedit_components.adoc:105
-#, fuzzy
-#| msgid ""
-#| "The field editor is called via the icon image:images/icons/add_text."
-#| "png[icons/add_text_png]."
 msgid ""
 "The field editor is called via the icon image:images/icons/text.png[icons/"
 "text.png]."
 msgstr ""
-"フィールドは、 image:images/icons/add_text.png[icons/add_text_png] ツールで編"
-"集することができます。"
+"フィールド編集ツールは image:images/icons/text.png[icons/text_png] アイコンか"
+"ら実行できます。"
 
 #. type: Plain text
 #: eeschema_libedit_components.adoc:108
