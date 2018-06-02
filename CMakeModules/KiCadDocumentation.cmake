@@ -127,6 +127,8 @@ macro( KiCadDocumentation DOCNAME )
                 add_dblatex_option( -b xetex -p ${CMAKE_CURRENT_SOURCE_DIR}/../../xsl/dblatex-pdf-ja.xsl )
             elseif( "${LANGUAGE}" MATCHES "ru" )
                 add_dblatex_option( -b xetex -p ${CMAKE_CURRENT_SOURCE_DIR}/../../xsl/dblatex-pdf-ru.xsl )
+            elseif( "${LANGUAGE}" MATCHES "zh" )
+                add_dblatex_option( -b xetex -p ${CMAKE_CURRENT_SOURCE_DIR}/../../xsl/dblatex-pdf-zh.xsl )
             endif()
 
             # Deal with chapters for all languages...
