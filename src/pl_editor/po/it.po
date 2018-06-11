@@ -1,14 +1,14 @@
 # Pl_Editor User Manual Italian Translation
-# Copyright (C) 2014 Free Software Foundation, Inc.
+# Copyright (C) The KiCad Documentation Team
 # This file is distributed under the same license as the KiCad package.
-# Marco Ciampa <ciampix@libero.it>, 2014, 2015.
+# Marco Ciampa <ciampix@posteo.net>, 2014-2018.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
 "POT-Creation-Date: 2016-01-23 21:53+0100\n"
-"PO-Revision-Date: 2016-01-24 02:09+0100\n"
-"Last-Translator: Marco Ciampa <ciampix@libero.it>\n"
+"PO-Revision-Date: 2018-06-07 08:55+0200\n"
+"Last-Translator: Marco Ciampa <ciampix@posteo.net>\n"
 "Language-Team: Italian <it@li.org>\n"
 "Language: Italian\n"
 "MIME-Version: 1.0\n"
@@ -935,20 +935,20 @@ msgstr ""
 #: pl_editor.adoc:398
 #, no-wrap
 msgid ""
-"|image:images/icons/pagelayout_new.png[]\n"
+"|image:images/icons/new_page_layout.png[]\n"
 "|Select the net list file to be processed.\n"
 msgstr ""
-"|image:images/icons/pagelayout_new.png[]\n"
+"|image:images/icons/new_page_layout.png[]\n"
 "|Seleziona la netlist da elaborare.\n"
 
 #. type: delimited block |
 #: pl_editor.adoc:401
 #, no-wrap
 msgid ""
-"|image:images/icons/pagelayout_load.png[]\n"
+"|image:images/icons/open_page_layout.png[]\n"
 "|Load a page layout description file.\n"
 msgstr ""
-"|image:images/icons/pagelayout_load.png[]\n"
+"|image:images/icons/open_page_layout.png[]\n"
 "|Carica un file di descrizione disposizione pagina.\n"
 
 #. type: delimited block |

@@ -1,12 +1,14 @@
-# Copyright (C) 2015 The KiCad Team.
+# The Getting Started in KiCad Manula Catalan Translation
+# Copyright (C) The KiCad Documentation Team.
 # This file is distributed under the same license as the KiCad package.
+#
 # Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2016.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Getting Started in KiCad\n"
 "POT-Creation-Date: 2016-04-29 11:47+0200\n"
-"PO-Revision-Date: 2016-05-05 10:29+0200\n"
+"PO-Revision-Date: 2018-06-07 09:00+0200\n"
 "Last-Translator: Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>\n"
 "Language-Team: Català\n"
 "Language: ca\n"
@@ -751,8 +753,8 @@ msgstr "Això evitarà la clàssica advertència de comprovació de l'esquemàti
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:525
-msgid "Sometimes it is good to write comments here and there. To add comments on the schematic use the 'Place graphic text (comment)' icon image:images/icons/add_text.png[add_text_png] on the right toolbar."
-msgstr "De vegades és bo per escriure comentaris per aquí i per allà. Per a afegir comentaris a l'esquemàtic utilitzeu la icona «Afegeix un text gràfic (comentari)» image:images/icons/add_text.png[add_text_png] de la barra d'eines de la dreta."
+msgid "Sometimes it is good to write comments here and there. To add comments on the schematic use the 'Place graphic text (comment)' icon image:images/icons/text.png[text_png] on the right toolbar."
+msgstr "De vegades és bo per escriure comentaris per aquí i per allà. Per a afegir comentaris a l'esquemàtic utilitzeu la icona «Afegeix un text gràfic (comentari)» image:images/icons/text.png[text_png] de la barra d'eines de la dreta."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:531

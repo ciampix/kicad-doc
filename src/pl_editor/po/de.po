@@ -1,5 +1,5 @@
 # Pl_Editor Manual German translation
-# Copyright (C) 2016 The KiCad documentation Team
+# Copyright (C) The KiCad documentation Team
 # This file is distributed under the same license as the KiCad documentation package.
 # Carsten Schoenert <c.schoenert@t-online.de> 2016
 #
@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2016-01-23 21:36+0100\n"
-"PO-Revision-Date: 2016-01-24 14:26+0100\n"
+"PO-Revision-Date: 2018-06-07 08:52+0200\n"
 "Last-Translator: Carsten Schoenert <c.schoenert@t-online.de>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -969,20 +969,20 @@ msgstr ""
 #: pl_editor.adoc:398
 #, no-wrap
 msgid ""
-"|image:images/icons/pagelayout_new.png[]\n"
+"|image:images/icons/new_page_layout.png[]\n"
 "|Select the net list file to be processed.\n"
 msgstr ""
-"|image:images/icons/pagelayout_new.png[]\n"
+"|image:images/icons/new_page_layout.png[]\n"
 "|Erstellt ein neues Design für ein Seitenlayout.\n"
 
 #. type: delimited block |
 #: pl_editor.adoc:401
 #, no-wrap
 msgid ""
-"|image:images/icons/pagelayout_load.png[]\n"
+"|image:images/icons/open_page_layout.png[]\n"
 "|Load a page layout description file.\n"
 msgstr ""
-"|image:images/icons/pagelayout_load.png[]\n"
+"|image:images/icons/open_page_layout.png[]\n"
 "|Öffnet ein vorhandenes Seitenlayout aus einer Datei.\n"
 
 #. type: delimited block |
