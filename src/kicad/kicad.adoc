@@ -428,6 +428,10 @@ image::images/template_selected.png[scaledwidth="80%"]
 
 KiCad looks for template files in the following paths:
 
+- path defined in the environment variable KICAD_USER_TEMPLATE_DIR
+
+- path defined in the environment variable KICAD_TEMPLATE_DIR
+
 - System templates:
   <kicad bin dir>/../share/kicad/template/
 
@@ -444,7 +448,7 @@ KiCad looks for template files in the following paths:
 
 - When the environment variable KICAD_PTEMPLATES is defined there is a
   third tab, Portable Templates, which lists templates found at the
-  KICAD_PTEMPLATES path.
+  KICAD_PTEMPLATES path (DEPRECATED).
 
 === Creating templates
 
