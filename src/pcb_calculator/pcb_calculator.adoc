@@ -1,0 +1,87 @@
+:author: The KiCad Team
+:doctype: article
+:toc:
+:ascii-ids:
+
+= PCB Calculator
+
+_Reference manual_
+
+[[copyright]]
+*Copyright*
+
+This document is Copyright (C) 2018 by it's contributors as listed below.
+You may distribute it and/or modify it under the terms of either the GNU
+General Public License (http://www.gnu.org/licenses/gpl.html),
+version 3 or later, or the Creative Commons Attribution License
+(http://creativecommons.org/licenses/by/3.0/),
+version 3.0 or later.
+
+[[contributors]]
+*Contributors*
+
+Heitor de Bittencourt.
+
+[[feedback]]
+*Feedback*
+
+Please direct any bug reports, suggestions or new versions to here:
+
+- About KiCad document: https://github.com/KiCad/kicad-doc/issues
+
+- About KiCad software: https://bugs.launchpad.net/kicad
+
+- About KiCad software i18n: https://github.com/KiCad/kicad-i18n/issues
+
+[[publication_date_and_software_version]]
+*Publication date and software version*
+
+nov 07, 2018.
+
+
+[[introduction]]
+== Introduction
+
+Introductory blablabla here
+
+structure of PCB Calc.
+
+[[calculators]]
+== Calculators
+
+
+[[regulators]]
+=== Regulators
+
+image::images/en/regulators.png[alt="Regulators",scaledwidth="80%"]
+
+[[track-width]]
+=== Track Width
+
+image::images/en/trackwidth.png[alt="Track Width",scaledwidth="80%"]
+
+[[electrical-spacing]]
+=== Electrical Spacing
+
+image::images/en/electricalspacing.png[alt="Electrical Spacing",scaledwidth="80%"]
+
+[[transline]]
+=== TransLine
+
+image::images/en/transline.png[alt="TransLine",scaledwidth="80%"]
+
+[[rf-attenuators]]
+=== RF Attenuators
+
+image::images/en/rfattenuators.png[alt="RF Attenuators",scaledwidth="80%"]
+
+[[color-code]]
+=== Color Code
+
+image::images/en/colorcode.png[alt="Color Code",scaledwidth="80%"]
+
+[[board-classes]]
+=== Board Classes
+
+image::images/en/boardclasses.png[alt="Board Classes",scaledwidth="80%"]
+
