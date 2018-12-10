@@ -387,8 +387,8 @@ labels and components yet to be connected. We will see later on why this is the 
     Project Specific Libraries. Each one has one sym-lib-table file. For a library
     (.lib file) to be available it must be in one of those sym-lib-table files.
     If you have a library file in your file system and it's not yet available,
-    you can add it to either one of the sym-lib-table files with *Browse Libraries*.
-    For practise we will now add a library which already is available.
+    you can add it to either one of the sym-lib-table files with the file browser button.
+    For practice we will now add a library which already is available.
 
 20. You need to find where the official KiCad libraries are installed on your
     computer. Look for a `library` directory containing a hundred of `.dcm` and
