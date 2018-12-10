@@ -443,7 +443,7 @@ image::images/gsik_myconn3_s.png[gsik_myconn3_s_png]
     on the area above the microcontroller 'VDD'. In the 'Component Selection
     history' section select 'VCC' and place it next to the VDD pin. Repeat
     the add process again and place a VCC part above the VCC pin of
-    'MYCONN3'.
+    'MYCONN3'. Move references and values out of the way if needed.
 
 30. Repeat the add-pin steps but this time select the GND part. Place a
     GND part under the GND pin of 'MYCONN3'. Place another GND symbol on the
