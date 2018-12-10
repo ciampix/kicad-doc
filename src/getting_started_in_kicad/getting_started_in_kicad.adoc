@@ -406,7 +406,8 @@ labels and components yet to be connected. We will see later on why this is the 
     'PIC12C508A-ISN' component.
 
 22. Hover the mouse over the microcontroller component. Notice that [x] and [y]
-    again flip the component. Return the component to its original orientation.
+    again flip the component. Keep the symbol mirrored around the Y axis
+    so that the pins G0 and G1 point to right.
 
 23. Repeat the add-component steps, this time choosing the 'Device'
     library and picking the 'LED' component from it.
