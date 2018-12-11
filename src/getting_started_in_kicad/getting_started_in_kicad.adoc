@@ -552,8 +552,8 @@ _Pin connected to some other pins but no pin to drive it_.
     toolbar.
 
 46. In the Annotate Schematic window, select 'Use the entire
-    schematic' and click on the 'Annotate' button. Click OK in the
-    confirmation message and then click 'Close'. Notice how all the
+    schematic' and click on the 'Annotate' button. Click 'Close'.
+    Notice how all the
     '?' have been replaced with numbers. Each identifier is now
     unique. In our example, they have been named 'R1', 'R2', 'U1',
     'D1' and 'J1'.
