@@ -539,7 +539,7 @@ image::images/gsik_tutorial1_060.png[gsik_tutorial1_060_png]
 image::images/gsik_tutorial1_070.png[gsik_tutorial1_070_png]
 +
 NOTE: This will avoid the classic schematic checking warning:
-Warning Pin power_in not driven (Net xx)
+_Pin connected to some other pins but no pin to drive it_.
 
 44. Sometimes it is good to write comments here and there. To add
     comments on the schematic use the 'Place text'
