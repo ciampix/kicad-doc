@@ -3440,7 +3440,7 @@ msgstr ""
 "środku pola roboczego pojawi się etykieta 'MYCONN3'. Pod nią możesz zobaczyć drugą "
 "etykietę 'REF*__'. Kliknij prawym klawiszem myszy na 'MYCONN3' i przesuń etykietę "
 "powyżej 'REF*__'. Kliknij prawym klawiszem na 'REF*__', wybierz 'Edytuj tekst "
-"modułu' i zmień go na 'SMD'. Ustaw wartość _Pokazuj_ na _Niewidoczny_."
+"modułu' i zmień go na 'SMD'. Ustaw wartość 'Pokazuj' na 'Niewidoczny'."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1436
