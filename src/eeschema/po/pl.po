@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
 "POT-Creation-Date: 2018-12-13 20:55+0100\n"
-"PO-Revision-Date: 2018-12-14 10:15+0100\n"
+"PO-Revision-Date: 2018-12-14 19:02+0100\n"
 "Last-Translator: Kerusey Karyu <keruseykaryu@o2.pl>\n"
 "Language-Team: Polish KiCAD Team: Mateusz Skowroński, Krzysztof Kawa, Kerusey "
 "Karyu\n"
@@ -15,7 +15,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.9\n"
+"X-Generator: Poedit 1.8.7.1\n"
 
 #. type: Title =
 #: eeschema.adoc:6
@@ -286,7 +286,7 @@ msgid ""
 "(check the path above the table)."
 msgstr ""
 "Biblioteki umieszczone na liście bibliotek zależnych od projektu są dostępne "
-"wyłącznie dla tego projektu. Lista ta jest zapisywana w pliku *sym-lib-table* w "
+"wyłącznie dla tego projektu. Lista ta jest zapisywana w pliku `sym-lib-table` w "
 "folderze projektu - przenosi się razem z projektem (aktualna ścieżka jest "
 "pokazywana w nagłówku tabeli)."
 
@@ -315,7 +315,7 @@ msgid ""
 msgstr ""
 "Można dodać bibliotekę zarówno klikając na przycisk *Przeglądaj biblioteki...* "
 "gdzie wybieramy plik za pomocą standardowego okna systemowego, jak i przez "
-"kliknięcie w przycisk *Dołącz bibliotekę*, i wpisanie ręczne wszystkich danych o "
+"kliknięcie w przycisk \"Dołącz bibliotekę\", i wpisanie ręczne wszystkich danych o "
 "bibliotece. Nowa biblioteka zostanie dopisana do aktualnie wybranej listy."
 
 #. type: Title =====
@@ -392,7 +392,7 @@ msgstr "images/pl/options_display.png"
 #: eeschema_main_top_menu.adoc:114
 #, no-wrap
 msgid "|Grid Size| Grid size selection.\n"
-msgstr "|Rozmiar siatki|Wybiera rozmiar siatki.\n"
+msgstr "|Rozmiar siatki| Wybiera rozmiar siatki.\n"
 
 #. type: delimited block |
 #: eeschema_main_top_menu.adoc:117
@@ -401,7 +401,7 @@ msgid ""
 "It is *recommended* to work with normal grid (0.050 inches or 1,27 mm). Smaller\n"
 "grids are used for component building.\n"
 msgstr ""
-"**Zalecana jest** praca z domyślnym rozmiarem (0,050 cala lub 1,27 mm). Mniejsza siatka\n"
+"**Zalecana jest** praca z domyślnym rozmiarem (0.050 cala lub 1,27 mm). Mniejsza siatka\n"
 "jest używana podczas tworzenia elementów.\n"
 
 #. type: delimited block |
@@ -534,7 +534,7 @@ msgid ""
 "element duplication (default: 0.100 inches or 2,54 mm).\n"
 msgstr ""
 "|Rozstaw w pionie powtarzanych elementów |Ustala przesunięcie w osi Y\n"
-"podczas powielania elementów (zwykle przesuwa o 0,1 cala lub 2,54 mm).\n"
+"podczas powielania elementów (zwykle przesuwa o 0.1 cala lub 2,54 mm).\n"
 
 #. type: delimited block |
 #: eeschema_main_top_menu.adoc:165
@@ -550,13 +550,13 @@ msgstr ""
 #: eeschema_main_top_menu.adoc:167
 #, no-wrap
 msgid "|Default text size |Text size used when creating new text items or labels.\n"
-msgstr "|Domyślny rozmiar tekstu: |Wartość ta jest używana przy tworzeniu nowych opisów lub etykiet.\n"
+msgstr "|Domyślny rozmiar tekstu |Wartość ta jest używana przy tworzeniu nowych opisów lub etykiet.\n"
 
 #. type: delimited block |
 #: eeschema_main_top_menu.adoc:169
 #, no-wrap
 msgid "|Auto-save time interval |Time in minutes between saving backups.\n"
-msgstr "|Auto zapis tworzony co: |Czas w minutach pomiędzy kolejnymi zapisami kopii zapasowej.\n"
+msgstr "|Auto zapis tworzony co |Czas w minutach pomiędzy kolejnymi zapisami kopii zapasowej.\n"
 
 #. type: delimited block |
 #: eeschema_main_top_menu.adoc:173
@@ -669,7 +669,6 @@ msgstr ""
 "|Użyj płytki dotykowej by panoramować | Jeśli opcja jest zaznaczona, widok jest panoramowany z użyciem\n"
 "kółek przewijania (lub gestów) i by powiększyć obszar należy przytrzymać CTRL. Inaczej kółka przewijania\n"
 "będą służyć do powiększania/pomniejszania a klawisze SHIFT i CTRL będą przełączać w tryb panoramowania.\n"
-"\n"
 
 #. type: delimited block |
 #: eeschema_main_top_menu.adoc:215
@@ -756,7 +755,7 @@ msgid ""
 "Use ``Copy Version Information'' when submitting bug reports to identify your build "
 "and system."
 msgstr ""
-"Polecenie ``Kopiuj informacje o wersji'' jest przydatne przy zgłaszaniu błędów w "
+"Polecenie \"Kopiuj informacje o wersji\" jest przydatne przy zgłaszaniu błędów w "
 "programie w celu lepszej identyfikacji."
 
 #. type: Title ==
@@ -935,7 +934,7 @@ msgstr ""
 #: eeschema_libedit.adoc:67
 #, no-wrap
 msgid "eeschema_libedit_anchor_png"
-msgstr "eeschema_libedit_anchor_png"
+msgstr "Punkt zaczepienia"
 
 #. type: Target for macro image
 #: eeschema_libedit.adoc:67
@@ -951,8 +950,8 @@ msgid ""
 "will be automatically re-centered on the new anchor point."
 msgstr ""
 "Punkt zaczepienia może być przeniesiony wybierając polecenie image:images/icons/"
-"anchor.png[icons/anchor_png] i klikając w jego nowym punkcie położenia. Rysunek "
-"zostanie automatycznie wycentrowany wobec nowego punktu zaczepienia."
+"anchor.png[Ikona Punkt zaczepienia] i klikając w jego nowym punkcie położenia. "
+"Rysunek zostanie automatycznie wycentrowany wobec nowego punktu zaczepienia."
 
 #. type: Title ===
 #: eeschema_libedit.adoc:75
@@ -990,14 +989,14 @@ msgid ""
 "the alias folder."
 msgstr ""
 "Aby zmodyfikować listę aliasów, należy wybrać w głównym oknie edycji narzędzie "
-"image:images/icons/part_properties.png[icons/part_properties_png] i wybrać zakładkę "
+"image:images/icons/part_properties.png[Ikona Właściwości symbolu] i wybrać zakładkę "
 "_Alias_."
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_libedit.adoc:91
 #, no-wrap
 msgid "eeschema_libedit_alias_png"
-msgstr "eeschema_libedit_alias_png"
+msgstr "Lista aliasów"
 
 #. type: Target for macro image
 #: eeschema_libedit.adoc:91
@@ -1035,8 +1034,8 @@ msgstr "Pola specjalne"
 msgid ""
 "The field editor is called via the icon image:images/icons/text.png[icons/text.png]."
 msgstr ""
-"Edytor pól jest wywoływany za pomocą ikony image:images/icons/text.png[icons/text."
-"png]."
+"Edytor pól jest wywoływany za pomocą ikony image:images/icons/text.png[Ikona Pola "
+"tekstowe]."
 
 #. type: Plain text
 #: eeschema_libedit.adoc:108
@@ -1051,7 +1050,7 @@ msgstr ""
 #: eeschema_libedit.adoc:109 eeschema_library_editor.adoc:754
 #, no-wrap
 msgid "eeschema_libedit_field_properties_png"
-msgstr "eeschema_libedit_field_properties_png"
+msgstr "Właściwości pola"
 
 #. type: Target for macro image
 #: eeschema_libedit.adoc:109 eeschema_library_editor.adoc:754
@@ -1067,7 +1066,7 @@ msgstr "Pola specjalne to:"
 #. type: Plain text
 #: eeschema_libedit.adoc:114
 msgid "Reference."
-msgstr "Odnośnik."
+msgstr "_Odnośnik_."
 
 #. type: Plain text
 #: eeschema_libedit.adoc:116
@@ -1075,7 +1074,7 @@ msgid ""
 "Value. It is the symbol name in the library and the default value field in "
 "schematic."
 msgstr ""
-"Wartość: Jest to nazwa symbolu w bibliotece, oraz domyślna wartość jaka zostanie "
+"_Wartość_: Jest to nazwa symbolu w bibliotece, oraz domyślna wartość jaka zostanie "
 "umieszczona na schemacie."
 
 #. type: Plain text
@@ -1084,13 +1083,13 @@ msgid ""
 "Footprint. It is the footprint name used for the board. Not very useful when using "
 "CvPcb to setup the footprint list, but mandatory if CvPcb is not used."
 msgstr ""
-"Footprint: nazwa modułu używanego na PCB. Nie jest zbyt potrzebna jeśli używamy "
+"_Footprint_: nazwa modułu używanego na PCB. Nie jest zbyt potrzebna jeśli używamy "
 "CvPcb do ustalania listy footprintów."
 
 #. type: Plain text
 #: eeschema_libedit.adoc:120
 msgid "Sheet. It is a reserved field, not used at the time of writing."
-msgstr "Dokumentacja: zarezerwowane (tutaj nie używane)."
+msgstr "_Dokumentacja_: zarezerwowane (tutaj nie używane)."
 
 #. type: Title ===
 #: eeschema_libedit.adoc:122
@@ -1107,14 +1106,14 @@ msgid ""
 msgstr ""
 "Aby dokonać edycji opcji związanych z informacjami dokumentującymi symboli, należy "
 "wywołać główne okno właściwości symbolu za pomocą ikony image:images/icons/"
-"part_properties.png[icons/part_properties_png] oraz przełączyć się na zakładkę "
+"part_properties.png[Ikona Właściwości symboli] oraz przełączyć się na zakładkę "
 "_Opis_."
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_libedit.adoc:129
 #, no-wrap
 msgid "eeschema_libedit_description_png"
-msgstr "eeschema_libedit_description_png"
+msgstr "Pole wprowadzania opisu"
 
 #. type: Target for macro image
 #: eeschema_libedit.adoc:129
@@ -1170,18 +1169,18 @@ msgid ""
 "AND2 NOR3 XOR2 INV... for the gates (AND2 = 2 inputs AND gate, NOR3 = 3 inputs NOR "
 "gate)."
 msgstr ""
-"AND2 NOR3 XOR2 INV ... dla bramek (AND2 = 2 wejściowa bramka AND, NOR3 = 3 "
-"wejściowa bramka NOR)."
+"AND2 NOR3 XOR2 INV... dla bramek (AND2 = 2 wejściowa bramka AND, NOR3 = 3 wejściowa "
+"bramka NOR)."
 
 #. type: Plain text
 #: eeschema_libedit.adoc:150
 msgid "JKFF DFF... for JK or D flip-flop."
-msgstr "JKFF, DFF ... dla przerzutników typu JK lub D."
+msgstr "JKFF, DFF... dla przerzutników typu JK lub D."
 
 #. type: Plain text
 #: eeschema_libedit.adoc:151
 msgid "ADC, DAC, MUX..."
-msgstr "ADC, DAC, MUX ..."
+msgstr "ADC, DAC, MUX..."
 
 #. type: Plain text
 #: eeschema_libedit.adoc:155
@@ -1192,7 +1191,7 @@ msgid ""
 msgstr ""
 "OpenCol dla bramek posiadających wyjścia typu otwarty kolektor. Tak więc, jeśli w "
 "oprogramowaniu do edycji schematów będziemy szukać symboli za pomocą słów "
-"kluczowych ``NAND2 OpenCol'', Eeschema wyświetli listę symboli pasujących do tych 2 "
+"kluczowych `NAND2 OpenCol`, Eeschema wyświetli listę symboli pasujących do tych 2 "
 "słów kluczowych."
 
 #. type: Title ====
@@ -1226,7 +1225,7 @@ msgstr ""
 #: eeschema_libedit.adoc:168
 #, no-wrap
 msgid "Associated documentation file (DocFileName)"
-msgstr "Dołączony plik dokumentacji (_Nazwa pliku z dokumentacją_)"
+msgstr "Dołączony plik dokumentacji (Nazwa pliku z dokumentacją)"
 
 #. type: Plain text
 #: eeschema_libedit.adoc:172
@@ -1263,7 +1262,7 @@ msgstr ""
 #: eeschema_libedit.adoc:180
 #, no-wrap
 msgid "eeschema_libedit_footprint_png"
-msgstr "eeschema_libedit_footprint_png"
+msgstr "Filtrowanie wg footprintów"
 
 #. type: Target for macro image
 #: eeschema_libedit.adoc:180
@@ -1305,7 +1304,7 @@ msgstr "Z filtrowaniem"
 #: eeschema_libedit.adoc:194
 #, no-wrap
 msgid "eeschema_cvpcb_with_filtering_png"
-msgstr "eeschema_cvpcb_with_filtering_png"
+msgstr "Filtrowanie włączone"
 
 #. type: Target for macro image
 #: eeschema_libedit.adoc:194
@@ -1322,7 +1321,7 @@ msgstr "Bez filtracji"
 #: eeschema_libedit.adoc:198
 #, no-wrap
 msgid "eeschema_cvpcb_without_filtering_png"
-msgstr "eeschema_cvpcb_without_filtering_png"
+msgstr "Filtrowanie wyłączone"
 
 #. type: Target for macro image
 #: eeschema_libedit.adoc:198
@@ -1346,7 +1345,7 @@ msgstr ""
 "W łatwy sposób można skompilować podręczną biblioteczkę z rysunkami, zawierającą "
 "często używane grafiki. Można to wykorzystywać do tworzenia podstawowych "
 "komponentów składowych symboli (np. trójkąty, prostokąty, kształty bramek AND, OR, "
-"XOR...) w celu ich późniejszego ponownego użycia."
+"XOR, itp.) w celu ich późniejszego ponownego użycia."
 
 #. type: Plain text
 #: eeschema_libedit.adoc:212
@@ -1356,7 +1355,7 @@ msgid ""
 "because they are generally not so many."
 msgstr ""
 "Pliki te są przechowywane domyślnie w katalogu biblioteki jako poszczególne pliki z "
-"rozszerzeniem '.sym'. Wzorce te nie są zbierane w jednym pliku bibliotecznym jak "
+"rozszerzeniem `.sym`. Wzorce te nie są zbierane w jednym pliku bibliotecznym jak "
 "symbole, ponieważ zazwyczaj nie są zbyt liczne."
 
 #. type: Title ====
@@ -1373,7 +1372,7 @@ msgid ""
 "idea to delete all pins, if they exist."
 msgstr ""
 "Symbol może być łatwo wyeksportowany jako wzorzec graficzny za pomocą narzędzia "
-"eksportu image:images/icons/export.png[icons/export_png] znajdującego się na prawym "
+"eksportu image:images/icons/export.png[Ikona Eksport] znajdującego się na prawym "
 "pasku narzędzi.  Generalnie przy tworzeniu wzorców głównie chodzi o samą grafikę, "
 "zatem dobrym pomysłem jest by przed eksportem, usunąć istniejące piny."
 
@@ -1454,7 +1453,7 @@ msgstr "images/schematic-sample.png"
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:25
 #, no-wrap
 msgid "The Intermediate Netlist file sample"
-msgstr "Przykład pośrednej listy sieci"
+msgstr "Przykład pośredniej listy sieci"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:29
@@ -1868,7 +1867,7 @@ msgstr ""
 "XML z zastosowaniem przy tym arkuszu stylu (tzw. \"filtr\") i zapisaniu danych "
 "wynikowych. Dlatego użytkownik musi wcześniej utworzyć odpowiedni arkusz stylu "
 "pliku wyjściowego używając konwencji przyjętych w XSLT. Cały proces konwersji jest "
-"przejrzysty i obsługiwany przez Eeschema zaraz jak tylko zostanie skonfugurowany."
+"przejrzysty i obsługiwany przez Eeschema zaraz jak tylko zostanie skonfigurowany."
 
 #. type: Title ===
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:232
@@ -1908,7 +1907,7 @@ msgstr "Listę footprint-ów."
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:247
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:376
 msgid "The Nets list: grouping pads references by nets."
-msgstr "Listę sieci (zgrupowane wyprowadzenia według sieci)"
+msgstr "Listę sieci (zgrupowane wyprowadzenia według sieci)."
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:250
@@ -2523,7 +2522,7 @@ msgstr ".END\n"
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:527
 #, no-wrap
 msgid "Create an OrcadPCB2 netlist file"
-msgstr "Przykład tworzenia listy sieci programu OrcadPCB2"
+msgstr "Tworzenie listy sieci programu OrcadPCB2"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:531
@@ -3107,7 +3106,7 @@ msgstr ""
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:798
 #, no-wrap
 msgid "eeschema_plugin_add_plugin_png"
-msgstr "eeschema_plugin_add_plugin_png"
+msgstr "Dodawanie wtyczki"
 
 #. type: Target for macro image
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:798
@@ -3124,7 +3123,7 @@ msgstr "Poniższy obrazek ukazuje skonfigurowaną wtyczkę PADS-PCB:"
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:802
 #, no-wrap
 msgid "eeschema_plugin_padspcb_png"
-msgstr "eeschema_plugin_padspcb_png"
+msgstr "Wtyczka PADSPCB"
 
 #. type: Target for macro image
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:802
@@ -3146,7 +3145,7 @@ msgstr "Zakładka z ustawieniami wymaga następujących informacji:"
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:811
 msgid "The title: for instance, the name of the netlist format."
-msgstr "Tytułu zakładki (określająca również nazwę formatu wyjściowego listy sieci)"
+msgstr "Tytułu zakładki (określająca również nazwę formatu wyjściowego listy sieci)."
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:813
@@ -3161,12 +3160,13 @@ msgstr "Przy aktywacji klawisza Lista sieci na takiej zakładce:"
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:817
 msgid "Eeschema creates an intermediate netlist file *.xml, for instance test.xml."
-msgstr "Eeschema tworzy pośredni plik z listą sieci *.xml, na przykład test.xml."
+msgstr "Eeschema tworzy pośredni plik z listą sieci `*.xml`, na przykład `test.xml`."
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:819
 msgid "Eeschema runs the plug-in by reading test.xml and creates test.net."
-msgstr "Eeschema uruchamia wtyczkę, która czyta plik test.xml i tworzy plik test.net."
+msgstr ""
+"Eeschema uruchamia wtyczkę, która czyta plik `test.xml` i tworzy plik `test.net`."
 
 #. type: Title =====
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:821
@@ -3180,8 +3180,8 @@ msgid ""
 "Assuming we are using the program _xsltproc.exe_ to apply the sheet style to the "
 "intermediate file, _xsltproc.exe_ is executed with the following command:"
 msgstr ""
-"Zakładając, że zostanie użyty program _xsltproc.exe_ by zastosować filtr z arkusza "
-"stylów na pliku pośrednim listy sieci, _xsltproc.exe_ będzie potrzebował "
+"Zakładając, że zostanie użyty program `xsltproc.exe` by zastosować filtr z arkusza "
+"stylów na pliku pośrednim listy sieci, `xsltproc.exe` będzie potrzebował "
 "odpowiednio skonstruowaną listę parametrów, zgodnie ze wzorcem:"
 
 #. type: Plain text
@@ -3228,7 +3228,7 @@ msgid ""
 "forget the double quotes around the file names, this allows them to have spaces "
 "after the substitution by Eeschema."
 msgstr ""
-"Plik _netlist_form_pads-pcb.xsl_ jest w tym przypadku arkuszem stylu. Należy "
+"Plik `netlist_form_pads-pcb.xsl` jest w tym przypadku arkuszem stylu. Należy "
 "pamiętać by nazwy plików zawierające (lub mogące zawierać) znaki spacji zamknąć w "
 "cudzysłowach."
 
@@ -3309,7 +3309,7 @@ msgstr "*f:/kicad/bin/xsltproc.exe -o \"%O\" f:/kicad/bin/plugins/netlist_form_p
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:869
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:903
 msgid "under Linux:"
-msgstr "_W systemie Linux_:"
+msgstr "w systemie Linux:"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:871
@@ -3324,7 +3324,7 @@ msgid ""
 "files located in kicad/bin."
 msgstr ""
 "Zakładając, że xsltproc został zainstalowany na komputerze (w systemie Windows, "
-"wszystkie pliki są w kicad/bin)."
+"wszystkie pliki są w `kicad/bin`)."
 
 #. type: Title ====
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:876
@@ -3348,7 +3348,7 @@ msgstr ""
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:883
 #, no-wrap
 msgid "bom-netlist-tab_png"
-msgstr "bom-netlist-tab_png"
+msgstr "Zakładka BOM"
 
 #. type: Target for macro image
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:883
@@ -3365,9 +3365,9 @@ msgid ""
 "useful, ask that it become part of the KiCad project."
 msgstr ""
 "Ścieżka do arkusza stylu bom2csv.xsl jest zależna od systemu operacyjnego. Obecnie "
-"najlepszym arkuszem stylu XSLT do generowania plików BOM jest __bom2csv.xsl__. "
-"Można go zmodyfikować do własnych potrzeb, a jeśli będzie on użyteczny można "
-"zaproponować by stał się częścią projektu KiCad."
+"najlepszym arkuszem stylu XSLT do generowania plików BOM jest `bom2csv.xsl`. Można "
+"go zmodyfikować do własnych potrzeb, a jeśli będzie on użyteczny można zaproponować "
+"by stał się częścią projektu KiCad."
 
 #. type: Title ===
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:892
@@ -3400,7 +3400,7 @@ msgstr "*python /usr/local/kicad/python/my_python_script.py \"%I\" \"%O\"*\n"
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:907
 msgid "Assuming python is installed on your PC."
-msgstr "Zakładając, że Python jest zainstalowany."
+msgstr "Zakładając, że Python jest zainstalowany w systemie."
 
 #. type: Title ===
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:909
@@ -4062,7 +4062,7 @@ msgid ""
 "of the GNOME desktop."
 msgstr ""
 "xsltproc jest narzędziem uruchamianym z linii poleceń do filtrowania za pomocą "
-"arkuszy stylów XSLT dokumentów XML. Jest on częścią libxslt, biblioteki XSLT C "
+"arkuszy stylów XSLT dokumentów XML. Jest on częścią __libxslt__, biblioteki XSLT C "
 "Library przeznaczonej dla GNOME. Chociaż powstała ona jako część projektu GNOME, "
 "może również działać niezależnie od GNOME."
 
@@ -4110,12 +4110,12 @@ msgid ""
 "[--writesubtree] | [--nodtdattr]] [ *stylesheet* ] [ *file1* ] [ *file2* ] \n"
 "[ *....* ]\n"
 msgstr ""
-"xsltproc [[-V] | [-v] | [-o *plik* ] | [--timing] | [--repeat] |\n"
-"[--debug] | [--novalid] | [--noout] | [--maxdepth *wart* ] | [--html] |\n"
-"[--param *nazwa* *wart* ] | [--stringparam *nazwa* *wart* ] | [--nonet] |\n"
-"[--path *ścieżki* ] | [--load-trace] | [--catalogs] | [--xinclude] |\n"
+"xsltproc [[-V] | [-v] | [-o *file* ] | [--timing] | [--repeat] |\n"
+"[--debug] | [--novalid] | [--noout] | [--maxdepth *val* ] | [--html] |\n"
+"[--param *name* *value* ] | [--stringparam *name* *value* ] | [--nonet] |\n"
+"[--path *paths* ] | [--load-trace] | [--catalogs] | [--xinclude] |\n"
 "[--profile] | [--dumpextensions] | [--nowrite] | [--nomkdir] |\n"
-"[--writesubtree] | [--nodtdattr]] [ *arkuszstylu* ] [ *plik1* ] [ *plik2* ] \n"
+"[--writesubtree] | [--nodtdattr]] [ *stylesheet* ] [ *file1* ] [ *file2* ] \n"
 "[ *....* ]\n"
 
 #. type: Title ====
@@ -4160,7 +4160,7 @@ msgid ""
 "directory must already exist."
 msgstr ""
 "Przekierowuje wyjście do pliku o nazwie __plik__. Dla wyjść wielokrotnych, zwanych "
-"także jako ``chunking'', -o folder/ przekierowuje pliki wyjściowe do określonego "
+"także jako \"chunking\", -o folder/ przekierowuje pliki wyjściowe do określonego "
 "katalogu. Katalog ten musi być wcześniej utworzony."
 
 #. type: Plain text
@@ -4258,7 +4258,8 @@ msgid ""
 msgstr ""
 "Przekazuje parametr _nazwa_ i wartość _wartość_ do arkusza stylów. Można przekazać "
 "wiele par nazwa/wartość, jednak nie więcej niż 32. Jeśli wartość przekazywana jest "
-"łańcuchem a nie identyfikatorem węzła, należy użyć --stringparam zamiast tej opcji."
+"łańcuchem a nie identyfikatorem węzła, należy użyć `--stringparam` zamiast tej "
+"opcji."
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1290
@@ -4307,7 +4308,7 @@ msgstr "_--load-trace_"
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1306
 msgid "Display to stderr all the documents loaded during the processing."
-msgstr "Wysyła na stderr wszystkie dokumenty ładowane podczas przetwarzania."
+msgstr "Wysyła na __stderr__ wszystkie dokumenty ładowane podczas przetwarzania."
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1308
@@ -4323,7 +4324,7 @@ msgid ""
 msgstr ""
 "Używa katalogu SGML określonego w SGML_CATALOG_FILES by określić lokację "
 "zewnętrznych podmiotów. Domyślnie, xsltproc zagląda do katalogu określonego w "
-"XML_CATALOG_FILES. Jeśli nie jest to określone, używa _etc/xml/catalog_."
+"XML_CATALOG_FILES. Jeśli nie jest to określone, używa `etc/xml/catalog`."
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1315
@@ -4363,7 +4364,7 @@ msgstr "_--dumpextensions_"
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1329
 msgid "Dumps the list of all registered extensions to stdout."
-msgstr "Zwraca listę wszystkich zarejestrowanych rozszerzeń na stdout."
+msgstr "Zwraca listę wszystkich zarejestrowanych rozszerzeń na __stdout__."
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1331
@@ -4572,7 +4573,7 @@ msgid ""
 "functions needed for modern schematic capture software:"
 msgstr ""
 "Eeschema zwiera Edytor Bibliotek Symboli, za pomocą którego można tworzyć nowe "
-"symbole oraz zarządzać bibliotekami. Zawiera również następujące narzędzia "
+"symbole oraz zarządzać bibliotekami.  Zawiera również następujące narzędzia "
 "dodatkowe, stanowiące jednak niezbędny element nowoczesnego oprogramowania do "
 "tworzenia schematów:"
 
@@ -4668,7 +4669,7 @@ msgstr ""
 #: eeschema_general_top_toolbar.adoc:96
 #, no-wrap
 msgid "annotate-dialog_img"
-msgstr "annotate-dialog_img"
+msgstr "Okno annotacji"
 
 #. type: Target for macro image
 #: eeschema_automatic_classification_annotation.adoc:14
@@ -4685,7 +4686,7 @@ msgstr "Dostępne warianty numeracji:"
 #. type: Plain text
 #: eeschema_automatic_classification_annotation.adoc:19
 msgid "Annotate all the symbols (reset existing annotation option)"
-msgstr "Opisywanie wszystkich składników (opcja Resetuj bieżącą numerację)."
+msgstr "Opisywanie wszystkich składników (opcja \"Resetuj bieżącą numerację\")."
 
 #. type: Plain text
 #: eeschema_automatic_classification_annotation.adoc:21
@@ -4701,7 +4702,7 @@ msgid ""
 "Annotate only symbols that are currently not annotated.  Symbols that are not "
 "annotated will have a designator which ends with a '?' character."
 msgstr ""
-"Opisywanie wszystkich składników które nie są obecnie ponumerowane. Symbole, które "
+"Opisywanie wszystkich składników które nie są obecnie ponumerowane.  Symbole, które "
 "nie posiadają jeszcze numeracji posiadają symbol '?' w oznaczeniach."
 
 #. type: Plain text
@@ -4723,8 +4724,8 @@ msgid ""
 "reannotated to U1A and U2A, nor to U2B and U2A. This is useful if you want to "
 "ensure that pin groupings are maintained."
 msgstr ""
-"Opcja ``Zresetuj, ale nie zamieniaj żadnej z ponumerowanych części elementów "
-"wieloskładowych'' zachowuje wszystkie istniejące powiązania między częściami w "
+"Opcja \"Zresetuj, ale nie zamieniaj żadnej z ponumerowanych części elementów "
+"wieloskładowych\" zachowuje wszystkie istniejące powiązania między częściami w "
 "elementach wieloczęściowych. Oznacza to, że jeśli mamy U2A i U2B, to mogą one być "
 "przemianowane na U1A i U1B, ale nigdy nie zostaną przemianowane na U1A i U2A, ani "
 "U2B i U2A. Jest to przydatne, gdy chcemy mieć pewność, że określone grupy pinów "
@@ -4816,7 +4817,7 @@ msgstr ""
 #: eeschema_automatic_classification_annotation.adoc:60
 #, no-wrap
 msgid "eeschema_annotation_order_none_png"
-msgstr "eeschema_annotation_order_none_png"
+msgstr "Brak kolejności"
 
 #. type: Target for macro image
 #: eeschema_automatic_classification_annotation.adoc:60
@@ -4838,7 +4839,7 @@ msgstr "Z sortowaniem elementów według pozycji w osi X:"
 #: eeschema_automatic_classification_annotation.adoc:66
 #, no-wrap
 msgid "eeschema_annotation_order_x_png"
-msgstr "eeschema_annotation_order_x_png"
+msgstr "Kolejność w osi X"
 
 #. type: Target for macro image
 #: eeschema_automatic_classification_annotation.adoc:66
@@ -4855,7 +4856,7 @@ msgstr "Z sortowaniem elementów według pozycji w osi Y:"
 #: eeschema_automatic_classification_annotation.adoc:70
 #, no-wrap
 msgid "eeschema_annotation_order_y_png"
-msgstr "eeschema_annotation_order_y_png"
+msgstr "Kolejność w osi Y"
 
 #. type: Target for macro image
 #: eeschema_automatic_classification_annotation.adoc:70
@@ -4891,7 +4892,7 @@ msgstr ""
 #: eeschema_automatic_classification_annotation.adoc:81
 #, no-wrap
 msgid "eeschema_annotation_choice_free_png"
-msgstr "eeschema_annotation_choice_free_png"
+msgstr "Wybór typu annotacji"
 
 #. type: Target for macro image
 #: eeschema_automatic_classification_annotation.adoc:81
@@ -4905,14 +4906,14 @@ msgid ""
 "Option start to sheet number*100 and use first free number give the following "
 "result."
 msgstr ""
-"Opcja Rozpocznij od numer arkusza*100 i użyj pierwszego wolnego numeru daje "
+"Opcja \"Rozpocznij od numer arkusza*100 i użyj pierwszego wolnego numeru\" daje "
 "następujący efekt."
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_automatic_classification_annotation.adoc:86
 #, no-wrap
 msgid "eeschema_annotation_choice_x100_png"
-msgstr "eeschema_annotation_choice_x100_png"
+msgstr "Wybór numer x100"
 
 #. type: Target for macro image
 #: eeschema_automatic_classification_annotation.adoc:86
@@ -4926,14 +4927,14 @@ msgid ""
 "The option start to sheet number*1000 and use first free number gives the following "
 "result."
 msgstr ""
-"Opcja Rozpocznij od numer arkusza*1000 i użyj pierwszego wolnego numeru daje "
+"Opcja \"Rozpocznij od numer arkusza*1000 i użyj pierwszego wolnego numeru\" daje "
 "następujący efekt."
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_automatic_classification_annotation.adoc:91
 #, no-wrap
 msgid "eeschema_annotation_choice_x1000_png"
-msgstr "eeschema_annotation_choice_x1000_png"
+msgstr "Wybór numeru x1000"
 
 #. type: Target for macro image
 #: eeschema_automatic_classification_annotation.adoc:91
@@ -4954,7 +4955,7 @@ msgid ""
 "connections are referred to as nets.  In the netlist file you can find:"
 msgstr ""
 "Lista sieci to plik, który opisuje połączenia pomiędzy elementami na schemacie. "
-"Połączenia te tworzą elementy zwane siecią. W liście sieci można znaleźć:"
+"Połączenia te tworzą elementy zwane siecią.  W liście sieci można znaleźć:"
 
 #. type: Plain text
 #: eeschema_create_a_netlist.adoc:12
@@ -5045,7 +5046,7 @@ msgstr "Wybrany format Pcbnew"
 #: eeschema_create_a_netlist.adoc:40
 #, no-wrap
 msgid "eeschema_netlist_dialog_pcbnew_png"
-msgstr "eeschema_netlist_dialog_pcbnew_png"
+msgstr "Lista sieci Pcbnew"
 
 #. type: Target for macro image
 #: eeschema_create_a_netlist.adoc:40
@@ -5062,7 +5063,7 @@ msgstr "Wybrany format Spice"
 #: eeschema_create_a_netlist.adoc:44
 #, no-wrap
 msgid "eeschema_netlist_dialog_spice_png"
-msgstr "eeschema_netlist_dialog_spice_png"
+msgstr "Lista sieci Spice"
 
 #. type: Target for macro image
 #: eeschema_create_a_netlist.adoc:44
@@ -5104,7 +5105,7 @@ msgstr "Na poniższym rysunku znajduje się schemat używający biblioteki PSPIC
 #: eeschema_create_a_netlist.adoc:60
 #, no-wrap
 msgid "eeschema_netlist_schematic_png"
-msgstr "eeschema_netlist_schematic_png"
+msgstr "Schemat dla Spice"
 
 #. type: Target for macro image
 #: eeschema_create_a_netlist.adoc:60
@@ -5373,7 +5374,7 @@ msgid ""
 "itself (.PROBE, .AC, etc.)."
 msgstr ""
 "Dla symulatora PSpice trzeba do listy sieci dodać kilka linii z poleceniami dla "
-"symulatora (.PROBE, .AC ...). Można je umieścić bezpośrednio na schemacie."
+"symulatora (.PROBE, .AC, itp.). Można je umieścić bezpośrednio na schemacie."
 
 #. type: Plain text
 #: eeschema_create_a_netlist.adoc:187
@@ -5406,7 +5407,7 @@ msgstr ""
 #: eeschema_create_a_netlist.adoc:194
 #, no-wrap
 msgid "eeschema_pspice_netlist_png"
-msgstr "eeschema_pspice_netlist_png"
+msgstr "Dyrektywy Spice"
 
 #. type: Target for macro image
 #: eeschema_create_a_netlist.adoc:194
@@ -5466,7 +5467,7 @@ msgstr ""
 #. type: Plain text
 #: eeschema_create_a_netlist.adoc:214
 msgid "creates the four lines:"
-msgstr "Taki zapis utworzy następujący tekst:"
+msgstr "taki zapis utworzy następujący tekst:"
 
 #. type: Plain text
 #: eeschema_create_a_netlist.adoc:219
@@ -5535,7 +5536,7 @@ msgstr "Można dodać nową wtyczkę do list sieci używając przycisku \"Dodaj 
 #: eeschema_create_a_netlist.adoc:240
 #, no-wrap
 msgid "eeschema_netlist_dialog_add_plugin_png"
-msgstr "eeschema_netlist_dialog_add_plugin_png"
+msgstr "Dodanie wtyczki"
 
 #. type: Target for macro image
 #: eeschema_create_a_netlist.adoc:240
@@ -5552,7 +5553,7 @@ msgstr "Poniżej znajduje się okno ustawień nowej wtyczki PADS-PCB:"
 #: eeschema_create_a_netlist.adoc:244
 #, no-wrap
 msgid "eeschema_netlist_dialog_padspcb_png"
-msgstr "eeschema_netlist_dialog_padspcb_png"
+msgstr "Wtyczka PADS PCB"
 
 #. type: Target for macro image
 #: eeschema_create_a_netlist.adoc:244
@@ -5588,7 +5589,8 @@ msgstr "Eeschema tworzy pośredni plik z listą sieci `*.tmp`, na przykład `tes
 #. type: Plain text
 #: eeschema_create_a_netlist.adoc:255
 msgid "Eeschema runs the plug-in, which reads test.tmp and creates test.net."
-msgstr "Eeschema uruchamia wtyczkę, która czyta plik test.tmp i tworzy plik test.net."
+msgstr ""
+"Eeschema uruchamia wtyczkę, która czyta plik `test.tmp` i tworzy plik `test.net`."
 
 #. type: Title ====
 #: eeschema_create_a_netlist.adoc:257
@@ -5624,13 +5626,13 @@ msgstr "Gdzie:"
 #: eeschema_create_a_netlist.adoc:270
 #, no-wrap
 msgid "|f:/kicad/bin/xsltproc.exe |A tool to read and convert xsl file\n"
-msgstr "|f:/kicad/bin/xsltproc.exe |Narzędzie do odczytywania i konwersji pliku xsl\n"
+msgstr "|`f:/kicad/bin/xsltproc.exe` |Narzędzie do odczytywania i konwersji pliku xsl\n"
 
 #. type: delimited block |
 #: eeschema_create_a_netlist.adoc:272
 #, no-wrap
 msgid "|-o %O.net |Output file: %O will define the output file.\n"
-msgstr "|-o %O.net |Plik wyjściowy: %O zastępuje nazwę pliku wyjściowego.\n"
+msgstr "|`-o %O.net` |Plik wyjściowy: %O zastępuje nazwę pliku wyjściowego.\n"
 
 #. type: delimited block |
 #: eeschema_create_a_netlist.adoc:275
@@ -5639,7 +5641,7 @@ msgid ""
 "|f:/kicad/bin/plugins/netlist_form_pads-pcb.xsl |File name converter (a\n"
 "sheet style, xsl format).\n"
 msgstr ""
-"|f:/kicad/bin/plugins/netlist_form_pads-pcb.xsl |Nazwa pliku konwertera (arkusz\n"
+"|`f:/kicad/bin/plugins/netlist_form_pads-pcb.xsl` |Nazwa pliku konwertera (arkusz\n"
 "stylów, w formacie XSL).\n"
 
 #. type: delimited block |
@@ -5649,14 +5651,14 @@ msgid ""
 "|%I |Will be replaced by the intermediate file created by Eeschema\n"
 "(*.tmp).\n"
 msgstr ""
-"|%I |Zostanie zastąpione przez plik pośredni utworzony przez Eeschema\n"
-"(*.tmp).\n"
+"|`%I` |Zostanie zastąpione przez plik pośredni utworzony przez Eeschema\n"
+"(`*.tmp`).\n"
 
 #. type: Plain text
 #: eeschema_create_a_netlist.adoc:281
 msgid "For a schematic named test.sch, the actual command line is:"
 msgstr ""
-"Dla przykładowego schematu nazwanego test.sch, właściwa linia poleceń ma postać:"
+"Dla przykładowego schematu nazwanego `test.sch`, właściwa linia poleceń ma postać:"
 
 #. type: Plain text
 #: eeschema_create_a_netlist.adoc:284
@@ -5696,7 +5698,7 @@ msgstr ""
 #: eeschema_create_a_netlist.adoc:297
 #, no-wrap
 msgid "Intermediate netlist file format"
-msgstr "Format pośrednej listy sieci"
+msgstr "Format pośredniej listy sieci"
 
 #. type: Plain text
 #: eeschema_create_a_netlist.adoc:301
@@ -5704,8 +5706,8 @@ msgid ""
 "See Chapter 14 for more explanations about xslproc, descriptions of the "
 "intermediate file format, and some examples of sheet style for converters."
 msgstr ""
-"Rozdział 14 zawiera więcej wyjaśnień na temat `xsltproc`, opisów formatu pliku "
-"pośredniego oraz niektóre przykłady arkuszy stylów dla konwerterów."
+"Rozdział 14 zawiera większy opis `xsltproc`, opisów formatu pliku pośredniego oraz "
+"niektóre przykłady arkuszy stylów dla konwerterów."
 
 #. type: Title ==
 #: eeschema_design_verification_with_erc.adoc:3
@@ -5743,7 +5745,7 @@ msgstr ""
 "kontynuacją dalszej pracy nad projektem. Jakość procesu sprawdzenia jest "
 "bezpośrednio zależna od staranności jaka została podjęta podczas tworzenia "
 "elementów bibliotecznych, zwłaszcza przy definiowaniu typu wyprowadzeń. Błędy "
-"raportowane przez ERC mogą mieć status ``błędów'' lub ``ostrzeżeń''."
+"raportowane przez ERC mogą mieć status \"błędów\" lub \"ostrzeżeń\"."
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_design_verification_with_erc.adoc:20 eeschema_general_top_toolbar.adoc:144
@@ -5767,8 +5769,7 @@ msgstr "Używanie narzędzia testu ERC"
 #: eeschema_design_verification_with_erc.adoc:27
 msgid ""
 "ERC can be started by clicking on the icon image:images/icons/erc.png[ERC icon]."
-msgstr ""
-"ERC można uruchomić klikając w ikonę icon image:images/icons/erc.png[ERC icon]."
+msgstr "ERC można uruchomić klikając w ikonę image:images/icons/erc.png[Ikona ERC]."
 
 #. type: Plain text
 #: eeschema_design_verification_with_erc.adoc:30
@@ -5875,14 +5876,14 @@ msgstr "images/pl/erc_pointers_info.png"
 #: eeschema_design_verification_with_erc.adoc:63
 msgid "and when clicking on Marker Error Info you can get a description of the error."
 msgstr ""
-"wybierając polecenie Informacja o znaczniku błędu można zobaczyć dokładniejszy jego "
-"opis."
+"wybierając polecenie \"Informacja o znaczniku błędu\" można zobaczyć dokładniejszy "
+"jego opis."
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_design_verification_with_erc.adoc:64
 #, no-wrap
 msgid "erc_pointers_message_png"
-msgstr "erc_pointers_message_png"
+msgstr "Informacja o znaczniku"
 
 #. type: Target for macro image
 #: eeschema_design_verification_with_erc.adoc:64
@@ -5934,7 +5935,7 @@ msgstr ""
 #: eeschema_design_verification_with_erc.adoc:80
 #, no-wrap
 msgid "eeschema_power_pins_and_flags_png"
-msgstr "eeschema_power_pins_and_flags_png"
+msgstr "Porty zasilania i flagi PWR_FLAG"
 
 #. type: Target for macro image
 #: eeschema_design_verification_with_erc.adoc:80
@@ -5957,10 +5958,10 @@ msgid ""
 "attribute is power in), so grounds never appear connected to a power source without "
 "a power flag symbol."
 msgstr ""
-"W większości przypadków, PWR_FLAG musi zostać podpięta do sieci GND, ponieważ  "
+"W większości przypadków, PWR_FLAG musi zostać podpięta do sieci GND, ponieważ "
 "regulatory napięć posiadają co prawda wyjścia zadeklarowane jako źródło zasilania, "
 "ale ich wyprowadzenia masy (GND) zwykle nigdy nie są źródłami zasilania (normalny "
-"atrybut to wejście zasilania). Tak więc, masy nigdy nie występują jako źródła "
+"atrybut to Wejście zasilania). Tak więc, masy nigdy nie występują jako źródła "
 "zasilania bez podpiętej PWR_FLAG."
 
 #. type: Title ===
@@ -5984,7 +5985,7 @@ msgstr ""
 #: eeschema_design_verification_with_erc.adoc:95
 #, no-wrap
 msgid "eeschema_erc_options_png"
-msgstr "eeschema_erc_options_png"
+msgstr "Opcje ERC"
 
 #. type: Target for macro image
 #: eeschema_design_verification_with_erc.adoc:95
@@ -6073,14 +6074,14 @@ msgid ""
 msgstr ""
 "Przeglądarka Bibliotek Symboli pozwala na szybkie sprawdzenie zawartości aktywnych "
 "bibliotek. Przeglądarkę można wywołać klikając w ikonę image:images/icons/"
-"library_browse.png[icons/library_browse_png] lub przez pozycję \"Przeglądarka "
+"library_browse.png[Ikona Przeglądarka bibliotek] lub przez pozycję \"Przeglądarka "
 "Bibliotek\" dostępną w menu \"Widok\"."
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_viewlib.adoc:13
 #, no-wrap
 msgid "eeschema_viewlib_choose_png"
-msgstr "eeschema_viewlib_choose_png"
+msgstr "Okno przeglądarki"
 
 #. type: Target for macro image
 #: eeschema_viewlib.adoc:13
@@ -6098,7 +6099,7 @@ msgstr "Ekran główny"
 #: eeschema_viewlib.adoc:18
 #, no-wrap
 msgid "eeschema_viewlib_select_library_png"
-msgstr "eeschema_viewlib_select_library_png"
+msgstr "Wybór biblioteki"
 
 #. type: Target for macro image
 #: eeschema_viewlib.adoc:18
@@ -6121,7 +6122,7 @@ msgstr ""
 #: eeschema_viewlib.adoc:24
 #, no-wrap
 msgid "eeschema_viewlib_select_component_png"
-msgstr "eeschema_viewlib_select_component_png"
+msgstr "Wybór symbolu"
 
 #. type: Target for macro image
 #: eeschema_viewlib.adoc:24
@@ -6321,7 +6322,7 @@ msgid ""
 msgstr ""
 "Naciskając klawisze skrótów, które zwykle wykonują wybrane operacje natychmiastowo "
 "i na bieżącej pozycji kursora.  By poznać listę aktywnych skrótów, zobacz polecenie "
-"z menu \"Pomoc->Lista skrótów klawiszowych\" lub naciśnij klawisz '?'."
+"z menu *Pomoc* -> **Lista skrotow klawiszowych** lub naciśnij klawisz '?'."
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_generic_commands.adoc:22
@@ -6403,7 +6404,7 @@ msgid ""
 "Holding \"Shift\", \"Ctrl\", or \"Shift + Ctrl\" during selection respectively "
 "performs copying, dragging and deletion:"
 msgstr ""
-"Trzymając dodatkowo jeden z klawiszy 'Shift', 'Ctrl' lub oba razem podczas "
+"Trzymając dodatkowo jeden z klawiszy \"SHIFT\", \"CTRL\" lub oba razem podczas "
 "zaznaczania, w rezultacie wykonujesz kopiowanie, przeciąganie lub kasowanie "
 "wybranego obszaru:"
 
@@ -6434,7 +6435,7 @@ msgstr "Kliknąć ponownie by umieścić elementy."
 #. type: Plain text
 #: eeschema_generic_commands.adoc:60
 msgid "Click the right button or press Escape key to cancel."
-msgstr "Kliknąć prawym klawiszem lub nacisnąć Esc by przerwać operację."
+msgstr "Kliknąć prawym klawiszem lub nacisnąć ESC by przerwać operację."
 
 #. type: Plain text
 #: eeschema_generic_commands.adoc:63
@@ -6461,7 +6462,7 @@ msgstr "images/pl/main_window_popup.png"
 #: eeschema_generic_commands.adoc:66
 #, no-wrap
 msgid "Hotkeys"
-msgstr "Hotkeys"
+msgstr "Klawisze skrótów"
 
 #. type: Plain text
 #: eeschema_generic_commands.adoc:69
@@ -6474,8 +6475,8 @@ msgid ""
 "Hotkeys might be redefined in Controls tab of Schematic Editor Options dialog (menu "
 "Preferences -> General Options)."
 msgstr ""
-"Skróty klawiszowe mogą być zmieniane w zakładce Akcje w oknie dialogowym Opcje "
-"edytora schematów (menu Ustawienia -> Opcje główne)."
+"Skróty klawiszowe mogą być zmieniane w zakładce \"Zachowanie\" w oknie dialogowym "
+"\"Opcje edytora schematów\" (menu \"Ustawienia -> Opcje główne\")."
 
 #. type: Plain text
 #: eeschema_generic_commands.adoc:72
@@ -6608,7 +6609,7 @@ msgid ""
 "Options-><<preferences-controls,Controls>>)."
 msgstr ""
 "Wszystkie skróty klawiszowe można także zdefiniować poprzez wbudowany edytor (menu "
-"Ustawienia -> Opcje główne -> <<preferences-controls, Akcje>>)."
+"\"Ustawienia -> Opcje główne -> <<preferences-controls, Zachowanie>>\")."
 
 #. type: Plain text
 #: eeschema_generic_commands.adoc:141
@@ -6617,8 +6618,8 @@ msgid ""
 "Export->Import/Export Hotkeys."
 msgstr ""
 "Istnieje również możliwość importu/eksportu ustawień klawiszy skrótów używając "
-"polecenia w menu Ustawienia->Opcje skrótów klawiszowych->Importuj/eksportuj listę "
-"skrótów."
+"polecenia w menu \"Ustawienia -> Opcje skrótów klawiszowych -> Importuj/eksportuj "
+"listę skrótów\"."
 
 #. type: Title ===
 #: eeschema_generic_commands.adoc:142
@@ -6647,8 +6648,8 @@ msgid ""
 "Color might be changed in Colors tab of the Schematic Editor Options dialog (menu "
 "Preferences -> General Options)."
 msgstr ""
-"Można zmienić kolor w zakładce Kolory w oknie dialogowym Opcje edytora schematów "
-"(menu Ustawienia -> Opcje główne)."
+"Można zmienić kolor w zakładce \"Kolory\" w oknie dialogowym \"Opcje edytora "
+"schematów\" (menu \"Ustawienia -> Opcje główne\")."
 
 #. type: Plain text
 #: eeschema_generic_commands.adoc:149
@@ -6659,7 +6660,7 @@ msgstr "Widoczność siatki może być przełączana na lewym pasku narzędzi."
 #: eeschema_generic_commands.adoc:151
 msgid "The default grid size is 50 mil (0.050\") or 1,27 millimeters."
 msgstr ""
-"Domyślnym rozmiarem siatki jest 50 milsów (0,050 cala) lub inaczej 1,27 milimetrów."
+"Domyślnym rozmiarem siatki jest 50 milsów (0.050 cala) lub inaczej 1,27 milimetrów."
 
 #. type: Plain text
 #: eeschema_generic_commands.adoc:154
@@ -6669,7 +6670,7 @@ msgid ""
 msgstr ""
 "Taki skok siatki jest zalecany przy rozmieszczaniu symboli na schemacie i "
 "prowadzenia połączeń, jak również przy rozkładaniu pinów w trakcie projektowania "
-"symboli za pomocą 'Edytora bibliotek symboli'."
+"symboli za pomocą \"Edytora bibliotek symboli\"."
 
 #. type: Plain text
 #: eeschema_generic_commands.adoc:158
@@ -6758,7 +6759,7 @@ msgid ""
 "The display units are in inches or millimeters. However, Eeschema always uses 0.001 "
 "inch (mil/thou) as its internal unit."
 msgstr ""
-"Jednostki w jakich wyświetlana jest pozycja to cale albo milimetry. Jednakże, "
+"Jednostki w jakich wyświetlana jest pozycja to cale albo milimetry. Jednakże "
 "Eeschema zawsze wewnątrz przelicza wszystko na jednostki w tysięcznych cali "
 "(1/1000\", mil/thou)."
 
@@ -6796,7 +6797,7 @@ msgstr ""
 #: eeschema_generic_commands.adoc:196
 #, no-wrap
 msgid "status_bar"
-msgstr "status_bar"
+msgstr "Pasek statusu"
 
 #. type: Target for macro image
 #: eeschema_generic_commands.adoc:196
@@ -6823,7 +6824,7 @@ msgstr ""
 #: eeschema_generic_commands.adoc:203
 #, no-wrap
 msgid "menubar"
-msgstr "menubar"
+msgstr "Pasek menu"
 
 #. type: Target for macro image
 #: eeschema_generic_commands.adoc:203
@@ -6973,7 +6974,7 @@ msgid ""
 "|Refresh screen; zoom to fit.\n"
 msgstr ""
 "|image:images/icons/zoom_redraw.png[icons/zoom_redraw] image:images/icons/zoom_fit_in_page.png[icons/zoom_fit_in_page_png]\n"
-"|Przerysowanie widoku; Dopasowywanie powiększcznia do okna.\n"
+"|Przerysowanie widoku; Dopasowywanie powiększenia do okna.\n"
 
 #. type: delimited block |
 #: eeschema_generic_commands.adoc:253
@@ -7119,7 +7120,7 @@ msgstr "Prawy pasek narzędzi"
 #. type: Plain text
 #: eeschema_generic_commands.adoc:296
 msgid "This toolbar contains tools to:"
-msgstr "Ten pasek zawiera narzędza do:"
+msgstr "Ten pasek zawiera narzędzia do:"
 
 #. type: Plain text
 #: eeschema_generic_commands.adoc:298
@@ -7460,7 +7461,7 @@ msgstr "Ustawienie siatki."
 #. type: Plain text
 #: eeschema_generic_commands.adoc:415
 msgid "Commonly edited parameters of the selected element."
-msgstr "Główne opcje edycujne dla wybranego elementu."
+msgstr "Główne opcje edycyjne dla wybranego elementu."
 
 #. type: Plain text
 #: eeschema_generic_commands.adoc:417
@@ -7536,7 +7537,7 @@ msgid ""
 "editing tool provides a simple way to manage symbol library files."
 msgstr ""
 "Symbol jest elementem na schemacie, który zawiera jego reprezentację graficzną, "
-"połączenia elektryczne i pola go opisujące. Sybmole stosowane na schemacie są "
+"połączenia elektryczne i pola go opisujące. Symbole stosowane na schemacie są "
 "przechowywane w bibliotekach symboli. Eeschema dostarcza narzędzia do edycji takich "
 "bibliotek, które pozwala na ich tworzenie, dodawanie, usuwanie lub przenoszenie "
 "pomiędzy bibliotekami, a także eksport i import do/z plików zewnętrznych. Narzędzie "
@@ -7639,7 +7640,7 @@ msgid ""
 msgstr ""
 "Dodanie wyprowadzeń, dokładnie określając ich projekt graficzny, nazwę oraz numer "
 "pinu, a także ich właściwości elektryczne (wejście, wyjście, trzy-stanowe, port "
-"zasilania...)."
+"zasilania, itp.)."
 
 #. type: Plain text
 #: eeschema_library_editor.adoc:49
@@ -7847,7 +7848,7 @@ msgid ""
 msgstr ""
 "|image:images/icons/new_library.png[Ikona Nowa biblioteka]\n"
 "|Tworzy nową bibliotekę, która będzie zawierać obecnie aktywny symbol.\n"
-"Uwaga: Nowe biblioteki nie są automatycznie dodawane do projektu.\n"
+"*Uwaga*: Nowe biblioteki nie są automatycznie dodawane do projektu.\n"
 
 #. type: delimited block |
 #: eeschema_library_editor.adoc:117
@@ -7982,7 +7983,7 @@ msgid ""
 "current symbol does not have any aliases.\n"
 msgstr ""
 "|image:images/toolbar_libedit_alias.png[alt=\"Pasek narzędzi edytora bibliotek\",width=\"80%\"]\n"
-"|Wybiera aktywny alias symbolu. Lista rozwijana może być niedostępna gdy sybmol\n"
+"|Wybiera aktywny alias symbolu. Lista rozwijana może być niedostępna gdy symbol\n"
 "nie posiada przypisanych aliasów.\n"
 
 #. type: delimited block |
@@ -8004,7 +8005,7 @@ msgid ""
 "|image:images/icons/pin_table.png[icons/pin_table_png]\n"
 "|Show pin table.\n"
 msgstr ""
-"|image:images/icons/pin_table.png[icons/pin_table_png]\n"
+"|image:images/icons/pin_table.png[Ikona Tabela pinów]\n"
 "|Pokazuje tabelę wyprowadzeń.\n"
 
 #. type: Title ====
@@ -8087,7 +8088,7 @@ msgid ""
 "|Circle tool. Left-click to begin drawing a new graphical circle from\n"
 "the center. Left-click again to define the radius of the circle.\n"
 msgstr ""
-"|image:images/icons/add_circle.png[icons/add_circle_png]\n"
+"|image:images/icons/add_circle.png[Ikona Okrąg graficzny]\n"
 "|Okrąg. Klikając lewym klawiszem rozpoczyna się rysowanie okręgu\n"
 "z jego punktu centralnego. Klikając ponownie ustala się promień\n"
 "okręgu.\n"
@@ -8101,11 +8102,11 @@ msgid ""
 "center. Left-click again to define the first arc end point. Left-click\n"
 "again to define the second arc end point.\n"
 msgstr ""
-"|image:images/icons/add_arc.png[icons/add_arc_png]\n"
+"|image:images/icons/add_arc.png[Ikona Łuk graficzny]\n"
 "|Łuki. Kliknięcie lewym klawiszem rozpoczyna rysowanie łuku\n"
 "poczynając od pozycji centralnej. Ponowne kliknięcie określa\n"
 "pierwszy punkt końcowy. Trzecie kliknięcie lewym klawiszem \n"
-"określa drugi punkt końcowy łuku..\n"
+"określa drugi punkt końcowy łuku.\n"
 
 #. type: delimited block |
 #: eeschema_library_editor.adoc:207
@@ -8176,7 +8177,7 @@ msgid ""
 "|image:images/icons/grid.png[icons/grid_png]\n"
 "|Toggle grid visibility on and off.\n"
 msgstr ""
-"|image:images/icons/grid.png[icons/grid_png]\n"
+"|image:images/icons/grid.png[Ikona Siatka]\n"
 "|Włącza lub wyłącza widok siatki.\n"
 
 #. type: delimited block |
@@ -8186,7 +8187,7 @@ msgid ""
 "|image:images/icons/unit_inch.png[icons/unit_inch_png]\n"
 "|Set units to inches.\n"
 msgstr ""
-"|image:images/icons/unit_inch.png[icons/unit_inch_png]\n"
+"|image:images/icons/unit_inch.png[Ikona Jednostki miary imperialne]\n"
 "|Przełączenie jednostek miary na cale.\n"
 
 #. type: delimited block |
@@ -8196,7 +8197,7 @@ msgid ""
 "|image:images/icons/unit_mm.png[icons/unit_mm_png]\n"
 "|Set units to millimeters.\n"
 msgstr ""
-"|image:images/icons/unit_mm.png[icons/unit_mm_png]\n"
+"|image:images/icons/unit_mm.png[icons/Ikona Jednostki miary metryczne]\n"
 "|Przełączenie jednostek miary na milimetry.\n"
 
 #. type: delimited block |
@@ -8206,14 +8207,14 @@ msgid ""
 "|image:images/icons/cursor_shape.png[icons/cursor_shape_png]\n"
 "|Toggle full screen cursor on and off.\n"
 msgstr ""
-"|image:images/icons/cursor_shape.png[icons/cursor_shape_png]\n"
+"|image:images/icons/cursor_shape.png[Ikona Kursor pełnoekranowy]\n"
 "|Zmiana kształtu kursora.\n"
 
 #. type: Title ===
 #: eeschema_library_editor.adoc:244
 #, no-wrap
 msgid "Library Selection and Maintenance"
-msgstr "Wybór biblioteki"
+msgstr "Wybór bibliotek i zarządzanie nimi"
 
 #. type: Plain text
 #: eeschema_library_editor.adoc:251
@@ -8223,7 +8224,7 @@ msgid ""
 "select one.  When a symbol is loaded or saved, it will be put in this library. The "
 "library name of symbol is the contents of its value field."
 msgstr ""
-"Wybranie bieżącej biblioteki jest możliwe za pomocą ikony image:images/icons/"
+"Wybranie aktywnej biblioteki jest możliwe za pomocą ikony image:images/icons/"
 "library.png[Ikona Aktywna biblioteka], która otwiera okno z listą dostępnych "
 "bibliotek.  Gdy element jest ładowany lub zapisywany, to wszystkie te operacje będą "
 "przeprowadzane w tej bibliotece."
@@ -8259,7 +8260,7 @@ msgstr ""
 #: eeschema_library_editor.adoc:264
 #, no-wrap
 msgid "Select and Save a Symbol"
-msgstr "Wybór symbolu i sposoby jego zapisu"
+msgstr "Wybór i zapis symbolu"
 
 #. type: Plain text
 #: eeschema_library_editor.adoc:270
@@ -8384,7 +8385,7 @@ msgid ""
 msgstr ""
 "Należy dodać każdą nową bibliotekę, która będzie używana na schemacie do listy "
 "bibliotek projektu, korzystając z narzędzia do konfiguracji bibliotek symboli "
-"opisanego w rozdziale <<manage-sym-lib-table,Tabela Bibliotek Symboli>>."
+"opisanego w rozdziale <<manage-sym-lib-table,Tabele Bibliotek Symboli>>."
 
 #. type: Plain text
 #: eeschema_library_editor.adoc:332
@@ -8413,8 +8414,8 @@ msgid ""
 "You can very easily copy a symbol from a source library into a destination library "
 "using the following commands:"
 msgstr ""
-"Można bardzo łatwo przenosić symbole z jednej biblioteki do drugiej, używając tego "
-"schematu postępowania:"
+"Można bardzo łatwo przenosić symbole z jednej biblioteki do drugiej w następujący "
+"sposób:"
 
 #. type: Plain text
 #: eeschema_library_editor.adoc:341
@@ -8511,10 +8512,10 @@ msgid ""
 msgstr ""
 "Nowy symbol można utworzyć klikając w image:images/icons/new_symbol.png[Ikona "
 "Utwórz nowy symbol].  Program poprosi o podanie: nazwy symbolu, aby móc potem "
-"załadować go z biblioteki (nazwa ta jest także zawartością pola Wartość dla LibEdit "
-"i używana jako wartość domyślna dla pola Wartość w edytorze schematów), nazwy "
-"domyślnego oznaczenia na schemacie (U, IC, R...), liczby elementów w pakiecie (np. "
-"standardowy komponent 7400 posiada 4 części w jednej obudowie) i czy istnieje "
+"załadować go z biblioteki (nazwa ta jest także zawartością pola __Wartość__ dla "
+"LibEdit i używana jako wartość domyślna dla pola __Wartość__ w edytorze schematów), "
+"nazwy domyślnego oznaczenia na schemacie (U, IC, R...), liczby elementów w pakiecie "
+"(np. standardowy komponent 7400 posiada 4 części w jednej obudowie) i czy istnieje "
 "przekształcona reprezentacja tego symbolu (reprezentacja DeMorgan'a). Jeśli nazwa "
 "odnośnika będzie pusta, domyślnie zostanie wpisane \"U\". Wszystkie te dane mogą "
 "być ustalone później, ale lepiej jest ustawić je na początku tworzenia symbolu."
@@ -8613,10 +8614,10 @@ msgid ""
 "new symbol."
 msgstr ""
 "Zapisać symbol w załadowanej bibliotece poprzez image:images/icons/save_part_in_mem."
-"png[icons/save_part_in_mem_png] lub zapisać go do nowej biblioteki z pomocą "
-"polecenia image:images/icons/new_library.png[icons/new_library_png] lub jeśli "
-"chcemy zapisać nowy element do innej istniejącej biblioteki wybrać inną bibliotekę "
-"klikając w image:images/icons/library.png[icons/library_png] i zapisać nowy symbol."
+"png[Ikona Zapisz symbol] lub zapisać go do nowej biblioteki z pomocą polecenia "
+"image:images/icons/new_library.png[Ikona Nowa biblioteka] lub jeśli chcemy zapisać "
+"nowy element do innej istniejącej biblioteki wybrać inną bibliotekę klikając w "
+"image:images/icons/library.png[Ikona Aktywna biblioteka] i zapisać nowy symbol."
 
 #. type: Plain text
 #: eeschema_library_editor.adoc:413
@@ -8625,7 +8626,7 @@ msgid ""
 "save_library.png[icons/save_library_png]."
 msgstr ""
 "Zapisać bieżącą bibliotekę na dysku klikając w ikonę image:images/icons/"
-"save_library.png[icons/save_library_png]."
+"save_library.png[Ikona Zapisz symbol]."
 
 #. type: Title ====
 #: eeschema_library_editor.adoc:415
@@ -8643,8 +8644,8 @@ msgid ""
 msgstr ""
 "Właściwości symbolu powinny być starannie ustalone podczas jego tworzenia, chyba, "
 "że zostały one powielone z innego symbolu podczas jego klonowania. By zmienić "
-"właściwości symbolu należy kliknąć na image:images/icons/part_properties.png[icons/"
-"part_properties_png] by otworzyć poniższe okno dialogowe."
+"właściwości symbolu należy kliknąć na image:images/icons/part_properties.png[Ikona "
+"Właściwości symbolu] by otworzyć poniższe okno dialogowe."
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_library_editor.adoc:423
@@ -8708,7 +8709,7 @@ msgstr ""
 #: eeschema_library_editor.adoc:444
 #, no-wrap
 msgid "eeschema_uncheck_pin_name_inside_png"
-msgstr "eeschema_uncheck_pin_name_inside_png"
+msgstr "Odznaczona opcja Nazwa pinu wewnątrz"
 
 #. type: Target for macro image
 #: eeschema_library_editor.adoc:444
@@ -8731,7 +8732,7 @@ msgid ""
 msgstr ""
 "Jeśli symbol posiada więcej niż jedną reprezentację, należy przed edycją wybrać "
 "odpowiednią reprezentację.  By dokonać edycji normalnej postaci symbolu należy "
-"kliknąć w image:images/icons/morgan1.png[icons/morgan1_png]."
+"kliknąć w image:images/icons/morgan1.png[Ikona Normalna reprezentacja]."
 
 #. type: Plain text
 #: eeschema_library_editor.adoc:459
@@ -8741,15 +8742,15 @@ msgid ""
 "toolbar_libedit_part.png] shown below to select the unit you wish to edit."
 msgstr ""
 "By poddać edycji alternatywną reprezentację symbolu, należy kliknąć na image:images/"
-"icons/morgan2.png[icons/morgan2_png].  By wybrać część składową poddawaną edycji, "
-"należy użyć polecenia image:images/toolbar_libedit_alias.png[images/"
-"toolbar_libedit_part.png] pokazanego poniżej."
+"icons/morgan2.png[Ikona Alternatywna reprezentacja].  By wybrać część składową "
+"poddawaną edycji, należy użyć polecenia image:images/toolbar_libedit_alias."
+"png[Lista aliasów] pokazanego poniżej."
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_library_editor.adoc:460
 #, no-wrap
 msgid "eeschema_libedit_select_unit_png"
-msgstr "eeschema_libedit_select_unit_png"
+msgstr "Wybór elementu składowego"
 
 #. type: Target for macro image
 #: eeschema_library_editor.adoc:460
@@ -8831,7 +8832,7 @@ msgstr ""
 #: eeschema_library_editor.adoc:488
 #, no-wrap
 msgid "eeschema_libedit_context_menu_png"
-msgstr "eeschema_libedit_context_menu_png"
+msgstr "Menu kontekstowe"
 
 #. type: Target for macro image
 #: eeschema_library_editor.adoc:488
@@ -8846,13 +8847,13 @@ msgid ""
 "the properties dialog for a polygon element."
 msgstr ""
 "Można także kliknąć dwukrotnie na taki element by zmodyfikować jego właściwości. "
-"Poniżej przykład dla elemetu typu linia łamana."
+"Poniżej przykład dla elementu typu linia łamana."
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_library_editor.adoc:493
 #, no-wrap
 msgid "eeschema_libedit_polyline_properties_png"
-msgstr "eeschema_libedit_polyline_properties_png"
+msgstr "Właściwości linii łamanej"
 
 #. type: Target for macro image
 #: eeschema_library_editor.adoc:493
@@ -8903,7 +8904,7 @@ msgid ""
 "to be drawn unfilled, background filled, or foreground filled."
 msgstr ""
 "Styl wypełnienia określa czy graficzna postać symbolu ma być rysowana jako "
-"niewypłeniona, wypełniona kolorem tła lub wypełniona kolorem."
+"niewypełniona, wypełniona kolorem tła lub wypełniona kolorem."
 
 #. type: Title ====
 #: eeschema_library_editor.adoc:512
@@ -8918,10 +8919,10 @@ msgid ""
 "graphical text. Graphical text is always readable, even when the symbol is "
 "mirrored. Please note that graphical text items are not fields."
 msgstr ""
-"Ikona image:images/icons/text.png[icons/text_png] pozwala na tworzenie tekstów "
-"swobodnych. Taki tekst jest zawsze wyświetlany poprawnie, nawet jeśli symbol "
-"zostanie odwrócony. Należy także zauważyć, że taki tekst nie jest związany z polami "
-"symbolu."
+"Ikona image:images/icons/text.png[Ikona Tekst graficzny] pozwala na tworzenie "
+"tekstów swobodnych. Taki tekst jest zawsze wyświetlany poprawnie, nawet jeśli "
+"symbol zostanie odwrócony. Należy także zauważyć, że taki tekst nie jest związany z "
+"polami symbolu."
 
 #. type: Title ===
 #: eeschema_library_editor.adoc:521
@@ -9005,7 +9006,7 @@ msgstr ""
 #: eeschema_library_editor.adoc:554
 #, no-wrap
 msgid "eeschema_libedit_pins_per_part_png"
-msgstr "eeschema_libedit_pins_per_part_png"
+msgstr "Ustawienia pinów"
 
 #. type: Target for macro image
 #: eeschema_library_editor.adoc:554
@@ -9016,14 +9017,13 @@ msgstr "images/pl/eeschema_libedit_pins_per_part.png"
 #. type: Plain text
 #: eeschema_library_editor.adoc:557
 msgid "All units are not interchangeable must be selected."
-msgstr ""
-"Musi być wybrana opcja informująca, że części składowe nie są wymienne między sobą."
+msgstr "Musi być wybrana opcja \"Części składowe nie są wymienne\" między sobą."
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_library_editor.adoc:558
 #, no-wrap
 msgid "eeschema_libedit_not_interchangeable_png"
-msgstr "eeschema_libedit_not_interchangeable_png"
+msgstr "Opcja jednoznaczności"
 
 #. type: Target for macro image
 #: eeschema_library_editor.adoc:558
@@ -9040,7 +9040,7 @@ msgstr "Część 1"
 #: eeschema_library_editor.adoc:562
 #, no-wrap
 msgid "eeschema_libedit_unit1_png"
-msgstr "eeschema_libedit_unit1_png"
+msgstr "Część pierwsza"
 
 #. type: Target for macro image
 #: eeschema_library_editor.adoc:562
@@ -9057,7 +9057,7 @@ msgstr "Część 2"
 #: eeschema_library_editor.adoc:566
 #, no-wrap
 msgid "eeschema_libedit_unit2_png"
-msgstr "eeschema_libedit_unit2_png"
+msgstr "Część druga"
 
 #. type: Target for macro image
 #: eeschema_library_editor.adoc:566
@@ -9074,7 +9074,7 @@ msgstr "Część 3"
 #: eeschema_library_editor.adoc:570
 #, no-wrap
 msgid "eeschema_libedit_unit3_png"
-msgstr "eeschema_libedit_unit3_png"
+msgstr "Część trzecia"
 
 #. type: Target for macro image
 #: eeschema_library_editor.adoc:570
@@ -9114,7 +9114,7 @@ msgstr ""
 #: eeschema_library_editor.adoc:584
 #, no-wrap
 msgid "eeschema_libedit_disable_common_png"
-msgstr "eeschema_libedit_disable_common_png"
+msgstr "Wyłączona opcja współdzielenia"
 
 #. type: Target for macro image
 #: eeschema_library_editor.adoc:584
@@ -9138,11 +9138,11 @@ msgid ""
 "already placed can be edited, deleted, and/or moved."
 msgstr ""
 "Aby utworzyć i wstawić pin należy kliknąć w polecenie image:images/icons/pin."
-"png[icons/pin_png]. Aby dokonać prostych edycji wyprowadzeń najlepiej jest kliknąć "
-"dwukrotnie na wybranym wyprowadzeniu, lub kliknąć prawym klawiszem by skorzystać z "
-"menu podręcznego. Piny muszą być tworzone starannie, ponieważ każdy błąd będzie "
-"mieć wpływ na projekt PCB. Każdy dodany już pin można ponownie edytować, usunąć, "
-"obrócić lub przenieść."
+"png[Ikona Dodaj piny]. Aby dokonać prostych edycji wyprowadzeń najlepiej jest "
+"kliknąć dwukrotnie na wybranym wyprowadzeniu, lub kliknąć prawym klawiszem by "
+"skorzystać z menu podręcznego. Piny muszą być tworzone starannie, ponieważ każdy "
+"błąd będzie mieć wpływ na projekt PCB. Każdy dodany już pin można ponownie "
+"edytować, usunąć, obrócić lub przenieść."
 
 #. type: Title ====
 #: eeschema_library_editor.adoc:598
@@ -9161,7 +9161,7 @@ msgid ""
 msgstr ""
 "Pin jest zdefiniowany przez jego graficzną reprezentację, jego nazwę oraz \"numer"
 "\". Numer pinu jest określony przez 4 znaki i/lub cyfry. Dla narzędzia sprawdzania "
-"elektrycznych reguł projektowych (ERC) by było skuteczne, typ \"elektryczny"
+"elektrycznych reguł projektowych (ERC) by było skuteczne, \"typ elektryczny"
 "\" (wejście, wyjście, trójstanowy...) także musi zostać poprawnie określone. Gdyby "
 "typ pinu nie został określony poprawnie, wynik testu ERC byłby w gruncie rzeczy "
 "nieprawidłowy."
@@ -9186,10 +9186,10 @@ msgid ""
 "character. The next `~` character will turn off the overline.  For example `"
 "\\~FO~O` would display [overline]#FO# O."
 msgstr ""
-"Nazwa pinu z sygnałem zanegowanym rozpoczyna się od znaku tyldy `~`. Wtedy nad "
+"Nazwa pinu z sygnałem zanegowanym rozpoczyna się od znaku tyldy \"~\". Wtedy nad "
 "tekstem zostanie dorysowana pozioma kreska. Znak ten działa jak przełącznik, zatem "
-"możliwe jest również stosowanie go tylko dla wybranego fragmentu nazwy, np. `PA0/"
-"~INT0~/PCI0`, co w rezultacie da PA0/[overline]#INT0#/PCI0."
+"możliwe jest również stosowanie go tylko dla wybranego fragmentu nazwy, np. \"PA0/"
+"~INT0~/PCI0\", co w rezultacie da PA0/[overline]#INT0#/PCI0."
 
 #. type: Plain text
 #: eeschema_library_editor.adoc:615
@@ -9200,7 +9200,7 @@ msgstr "Jeśli nie ma nazwy pinu to w pole nazwa należy wstawić jeden znak tyl
 #: eeschema_library_editor.adoc:616
 msgid "Pin names starting with `#`, are reserved for power port symbols."
 msgstr ""
-"Nazwy pinów rozpoczynające się od znaku _hash_ `#`, są zarezerwowane dla symboli "
+"Nazwy pinów rozpoczynające się od znaku \"#\", są zarezerwowane dla symboli "
 "zasilania."
 
 #. type: Plain text
@@ -9210,7 +9210,7 @@ msgid ""
 "numbers. A1, B3, Anod, Gnd, Wire, etc. are also valid."
 msgstr ""
 "\"Numer\" pinu może składać się z maksymalnie czterech liter lub liczb (również "
-"mieszanie). 1, 2, ... 9999 to prawidłowe nazwy, ale prawidłowymi nazwami będą też: "
+"mieszanie). 1, 2,... 9999 to prawidłowe nazwy, ale prawidłowymi nazwami będą też: "
 "A1, B3 (standardowa notacja w układach PGA/BGA) lub Anod, Gnd, Wire."
 
 #. type: Plain text
@@ -9228,7 +9228,7 @@ msgstr "Właściwości wyprowadzeń"
 #: eeschema_library_editor.adoc:623
 #, no-wrap
 msgid "eeschema_libedit_pin_properties_png"
-msgstr "eeschema_libedit_pin_properties_png"
+msgstr "Właściwości wyprowadzeń"
 
 #. type: Target for macro image
 #: eeschema_library_editor.adoc:623
@@ -9298,7 +9298,7 @@ msgstr ""
 #: eeschema_library_editor.adoc:643
 #, no-wrap
 msgid "eeschema_libedit_pin_properties_style_png"
-msgstr "eeschema_libedit_pin_properties_style_png"
+msgstr "Styl pinów"
 
 #. type: Target for macro image
 #: eeschema_library_editor.adoc:643
@@ -9378,7 +9378,7 @@ msgstr ""
 #: eeschema_library_editor.adoc:667
 #, no-wrap
 msgid "Pin Global Properties"
-msgstr "Wyprowadzenia - Zmiany globalne"
+msgstr "Masowa zmiana wyprowadzeń"
 
 #. type: Plain text
 #: eeschema_library_editor.adoc:673
@@ -9390,14 +9390,14 @@ msgid ""
 msgstr ""
 "W przypadku wielokrotnych zmian jednego typu z parametrów: rozmiar pinu, rozmiar "
 "jego nazwy, czy numeru pinu, można użyć menu podręcznego, a w nim opcji "
-"zgrupowanych pod poleceniem Globalne. Za pomocą tych opcji można jedną z tych cech "
-"skopiować do innych pinów na podstawie pinu wskazywanego w danej chwili."
+"zgrupowanych pod poleceniem \"Globalne\". Za pomocą tych opcji można jedną z tych "
+"cech skopiować do innych pinów na podstawie pinu wskazywanego w danej chwili."
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_library_editor.adoc:674
 #, no-wrap
 msgid "eeschema_libedit_pin_context_menu_png"
-msgstr "eeschema_libedit_pin_context_menu_png"
+msgstr "Menu kontekstowe dla pinu"
 
 #. type: Target for macro image
 #: eeschema_library_editor.adoc:674
@@ -9409,7 +9409,7 @@ msgstr "images/pl/eeschema_libedit_pin_context_menu.png"
 #: eeschema_library_editor.adoc:677
 #, no-wrap
 msgid "Defining Pins for Multiple Units and Alternate Symbolic Representations"
-msgstr "Wyprowadzenia - Symbole wieloczęściowe i podwójna reprezentacja"
+msgstr "Określanie pinów w symbolach wieloczęściowych i podwójna reprezentacja"
 
 #. type: Plain text
 #: eeschema_library_editor.adoc:690
@@ -9446,7 +9446,7 @@ msgstr ""
 "Jedynym wyjątkiem od tego to graficzny typ pinów i nazwa. Ta zależność została "
 "wprowadzona by umożliwić łatwiejsze tworzenie pinów i ich edycję w najczęstszych "
 "przypadkach. Zależność może być przełączona za pomocą image:images/icons/pin2pin."
-"png[icons/pin2pin_png] na głównym pasku narzędzi. Pozwala to na całkowicie "
+"png[Ikona Tryb edycji pinów] na głównym pasku narzędzi. Pozwala to na całkowicie "
 "niezależne tworzenie pinów dla każdej części i reprezentacji."
 
 #. type: Plain text
@@ -9459,11 +9459,11 @@ msgid ""
 "multiple-units-with-different-symbols, previous section>>, a relay can be "
 "represented by three distinct units: a coil, switch contact 1, and switch contact 2."
 msgstr ""
-"Symbol może mieć dwie reprezentacje symboliczne (reprezentacja znana jako ``De "
-"Morgan'') i może się składać z więcej niż jednej części, jak w przypadku układów z "
+"Symbol może mieć dwie reprezentacje symboliczne (reprezentacja znana jako \"De "
+"Morgan\") i może się składać z więcej niż jednej części, jak w przypadku układów z "
 "bramkami logicznymi. Dla niektórych elementów, może zaistnieć potrzeba kilku "
 "różnych elementów graficznych i pinów. Podobnie jak w przypadku <<example-of-a-"
-"symbol-having-multiple-units-with-different-symbols, przykładu przekaźnika>>, "
+"symbol-having-multiple-units-with-different-symbols,przykładu przekaźnika>>, "
 "przekaźnik może być reprezentowany jako trzy odrębne jednostki: cewka, przełącznik "
 "1, przełącznik 2."
 
@@ -9511,10 +9511,10 @@ msgstr ""
 "oddzielnych pinów wyjściowych w jego definicji. Podczas tworzenia nowego symbolu "
 "7400, część A z normalnej reprezentacji będzie wyświetlana w edytorze bibliotek. "
 "Aby edytować styl pinu w alternatywnej reprezentacji, to najpierw musi być włączony "
-"przycisk image:images/icons/morgan2.png[icons/morgan2_png] na pasku narzędzi. Aby "
-"zmienić numer pinu dla poszczególnych części, należy wybrać odpowiednią część za "
-"pomocą listy rozwijanej image:images/toolbar_libedit_alias.png[images/"
-"toolbar_libedit_alias.png]."
+"przycisk image:images/icons/morgan2.png[Ikona Alternatywna reprezentacja] na pasku "
+"narzędzi. Aby zmienić numer pinu dla poszczególnych części, należy wybrać "
+"odpowiednią część za pomocą listy rozwijanej image:images/toolbar_libedit_alias."
+"png[Lista wyboru]."
 
 #. type: Title ===
 #: eeschema_library_editor.adoc:729
@@ -9536,14 +9536,14 @@ msgid ""
 "the schematic."
 msgstr ""
 "Wszystkie elementy bibliotek mają zdefiniowane cztery pola domyślne. Pola "
-"Odniesienie, Wartość, Footprint, Dokumentacja są tworzone gdy symbol jest tworzony "
-"lub kopiowany.  W zasadzie tylko Odniesienie i Wartość są wymagane. Dla "
-"istniejących pól, można użyć poleceń z menu kontekstowego klikając prawym klawiszem "
-"na wyprowadzeniu. Symbole zdefiniowane w bibliotekach zwykle posiadają domyślnie "
-"wypełnione te cztery pola. Dodatkowe pola, takie jak: sprzedawca, numer części, "
-"koszt części, itd. mogą być dodane do symboli już na etapie bibliotek ale ogólnie "
-"jest to wykonywane podczas pracy nad schematem, gdyż dodatkowe pola mogą być "
-"zastosowane do wszystkich składników na schemacie."
+"_Odniesienie_, _Wartość_, _Footprint_, _Dokumentacja_ są tworzone gdy symbol jest "
+"właśnie tworzony lub kopiowany.  W zasadzie tylko _Odniesienie_ i _Wartość_ są "
+"polami wymaganymi. Dla istniejących pól, można użyć poleceń z menu kontekstowego "
+"klikając prawym klawiszem na wyprowadzeniu. Symbole zdefiniowane w bibliotekach "
+"zwykle posiadają domyślnie wypełnione te cztery pola. Dodatkowe pola, takie jak: "
+"sprzedawca, numer części, koszt części, itd. mogą być dodane do symboli już na "
+"etapie bibliotek ale ogólnie jest to wykonywane podczas pracy nad schematem, gdyż "
+"dodatkowe pola mogą być zastosowane do wszystkich składników na schemacie."
 
 #. type: Title ====
 #: eeschema_library_editor.adoc:743
@@ -9564,7 +9564,7 @@ msgstr ""
 #: eeschema_library_editor.adoc:748
 #, no-wrap
 msgid "eeschema_libedit_field_context_menu_png"
-msgstr "eeschema_libedit_field_context_menu_png"
+msgstr "Menu kontekstowe edycji pól"
 
 #. type: Target for macro image
 #: eeschema_library_editor.adoc:748
@@ -9580,7 +9580,7 @@ msgid ""
 "dialog shown below."
 msgstr ""
 "By dokonać edycji niezdefiniowanych pól, dodać nowe lub usunąć należy użyć image:"
-"images/icons/text.png[icons/text_png] z głównego paska narzędziowego, by otworzyć "
+"images/icons/text.png[Ikona Edycja pól] z głównego paska narzędziowego, by otworzyć "
 "okno dialogowe z właściwościami pokazane poniżej."
 
 #. type: Plain text
@@ -9599,9 +9599,10 @@ msgid ""
 "the starting point for the new symbol. This new symbol has the name contained in "
 "the value field when you save it to the currently selected library."
 msgstr ""
-"Modyfikacja tekstu w polu Wartość, równa się utworzeniu nowego symbolu na podstawie "
-"starego, służącego wtedy za bazę dla nowego symbolu. Ten nowy symbol po zapisaniu "
-"go w aktualnie aktywnej bibliotece ma nazwę taką jak zawarta w polu Wartość."
+"Modyfikacja tekstu w polu _Wartość_, równa się utworzeniu nowego symbolu na "
+"podstawie starego, służącego wtedy za bazę dla nowego symbolu. Ten nowy symbol po "
+"zapisaniu go w aktualnie aktywnej bibliotece ma nazwę taką jak zawarta w polu "
+"_Wartość_."
 
 #. type: Plain text
 #: eeschema_library_editor.adoc:768
@@ -9620,10 +9621,10 @@ msgid ""
 "table (see the \"Footprint Library Table\" section in the Pcbnew \"Reference Manual"
 "\") and FPNAME is the name of the footprint in the library LIBNAME."
 msgstr ""
-"Pole Footprint zawiera bezwzględny odnośnik do footprintu w postaci LIBNAME:FPNAME, "
-"gdzie LIBNAME to nazwa biblioteki footprintów zdefiniowana w tabeli bibliotek "
-"(zobacz rozdział \"Tabela Bibliotek Footprintów\" w podręczniku Pcbnew) oraz "
-"FPNAME, która jest nazwą footprintu w bibliotece LIBNAME."
+"Pole _Footprint_ zawiera bezwzględny odnośnik do footprintu w postaci LIBNAME:"
+"FPNAME, gdzie LIBNAME to nazwa biblioteki footprintów zdefiniowana w tabeli "
+"bibliotek (zobacz rozdział \"Tabele Bibliotek Footprintów\" w podręczniku Pcbnew) "
+"oraz FPNAME, która jest nazwą footprintu w bibliotece LIBNAME."
 
 #. type: Title ===
 #: eeschema_library_editor.adoc:775
@@ -9651,7 +9652,7 @@ msgstr ""
 #: eeschema_library_editor.adoc:784
 #, no-wrap
 msgid "eeschema_libedit_power_symbol_png"
-msgstr "eeschema_libedit_power_symbol_png"
+msgstr "Symbol portu zasilania"
 
 #. type: Target for macro image
 #: eeschema_library_editor.adoc:784
@@ -9671,7 +9672,7 @@ msgid ""
 "establish connection to the net +5V), with a pin number of 1 (number of no "
 "importance), a length of 0, and a \"Line\" \"Graphic Style\"."
 msgstr ""
-"Dodać pin typu \"Wejście zasilania\" nazwany +12V (Ważne, ponieważ połączenie "
+"Dodać pin typu \"Wejście zasilania\" nazwany `+12V` (Ważne, ponieważ połączenie "
 "pomiędzy poszczególnymi portami odbywa się po nazwie), z numerem pinu 1 (numer nie "
 "jest tak istotny), z długością 0 i stylem graficznym \"Linia\"."
 
@@ -9679,7 +9680,8 @@ msgstr ""
 #: eeschema_library_editor.adoc:793
 msgid "Place a small circle and a segment from the pin to the circle as shown."
 msgstr ""
-"Umieścić na przykład mały okrąg i jeden segment od niego jak pokazano powyżej."
+"Umieścić na przykład mały okrąg i wyprowadzić jeden segment od niego jak pokazano "
+"powyżej."
 
 #. type: Plain text
 #: eeschema_library_editor.adoc:794
@@ -9689,7 +9691,7 @@ msgstr "Ustawić punkt zaczepienia w miejscu pinu."
 #. type: Plain text
 #: eeschema_library_editor.adoc:795
 msgid "The symbol value is `+5V`."
-msgstr "Wpisać w pole Wartość `+12V`."
+msgstr "Wpisać w pole _Wartość_ `+12V`."
 
 #. type: Plain text
 #: eeschema_library_editor.adoc:800
@@ -9700,10 +9702,10 @@ msgid ""
 "appear in the symbol list or in the netlist and the reference is declared as "
 "invisible."
 msgstr ""
-"Pole Oznaczenie musi mieć postać `\\#+12V`. Sam tekst nie jest tak istotny, ale "
-"pierwszy znak musi być znakiem kratki `#` by zaznaczyć, że jest to symbol "
+"Pole _Oznaczenie_ musi mieć postać `\\#+12V`. Sam tekst nie jest tak istotny, ale "
+"pierwszy znak musi być znakiem kratki \"#\" by zaznaczyć, że jest to symbol "
 "zasilania. Z użytej konwencji wynika, że każdy element którego oznaczenie "
-"rozpoczyna się od `#` nie pojawia się na liście sieci i jego oznaczenie nie jest "
+"rozpoczyna się od \"#\" nie pojawia się na liście sieci i jego oznaczenie nie jest "
 "pokazywane."
 
 #. type: Plain text
@@ -9790,8 +9792,8 @@ msgid ""
 "Validating against a set of rules (<<erc,Electrical Rules Check>>) to detect errors "
 "and omissions."
 msgstr ""
-"Walidację za pomocą zbioru reguł (<<erc, ERC>>) by wykryć proste błędy oraz braki "
-"na schemacie."
+"Walidację za pomocą zbioru reguł (<<erc,ERC>>) by wykryć proste błędy oraz braki na "
+"schemacie."
 
 #. type: Plain text
 #: eeschema_schematic_creation_and_editing.adoc:25
@@ -9800,7 +9802,7 @@ msgid ""
 "bom-files,BOM>>)."
 msgstr ""
 "Automatyczne wygenerowanie listy materiałowej (<<creating-customized-netlists-and-"
-"bom-files, BOM>>)."
+"bom-files,BOM>>)."
 
 #. type: Plain text
 #: eeschema_schematic_creation_and_editing.adoc:26
@@ -9809,7 +9811,7 @@ msgid ""
 "software such as SPICE."
 msgstr ""
 "<<creating-customized-netlists-and-bom-files,Generowanie listy sieci>> dla "
-"oprogramowania do symulacji, takiego jak PSpice."
+"oprogramowania do symulacji, takiego jak Spice."
 
 #. type: Plain text
 #: eeschema_schematic_creation_and_editing.adoc:27
@@ -9914,7 +9916,7 @@ msgid ""
 "*Wildcards:* use the characters `?` and `*` respectively to mean \"any\n"
 "character\" and \"any number of characters\".\n"
 msgstr ""
-"*Symbole wieloznaczne:* użycie znaków '?' oraz '*' oznacza odpowiednio\n"
+"*Symbole wieloznaczne:* użycie znaków `?` oraz `*` oznacza odpowiednio\n"
 "\"dowolny znak\" oraz \"dowolny ciąg znaków\".\n"
 
 #. type: Plain text
@@ -10003,12 +10005,12 @@ msgid ""
 "This tool is similar, except that the search is done directly in the ``power'' "
 "library."
 msgstr ""
-"Port zasilania to także element (symbole te zostały zgrupowane w bibliotece "
-"`power`), wobec czego można go umieszczać tak samo jak inne elementy.  Jednakże, "
+"Port zasilania to także element (symbole te zostały zgrupowane w bibliotece `power."
+"lib`), wobec czego można go umieszczać tak samo jak inne elementy.  Jednakże, "
 "ponieważ są to elementy używane dość często, dostępne jest specjalne narzędzie "
 "wywoływane za pomocą ikony image:images/icons/add_power.png[Ikona Dodaj port "
 "zasilania]. Narzędzie to jest podobne do poprzednio przedstawionego, z tą różnicą, "
-"że odwołuje się bezpośrednio do biblioteki ``power'', skracając czas potrzebny na "
+"że odwołuje się bezpośrednio do biblioteki `power`, skracając czas potrzebny na "
 "przeszukanie bibliotek."
 
 #. type: Title ====
@@ -10035,7 +10037,8 @@ msgstr ""
 #: eeschema_schematic_creation_and_editing.adoc:107
 msgid ""
 "Modification of one of the fields of the symbol: reference, value, footprint, etc."
-msgstr "Modyfikacja jednego z pól elementu: oznaczenie, wartość, footprint, lub inne."
+msgstr ""
+"Modyfikacja jednego z pól elementu: _Oznaczenie_, _Wartość_, _Footprint_, lub inne."
 
 #. type: Plain text
 #: eeschema_schematic_creation_and_editing.adoc:113
@@ -10080,7 +10083,7 @@ msgid ""
 "Orientation, Edit, Delete, etc."
 msgstr ""
 "Kliknąć prawym przyciskiem myszy, aby otworzyć menu podręczne, i użyć jednego z "
-"wyświetlonych poleceń: Przesuń, Zorientuj, Edytuj, Usuń, itp."
+"wyświetlonych poleceń: \"Przesuń\", \"Zorientuj\", \"Edytuj\", \"Usuń\", itp."
 
 #. type: Title =====
 #: eeschema_schematic_creation_and_editing.adoc:125
@@ -10109,7 +10112,7 @@ msgid ""
 "Edit, Delete, etc."
 msgstr ""
 "Kliknąć prawym przyciskiem myszy, aby otworzyć menu podręczne, i użyć jednego z "
-"wyświetlonych poleceń: Przesuń, Zorientuj, Edytuj, Usuń, itp."
+"wyświetlonych poleceń: \"Przesuń\", \"Zorientuj\", \"Edytuj\", \"Usuń\", itp."
 
 #. type: Plain text
 #: eeschema_schematic_creation_and_editing.adoc:137
@@ -10417,7 +10420,7 @@ msgid ""
 msgstr ""
 "Cała magistrala jest zwana PCA[N...m], gdzie N i m to pierwszy i ostatni numer "
 "połączenia tej magistrali. Zatem, jeśli PCA posiada 20-tu członków od 0 do 19, "
-"kompletna magistrala to PCA [0...19]. Ale zbiór sygnałów, takich jak PCA0, PCA1, "
+"kompletna magistrala to PCA [0..19]. Ale zbiór sygnałów, takich jak PCA0, PCA1, "
 "PCA2, WRITE, READ nie może być zawarty w magistrali."
 
 #. type: Title =====
@@ -10500,7 +10503,8 @@ msgstr ""
 #: eeschema_schematic_creation_and_editing.adoc:262
 msgid "In the Preferences/Options menu, you can set the repetition parameters:"
 msgstr ""
-"W menu *_Ustawienia/Opcje edytora schematów_*, można ustalić parametry powtarzania:"
+"W menu *Ustawienia* -> **Opcje edytora schematów**, można ustalić parametry "
+"powtarzania:"
 
 #. type: delimited block =
 #: eeschema_schematic_creation_and_editing.adoc:264
@@ -10634,9 +10638,9 @@ msgid ""
 "(options) toolbar."
 msgstr ""
 "Jeśli chcemy aby były one widoczne, należy zaznaczyć opcję \"Pokaż ukryte piny\" w "
-"oknie dialogowym *_Ustawienia/Opcje edytora schematów_* dostępnym z głównego menu "
-"aplikacji, lub za pomocą ikony image:images/icons/hidden_pin.png[] znajdującej się "
-"na lewym pasku narzędzi (pasek opcji)."
+"oknie dialogowym *Ustawienia* -> **Opcje edytora schematów** dostępnym z głównego "
+"menu aplikacji, lub za pomocą ikony image:images/icons/hidden_pin.png[Ikona Piny "
+"ukryte] znajdującej się na lewym pasku narzędzi (pasek opcji)."
 
 #. type: Plain text
 #: eeschema_schematic_creation_and_editing.adoc:320
@@ -10701,7 +10705,7 @@ msgstr ""
 #. type: Plain text
 #: eeschema_schematic_creation_and_editing.adoc:337
 msgid "All these symbols can be found in the ``power'' symbol library."
-msgstr "Wszystkie te symbole są elementami biblioteki ``power''."
+msgstr "Wszystkie te symbole są elementami biblioteki `power`."
 
 #. type: Title ====
 #: eeschema_schematic_creation_and_editing.adoc:339
@@ -10726,8 +10730,8 @@ msgid ""
 "symbols do not have any influence on the generated netlists."
 msgstr ""
 "Jeśli wyprowadzenia muszą pozostać niepodłączone, wymagane jest aby dołączyć do "
-"tych wyprowadzeń specjalny symbol _Nie połączone_ (narzędziem image:images/icons/"
-"noconn.png[No connection icon]). Symbole te nie mają żadnego wpływu na tworzone "
+"tych wyprowadzeń specjalny symbol \"Nie połączone\" (narzędziem image:images/icons/"
+"noconn.png[Ikona Nie połączone]). Symbole te nie mają żadnego wpływu na tworzone "
 "listy połączeń."
 
 #. type: Title ===
@@ -10752,7 +10756,7 @@ msgid ""
 msgstr ""
 "Mogą być bardzo użyteczne (na przykład do pełnego zrozumienia zawartości schematu) "
 "w celu umieszczenia na schemacie pól tekstowych i ramek. Do tego celu przeznaczone "
-"są Pola tekstowe (narzędzie image:images/icons/text.png[]) oraz linie przerywane "
+"są Pola tekstowe (narzędzie image:images/icons/text.png[]) oraz Linie przerywane "
 "(narzędzie image:images/icons/add_dashed_line.png[]), w przeciwieństwie do etykiet "
 "i połączeń, które są elektrycznymi elementami łączącymi."
 
@@ -10786,7 +10790,7 @@ msgid ""
 "Settings tool]."
 msgstr ""
 "Ramka tytułowa jest modyfikowana za pomocą narzędzia image:images/icons/sheetset."
-"png[Page Settings tool]."
+"png[Ikona Ustawienia strony]."
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_schematic_creation_and_editing.adoc:374
@@ -10816,7 +10820,7 @@ msgstr "images/pl/title_block.png"
 #. type: Plain text
 #: eeschema_schematic_creation_and_editing.adoc:379
 msgid "The sheet number (Sheet X/Y) is automatically updated."
-msgstr "Numer arkusza (_Sheet X/Y_) jest automatycznie aktualizowany."
+msgstr "Numer arkusza (Sheet X/Y) jest automatycznie aktualizowany."
 
 #. type: Title ===
 #: eeschema_schematic_creation_and_editing.adoc:381
@@ -10834,7 +10838,12 @@ msgid ""
 "in the project, the ones in the project would be automatically replaced with the new versions.\n"
 "The new versions might not line up correctly or might be oriented differently leading to a\n"
 " broken schematic.\n"
-msgstr "Domyślnie, Eeschema wczytuje symbole z bibliotek jakie znajdują się w ścieżkach przeszukiwań. Może to stanowić problem gdy wczytywany jest bardzo stary projekt: jeśli symbole w bibliotekach użyte na schemacie zostały zmienione od tamtego czasu, istniejące symbole na schemacie byłyby automatycznie zmienione przez ich nowsze wersje. Nowe wersje mogą mieć poprzesuwane lub inaczej zorientowane piny, co doprowadziłoby do przekłamań na schemacie.\n"
+msgstr ""
+"Domyślnie, Eeschema wczytuje symbole z bibliotek jakie znajdują się w ścieżkach przeszukiwań.\n"
+"Może to stanowić problem gdy wczytywany jest bardzo stary projekt: jeśli symbole w bibliotekach\n"
+"użyte na schemacie zostały zmienione od tamtego czasu, istniejące symbole na schemacie byłyby\n"
+"automatycznie zmienione przez ich nowsze wersje. Nowe wersje mogą mieć poprzesuwane lub\n"
+"inaczej zorientowane piny, co doprowadziłoby do przekłamań na schemacie.\n"
 
 #. type: Plain text
 #: eeschema_schematic_creation_and_editing.adoc:395
@@ -10876,7 +10885,7 @@ msgstr ""
 "Na podstawie tego przykładu można zobaczyć, że projekt w oryginale używał diod z "
 "katodą skierowaną w prawo, ale biblioteka zawiera już diody z katodą skierowaną w "
 "lewo. Ta zmiana mogłaby zrujnować cały projekt! Kliknięcie OK spowoduje, że starsze "
-"symbole zostaną zapisane do ``biblioteki ratunkowej'', i wszystkie komponenty "
+"symbole zostaną zapisane do \"biblioteki ratunkowej\", i wszystkie komponenty "
 "używające tego symbolu zostaną podmienione na te umieszczone w bibliotece "
 "ratunkowej."
 
@@ -10894,8 +10903,8 @@ msgstr ""
 "przeprowadzony i Eeschema domyślnie załaduje nowe wersje symboli. Jeśli zapiszesz "
 "schemat teraz, pamięć cache zostanie nadpisana i starsze wersje symboli staną się "
 "niedostępne. Jeśli schemat nie był jeszcze zapisany, można nadal wrócić i uruchomić "
-"funkcję odzyskiwania ponownie: wybierając polecenie *_Narzędzia -> Odzyskaj "
-"poprzednie komponenty_* co ponownie wywoła okno odzyskiwania."
+"funkcję odzyskiwania ponownie: wybierając polecenie *Narzędzia* -> **Odzyskaj "
+"poprzednie komponenty** co ponownie wywoła okno odzyskiwania."
 
 #. type: Plain text
 #: eeschema_schematic_creation_and_editing.adoc:411
@@ -10976,8 +10985,8 @@ msgid ""
 msgstr ""
 "[[sim-passive-models]] Komponenty pasywne z referencją pasującą do typu urządzenia "
 "w zapisie Spice (_R*_ dla rezystorów, _C*_ dla kondensatorów, _L*_ dla cewek "
-"indukcyjnych) będą miały przypisane modele niejawnie i będą używać pola Wartość do "
-"określania ich właściwości."
+"indukcyjnych) będą miały przypisane modele niejawnie i będą używać pola _Wartość_ "
+"do określania ich właściwości."
 
 #. type: Plain text
 #: eeschema_simulator.adoc:33
@@ -10988,7 +10997,7 @@ msgid ""
 msgstr ""
 "Należy pamiętać, że w Spice zapis 'M' oznacza mili, a 'Meg' odpowiada Mega. Jeśli "
 "wolisz użyć 'M' do wskazania prefiksu Mega, możesz o tym zdecydować w <<sim-"
-"settings, ustawieniach symulatora>>."
+"settings,ustawieniach symulatora>>."
 
 #. type: Plain text
 #: eeschema_simulator.adoc:37
@@ -10999,8 +11008,8 @@ msgid ""
 msgstr ""
 "Informacje o modelu Spice są zapisywane jako tekst w polach symboli, dlatego możesz "
 "je zdefiniować w edytorze symboli lub edytorze schematów. Otwórz okno dialogowe "
-"właściwości symbolu i kliknij przycisk _Edytuj model Spice_, aby otworzyć okno "
-"dialogowe Edytora Modeli Spice."
+"właściwości symbolu i kliknij przycisk \"Edytuj model Spice\", aby otworzyć okno "
+"dialogowe \"Edytora Modeli Spice\"."
 
 #. type: Plain text
 #: eeschema_simulator.adoc:40
@@ -11008,7 +11017,7 @@ msgid ""
 "Spice Model Editor dialog has three tabs corresponding to different model types.  "
 "There are two options common to all model types:"
 msgstr ""
-"Okno dialogowe Edytor Modelu Spice ma trzy zakładki odpowiadające różnym typom "
+"Okno dialogowe \"Edytor Modelu Spice\" ma trzy zakładki odpowiadające różnym typom "
 "modeli.  Istnieją dwie opcje wspólne dla wszystkich typów modeli:"
 
 #. type: delimited block |
@@ -11068,7 +11077,7 @@ msgid ""
 "It is a list of pin numbers corresponding to the Spice model nodes order.\n"
 msgstr ""
 "Aby dopasować piny symboli do węzłów w modelu Spice pokazanego powyżej, należy użyć\n"
-"opcji Alternatywna sekwencja węzłów z wartością: \"1{nbsp}3{nbsp}5{nbsp}2{nbsp}4\".\n"
+"opcji \"Alternatywna sekwencja węzłów\" z wartością: \"1{nbsp}3{nbsp}5{nbsp}2{nbsp}4\".\n"
 "Jest to lista numerów pinów odpowiadająca kolejności węzłów modelu Spice.\n"
 
 #. type: Title ====
@@ -11100,9 +11109,10 @@ msgid ""
 "schematic sheet."
 msgstr ""
 "Jawnie zdefiniowane model pasywne mają pierwszeństwo przed tymi, które są domyślnie "
-"przypisane. Oznacza to, że po przypisaniu pasywnego modelu, pola Odnośnik i Wartość "
-"nie są brane pod uwagę podczas symulacji. Może to prowadzić do niejasnej sytuacji, "
-"gdy przypisana wartość modelu nie jest zgodna z tą wyświetlaną na schemacie."
+"przypisane. Oznacza to, że po przypisaniu pasywnego modelu, pola _Odnośnik_ i "
+"_Wartość_ nie są brane pod uwagę podczas symulacji. Może to prowadzić do niejasnej "
+"sytuacji, gdy przypisana wartość modelu nie jest zgodna z tą wyświetlaną na "
+"schemacie."
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_simulator.adoc:81
@@ -11159,7 +11169,7 @@ msgid ""
 "The main text widget displays the selected library file contents. It is a common "
 "practice to put models description inside library files, including the node order."
 msgstr ""
-"Główny widget tekstowy wyświetla wybraną zawartość z pliku bibliotecznego. "
+"Główny widżet tekstowy wyświetla wybraną zawartość z pliku bibliotecznego. "
 "Powszechną praktyką jest umieszczanie opisu modeli w plikach biblioteki, w tym "
 "kolejności węzłów."
 
@@ -11277,7 +11287,7 @@ msgid ""
 ">Simulator_ in the schematics editor window."
 msgstr ""
 "Aby uruchomić symulację, otwórz okno dialogowe _Symulator Spice_ wybierając menu "
-"_Narzędzia -> Symulator_ w oknie edytora schematów."
+"*Narzędzia* -> **Symulator** w oknie edytora schematów."
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_simulator.adoc:147
@@ -11419,7 +11429,7 @@ msgstr "images/pl/sim_main_toolbar.png"
 #. type: Plain text
 #: eeschema_simulator.adoc:200
 msgid "The top toolbar provides access to the most frequently performed actions."
-msgstr "Ten pasek umożliwia dostęp do głównych funkcji suymulatora."
+msgstr "Ten pasek umożliwia dostęp do głównych funkcji symulatora."
 
 #. type: delimited block |
 #: eeschema_simulator.adoc:208
@@ -11431,10 +11441,10 @@ msgid ""
 "|Tune | Start the <<sim-tuner-tool,Tuner>> tool.\n"
 "|Settings | Open the <<sim-settings,simulation settings dialog>>.\n"
 msgstr ""
-"|Start/Stop symulacji | Uruchamia lub zatrzymuje symulację.\n"
+"|Uruchom/Zatrzymaj symulację | Uruchamia lub zatrzymuje symulację.\n"
 "|Dodaj sygnały | Otwiera okno dialogowe wyboru sygnałów do wykreślenia.\n"
 "|Sonda | Uruchamia <<sim-probe-tool,narzędzie Sonda>>.\n"
-"|Dostrajanie | Uruchamia narzędzie <<sim-tuner-tool, do dostrajania>>.\n"
+"|Dostrajanie | Uruchamia narzędzie <<sim-tuner-tool,do dostrajania>>.\n"
 "|Ustawienia | Otwiera <<sim-settings,okno dialogowe ustawień symulacji>>.\n"
 
 #. type: Title ====
@@ -11549,8 +11559,8 @@ msgid ""
 "displayed. Cursors visibility is set using the <<sim-signals-list,Signals>> list."
 msgstr ""
 "Wyświetla listę kursorów i ich współrzędne. Każdy sygnał może mieć wyświetlany "
-"jeden kursor. Widoczność kursorów ustawiana jest za pomocą listy <<sim-signals-"
-"list, sygnałów>>."
+"jeden kursor. Widoczność kursorów ustawiana jest za pomocą listy <<sim-signals-list,"
+"sygnałów>>."
 
 #. type: Title ====
 #: eeschema_simulator.adoc:249
@@ -11566,7 +11576,7 @@ msgid ""
 "the simulation results - every time a component value is changed, the simulation is "
 "rerun and plots are updated."
 msgstr ""
-"Wyświetla komponenty pobrane za pomocą narzędzia <<sim-tuner-tool, Dostrajanie>>. "
+"Wyświetla komponenty pobrane za pomocą narzędzia <<sim-tuner-tool,Dostrajanie>>. "
 "Panel dostrajania pozwala użytkownikowi szybko modyfikować wartości komponentów i "
 "obserwować ich wpływ na wyniki symulacji - za każdym razem, gdy wartość składnika "
 "jest zmieniana, symulacja jest ponownie uruchamiana, a wykresy są aktualizowane."
@@ -11640,7 +11650,7 @@ msgid ""
 msgstr ""
 "Aby wybrać komponent by go dostroić, należy kliknąć go w edytorze schematów gdy "
 "narzędzie Dostrajanie jest aktywne. Wybrane komponenty pojawią się w panelu <<sim-"
-"tune-panel, Dostrajanie>>. Tylko pasywne komponenty mogą być dostrajane."
+"tune-panel,Dostrajanie>>. Tylko pasywne komponenty mogą być dostrajane."
 
 #. type: Title ====
 #: eeschema_simulator.adoc:277
@@ -11759,7 +11769,7 @@ msgid ""
 msgstr ""
 "|Dostosuj wartości symboli pasywnych | Zastąp wartości symboli pasywnych by dokonać\n"
 "często wykonywanej konwersji wartości do ich notacji w Spice.\n"
-"|Dodaj pełną ścieżkę do dyrektyw _.include_ wprowadzające nowe blilbioteki | Łączy nazwy\n"
+"|Dodaj pełną ścieżkę do dyrektyw _.include_ wprowadzające nowe biblioteki | Łączy nazwy\n"
 "plików bibliotek modeli Spice z pełną ścieżką dostępu. Normalnie, pełna ścieżka jest wymagana\n"
 "przez ngspice by mógł uzyskać dostęp do pliku biblioteki.\n"
 
@@ -11815,8 +11825,8 @@ msgid ""
 "by invoking the ``Manage Symbol Library Tables'' entry in the ``Preferences'' menu."
 msgstr ""
 "Poniższy obrazek przedstawia okno dialogowe edycji tabeli bibliotek symboli, które "
-"można otworzyć wywołując polecenie ``Zarządzaj bibliotekami symboli'' w menu "
-"``Ustawienia''."
+"można otworzyć wywołując polecenie \"Zarządzaj bibliotekami symboli\" w menu "
+"\"Ustawienia\"."
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_symbol_library_table.adoc:20
@@ -11885,7 +11895,7 @@ msgid ""
 "the user can either copy sym-lib-table manually or configure the table by hand."
 msgstr ""
 "Przy pierwszym uruchomieniu Eeschema gdy nie można znaleźć pliku globalnej tablicy "
-"symboli *sym-lib-table*, Eeschema spróbuje skopiować domyślny plik tej tabeli "
+"symboli `sym-lib-table`, Eeschema spróbuje skopiować domyślny plik tej tabeli "
 "przechowywany w folderze z szablonami programu KiCad w miejsce pliku `sym-lib-"
 "table` w folderze konfiguracji użytkownika. Jeśli nie można znaleźć domyślnego "
 "pliku szablonu `sym-lib-table`, okno dialogowe poprosi o alternatywną lokalizację "
@@ -11990,7 +12000,7 @@ msgid ""
 "when duplicate nicknames occur."
 msgstr ""
 "Pozycja w tabeli specyficznej dla projektu będzie miała pierwszeństwo przed pozycją "
-"w tabeli globalnej, gdy wystąpią takie same nazwy sktótowe w obu tabelach."
+"w tabeli globalnej, gdy wystąpią takie same nazwy skrótowe w obu tabelach."
 
 #. type: Plain text
 #: eeschema_symbol_library_table.adoc:93
@@ -12054,7 +12064,7 @@ msgid ""
 "default KiCad symbol libraries."
 msgstr ""
 "Możesz nadpisać zmienną +KICAD_SYMBOL_DIR+ definiując jej zawartość samodzielnie w "
-"menu Preferencje -> Skonfiguruj ścieżki dostępu, co pozwala na zastąpienie "
+"menu *Preferencje* -> **Skonfiguruj ścieżki dostępu**, co pozwala na zastąpienie "
 "bibliotek domyślnych programu KiCad własnymi."
 
 #. type: Plain text
@@ -12256,9 +12266,9 @@ msgid ""
 msgstr ""
 "Z arkusza głównego, musi być możliwość odnalezienia dowolnego arkusza podrzędnego. "
 "Zarządzanie schematem hierarchicznym jest bardzo proste w Eeschema dzięki "
-"zintegrowanemu narzędziu jakim jest \"Nawigator\" dostęny za pomocą ikony image:"
-"images/icons/hierarchy_nav.png[icons/hierarchy_nav_png] na górnym i prawym pasku "
-"narzędzi."
+"zintegrowanemu narzędziu jakim jest \"Nawigator\" dostępnym za pomocą ikony image:"
+"images/icons/hierarchy_nav.png[Ikona Nawigacja w hierarchii] na górnym i prawym "
+"pasku narzędzi."
 
 #. type: Plain text
 #: eeschema_hierarchical_schematics.adoc:31
@@ -12355,8 +12365,8 @@ msgid ""
 "toolbar."
 msgstr ""
 "Nawigacja wśród arkuszy podrzędnych jest prosta dzięki narzędziu nawigacji, "
-"dostępnego pod ikoną image:images/icons/hierarchy_nav.png[icons/hierarchy_nav_png] "
-"na głównym pasku narzędzi."
+"dostępnego pod ikoną image:images/icons/hierarchy_nav.png[Ikona Nawigacja w "
+"hierarchii] na głównym pasku narzędzi."
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_hierarchical_schematics.adoc:64
@@ -12391,7 +12401,7 @@ msgstr ""
 "By opuścić bieżący arkusz i przejść do arkusza nadrzędnego, należy kliknąć prawym "
 "klawiszem myszy w miejscu gdzie nie ma żadnego elementu schematu oraz wybrać "
 "polecenie \"Opuść arkusz\" z menu podręcznego lub wykorzystać kombinację klawiszy "
-"Alt+Backspace."
+"ALT+Backspace."
 
 #. type: Title ===
 #: eeschema_hierarchical_schematics.adoc:75
@@ -12413,11 +12423,11 @@ msgid ""
 "icons/add_hierarchical_label.png[icons/add_hierarchical_label_png])  are connecting "
 "signals only within a sheet and to a hierarchical pin placed in the parent sheet."
 msgstr ""
-"Lokalne etykiety (narzędzie image:images/icons/add_line_label.png[icons/"
-"add_line_label_png]) łączą sygnały tylko w bieżącym arkuszu. Hierarchiczne etykiety "
-"(narzędzie image:images/icons/add_hierarchical_label.png[icons/"
-"add_hierarchical_label_png]) łączą sygnały tylko wewnątrz arkusza z hierarchicznym "
-"pinem umieszczonym w arkuszu nadrzędnym."
+"Lokalne etykiety, narzędzie image:images/icons/add_line_label.png[Ikona Dodaj "
+"etykietę] łączą sygnały tylko w bieżącym arkuszu. Hierarchiczne etykiety (narzędzie "
+"image:images/icons/add_hierarchical_label.png[Ikona Dodaj etykietę hierarchiczną])  "
+"łączą sygnały tylko wewnątrz arkusza z hierarchicznym pinem umieszczonym w arkuszu "
+"nadrzędnym."
 
 #. type: Plain text
 #: eeschema_hierarchical_schematics.adoc:92
@@ -12513,8 +12523,8 @@ msgid ""
 "add_hierarchical_subsheet.png[icons/add_hierarchical_subsheet_png]."
 msgstr ""
 "Etykiety te są podobne do zwykłych pinów wyprowadzeń. Należy wybrać narzędzie "
-"ukryte pod ikoną image:images/icons/add_hierarchical_subsheet.png[icons/"
-"add_hierarchical_subsheet_png]."
+"ukryte pod ikoną image:images/icons/add_hierarchical_subsheet.png[Ikona Dodaj "
+"arkusz hierarchiczny]."
 
 #. type: Plain text
 #: eeschema_hierarchical_schematics.adoc:126
@@ -12619,8 +12629,8 @@ msgstr "*Wstawianie ręczne pinów hierarchicznych*\n"
 msgid ""
 "Select the tool image:images/icons/add_hierar_pin.png[icons/add_hierar_pin_png]."
 msgstr ""
-"ERC można uruchomić klikając w ikonę image:images/icons/add_hierar_pin.png[icons/"
-"add_hierar_pin_png]."
+"ERC można uruchomić klikając w ikonę image:images/icons/add_hierar_pin.png[Ikona "
+"Dodaj pin hierarchiczny]."
 
 #. type: Plain text
 #: eeschema_hierarchical_schematics.adoc:160
@@ -12679,8 +12689,8 @@ msgid ""
 "Select the tool image:images/icons/import_hierarchical_label.png[icons/"
 "import_hierarchical_label_png]."
 msgstr ""
-"Wybierz narzędzie image:images/icons/import_hierarchical_label.png[icons/"
-"import_hierarchical_label_png]."
+"Wybierz narzędzie image:images/icons/import_hierarchical_label.png[Ikona Importuj "
+"piny hierarchiczne]."
 
 #. type: Plain text
 #: eeschema_hierarchical_schematics.adoc:181
@@ -12729,9 +12739,10 @@ msgstr ""
 "arkuszu podrzędnym. Etykiety hierarchiczne są podobne do zwykłych etykiet, ale w "
 "przeciwieństwie do nich dostarczają one połączeń pomiędzy arkuszami podrzędnymi a "
 "arkuszem głównym (nadrzędnym). Graficzna reprezentacja dwóch etykiet "
-"uzupełniających (pinu i etykiety hierarchicznej) jest podobna. Tworzeniem etykiet "
-"hierarchicznych (HLabel) zajmuje się narzędzie ukryte pod ikoną image:images/icons/"
-"add_hierarchical_label.png[icons/add_hierarchical_label_png]."
+"uzupełniających (pinu i etykiety hierarchicznej) jest podobna. Tworzeniem "
+"kompletnych etykiet hierarchicznych (piny i HLabel) zajmuje się narzędzie ukryte "
+"pod ikoną image:images/icons/add_hierarchical_label.png[Ikona Dodaj etykietę "
+"hierarchiczną]."
 
 #. type: Plain text
 #: eeschema_hierarchical_schematics.adoc:198
@@ -12907,7 +12918,7 @@ msgid ""
 msgstr ""
 "Gdyby etykieta o nazwie VCC została umieszczona na arkuszu podrzędnym, to nie "
 "byłaby ona połączona z wyprowadzeniem VCC, ponieważ etykietą byłaby faktycznie "
-"VCC_n, gdzie n to numer arkusza."
+"VCC_n, gdzie \"n\" to numer arkusza."
 
 #. type: Plain text
 #: eeschema_hierarchical_schematics.adoc:261
@@ -12936,7 +12947,7 @@ msgstr ""
 #. type: Plain text
 #: eeschema_hierarchical_schematics.adoc:269
 msgid "(power labels like vcc ... are global labels)"
-msgstr "(Porty zasilania jak np. VCC ... są właśnie globalnymi etykietami)."
+msgstr "(Porty zasilania jak np. VCC... są właśnie globalnymi etykietami)."
 
 #. type: Title ===
 #: eeschema_hierarchical_schematics.adoc:271
@@ -12953,7 +12964,7 @@ msgid ""
 msgstr ""
 "Przykład takiej hierarchii został zaprezentowany poniżej. Ten sam schemat jest "
 "użyty dwukrotnie (dwie instancje). Dwa arkusze współdzielą taki sam schemat, "
-"ponieważ nazwa pliku jest taka sama dla dwóch arkuszy (``supply.sch''). Ich nazwy "
+"ponieważ nazwa pliku jest taka sama dla dwóch arkuszy (`supply.sch`). Ich nazwy "
 "arkuszy jednak muszą pozostać różne."
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
@@ -13001,8 +13012,8 @@ msgstr "Nie są potrzebne wyraźne połączenia między nimi."
 #: eeschema_hierarchical_schematics.adoc:290
 msgid "Use global labels instead of hierarchical labels in all sheets."
 msgstr ""
-"Wszystkie połączenia między arkuszami zostają wykonane z użyciem Etykiet globalnych "
-"zamiast Etykiet hierarchicznych."
+"Wszystkie połączenia między arkuszami zostają wykonane z użyciem etykiet globalnych "
+"zamiast etykiet hierarchicznych."
 
 #. type: Plain text
 #: eeschema_hierarchical_schematics.adoc:292
@@ -13158,7 +13169,7 @@ msgstr ""
 #: eeschema_general_top_toolbar.adoc:33
 #, no-wrap
 msgid "Netlist tool"
-msgstr "Narzędzie Listy sieci"
+msgstr "Narzędzie Lista sieci"
 
 #. type: Plain text
 #: eeschema_general_top_toolbar.adoc:38
@@ -13166,8 +13177,8 @@ msgid ""
 "The Netlist icon (image:images/icons/netlist.png[Netlist icon])  opens the netlist "
 "generation tool."
 msgstr ""
-"Ikona Lista sieci (image:images/icons/netlist.png[Ikona Lista sieci]) otwiera okno "
-"dialogowe z narzędziem do tworzenia listy sieci."
+"Ikona \"Lista sieci\" (image:images/icons/netlist.png[Ikona Lista sieci]) otwiera "
+"okno dialogowe z narzędziem do tworzenia listy sieci."
 
 #. type: Plain text
 #: eeschema_general_top_toolbar.adoc:40
@@ -13187,9 +13198,9 @@ msgid ""
 "associated with the local label."
 msgstr ""
 "W hierarchii, dowolna zwykła etykieta jest widoczna tylko dla arkusza do którego "
-"należy.  Dlatego etykieta LABEL1 z arkusza 3 różni się od etykiety LABEL1 z arkusza "
-"5 (jeśli ich połączenie nie było celowo wprowadzone).  Wynika to z faktu, że numer "
-"arkusza jest powiązany z lokalną etykietą."
+"należy.  Dlatego etykieta \"LABEL1\" z arkusza 3 różni się od etykiety \"LABEL1\" z "
+"arkusza 5 (jeśli ich połączenie nie było celowo wprowadzone).  Wynika to z faktu, "
+"że numer arkusza jest powiązany z lokalną etykietą."
 
 #. type: Plain text
 #: eeschema_general_top_toolbar.adoc:52
@@ -13198,7 +13209,7 @@ msgid ""
 "account that other programs reading the generated netlist may have such constraints."
 msgstr ""
 "Nawet jeśli nie ma ograniczenia długości tekstu dla etykiet w Eeschema, należy "
-"wziąć pod uwagę, że inne programy odczytujące wygenerowaną netlistę mogą mieć takie "
+"wziąć pod uwagę, że inne programy odczytujące wygenerowaną listę mogą mieć takie "
 "ograniczenia."
 
 #. type: Plain text
@@ -13273,7 +13284,7 @@ msgid ""
 "Netlist>> chapter."
 msgstr ""
 "Więcej informacji na temat tworzenia list sieci można znaleźć w rozdziale <<create-"
-"a-netlist, Tworzenie list sieci>>."
+"a-netlist,Tworzenie list sieci>>."
 
 #. type: Title ===
 #: eeschema_general_top_toolbar.adoc:83
@@ -13536,7 +13547,7 @@ msgid "Each square of the matrix can be modified by clicking on it."
 msgstr ""
 "Każde pole na matrycy błędów i ostrzeżeń może być zmienione klikając w nie. Zmiany "
 "są wykonywane cykliczne. W każdej chwili można przywrócić ustawienia domyślne za "
-"pomocą przycisku Resetuj."
+"pomocą przycisku \"Resetuj do domyślnych\"."
 
 #. type: delimited block |
 #: eeschema_general_top_toolbar.adoc:194
@@ -13547,9 +13558,9 @@ msgid ""
 "|Test unique global labels |Report global lables that occur only once for a\n"
 "particular net. Normally it is required to have at least two make a connection.\n"
 msgstr ""
-"| Testuj na podobność etykiet | Raportuje etykiety różniące się tylko wielkością liter (np. label/Label/LaBeL).\n"
+"|Testuj na podobność etykiet | Raportuje etykiety różniące się tylko wielkością liter (np. label/Label/LaBeL).\n"
 "W nazwach sieci rozróżniana jest wielkość liter, dlatego takie etykiety są traktowane jako oddzielne sieci.\n"
-"| Testuj na unikalność etykiet globalnych | Raportuj o etykietach globalnych, które występują tylko raz dla\n"
+"|Testuj na unikalność etykiet globalnych | Raportuj o etykietach globalnych, które występują tylko raz dla\n"
 "danej sieci. Normalnie, wymagane jest aby co najmniej dwie takie etykiety tworzyły połączenie.\n"
 
 #. type: delimited block |
@@ -13572,7 +13583,7 @@ msgid ""
 "generator. This tool generates a file listing the components and/or hierarchical "
 "connections (global labels)."
 msgstr ""
-"Ikona image:images/icons/bom.png[BOM icon] prowadzi do narzędzia, które pozwala na "
+"Ikona image:images/icons/bom.png[Ikona BOM] prowadzi do narzędzia, które pozwala na "
 "wygenerowanie pliku z listą elementów i/lub ich połączeniami w hierarchii (za "
 "pomocą etykiet globalnych)."
 
@@ -13609,13 +13620,13 @@ msgstr ""
 #. type: Plain text
 #: eeschema_general_top_toolbar.adoc:222
 msgid "Value - unique name for each part used."
-msgstr "Wartość - unikalna nazwa dla każdego z użytych elementów,"
+msgstr "_Wartość_ - unikalna nazwa dla każdego z użytych elementów,"
 
 #. type: Plain text
 #: eeschema_general_top_toolbar.adoc:223
 msgid "Footprint - either manually entered or back-annotated (see below)."
 msgstr ""
-"Obudowa - zarówno wpisany ręcznie lub za pomocą numeracji wstecznej (zobacz "
+"_Obudowa_ - zarówno wpisana ręcznie lub za pomocą numeracji wstecznej (zobacz "
 "następny punkt),"
 
 #. type: Plain text
@@ -13726,7 +13737,7 @@ msgid ""
 msgstr ""
 "Narzędzie to pozwala na uaktualnienie danych o footprintach, które zostały "
 "zmienione w programie Pcbnew, z powrotem do schematu, tak by nie było rozbieżności "
-"pomiędzy oboma dokumetami."
+"pomiędzy oboma dokumentami."
 
 #. type: Title ==
 #: eeschema_plot_and_print.adoc:3
@@ -13739,7 +13750,7 @@ msgstr "Drukowanie i rysowanie schematów na drukarkach lub ploterach"
 msgid "You can access both print and plot commands via the file menu."
 msgstr ""
 "Obie możliwości przenoszenia schematów na papier (bądź inny materiał drukarski) są "
-"dostępne z menu Plik."
+"dostępne z menu *Plik*."
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_plot_and_print.adoc:9
@@ -13960,7 +13971,7 @@ msgstr "images/pl/eeschema_plot_hpgl.png"
 #: eeschema_plot_and_print.adoc:74
 msgid "The output file name will be the sheet name plus the extension .plt."
 msgstr ""
-"Nazwa pliku wyjściowego składała się będzie z nazwy arkusza i rozszerzenia .plt."
+"Nazwa pliku wyjściowego składała się będzie z nazwy arkusza i rozszerzenia `.plt`."
 
 #. type: Title ====
 #: eeschema_plot_and_print.adoc:76
@@ -14048,7 +14059,7 @@ msgstr "Zaakceptować dane o przesunięciu."
 #: eeschema_plot_and_print.adoc:105
 #, no-wrap
 msgid "Print on paper"
-msgstr "Drukuj"
+msgstr "Drukowanie"
 
 #. type: Plain text
 #: eeschema_plot_and_print.adoc:111
@@ -14057,9 +14068,9 @@ msgid ""
 "print_button_png], allows you to visualize and generate design files for the "
 "standard printer."
 msgstr ""
-"To polecenie, podobne do polecenia image:images/icons/print_button.png[icons/"
-"print_button_png] na głównym pasku narzędzi, pozwala na podgląd oraz utworzenie "
-"wydruków korzystając z normalnej drukarki."
+"To polecenie, podobne do polecenia image:images/icons/print_button.png[Ikona "
+"Drukowanie] na głównym pasku narzędzi, pozwala na podgląd oraz utworzenie wydruków "
+"korzystając z normalnej drukarki."
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_plot_and_print.adoc:112
