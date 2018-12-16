@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
 "POT-Creation-Date: 2018-08-26 08:19+0200\n"
-"PO-Revision-Date: 2018-04-28 10:19+0200\n"
+"PO-Revision-Date: 2018-12-16 03:28+0100\n"
 "Last-Translator: Kerusey Karyu <keruseykaryu@o2.pl>\n"
 "Language-Team: Polish KiCAD Team: Mateusz Skowroński, Krzysztof Kawa, "
 "Kerusey Karyu\n"
@@ -209,7 +209,7 @@ msgid ""
 "|image:images/icons/load_gerber.png[load_gerber_png]\n"
 "|Load Gerber files\n"
 msgstr ""
-"|image:images/icons/locad_gerber.png[load_gerber_png]\n"
+"|image:images/icons/load_gerber.png[load_gerber_png]\n"
 "|Wczytywanie plików Gerber\n"
 
 #. type: delimited block |
@@ -309,8 +309,6 @@ msgid ""
 "|image:images/gerbview_x2_component.png[scaledwidth=\"70%\",alt=\"gerbview_x2_component_png\"]\n"
 "|Highlight items belonging to selected component (Gerber X2)\n"
 msgstr ""
-"|image:images/pl/gerbview_x2_component.png[scalewidth=\"70%\",alt=\"gerbview_x2_component_png\"]\n"
-"|Podświetla elementy należące do wybranego komponentu standardu Gerber X2\n"
 
 #. type: delimited block |
 #: gerbview.adoc:108
