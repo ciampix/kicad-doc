@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
-"POT-Creation-Date: 2018-12-13 20:55+0100\n"
-"PO-Revision-Date: 2018-12-14 19:02+0100\n"
+"POT-Creation-Date: 2018-12-16 08:58+0100\n"
+"PO-Revision-Date: 2018-12-16 09:00+0100\n"
 "Last-Translator: Kerusey Karyu <keruseykaryu@o2.pl>\n"
 "Language-Team: Polish KiCAD Team: Mateusz Skowroński, Krzysztof Kawa, Kerusey "
 "Karyu\n"
@@ -5739,13 +5739,13 @@ msgid ""
 "In fact all detected errors must be checked and then corrected before proceeding as "
 "normal. The quality of the ERC is directly related to the care taken in declaring "
 "electrical pin properties during symbol library creation. ERC output is reported as "
-"\"errors\" or \"warnings\"."
+"``errors'' or ``warnings''."
 msgstr ""
 "W zasadzie wszystkie wykryte błędy muszą zostać sprawdzone i poprawione przed "
 "kontynuacją dalszej pracy nad projektem. Jakość procesu sprawdzenia jest "
 "bezpośrednio zależna od staranności jaka została podjęta podczas tworzenia "
 "elementów bibliotecznych, zwłaszcza przy definiowaniu typu wyprowadzeń. Błędy "
-"raportowane przez ERC mogą mieć status \"błędów\" lub \"ostrzeżeń\"."
+"raportowane przez ERC mogą mieć status ``błędów'' lub ``ostrzeżeń''."
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_design_verification_with_erc.adoc:20 eeschema_general_top_toolbar.adoc:144
@@ -6401,11 +6401,11 @@ msgstr "Bloki można zaznaczać przeciągając myszą z wciśniętym lewym klawi
 #. type: Plain text
 #: eeschema_generic_commands.adoc:47
 msgid ""
-"Holding \"Shift\", \"Ctrl\", or \"Shift + Ctrl\" during selection respectively "
+"Holding ``Shift'', ``Ctrl'', or ``Shift + Ctrl'' during selection respectively "
 "performs copying, dragging and deletion:"
 msgstr ""
-"Trzymając dodatkowo jeden z klawiszy \"SHIFT\", \"CTRL\" lub oba razem podczas "
-"zaznaczania, w rezultacie wykonujesz kopiowanie, przeciąganie lub kasowanie "
+"Trzymając dodatkowo jeden z klawiszy ``SHIFT'', ``CTRL'' lub ``SHIFT + CTRL'' "
+"podczas zaznaczania, w rezultacie wykonujesz kopiowanie, przeciąganie lub kasowanie "
 "wybranego obszaru:"
 
 #. type: delimited block |
@@ -10710,8 +10710,8 @@ msgstr "Wszystkie te symbole są elementami biblioteki `power`."
 #. type: Title ====
 #: eeschema_schematic_creation_and_editing.adoc:339
 #, no-wrap
-msgid "\"No Connect\" flag"
-msgstr "Flaga \"Nie połączone\""
+msgid "``No Connect'' flag"
+msgstr "Flaga ``Nie połączone''"
 
 #. type: Plain text
 #: eeschema_schematic_creation_and_editing.adoc:344
