@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
 "POT-Creation-Date: 2018-08-26 08:19+0200\n"
-"PO-Revision-Date: 2018-12-16 03:28+0100\n"
+"PO-Revision-Date: 2018-12-16 09:20+0100\n"
 "Last-Translator: Kerusey Karyu <keruseykaryu@o2.pl>\n"
 "Language-Team: Polish KiCAD Team: Mateusz Skowroński, Krzysztof Kawa, "
 "Kerusey Karyu\n"
@@ -15,7 +15,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.7.1\n"
+"X-Generator: Poedit 2.0.9\n"
 
 #. type: Title =
 #: gerbview.adoc:6
@@ -309,6 +309,8 @@ msgid ""
 "|image:images/gerbview_x2_component.png[scaledwidth=\"70%\",alt=\"gerbview_x2_component_png\"]\n"
 "|Highlight items belonging to selected component (Gerber X2)\n"
 msgstr ""
+"|image:images/gerbview_x2_component.png[scaledwidth=\"70%\",alt=\"gerbview_x2_component_png\"]\n"
+"|Podświetla elementy należące do wybranego komponentu (Gerber X2)\n"
 
 #. type: delimited block |
 #: gerbview.adoc:108
