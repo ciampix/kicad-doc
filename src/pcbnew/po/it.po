@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
-"POT-Creation-Date: 2018-06-01 10:16+0200\n"
+"POT-Creation-Date: 2018-12-15 17:01+0100\n"
 "PO-Revision-Date: 2018-06-07 09:09+0200\n"
 "Last-Translator: Marco Ciampa <ciampix@posteo.net>\n"
 "Language-Team: Italian <it@li.org>\n"
@@ -5956,9 +5956,9 @@ msgstr ""
 #. type: Plain text
 #: pcbnew_installation.adoc:115
 msgid ""
-"The *first thing* to do when configuring KiCad do is to modify this table (add/"
-"remove entries) according to your work and the libraries you need for your "
-"projects."
+"The *first thing* to do when configuring KiCad do is to modify this table "
+"(add/remove entries) according to your work and the libraries you need for "
+"your projects."
 msgstr ""
 "La *prima cosa* da fare quando si configura KiCad è di modificare questa "
 "tabella (aggiungere/togliere voci) secondo il proprio lavoro e le librerie "
@@ -8919,7 +8919,9 @@ msgstr ""
 msgid ""
 "Also see the doxygen documentation on http://docs.kicad-pcb.org/doxygen-"
 "python/namespaces.html[Python Scripting Reference]."
-msgstr "Vedere anche la documentazione doxygen su http://docs.kicad-pcb.org/doxygen-python/namespaces.html[Python Scripting Reference]."
+msgstr ""
+"Vedere anche la documentazione doxygen su http://docs.kicad-pcb.org/doxygen-"
+"python/namespaces.html[Python Scripting Reference]."
 
 #. type: Plain text
 #: pcbnew_python_scripting.adoc:8
@@ -10553,7 +10555,7 @@ msgid "Rustic"
 msgstr "Grezzo"
 
 #. type: Plain text
-#: pcbnew_routing.adoc:162
+#: pcbnew_routing.adoc:162 pcbnew_routing.adoc:176
 msgid "Clearance: 0.35 mm (0.0138 inches)."
 msgstr "Distanza: 0.35 mm (0.0138 pollici)."
 
@@ -12129,8 +12131,8 @@ msgstr ""
 #. type: Plain text
 #: pcbnew_zones.adoc:264
 msgid ""
-"When a global DRC is made Pcbnew checks if the zone net name exists, "
-"and displays an error if not."
+"When a global DRC is made Pcbnew checks if the zone net name exists, and "
+"displays an error if not."
 msgstr ""
 "Quando un controllo regole elettriche globale viene eseguito, Pcbnew "
 "verifica se esiste il nome collegamento della zona, e mostra un errore ne "
