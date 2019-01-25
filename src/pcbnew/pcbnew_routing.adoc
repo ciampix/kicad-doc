@@ -235,7 +235,7 @@ image:images/Pcbnew_routing_posture.png[]
 Holding 'Ctrl' while routing in the non-legacy canvases constrains the
 routing to a single horizontal or vertical segment. Switching posture
 changes to a single diagonal segment. Holding 'Shift' while routing
-removes the gravity pulling the route in a particular direction.
+removes the 'snap to object' gravity.
 
 When creating a new track, Pcbnew shows links to nearest
 unconnected pads.
