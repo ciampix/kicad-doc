@@ -237,12 +237,6 @@ routing to a single horizontal or vertical segment. Switching posture
 changes to a single diagonal segment. Holding 'Shift' while routing
 removes the gravity pulling the route in a particular direction.
 
-Holding 'Shift' while adding a via, the routing ends as soon as the
-mouse button is clicked, and the active layer doesn't change. This is
-useful when adding a connection to a plane in which you wouldn't want
-to have the active layer change and wouldn't want to continue adding 
-trace.
-
 When creating a new track, Pcbnew shows links to nearest
 unconnected pads.
 
@@ -266,6 +260,12 @@ A via can be inserted only when a track is in progress:
 * By the hotkey 'V'.
 
 * By switching to a new copper layer using the appropriate hotkey.
+
+Holding 'Shift' while adding a via, the routing ends as soon as the
+mouse button is clicked, and the active layer doesn't change. This is
+useful when adding a connection to a plane in which you wouldn't want
+to have the active layer change and wouldn't want to continue adding 
+trace.
 
 === Select/edit the track width and via size
 
