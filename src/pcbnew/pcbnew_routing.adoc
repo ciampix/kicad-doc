@@ -261,11 +261,10 @@ A via can be inserted only when a track is in progress:
 
 * By switching to a new copper layer using the appropriate hotkey.
 
-Holding 'Shift' while adding a via, the routing ends as soon as the
-mouse button is clicked, and the active layer doesn't change. This is
-useful when adding a connection to a plane in which you wouldn't want
-to have the active layer change and wouldn't want to continue adding 
-trace.
+Holding 'Shift' while adding a via ends routing as soon as the via 
+is placed. This is useful when adding a connection to a plane, so
+the active layer doesn't change and no extra keys need be pressed
+to exit routing.
 
 === Select/edit the track width and via size
 
