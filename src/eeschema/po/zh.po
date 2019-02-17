@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Eeschema Manual\n"
 "POT-Creation-Date: 2019-02-09 18:10+0100\n"
-"PO-Revision-Date: 2019-02-17 16:45+0800\n"
+"PO-Revision-Date: 2019-02-17 18:07+0800\n"
 "Last-Translator: taotieren <admin@taotieren.com>\n"
 "Language-Team: \n"
 "Language: zh\n"
@@ -1449,7 +1449,7 @@ msgstr "创建 Pads-Pcb 网表文件"
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:243
 msgid "The pads-pcb format is comprised of two sections."
-msgstr "pads-pcb 格式由两部分组成。"
+msgstr "pads-pcb 的格式由两部分组成。"
 
 # footprint
 # 封装
@@ -2872,7 +2872,7 @@ msgstr "命令行格式：python 脚本的示例"
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:895
 msgid "The command line format for python is something like:"
-msgstr "python的命令行格式如下："
+msgstr "python 的命令行格式如下："
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:897
@@ -3403,12 +3403,12 @@ msgstr ""
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1153
 #, no-wrap
 msgid "The nets section"
-msgstr "La sección nodos"
+msgstr "\"网\" 部分"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1157
 msgid "The nets section has the delimiter <nets>. This section contains the \"connectivity\" of the schematic."
-msgstr "La sección nodos usa el delimitador <nets>. Esta sección especifica la \"conectividad\" del esquema."
+msgstr "\"网\" 部分具有分隔符 <nets>。本节包含原理图的 \"连接\"。"
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1175
@@ -3451,12 +3451,12 @@ msgstr ""
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1178
 msgid "This section lists all nets in the schematic."
-msgstr "Esta sección contiene todos los nodos del esquema."
+msgstr "本节列出了原理图中的所有网络。"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1180
 msgid "A possible net contains the following."
-msgstr "Un posible nodo contiene lo siguiente."
+msgstr "可能的网络包含以下内容。"
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1188
@@ -3484,41 +3484,41 @@ msgid ""
 "|name |is a name for this net\n"
 "|node |give a pin reference connected to this net\n"
 msgstr ""
-"|net code |es un identificador interno para este nodo\n"
-"|name |es el nombre del nodo\n"
-"|node |indica la referencia de un pin conectado a este nodo\n"
+"|net code |是此网络的内部标识符\n"
+"|name |是此网络的名称\n"
+"|node |给出一个连接到该网络的引脚引用\n"
 
 #. type: Title ===
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1198
 #, no-wrap
 msgid "More about xsltproc"
-msgstr "Mas sobre xsltproc"
+msgstr "有关 xsltproc 的更多信息"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1201
 msgid "Refer to the page: _http://xmlsoft.org/XSLT/xsltproc.html_"
-msgstr "Consultar la página: _http://xmlsoft.org/XSLT/xsltproc.html_"
+msgstr "请参阅页面：_http://xmlsoft.org/XSLT/xsltproc.html_"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1208
 msgid "xsltproc is a command line tool for applying XSLT style-sheets to XML documents. While it was developed as part of the GNOME project, it can operate independently of the GNOME desktop."
-msgstr "xsltproc es una herramienta bajo línea de comando para aplicar hojas de estilo XSLT a documentos XML. Aunque fue desarrollada como parte del proyecto GNOME, puede funcionar independientemente del escritorio GNOME."
+msgstr "xsltproc 是一个命令行工具，用于将 XSLT 样式表应用于 XML 文档。 虽然它是作为 GNOME 项目的一部分开发的，但它可以独立于 GNOME 桌面运行。"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1213
 msgid "xsltproc is invoked from the command line with the name of the style-sheet to be used followed by the name of the file or files to which the style-sheet is to be applied. It will use the standard input if a filename provided is - ."
-msgstr "xsltproc es invocado desde la consola con el nombre de la hoja de estilo a ser usada seguida del nombre del fichero o ficheros a los que ha de aplicarse la hoja de estilo. Usará la entrada estándar si el nombre de fichero indicado es - ."
+msgstr "从命令行调用 xsltproc，其中包含要使用的样式表的名称，后跟要应用样式表的文件的名称。 如果提供的文件名是 - ，它将使用标准输入。"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1219
 msgid "If a style-sheet is included in an XML document with a Style-sheet Processing Instruction, no style-sheet needs to be named in the command line. xsltproc will automatically detect the included style-sheet and use it. By default, the output is to __stdout__. You can specify a file for output using the -o option."
-msgstr "Si una hoja de estilo es incluida en un documento XML con instrucciones de procesamiento, no se necesita llamar a ninguna hoja de estilo en el comando. xsltproc detectará automáticamente la hoja de estilo incluida y la usará. Por defecto, la salida la redirige a __stdout__. Puede especificar un fichero como salida usando la opción -o."
+msgstr "如果样式表包含在带有样式表处理指令的 XML 文档中，则不需要在命令行中命名样式表。xsltproc 将自动检测包含的样式表并使用它。 默认情况下，输出为 __stdout__。 您可以使用 -o 选项指定要输出的文件。"
 
 #. type: Title ====
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1221
 #, no-wrap
 msgid "Synopsis"
-msgstr "Resumen"
+msgstr "简介"
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1231
@@ -3544,7 +3544,7 @@ msgstr ""
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1234
 #, no-wrap
 msgid "Command line options"
-msgstr "Opciones del comando"
+msgstr "命令行选项"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1237
@@ -3554,7 +3554,7 @@ msgstr "_-V_ o _--version_"
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1239
 msgid "Show the version of libxml and libxslt used."
-msgstr "Muestra las versiones de libxml y libxslt usadas."
+msgstr "显示使用的 libxml 和 libxslt 的版本。"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1241
@@ -3564,7 +3564,7 @@ msgstr "_-v_ o _--verbose_"
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1244
 msgid "Output each step taken by xsltproc in processing the stylesheet and the document."
-msgstr "Muestra cada paso tomado por xsltproc durante el procesado de la hoja de estilo y el documento."
+msgstr "输出 xsltproc 在处理样式表和文档时采取的每个步骤。"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1246
@@ -3574,7 +3574,7 @@ msgstr "_-o_ o _--output file_"
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1250
 msgid "Direct output to the file named __file__. For multiple outputs, also known as ``chunking'', -o directory/ directs the output files to a specified directory. The directory must already exist."
-msgstr "Redirige la salida al fichero llamado __file__. Para múltiples salidas, también conocido como  ``chunking'', -o directorio/ redirige los ficheros de salida al directorio especificado. El directorio de existir previamente."
+msgstr "直接输出到名为 __file__ 的文件。对于多个输出，也称为“chunking”，-o directory/ 将输出文件定向到指定的目录。该目录必须已存在。"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1252
@@ -3584,7 +3584,7 @@ msgstr "_--timing_"
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1256
 msgid "Display the time used for parsing the stylesheet, parsing the document and applying the stylesheet and saving the result. Displayed in milliseconds."
-msgstr "Muestra el tiempo usado para traducir la hoja de estilo, traducir el documento, aplicar la hoja de estilo y guardar el resultado. Se muestra en milisegundos."
+msgstr "显示用于解析样式表，解析文档和应用样式表并保存结果的时间。以毫秒显示。"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1258
@@ -3594,7 +3594,7 @@ msgstr "_--repeat_"
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1260
 msgid "Run the transformation 20 times. Used for timing tests."
-msgstr "Usa la transformación 20 veces. Usado para test de tiempos."
+msgstr "运行转换20次。用于定时测试。"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1262
@@ -3604,7 +3604,7 @@ msgstr "_--debug_"
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1264
 msgid "Output an XML tree of the transformed document for debugging purposes."
-msgstr "Muestra un árbol XML del documento transformado con propósitos de depuración."
+msgstr "输出转换后文档的 XML 树，以进行调试。"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1266
@@ -3614,7 +3614,7 @@ msgstr "_--novalid_"
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1268
 msgid "Skip loading the document's DTD."
-msgstr "Omite la carga del DTD del documento."
+msgstr "跳过加载文档的 DTD。"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1270
@@ -3624,7 +3624,7 @@ msgstr "_--noout_"
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1272
 msgid "Do not output the result."
-msgstr "No muestra el resultado."
+msgstr "不输出结果。"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1274
@@ -3634,7 +3634,7 @@ msgstr "_--maxdepth value_"
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1277
 msgid "Adjust the maximum depth of the template stack before libxslt concludes it is in an infinite loop. The default is 500."
-msgstr "Ajusta la profundidad máxima de la pila de la plantilla para evitar que libxslt entre en un bucle infinito. Por defecto es 500."
+msgstr "在 libxslt 断定它处于无限循环之前调整模板堆栈的最大深度。 默认值为500。"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1279
@@ -3644,7 +3644,7 @@ msgstr "_--html_"
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1281
 msgid "The input document is an HTML file."
-msgstr "输入文档是一个 html 文件。"
+msgstr "输入文档是 HTML 文件。"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1283
@@ -3654,7 +3654,7 @@ msgstr "_--param name value_"
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1288
 msgid "Pass a parameter of name _name_ and value _value_ to the stylesheet. You may pass multiple name/value pairs up to a maximum of 32. If the value being passed is a string rather than a node identifier, use --stringparam instead."
-msgstr "Pasa un parámetro de nombre _name_ y valor _value_ a la hoja de estilo. Puede pasar múltiples parejas nombre/valor hasta un máximo de 32. Si el valor que se pasa es una cadena en vez de un identificador de nodo, use --stringparam en su lugar."
+msgstr "将名称 _name_ 和值 _value_ 的参数传递给样式表。 您可以传递多个名称/值对，最多为32.如果传递的值是字符串而不是节点标识符，请改用 --stringparam。"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1290
@@ -3664,7 +3664,7 @@ msgstr "_--stringparam name value_"
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1293
 msgid "Pass a paramenter of name _name_ and value _value_ where _value_ is a string rather than a node identifier. (Note: The string must be utf-8.)"
-msgstr "Pasa un parámetro de nombre _name_ y valor _value_ donde _value_ es una cadena en vez de un identificador de nodo. (Nota: la cadena debe estar en formato utf-8)"
+msgstr "传递名称 _name_ 和值 _value_ 的参数，其中 _value_ 是字符串而不是节点标识符。（注意：字符串必须是utf-8。）"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1295
@@ -3674,7 +3674,7 @@ msgstr "_--nonet_"
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1297
 msgid "Do not use the Internet to fetch DTD's, entities or documents."
-msgstr "No utiliza Internet para buscar los DTD, entidades o documentos."
+msgstr "不要使用互联网来获取 DTD，实体或文档。"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1299
@@ -3683,9 +3683,8 @@ msgstr "_--path paths_"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1302
-#, fuzzy
 msgid "Use the list (separated by space or column) of filesystem paths specified by _paths_ to load DTDs, entities or documents."
-msgstr "Usa una lista (separada por espacios o columnas) de rutas del sistema de ficheros especificadas por _paths_ para cargar los DTD, entidades o documentos."
+msgstr "使用 _paths_ 指定的文件系统路径的列表（由空格或列分隔）来加载 DTD，实体或文档。"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1304
@@ -3695,7 +3694,7 @@ msgstr "_--load-trace_"
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1306
 msgid "Display to stderr all the documents loaded during the processing."
-msgstr "Muestra en stderr todos los documentos cargados durante el proceso."
+msgstr "向 stderr 显示处理期间加载的所有文档。"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1308
@@ -3705,7 +3704,7 @@ msgstr "_--catalogs_"
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1313
 msgid "Use the SGML catalog specified in SGML_CATALOG_FILES to resolve the location of external entities. By default, xsltproc looks for the catalog specified in XML_CATALOG_FILES. If that is not specified, it uses /etc/xml/catalog."
-msgstr "Usa el catálogo especificado en SGML_CATALOG_FILES para resolver la ubicación de entidades externas. Por defecto, xsltproc busca el catálogo especificado en XML_CATALOG_FILES. Si este no se especifica, usa /etc/xml/catalog."
+msgstr "使用 SGML_CATALOG_FILES 中指定的 SGML 目录来解析外部实体的位置。默认情况下，xsltproc 查找 XML_CATALOG_FILES 中指定的目录。如果未指定，则使用 /etc/xml/catalog。"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1315
@@ -3715,7 +3714,7 @@ msgstr "_--xinclude_"
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1319
 msgid "Process the input document using the Xinclude specification. More details on this can be found in the Xinclude specification: http://www.w3.org/TR/xinclude/[http://www.w3.org/TR/xinclude/]"
-msgstr "Procesa el documento de entrada usando las especificaciones Xinclude. Mas detalles sobre esto pueden obtenerse en las especificaciones Xinclude: http://www.w3.org/TR/xinclude/[http://www.w3.org/TR/xinclude/]"
+msgstr "使用 Xinclude 规范处理输入文档。有关这方面的更多详细信息，请参阅 Xinclude 规范：http://www.w3.org/TR/xinclude/[http://www.w3.org/TR/xinclude/]"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1321
@@ -3725,7 +3724,7 @@ msgstr "_--profile --norman_"
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1325
 msgid "Output profiling information detailing the amount of time spent in each part of the stylesheet. This is useful in optimizing stylesheet performance."
-msgstr "Muestra información de evaluación indicando la cantidad de tiempo consumida en cada parte de la hoja de estilo. Esto es útil para la optimización del rendimiento de las hojas de estilo."
+msgstr "输出分析信息，详细说明样式表的每个部分所花费的时间。这在优化样式表性能时很有用。"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1327
@@ -3735,7 +3734,7 @@ msgstr "_--dumpextensions_"
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1329
 msgid "Dumps the list of all registered extensions to stdout."
-msgstr "Vuelca la lista de todas la extensiones registradas por stdout."
+msgstr "将所有已注册扩展名的列表转储到 stdout。"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1331
@@ -3745,7 +3744,7 @@ msgstr "_--nowrite_"
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1333
 msgid "Refuses to write to any file or resource."
-msgstr "Rechaza la escritura a cualquier archivo o recurso."
+msgstr "拒绝写入任何文件或资源。"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1335
@@ -3755,7 +3754,7 @@ msgstr "_--nomkdir_"
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1337
 msgid "Refuses to create directories."
-msgstr "Rechaza la creación de directorios."
+msgstr "拒绝创建目录。"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1339
@@ -3765,7 +3764,7 @@ msgstr "_--writesubtree path_"
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1341
 msgid "Allow file write only within the _path_ subtree."
-msgstr "Permite la escritura de ficheros solo en la ruta especificada en _path_."
+msgstr "仅允许在 _path_ 子树内写入文件。"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1343
@@ -3775,94 +3774,94 @@ msgstr "_--nodtdattr_"
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1345
 msgid "Do not apply default attributes from the document's DTD."
-msgstr "No aplica los atributos por defecto de los DTD de los documentos."
+msgstr "不要从文档的 DTD 应用默认属性。"
 
 #. type: Title ====
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1347
 #, no-wrap
 msgid "Xsltproc return values"
-msgstr "Valores de retorno para Xsltproc"
+msgstr "Xsltproc 返回值"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1351
 msgid "xsltproc returns a status number that can be quite useful when calling it within a script."
-msgstr "xsltproc 返回一个状态号, 该号在脚本中调用时非常有用。"
+msgstr "xsltproc 返回一个状态编号，在脚本中调用它时非常有用。"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1353
 msgid "0: normal"
-msgstr "0: normal"
+msgstr "0: 正常"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1355
 msgid "1: no argument"
-msgstr "1: sin argumento"
+msgstr "1: 无参数"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1357
 msgid "2: too many parameters"
-msgstr "2: demasiados parámetros"
+msgstr "2: 参数太多"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1359
 msgid "3: unknown option"
-msgstr "3: opción desconocida"
+msgstr "3: 未知选项"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1361
 msgid "4: failed to parse the stylesheet"
-msgstr "4: fallo al traducir la hoja de estilo"
+msgstr "4：无法解析样式表"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1363
 msgid "5: error in the stylesheet"
-msgstr "5: error en la hoja de estilo"
+msgstr "5: 样式表中的错误"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1365
 msgid "6: error in one of the documents"
-msgstr "6: 其中一个文档中的错误"
+msgstr "6：其中一个文件出错"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1367
 msgid "7: unsupported xsl:output method"
-msgstr "7: método de salida:xsl no soportado"
+msgstr "7: 不支持的 xsl: 输出方法"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1369
 msgid "8: string parameter contains both quote and double-quotes"
-msgstr "8: parámetro cadena contiene comilla simples y dobles"
+msgstr "8：字符串参数包含引号和双引号"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1371
 msgid "9: internal processing error"
-msgstr "9: error de procesamiento interno"
+msgstr "9: 内部处理错误"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1373
 msgid "10: processing was stopped by a terminating message"
-msgstr "10: El proceso fue interrumpido por un mensaje de finalización"
+msgstr "10：通过终止消息停止处理"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1375
 msgid "11: could not write the result to the output file"
-msgstr "11: no se puede escribir el resultado al fichero de salida"
+msgstr "11：无法将结果写入输出文件"
 
 #. type: Title ====
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1377
 #, no-wrap
 msgid "More Information about xsltproc"
-msgstr "Mas información sobre xsltproc"
+msgstr "有关 xsltproc 的更多信息"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1380
 msgid "libxml web page: http://www.xmlsoft.org/[http://www.xmlsoft.org/]"
-msgstr "página web de libxml: http://www.xmlsoft.org/[http://www.xmlsoft.org/]"
+msgstr "libxml 网页：http://www.xmlsoft.org/[http://www.xmlsoft.org/]"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1381
 msgid "W3C XSLT page: http://www.w3.org/TR/xslt[http://www.w3.org/TR/xslt]"
-msgstr "Página W3C XSLT: http://www.w3.org/TR/xslt[http://www.w3.org/TR/xslt]"
+msgstr "W3C XSLT 页面：http://www.w3.org/TR/xslt[http://www.w3.org/TR/xslt]"
 
 #. type: Title ==
 #: eeschema_design_verification_with_erc.adoc:3
@@ -3873,18 +3872,18 @@ msgstr "使用电气规则检查进行设计验证"
 #. type: Plain text
 #: eeschema_design_verification_with_erc.adoc:14
 msgid "The Electrical Rules Check (ERC) tool performs an automatic check of your schematic. The ERC checks for any errors in your sheet, such as unconnected pins, unconnected hierarchical symbols, shorted outputs, etc. Naturally, an automatic check is not infallible, and the software that makes it possible to detect all design errors is not yet 100% complete. Such a check is very useful, because it allows you to detect many oversights and small errors."
-msgstr "El Comprobador de Reglas Eléctricas (ERC) realiza un test automático de su esquema. El ERC examina cualquier error en su hoja, como pines no conectados, símbolos de las jerarquías no conectados, salidas cortocircuitadas, etc. Naturalmente, un test automático no es infalible, y el software que hace posible detectar todos los errores de diseño no esta 100% completo. Este test es muy útil, ya que le permite detectar muchos descuidos y pequeños errores."
+msgstr "电气规则检查（ERC）工具会自动检查原理图。 ERC 检查工作表中的任何错误，例如未连接的引脚，未连接的分层符号，短路输出等。当然，自动检查不是绝对可靠的，并且可以检测所有设计错误的软件还不是100％ 完成。 这样的检查非常有用，因为它允许您检测许多疏忽和小错误。"
 
 #. type: Plain text
 #: eeschema_design_verification_with_erc.adoc:19
 msgid "In fact all detected errors must be checked and then corrected before proceeding as normal. The quality of the ERC is directly related to the care taken in declaring electrical pin properties during symbol library creation. ERC output is reported as ``errors'' or ``warnings''."
-msgstr "事实上, 必须检查所有检测到的错误, 然后纠正, 然后再正常进行。erc 的质量与在符号库创建过程中声明电气引脚属性时所采取的谨慎措施直接相关。erc 输出报告为 \"错误\" 或 \"警告\"。"
+msgstr "实际上，必须检查所有检测到的错误，然后在正常进行之前进行纠正。 ERC 的质量与在符号库创建期间声明电引脚属性时所采取的谨慎直接相关。 ERC 输出报告为“错误”或“警告”。"
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_design_verification_with_erc.adoc:20 eeschema_general_top_toolbar.adoc:144
 #, no-wrap
 msgid "ERC dialog"
-msgstr "Formulario de ERC"
+msgstr "ERC 对话框"
 
 #. type: Target for macro image
 #: eeschema_design_verification_with_erc.adoc:20 eeschema_general_top_toolbar.adoc:144
@@ -3896,44 +3895,44 @@ msgstr "images/en/dialog_erc.png"
 #: eeschema_design_verification_with_erc.adoc:23
 #, no-wrap
 msgid "How to use ERC"
-msgstr "Como usar el ERC"
+msgstr "如何使用 ERC"
 
 #. type: Plain text
 #: eeschema_design_verification_with_erc.adoc:27
 msgid "ERC can be started by clicking on the icon image:images/icons/erc.png[ERC icon]."
-msgstr "El ERC puede ser iniciado haciendo clic en el icono image:images/icons/erc.png[ERC icon]."
+msgstr "单击图标图像可以启动 ERC：images/icons/erc.png[ERC icon]."
 
 #. type: Plain text
 #: eeschema_design_verification_with_erc.adoc:30
 msgid "Warnings are placed on the schematic elements raising an ERC error (pins or labels)."
-msgstr "Los avisos son indicados en los elementos del esquema que generan un error ERC (pines o etiquetas)"
+msgstr "在原理图元素上设置警告, 以引发 ERC 错误 (引脚或标签)。"
 
 #. type: delimited block =
 #: eeschema_design_verification_with_erc.adoc:35
 msgid "In this dialog window, when clicking on an error message you can jump to the corresponding marker in the schematic."
-msgstr "En esta ventana, cuando se hace clic sobre un mensaje de error puede saltar a la correspondiente marca en el esquema."
+msgstr "在此对话框窗口中，单击错误消息时，您可以跳转到原理图中的相应标记。"
 
 #. type: delimited block =
 #: eeschema_design_verification_with_erc.adoc:37
 msgid "In the schematic right-click on a marker to access the corresponding diagnostic message."
-msgstr "En el esquema haga clic derecho sobre una marca para acceder al correspondiente mensaje de diagnóstico."
+msgstr "在原理图中，右键单击标记以访问相应的诊断消息。"
 
 #. type: Plain text
 #: eeschema_design_verification_with_erc.adoc:40
 msgid "You can also delete error markers from the dialog."
-msgstr "Puede también borrar marcas de error desde el formulario."
+msgstr "您还可以从对话框中删除错误标记。"
 
 #. type: Title ===
 #: eeschema_design_verification_with_erc.adoc:42
 #, no-wrap
 msgid "Example of ERC"
-msgstr "Ejemplo de ERC"
+msgstr "ERC 的示例"
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_design_verification_with_erc.adoc:44
 #, no-wrap
 msgid "ERC pointers"
-msgstr "Punteros ERC"
+msgstr "ERC 指针"
 
 #. type: Target for macro image
 #: eeschema_design_verification_with_erc.adoc:44
@@ -3944,22 +3943,22 @@ msgstr "images/erc_pointers.png"
 #. type: Plain text
 #: eeschema_design_verification_with_erc.adoc:47
 msgid "Here you can see four errors:"
-msgstr "Se pueden observar cuatro errores:"
+msgstr "在这里, 您可以看到四个错误:"
 
 #. type: Plain text
 #: eeschema_design_verification_with_erc.adoc:49
 msgid "Two outputs have been erroneously connected together (red arrow)."
-msgstr "Dos salidas han sido erróneamente conectadas juntas (flecha roja)"
+msgstr "两个输出错误地连接在一起（红色箭头）。"
 
 #. type: Plain text
 #: eeschema_design_verification_with_erc.adoc:50
 msgid "Two inputs have been left unconnected (green arrow)."
-msgstr "Dos entradas se han dejado sin conectar (flecha verde)"
+msgstr "两个输入未连接（绿色箭头）。"
 
 #. type: Plain text
 #: eeschema_design_verification_with_erc.adoc:52
 msgid "There is an error on an invisible power port, power flag is missing (green arrow on the top)."
-msgstr "Hay un error en un puerto de alimentación invisible, no se encuentra el indicador de alimentación (flecha verde en la parte superior)"
+msgstr "隐藏电源端口出现错误，缺少电源标志（顶部为绿色箭头）。"
 
 #. type: Title ===
 #: eeschema_design_verification_with_erc.adoc:54
@@ -3970,13 +3969,13 @@ msgstr "显示诊断"
 #. type: Plain text
 #: eeschema_design_verification_with_erc.adoc:58
 msgid "By right-clicking on a marker the pop-up menu allows you to access the ERC marker diagnostic window."
-msgstr "Haciendo clic con el botón derecho sobre una marca se despliega un menú que le permite acceder a la ventana de diagnóstico de marcas ERC."
+msgstr "通过右键单击标记，弹出菜单允许您访问 ERC 标记诊断窗口。"
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_design_verification_with_erc.adoc:59
 #, no-wrap
 msgid "ERC pointers info"
-msgstr "Información de punteros ERC"
+msgstr "ERC 指针信息"
 
 #. type: Target for macro image
 #: eeschema_design_verification_with_erc.adoc:59
@@ -3987,7 +3986,7 @@ msgstr "images/en/erc_pointers_info.png"
 #. type: Plain text
 #: eeschema_design_verification_with_erc.adoc:63
 msgid "and when clicking on Marker Error Info you can get a description of the error."
-msgstr "y haciendo clic en \"Información de la Marca de Error\" puede obtener una descripción del error."
+msgstr "当单击标记错误信息时，您可以获得错误的描述。"
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_design_verification_with_erc.adoc:64
@@ -4005,22 +4004,22 @@ msgstr "images/erc_pointers_message.png"
 #: eeschema_design_verification_with_erc.adoc:67
 #, no-wrap
 msgid "Power pins and Power flags"
-msgstr "Pines de potencia e indicadores de potencia"
+msgstr "电源引脚和电源标志"
 
 #. type: Plain text
 #: eeschema_design_verification_with_erc.adoc:73
 msgid "It is common to have an error or a warning on power pins, even though all seems normal. See example above. This happens because, in most designs, the power is provided by connectors that are not power sources (like regulator output, which is declared as Power out)."
-msgstr "Es usual tener un error o aviso en los pines de potencia, aunque todo parezca norma. Mire el ejemplo anterior. Esto sucede porque, en la mayoría de diseños, la alimentación es suministrada mediante conectores que no son fuentes de alimentación (como las salidas de reguladores, que están declaradas como salidas de potencia)"
+msgstr "通常在电源引脚上出现错误或警告，即使一切看起来都很正常。 见上面的例子。 之所以会发生这种情况，是因为在大多数设计中，电源是由不是电源的连接器提供的（如稳压器输出，它被声明为电源输出）。"
 
 #. type: Plain text
 #: eeschema_design_verification_with_erc.adoc:76
 msgid "The ERC thus won't detect any Power out pin to control this wire and will declare them not driven by a power source."
-msgstr "因此, erc 不会检测到任何电源输出引脚来控制此电线, 并将声明它们不是由电源驱动的。"
+msgstr "因此，ERC 不会检测到任何电源输出引脚来控制该电线，并声明它们不是由电源驱动的。"
 
 #. type: Plain text
 #: eeschema_design_verification_with_erc.adoc:79
 msgid "To avoid this warning you have to place a \"PWR_FLAG\" on such a power port. Take a look at the following example:"
-msgstr "Para evitar este aviso tiene que colocar un \"PWR_FLAG\" sobre estos puertos de potencia. Eche un vistazo al siguiente ejemplo:"
+msgstr "要避免此警告，您必须在此类电源端口上放置 \"PWR_FLAG\"。 看一下下面的例子："
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_design_verification_with_erc.adoc:80
@@ -4037,25 +4036,23 @@ msgstr "images/eeschema_power_pins_and_flags.png"
 #. type: Plain text
 #: eeschema_design_verification_with_erc.adoc:83
 msgid "The error marker will then disappear."
-msgstr "La marca de error ha desaparecido."
+msgstr "然后错误标记将消失。"
 
 #. type: Plain text
 #: eeschema_design_verification_with_erc.adoc:88
-#, fuzzy
-#| msgid "Most of the time, a PWR_FLAG must be connected to GND, because usually regulators have outputs declared as power out, but ground pins are never power out (the normal attribute is power in), so grounds never appear connected to a power source without a pwr_flag."
 msgid "Most of the time, a PWR_FLAG must be connected to GND, because regulators have outputs declared as power out, but ground pins are never power out (the normal attribute is power in), so grounds never appear connected to a power source without a power flag symbol."
-msgstr "La mayoría de las veces, un PWR_FLAG debe ser conectado a GND, porque normalmente los reguladores tienen sus salidas declaradas como salidas de potencia, pero los pines de tierra no son nunca de salida (el atributo normal es pin de entrada de potencia), por eso las tierras nunca están conectadas a fuentes de potencia sin un PWR_FLAG."
+msgstr "大多数情况下，PWR_FLAG 必须连接到 GND，因为稳压器的输出声明为断电，但接地引脚永远不会断电（正常属性是电源输入），因此，在没有电源标志的情况下，接地不会与电源相连。"
 
 #. type: Title ===
 #: eeschema_design_verification_with_erc.adoc:90
 #, no-wrap
 msgid "Configuration"
-msgstr "Configuración"
+msgstr "配置"
 
 #. type: Plain text
 #: eeschema_design_verification_with_erc.adoc:94
 msgid "_The Options_ panel allows you to configure connectivity rules to define electrical conditions for errors and warnings check."
-msgstr "El panel de _Opciones_ le permite configurar las reglas de conectividad que definen las condiciones eléctricas para la detección de errores y avisos."
+msgstr "_The Options_ 面板允许您配置连接规则以定义错误和警告检查的电气条件。"
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_design_verification_with_erc.adoc:95
@@ -4072,19 +4069,18 @@ msgstr "images/eeschema_erc_options.png"
 #. type: Plain text
 #: eeschema_design_verification_with_erc.adoc:99
 msgid "Rules can be changed by clicking on the desired square of the matrix, causing it to cycle through the choices: normal, warning, error."
-msgstr "Las reglas se pueden cambiar haciendo clic sobre el cuadrado oportuno de la matriz, esto alterna su estado cíclicamente entre: normal, aviso, error."
+msgstr "单击所需的矩阵方块可以更改规则，使其循环选择：正常，警告，错误。"
 
 #. type: Title ===
 #: eeschema_design_verification_with_erc.adoc:101
 #, no-wrap
 msgid "ERC report file"
-msgstr "Archivo de reporte ERC"
+msgstr "ERC 报告文件"
 
 #. type: Plain text
 #: eeschema_design_verification_with_erc.adoc:106
-#, fuzzy
 msgid "An ERC report file can be generated and saved by checking the option Write ERC report. The file extension for ERC report files is .erc. Here is an example ERC report file."
-msgstr "Se puede generar un archivo de reporte del ERC y guardarlo, seleccionando la opción \"Escribir un reporte ERC\". La extensión de archivo para los ficheros de reporte es .erc. Aquí se muestra un ejemplo para un archivo de reporte ERC."
+msgstr "通过选中写入 ERC 报告选项，可以生成并保存 ERC 报告文件。 ERC 报告文件的文件扩展名为 .erc。 以下是 ERC 报告文件的示例。"
 
 #. type: delimited block -
 #: eeschema_design_verification_with_erc.adoc:109
@@ -4118,50 +4114,46 @@ msgstr ">> Errors ERC: 4\n"
 #: eeschema_general_top_toolbar.adoc:3
 #, no-wrap
 msgid "General Top Toolbar"
-msgstr "Barra de Herramientas de uso general"
+msgstr "通用顶部工具栏"
 
 #. type: Title ===
 #: eeschema_general_top_toolbar.adoc:6
 #, no-wrap
 msgid "Sheet management"
-msgstr "Gestión de hoja"
+msgstr "表格管理"
 
 #. type: Plain text
 #: eeschema_general_top_toolbar.adoc:12
-#, fuzzy
-#| msgid "The Sheet Settings icon, image:images/icons/sheetset.png[Sheet Settings icon], allows you to define the sheet size and the contents of the title block."
 msgid "The Sheet Settings icon (image:images/icons/sheetset.png[Sheet Settings icon])  allows you to define the sheet size and the contents of the title block."
-msgstr "El icono de Gestión de Hoja, image:images/icons/sheetset.png[Sheet Settings icon], permite definir el tamaño de la hoja y el contenido del bloque de título."
+msgstr "“图纸设置”图标（image:images/icons/sheetset.png[Sheet Settings icon]）允许您定义图纸尺寸和标题栏的内容。"
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_general_top_toolbar.adoc:13
 #, no-wrap
 msgid "Page Settings"
-msgstr "Ajustes de Página"
+msgstr "页面设置"
 
 #. type: Target for macro image
 #: eeschema_general_top_toolbar.adoc:13 eeschema_schematic_creation_and_editing.adoc:374
 #, no-wrap
 msgid "images/en/page_settings.png"
-msgstr "images/en/page_settings.png"
+msgstr "images/zh/page_settings.png"
 
 #. type: Plain text
 #: eeschema_general_top_toolbar.adoc:18
 msgid "Sheet numbering is automatically updated. You can set the date to today by pressing the left arrow button by \"Issue Date\", but it will not be automatically changed."
-msgstr "El numerado de las hojas se actualiza automáticamente. Puede ajustar la fecha actual presionando el botón a la derecha de \"Issue Date\", pero esto no se actualizará automáticamente."
+msgstr "工作表编号会自动更新。 您可以通过按“发布日期”按左箭头按钮将日期设置为今天，但不会自动更改。"
 
 #. type: Title ===
 #: eeschema_general_top_toolbar.adoc:20
 #, no-wrap
 msgid "Search tool"
-msgstr "Herramienta de Busqueda"
+msgstr "搜索工具"
 
 #. type: Plain text
 #: eeschema_general_top_toolbar.adoc:25
-#, fuzzy
-#| msgid "The Find icon, image:images/icons/find.png[Find icon], can be used to access the search tool."
 msgid "The Find icon (image:images/icons/find.png[Find icon])  can be used to access the search tool."
-msgstr "El icono de búsqueda, image:images/icons/find.png[Find icon], puede usarse para acceder a la herramienta de búsqueda."
+msgstr "\"查找\"图标（image:images/icons/find.png[Find icon]）可用于访问搜索工具。"
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_general_top_toolbar.adoc:26
@@ -4173,7 +4165,7 @@ msgstr "Formulario de búsqueda"
 #: eeschema_general_top_toolbar.adoc:26
 #, no-wrap
 msgid "images/en/find_dialog.png"
-msgstr "images/en/find_dialog.png"
+msgstr "images/zh/find_dialog.png"
 
 #. type: Plain text
 #: eeschema_general_top_toolbar.adoc:31
@@ -9546,12 +9538,15 @@ msgstr ""
 
 #. type: delimited block |
 #: eeschema_main_top_menu.adoc:181
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "|Always align autoplaced fields to the 50 mil grid |Extension of 'Automatically\n"
 "place symbol fields' option. If checked, fields are autoplaced using 50 mils\n"
 "grid, otherwise they are placed freely.\n"
-msgstr "|始终将自动放置的字段与50mil 网格对齐\"自动放置符号字段\" 选项的扩展。如果选中, 字段将使用50英里网格自动放置, 否则可自由放置。"
+msgstr ""
+"|始终将自动播放的字段与 50mil 网格对齐|自动扩展\n"
+"放置符号字段的选项。 如果选中，则使用50密耳自动播放字段\n"
+"网格，否则它们是自由放置的。\n"
 
 #. type: Title =====
 #: eeschema_main_top_menu.adoc:184
@@ -9587,7 +9582,7 @@ msgstr "通过双击某个操作或右键单击某个操作以显示弹出菜单
 
 #. type: delimited block |
 #: eeschema_main_top_menu.adoc:200
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "|Edit | Define a new hotkey for the action (same as double click).\n"
 "|Undo Changes | Reverts the recent hotkey changes for the action.\n"
@@ -9595,35 +9590,38 @@ msgid ""
 "|Undo All Changes | Reverts all recent hotkey changes for the action.\n"
 "|Restore All to Default | Sets all action hotkeys to their default values.\n"
 msgstr ""
-"|编辑为操作定义新的热键 (与双击相同)。\n"
-"|撤消更改还原操作的最近热键更改。\n"
-"|还原默认值将操作热键设置为其默认值。\n"
-"|撤消所有更改还原操作的所有最近的热键更改。\n"
-"|全部恢复为默认值将所有操作热键设置为其默认值。"
+"|Edit | 为操作定义新的热键（与双击相同）。\n"
+"|Undo Changes | 还原操作的最近热键更改。\n"
+"|Restore Default | 将操作热键设置为其默认值。\n"
+"|Undo All Changes | 还原操作的所有最近热键更改。\n"
+"|Restore All to Default | 将所有操作热键设置为其默认值。\n"
 
 #. type: Plain text
 #: eeschema_main_top_menu.adoc:203
-#, fuzzy
-#| msgid "Description"
 msgid "Options description:"
-msgstr "Descripción"
+msgstr "选项说明:"
 
 #. type: delimited block |
 #: eeschema_main_top_menu.adoc:208
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "|Center and warp cursor on zoom | If checked, the pointed location is warped\n"
 "to the screen center when zooming in/out.\n"
-msgstr "|缩放上的中心和翘曲光标如果选中, 则在放大时, 指向位置将扭曲到屏幕中心。"
+msgstr ""
+"|Center and warp cursor on zoom | 如果选中，则指向的位置会变形\n"
+"放大/缩小时到屏幕中心。\n"
 
 #. type: delimited block |
 #: eeschema_main_top_menu.adoc:212
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "|Use touchpad to pan |When enabled, view is panned using scroll wheels (or\n"
 "touchpad gestures) and to zoom one needs to hold Ctrl. Otherwise scroll wheels\n"
 "zoom in/out and Ctrl/Shift are the panning modifiers.\n"
-msgstr "|使用触摸板平移启用后, 视图将使用滚轮 (或触摸板手势) 平移, 要进行缩放, 需要按住 ctrl. 否则滚轮将缩小, ctrl-shift 为平移修饰符。"
+msgstr ""
+"|Use touchpad to pan |启用时，使用滚轮平移视图（或\n"
+"触摸板手势）和缩放一个需要按住 Ctrl。 否则滚轮\n"
+"放大/缩小和 Ctrl/Shift 是平移修改器。\n"
 
 #. type: delimited block |
 #: eeschema_main_top_menu.adoc:215
@@ -9753,7 +9751,7 @@ msgstr "Imprimir página actual"
 #. type: Plain text
 #: eeschema_plot_and_print.adoc:18
 msgid "prints one file for the current sheet only."
-msgstr "Imprime un fichero solo para la página actual."
+msgstr "仅打印当前工作表的一个文件。"
 
 #. type: Labeled list
 #: eeschema_plot_and_print.adoc:19
