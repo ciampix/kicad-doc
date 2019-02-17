@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Eeschema Manual\n"
 "POT-Creation-Date: 2019-02-09 18:10+0100\n"
-"PO-Revision-Date: 2019-02-16 00:01+0800\n"
+"PO-Revision-Date: 2019-02-17 16:45+0800\n"
 "Last-Translator: taotieren <admin@taotieren.com>\n"
 "Language-Team: \n"
 "Language: zh\n"
@@ -1004,21 +1004,23 @@ msgstr "中间网表文件格式"
 msgid "BOM files and netlist files can be converted from an Intermediate netlist file created by Eeschema."
 msgstr "BOM 文件和网表文件可以从 Eeschema 创建的中间网表文件转换。"
 
+# netlist
+# 网表
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:15
 msgid "This file uses XML syntax and is called the intermediate netlist. The intermediate netlist includes a large amount of data about your board and because of this, it can be used with post-processing to create a BOM or other reports."
-msgstr "Este fichero usa sintaxis XML y es llamado el netlist intermedio. Este netlist intermedio incluye gran cantidad de datos sobre su placa y por ello puede ser usado mediante post-procesamiento para crear una lista BOM u otros informes."
+msgstr "此文件使用 XML 语法，称为中间网表。中间网表包含有关您的电路板的大量数据，因此，它可以与后处理一起用于创建 BOM 或其他报告。"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:18
 msgid "Depending on the output (BOM or netlist), different subsets of the complete Intermediate Netlist file will be used in the post-processing."
-msgstr "Dependiendo de la salida (BOM o netlist), diferentes subconjuntos del fichero netlist intermedio completo serán usados en el post-procesado."
+msgstr "根据输出（BOM 或网表），将在后处理中使用完整的中间网表文件的不同子集。"
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:20 eeschema_creating_customized_netlists_and_bom_files.adoc:22
 #, no-wrap
 msgid "Schematic sample"
-msgstr "Ejemplo de Esquema"
+msgstr "原理图样本"
 
 #. type: Target for macro image
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:22
@@ -1030,12 +1032,12 @@ msgstr "images/schematic-sample.png"
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:25
 #, no-wrap
 msgid "The Intermediate Netlist file sample"
-msgstr "Ejemplo del fichero Netlist Intermedio"
+msgstr "中间网表文件示例"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:29
 msgid "The corresponding intermediate netlist (using XML syntax) of the circuit above is shown below."
-msgstr "El netlist intermedio correspondiente (usando sintaxis XML) al circuito anterior es mostrado a continuación."
+msgstr "上述电路的相应中间网表 (使用 XML 语法) 如下所示。"
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:212
@@ -1409,31 +1411,28 @@ msgstr ""
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:215
 #, no-wrap
 msgid "Conversion to a new netlist format"
-msgstr "Conversión a un nuevo formato de netlist"
+msgstr "转换为新的网表格式"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:222
 msgid "By applying a post-processing filter to the Intermediate netlist file you can generate foreign netlist files as well as BOM files. Because this conversion is a text to text transformation, this post-processing filter can be written using Python, XSLT, or any other tool capable of taking XML as input."
-msgstr "通过将后处理筛选器应用于中间网络列表文件, 可以生成外部网络列表文件以及 bom 文件。由于此转换是文本到文本转换, 因此可以使用 python、xslt 或任何其他能够将 xml 作为输入的工具编写此后处理筛选器。"
+msgstr "通过将后处理过滤器应用于中间网表文件，您可以生成外部网表文件以及 BOM 文件。 由于此转换是文本到文本转换，因此可以使用 Python，XSLT 或任何其他能够将 XML 作为输入的工具来编写此后处理过滤器。"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:230
-#, fuzzy
 msgid "XSLT itself is an XML language very suitable for XML transformations.  There is a free program called _xsltproc_ that you can download and install. The xsltproc program can be used to read the Intermediate XML netlist input file, apply a style-sheet to transform the input, and save the results in an output file. Use of xsltproc requires a style-sheet file using XSLT conventions. The full conversion process is handled by Eeschema, after it is configured once to run xsltproc in a specific way."
-msgstr ""
-"XSLT en si mismo es un lenguaje XML bastante apto para transformaciones XML. Hay un programa libre llamado _xsltproc_ que puede descargarse e instalarse. Este programa puede ser usado para leer el fichero netlist XML como entrada, aplicar un fichero de hoja de estilo para transformar la entrada, y guardar los resultados en un fichero de salida. El uso de xsltproc requiere un fichero de hoja de estilo usando la convección XSLT. Todo el proceso de conversión es gestionado por Eeschema, después de "
-"que este es configurado para ejecutar xsltproc de un modo especifico."
+msgstr "XSLT 本身是一种非常适合 XML 转换的 XML 语言。 有一个名为 _xsltproc_ 的免费程序，您可以下载并安装。 xsltproc 程序可用于读取中间 XML 网表输入文件，应用样式表来转换输入，并将结果保存在输出文件中。 使用 xsltproc 需要使用 XSLT 约定的样式表文件。 完成转换过程由 Eeschema 处理，在配置一次后以特定方式运行 xsltproc。"
 
 #. type: Title ===
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:232
 #, no-wrap
 msgid "XSLT approach"
-msgstr "Introduccion de XSLT"
+msgstr "XSLT 方法"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:236
 msgid "The document that describes XSL Transformations (XSLT) is available here:"
-msgstr "El documento que describe las transformaciones XSL (XSLT) está disponible aqui:"
+msgstr "描述 XSL 转换（XSLT）的文档可在此处获得："
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:238
@@ -1445,27 +1444,29 @@ msgstr "*http://www.w3.org/TR/xslt*\n"
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:240
 #, no-wrap
 msgid "Create a Pads-Pcb netlist file"
-msgstr "Crear un fichero netlist Pads-Pcb"
+msgstr "创建 Pads-Pcb 网表文件"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:243
 msgid "The pads-pcb format is comprised of two sections."
-msgstr "El formato pads-pcb está compuesto por dos secciones."
+msgstr "pads-pcb 格式由两部分组成。"
 
+# footprint
+# 封装
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:245 eeschema_creating_customized_netlists_and_bom_files.adoc:374
 msgid "The footprint list."
-msgstr "La lista de huellas."
+msgstr "封装列表。"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:247 eeschema_creating_customized_netlists_and_bom_files.adoc:376
 msgid "The Nets list: grouping pads references by nets."
-msgstr "La lista de nodos: Agrupando las referencias de los pads por nodos."
+msgstr "网表: 按网络对焊盘引用进行分组。"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:250
 msgid "Immediately below is a style-sheet which converts the Intermediate Netlist file to a pads-pcb netlist format:"
-msgstr "Justo debajo se muestra una hoja de estilo que convierte el fichero netlist intermedio al formato netlist pads-pcb:"
+msgstr "紧接下面是样式表，它将中间网表文件转换为 pad-pcb 网表格式："
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:256
@@ -1644,7 +1645,7 @@ msgstr "</xsl:stylesheet>\n"
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:324
 msgid "And here is the pads-pcb output file after running xsltproc:"
-msgstr "Y aquí se muestra el fichero de salida tipo netlist pads-pcb tras ejecutar xsltproc:"
+msgstr "这是运行 xsltproc 后的 pads-pcb 输出文件："
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:358
@@ -1725,7 +1726,7 @@ msgstr "*END*\n"
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:363
 msgid "The command line to make this conversion is:"
-msgstr "La linea de comando para realizar esta conversión es:"
+msgstr "进行此转换的命令行是："
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:366
@@ -1737,17 +1738,17 @@ msgstr "kicad\\\\bin\\\\xsltproc.exe -o test.net kicad\\\\bin\\\\plugins\\\\netl
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:369
 #, no-wrap
 msgid "Create a Cadstar netlist file"
-msgstr "Crear un fichero netlist tipo Cadstar"
+msgstr "创建一个 Cadstar 网表文件"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:372
 msgid "The Cadstar format is comprised of two sections."
-msgstr "El formato Cadstar está compuesto por dos secciones."
+msgstr "Cadstar 格式由两个部分组成。"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:378
 msgid "Here is the style-sheet file to make this specific conversion:"
-msgstr "Aquí se muestra un fichero de hoja de estilo que realiza esta conversión:"
+msgstr "以下是进行此特定转换的样式表文件："
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:385
@@ -1996,7 +1997,7 @@ msgstr ""
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:491
 msgid "Here is the Cadstar output file."
-msgstr "A continuación se muestra el fichero de salida formato Caadstar."
+msgstr "这是 Cadstar 输出文件。"
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:501
@@ -2072,19 +2073,23 @@ msgstr ".END\n"
 
 #. type: Title ====
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:527
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Create an OrcadPCB2 netlist file"
-msgstr "Crear un fichero netlist tipo OrcadPCB2"
+msgstr "创建 OrcadPCB2 网表文件"
 
+# footprint
+# 封装
+# pads
+# 焊盘
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:531
 msgid "This format has only one section which is the footprint list. Each footprint includes its list of pads with reference to a net."
-msgstr "Este formato tiene solo una sección que es la lista de huellas. Cada huella incluye su lista de pads con referencias a nodos."
+msgstr "此格式只有一个部分是封装列表。 每个封装包括其参考网络的焊盘列表。"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:533
 msgid "Here is the style-sheet for this specific conversion:"
-msgstr "Aqui se muestra la hoja de estilo para esta conversión:"
+msgstr "以下是此特定转换的样式表："
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:539
@@ -2545,7 +2550,7 @@ msgstr "</xsl:template>\n"
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:748
 msgid "Here is the OrcadPCB2 output file."
-msgstr "这是 orcadpcb2 输出文件。"
+msgstr "这是 OrcadPCB2 输出文件。"
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:784
@@ -2625,23 +2630,23 @@ msgstr ""
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:787
 #, no-wrap
 msgid "Eeschema plugins interface"
-msgstr "Interfaz de plugins de Eeschema"
+msgstr "Eeschema 插件界面"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:791
 msgid "Intermediate Netlist converters can be automatically launched within Eeschema."
-msgstr "Los conversores de netlist intermedio pueden ser automáticamente ejecutados dentro de Eeschema."
+msgstr "中间网表转换器可以在 Eeschema 中自动启动。"
 
 #. type: Title =====
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:793
 #, no-wrap
 msgid "Init the Dialog window"
-msgstr "Inicie la ventana de dialogo"
+msgstr "初始化对话窗口"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:797
 msgid "One can add a new netlist plug-in user interface tab by clicking on the Add Plugin button."
-msgstr "Ahora puede añadir una nueva interfaz de usuario para el netlist plug-in haciendo clic sobre el botón \"Añadir Plugin\"."
+msgstr "可以通过单击 Add Plugin 按钮添加新的网表插件用户界面选项卡。"
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:798
@@ -2658,7 +2663,7 @@ msgstr "images/eeschema_plugin_add_plugin.png"
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:801
 msgid "Here is what the configuration data for the PadsPcb tab looks like:"
-msgstr "以下是 padspcb 选项卡的配置数据的外观:"
+msgstr "以下是 PadsPcb 选项卡的配置数据："
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:802
@@ -2676,32 +2681,32 @@ msgstr "images/eeschema_plugin_padspcb.png"
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:805
 #, no-wrap
 msgid "Plugin Configuration Parameters"
-msgstr "Parámetros de configuración de Plugins"
+msgstr "插件配置参数"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:809
 msgid "The Eeschema plug-in configuration dialog requires the following information:"
-msgstr "La ventana de configuración de plug-in en Eeschema necesita la siguiente información:"
+msgstr "Eeschema 插件配置对话框需要以下信息："
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:811
 msgid "The title: for instance, the name of the netlist format."
-msgstr "El título: por ejemplo, el nombre del formato de netlist."
+msgstr "标题：例如，网表格式的名称。"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:813
 msgid "The command line to launch the converter."
-msgstr "La comando para lanzar el conversor."
+msgstr "用于启动转换器的命令行。"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:815
 msgid "Once you click on the netlist button the following will happen:"
-msgstr "Una vez que hace clic en el boto netlist sucede lo siguiente:"
+msgstr "单击网表按钮后，将发生以下情况："
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:817
 msgid "Eeschema creates an intermediate netlist file *.xml, for instance test.xml."
-msgstr "Eeschema crea un fichero netlist intermedio *.xml, por ejemplo test.xml."
+msgstr "Eeschema 创建了一个中间网表文件 *.xml，例如 test.xml。"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:819
@@ -2717,7 +2722,7 @@ msgstr "使用命令行生成网络列表文件"
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:826
 msgid "Assuming we are using the program _xsltproc.exe_ to apply the sheet style to the intermediate file, _xsltproc.exe_ is executed with the following command:"
-msgstr "Suponiendo que estamos usando el programa _xsltproc.exe_ para aplicar la hoja de estilo al fichero intermedio, _xsltproc.exe_ se ejecutará con el siguiente comando:"
+msgstr "假设我们使用程序 _xsltproc.exe_ 将工作表样式应用于中间文件，则使用以下命令执行 _xsltproc.exe_："
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:828
@@ -2727,7 +2732,7 @@ msgstr "_xsltproc.exe -o <output filename> < style-sheet filename> <input XML fi
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:830
 msgid "In KiCad under Windows the command line is the following:"
-msgstr "En KiCad bajo Windows la linea de comando es la siguiente:"
+msgstr "在 Windows 下的 KiCad 中，命令行如下："
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:832
@@ -2737,7 +2742,7 @@ msgstr "_f:/kicad/bin/xsltproc.exe -o \"%O\" f:/kicad/bin/plugins/netlist_form_p
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:834
 msgid "Under Linux the command becomes as follows:"
-msgstr "Bajo Linux la linea de comando es como sigue:"
+msgstr "在 Linux 下，命令变为如下："
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:836
@@ -2747,7 +2752,7 @@ msgstr "_xsltproc -o \"%O\" /usr/local/kicad/bin/plugins/netlist_form_pads-pcb.x
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:840
 msgid "Where _netlist_form_pads-pcb.xsl_ is the style-sheet that you are applying. Do not forget the double quotes around the file names, this allows them to have spaces after the substitution by Eeschema."
-msgstr "Donde _netlist_form_pads-pcb.xsl_  es la hoja de estilo que se esta aplicando. No olvide las comillas dobles en el nombre del fichero, esto le permite tener espacios tras la sustitución por Eeschema."
+msgstr "_netlist_form_pads-pcb.xsl_ 是您要应用的样式表。 不要忘记文件名周围的双引号，这允许它们在 Eeschema 替换后有空格。"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:842
@@ -2762,38 +2767,38 @@ msgstr "支持的格式设置参数是。"
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:847
 msgid "%B => base filename and path of selected output file, minus path and extension."
-msgstr "%B => nombre de archivo base y ruta del fichero de salida seleccionado, menos la ruta y extensión."
+msgstr "%B => 基本文件名和所选输出文件的路径，减去路径和扩展名。"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:850
 msgid "%I => complete filename and path of the temporary input file (the intermediate net file)."
-msgstr "%I => nombre de archivo completo y ruta del fichero temporal de entrada (el fichero netlist intermedio)"
+msgstr "%I => 完整的文件名和临时输入文件的路径（中间网络文件）。"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:852
 msgid "%O => complete filename and path of the user chosen output file."
-msgstr "%O => nombre de archivo completo y ruta del fichero de salida elegido."
+msgstr "%O => 完整的文件名和用户选择的输出文件的路径。"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:854
 msgid "_%I_ will be replaced by the actual intermediate file name"
-msgstr "% i _ 将被替换为实际的中间文件名"
+msgstr "_%I_ 将被实际的中间文件名替换"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:856
 msgid "_%O_ will be replaced by the actual output file name."
-msgstr "_%O_ será reemplazado por el nombre de archivo del fichero de salida actual."
+msgstr "_%O_ 将替换为实际输出文件名。"
 
 #. type: Title =====
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:858
 #, no-wrap
 msgid "Command line format: example for xsltproc"
-msgstr "Formato del comando: ejemplo para xsltproc"
+msgstr "命令行格式：xsltproc 的示例"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:861
 msgid "The command line format for xsltproc is the following:"
-msgstr "El formato del comando para xsltproc es el siguiente:"
+msgstr "xsltproc 的命令行格式如下："
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:863
@@ -2803,7 +2808,7 @@ msgstr "<path of xsltproc> xsltproc <xsltproc parameters>"
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:865 eeschema_creating_customized_netlists_and_bom_files.adoc:899
 msgid "under Windows:"
-msgstr "bajo Windows:"
+msgstr "在 Windows 下："
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:867
@@ -2814,7 +2819,7 @@ msgstr "*f:/kicad/bin/xsltproc.exe -o \"%O\" f:/kicad/bin/plugins/netlist_form_p
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:869 eeschema_creating_customized_netlists_and_bom_files.adoc:903
 msgid "under Linux:"
-msgstr "bajo Linux:"
+msgstr "在 Linux 下:"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:871
@@ -2825,18 +2830,21 @@ msgstr "*xsltproc -o \"%O\" /usr/local/kicad/bin/plugins/netlist_form_pads-pcb.x
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:874
 msgid "The above examples assume xsltproc is installed on your PC under Windows and all files located in kicad/bin."
-msgstr "Los ejemplos anteriores suponen que xsltproc esta instalado en su PC bajo Windows y todos los ficheros están ubicados en kicad/bin."
+msgstr "上面的示例假设 xsltproc 安装在 Windows 下的 PC 上，所有文件都位于 kicad/bin 中。"
 
+# Bill of Materials 
+# BOM
+# 物料清单
 #. type: Title ====
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:876
 #, no-wrap
 msgid "Bill of Materials Generation"
-msgstr "Generación de Listas de Materiales"
+msgstr "物料清单（BOM）生成"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:882
 msgid "Because the intermediate netlist file contains all information about used components, a BOM can be extracted from it. Here is the plug-in setup window (on Linux) to create a customized Bill Of Materials (BOM)  file:"
-msgstr "Dado que el netlist intermedio contiene toda la información sobre los componentes usados, una lista BOM puede ser extraída de el. Aquí se muestra la ventana de ajuste del plug-in (en Linux) para crear un fichero de lista de materiales (BOM) personalizado:"
+msgstr "由于中间网表文件包含有关已使用组件的所有信息，因此可以从中提取 BOM。 以下是用于创建自定义物料清单（BOM）文件的插件设置窗口（在 Linux 上）："
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:883
@@ -2853,23 +2861,23 @@ msgstr "images/en/bom-netlist-tab.png"
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:890
 msgid "The path to the style sheet bom2csv.xsl is system dependent. The currently best XSLT style-sheet for BOM generation at this time is called __bom2csv.xsl__. You are free to modify it according to your needs, and if you develop something generally useful, ask that it become part of the KiCad project."
-msgstr "La ruta al archivo de hoja de estilo bom2csv.xsl depende del sistema empleado. La mejor hoja de estilo XSLT actualmente para la generación de listas de materiales es llamada __bom2csv.xsl__. Siéntase libre de modificarla de acuerdo a sus necesidades, y si desarrolla algo útil en general, pregunte para que forme parte del proyecto kiCad."
+msgstr "样式表 bom2csv.xsl 的路径取决于系统。 目前用于 BOM 生成的最佳 XSLT 样式表称为 __bom2csv.xsl__。 您可以根据自己的需要自由修改它，如果您开发了一些非常有用的东西，请让它成为 KiCad 项目的一部分。"
 
 #. type: Title ===
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:892
 #, no-wrap
 msgid "Command line format: example for python scripts"
-msgstr "Formato de Comandos: ejemplos para scripts de python"
+msgstr "命令行格式：python 脚本的示例"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:895
 msgid "The command line format for python is something like:"
-msgstr "El formato de los comandos para python es algo parecido a:"
+msgstr "python的命令行格式如下："
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:897
 msgid "python <script file name> <input filename> <output filename>"
-msgstr "python <nombre del script> <archivo de entrada> <archivo de salida>"
+msgstr "python <脚本文件名> <输入文件名> <输出文件名>"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:901
@@ -2886,18 +2894,18 @@ msgstr "*python /usr/local/kicad/python/my_python_script.py \"%I\" \"%O\"*\n"
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:907
 msgid "Assuming python is installed on your PC."
-msgstr "Suponiendo que python esta instalado en su PC."
+msgstr "假设你的 PC 上安装了 python。"
 
 #. type: Title ===
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:909
 #, no-wrap
 msgid "Intermediate Netlist structure"
-msgstr "Estructura del Netlist Intermedio"
+msgstr "中间网表结构"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:912
 msgid "This sample gives an idea of the netlist file format."
-msgstr "此示例提供了 netlist 文件格式的概念。"
+msgstr "此示例提供了网表文件格式的概念。"
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:989
@@ -3059,42 +3067,44 @@ msgstr ""
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:992
 #, no-wrap
 msgid "General netlist file structure"
-msgstr "Estructura del fichero netlist generado"
+msgstr "一般网表文件结构"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:995
 msgid "The intermediate Netlist accounts for five sections."
-msgstr "El fichero netlist intermedio cuenta con cinco secciones."
+msgstr "中间网表占五个部分。"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:997
 msgid "The header section."
-msgstr "La cabecera."
+msgstr "\"标题\" 部分。"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:998
 msgid "The components section."
-msgstr "La sección de componentes."
+msgstr "\"组件\" 部分。"
 
+# lib parts
+# 库部件
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:999
 msgid "The lib parts section."
-msgstr "La sección de bloques de bibliotecas."
+msgstr "\"库部件\" 部分。"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1000
 msgid "The libraries section."
-msgstr "La sección de bibliotecas."
+msgstr "\"库\" 部分。"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1001
 msgid "The nets section."
-msgstr "La sección de nodos."
+msgstr "\"网\" 部分。"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1003
 msgid "The file content has the delimiter <export>"
-msgstr "El contenido del archivo tiene el delimitador <export>"
+msgstr "文件内容具有分隔符<export>"
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1008
@@ -3112,12 +3122,12 @@ msgstr ""
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1011
 #, no-wrap
 msgid "The header section"
-msgstr "La Cabecera"
+msgstr "\"标题\" 部分。"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1014
 msgid "The header has the delimiter <design>"
-msgstr "La cabecera tiene el delimitador <design>"
+msgstr "标题具有分隔符<design>"
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1021
@@ -3138,18 +3148,18 @@ msgstr ""
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1024
 msgid "This section can be considered a comment section."
-msgstr "Esta sección puede ser considerada como una sección para comentarios."
+msgstr "此部分可被视为注释部分。"
 
 #. type: Title ====
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1026
 #, no-wrap
 msgid "The components section"
-msgstr "La sección de componentes"
+msgstr "\"组件\" 部分"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1029
 msgid "The component section has the delimiter <components>"
-msgstr "La sección de componentes tiene el delimitador <components>"
+msgstr "组件部分具有分隔符<components>"
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1039
@@ -3176,7 +3186,7 @@ msgstr ""
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1043
 msgid "This section contains the list of components in your schematic. Each component is described like this:"
-msgstr "Esta sección contiene la lista de componentes en el esquema eléctrico. Cada componente es descrito como sigue:"
+msgstr "本节包含原理图中的组件列表。 每个组件都是这样描述的："
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1051
@@ -3200,13 +3210,13 @@ msgstr ""
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1056
 #, no-wrap
 msgid "|*libsource* |name of the lib where this component was found.\n"
-msgstr "|*libsource* |nombre de la biblioteca donde se encuentra el componente.\n"
+msgstr "|*libsource* |找到此组件的lib的名称。\n"
 
 #. type: delimited block |
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1058
 #, no-wrap
 msgid "|*part* |component name inside this library.\n"
-msgstr "|*part* |nombre del componente dentro de esta biblioteca.\n"
+msgstr "|*part* |此库中的组件名称。\n"
 
 #. type: delimited block |
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1061
@@ -3215,31 +3225,31 @@ msgid ""
 "|*sheetpath* |path of the sheet inside the hierarchy: identify the sheet\n"
 "within the full schematic hierarchy.\n"
 msgstr ""
-"|*sheetpath* |ruta de la hoja dentro de la jerarquía: identifica la hoja\n"
-"dentro de la jerarquía completa del esquema.\n"
+"|*sheetpath* |层次结构中工作表的路径：标识工作表\n"
+"在完整的原理图层次结构中\n"
 
 #. type: delimited block |
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1063
 #, no-wrap
 msgid "|*tstamps (time stamps)* |time stamp of the schematic file.\n"
-msgstr "|*tstamps (time stamps)* |registro temporal del fichero de esquema.\n"
+msgstr "|*tstamps (time stamps)* |原理图文件的时间戳。\n"
 
 #. type: delimited block |
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1065
 #, no-wrap
 msgid "|*tstamp (time stamp)* |time stamp of the component.\n"
-msgstr "|*tstamp (time stamp)* |registro temporal del componente.\n"
+msgstr "|*tstamp (time stamp)* |组件的时间戳。\n"
 
 #. type: Title =====
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1068
 #, no-wrap
 msgid "Note about time stamps for components"
-msgstr "Nota sobre los registros temporales para los componentes"
+msgstr "关于组件的时间戳的注意事项"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1076
 msgid "To identify a component in a netlist and therefore on a board, the timestamp reference is used as unique for each component. However KiCad provides an auxiliary way to identify a component which is the corresponding footprint on the board. This allows the re-annotation of components in a schematic project and does not loose the link between the component and its footprint."
-msgstr "Para identificar un componente en un netlist y por lo tanto en una placa, el registro temporal es usado como único para cada componente. Sin embargo KiCad dispone de una forma auxiliar para identificar un componente que consiste en la correspondiente huella sobre la placa. Esto permite la re-anotación de componentes en el esquema del proyecto sin la perdida del enlace entre el componente y su huella."
+msgstr "要识别网表中的组件，从而识别板上，时间戳参考对每个组件都是唯一的。 然而，KiCad 提供了一种辅助方法来识别组件，该组件是电路板上相应的占位面积。 这允许重新注释原理图项目中的组件，并且不会丢失组件与其占用空间之间的链接。"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1081
@@ -3249,33 +3259,39 @@ msgstr "时间戳是原理图项目中每个组件或工作表的唯一标识符
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1085
 msgid "A given sheet inside a complex hierarchy has an unique identifier: its sheetpath. A given component (inside a complex hierarchy) has an unique identifier: the sheetpath + its tstamp"
-msgstr "复杂层次结构中的给定工作表具有唯一标识符: 其工作表路径。给定的组件 (在复杂层次结构中) 具有唯一标识符: 表路径 + 其 t图章"
+msgstr "复杂层次结构中的给定工作表具有唯一标识符：其 sheetpath。 给定组件（在复杂层次结构内）具有唯一标识符：sheetpath + 其tstamp"
 
+# libparts
+# 库部件
 #. type: Title ====
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1087
 #, no-wrap
 msgid "The libparts section"
-msgstr "La sección Libparts"
+msgstr "\"库部件\" 部分。"
 
+# libparts
+# 库部件
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1092
 msgid "The libparts section has the delimiter <libparts>, and the content of this section is defined in the schematic libraries. The libparts section contains"
-msgstr "La sección libparts tiene el delimitador <libparts>, y su contenido es definido en las bibliotecas del esquema. La sección libparts contiene"
+msgstr "库部件部分具有分隔符 <libparts>，并且此部分的内容在原理图库中定义。 库部件部分包含"
 
+# footprint
+# 封装
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1094
 msgid "The allowed footprints names (names use jokers) delimiter <fp>."
-msgstr "Los nombres de las huellas permitidas (los nombres utilizan comodines) con delimitador <fp>."
+msgstr "允许的封装名称（名称使用 jokers）分隔符 <fp>。"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1095
 msgid "The fields defined in the library delimiter <fields>."
-msgstr "Los campos definidos en la biblioteca con delimitador <fields>."
+msgstr "库分隔符中定义的字段 <fields>。"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1096
 msgid "The list of pins delimiter <pins>."
-msgstr "La lista de pines con delimitador <pins>."
+msgstr "引脚列表分隔 <pins>。"
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1115
@@ -3320,7 +3336,7 @@ msgstr ""
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1119
 msgid "Lines like <pin num=\"1\" type=\"passive\"/> give also the electrical pin type. Possible electrical pin types are"
-msgstr "线象 < 引脚 num=\"1\" 类型 = \"被动\"/> 也给电子别针类型。可能的电气引脚类型有"
+msgstr "类似 <pin num=\"1\" type=\"passive\"/> 的线路也给出了电气引脚类型。可能的电气引脚类型有"
 
 #. type: delimited block |
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1133
@@ -3338,28 +3354,28 @@ msgid ""
 "|Open emitter |Open emitter sometimes found in logic\n"
 "|Not connected |Must be left open in schematic\n"
 msgstr ""
-"|Input |Pin de entrada\n"
-"|Output |Pin de salida\n"
-"|Bidirectional |Entrada o salida\n"
-"|Tri-state |Entrada/salida de bus\n"
-"|Passive |Finales de componentes pasivos\n"
-"|Unspecified |Tipo eléctrico desconocido\n"
-"|Power input |Pin de entrada de potencia de un componente\n"
-"|Power output |Pin de salida de potencia como las salidas de reguladores\n"
-"|Open collector |Salidas a colector abierto a menudo encontradas en comparadores analógicos\n"
-"|Open emitter |Salidas a emisor abierto aveces encontradas en lógica.\n"
-"|Not connected |Debe ser dejado sin conectar en el esquema\n"
+"|Input |输入引脚\n"
+"|Output |输出引脚\n"
+"|Bidirectional |输入或输出\n"
+"|Tri-state |总线输入/输出\n"
+"|Passive |无源组件的结束\n"
+"|Unspecified |未知电气类型\n"
+"|Power input |单组件电源输入引脚\n"
+"|Power output |电源输出引脚作为稳压器输出\n"
+"|Open collector |模拟比较器中常见的开路集电极输出\n"
+"|Open emitter |有时在逻辑中找到开放发射器输出。\n"
+"|Not connected |必须在原理图中保持未连接状态\n"
 
 #. type: Title ====
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1136
 #, no-wrap
 msgid "The libraries section"
-msgstr "La sección bibliotecas"
+msgstr "\"库\" 部分"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1140
 msgid "The libraries section has the delimiter <libraries>. This section contains the list of schematic libraries used in the project."
-msgstr "La sección bibliotecas tiene el delimitador <libraries>. Esta sección contiene la lista de bibliotecas usada en el proyecto."
+msgstr "库部分具有分隔符<libraries>。 本节包含项目中使用的原理图库列表。"
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1150
