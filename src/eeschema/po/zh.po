@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Eeschema Manual\n"
 "POT-Creation-Date: 2019-02-09 18:10+0100\n"
-"PO-Revision-Date: 2019-02-18 02:11+0800\n"
+"PO-Revision-Date: 2019-02-18 15:12+0800\n"
 "Last-Translator: taotieren <admin@taotieren.com>\n"
 "Language-Team: \n"
 "Language: zh\n"
@@ -23,7 +23,7 @@ msgstr ""
 #: eeschema.adoc:6
 #, no-wrap
 msgid "Eeschema"
-msgstr "Eeschema"
+msgstr "Eeschema 简介"
 
 #. type: Plain text
 #: eeschema.adoc:9
@@ -34,12 +34,12 @@ msgstr "_ 参考手册 _"
 #: eeschema.adoc:12
 #, no-wrap
 msgid "*Copyright*\n"
-msgstr "*Copyright*\n"
+msgstr "* 版权 *\n"
 
 #. type: Plain text
 #: eeschema.adoc:18
 msgid "This document is Copyright (C) 2010-2018 by its contributors as listed below. You may distribute it and/or modify it under the terms of either the GNU General Public License (http://www.gnu.org/licenses/gpl.html), version 3 or later, or the Creative Commons Attribution License (http://creativecommons.org/licenses/by/3.0/), version 3.0 or later."
-msgstr "本文件是以下列出的贡献者的版权 (c) 2010-2018。您可以根据 gnu 通用公共许可证 (http://www.gnu.org/licenses/gpl.html) 版本3或更高版本或知识共享归因许可证 (http://creativecommons.org/licenses/by/3.0/) 版本的条款分发和/修改它3.0 或更高版本。"
+msgstr "本文件是以下列出的贡献者的版权 (c) 2010-2018。您可以根据 GNU 通用公共许可证 (http://www.gnu.org/licenses/gpl.html) 版本3或更高版本或知识共享归因许可证 (http://creativecommons.org/licenses/by/3.0/) 版本的条款分发和/修改它3.0 或更高版本。"
 
 #. type: Plain text
 #: eeschema.adoc:20
@@ -71,17 +71,17 @@ msgstr "请将任何错误报告、建议或新版本引导到此处:"
 #. type: Plain text
 #: eeschema.adoc:32
 msgid "About KiCad document: https://github.com/KiCad/kicad-doc/issues"
-msgstr "关于 kicad 文档: https://github.com/KiCad/kicad-doc/issues"
+msgstr "关于 KiCad 文档: https://github.com/KiCad/kicad-doc/issues"
 
 #. type: Plain text
 #: eeschema.adoc:34
 msgid "About KiCad software: https://bugs.launchpad.net/kicad"
-msgstr "关于 kicad 软件: https://bugs.launchpad.net/kicad"
+msgstr "关于 KiCad 软件: https://bugs.launchpad.net/kicad"
 
 #. type: Plain text
 #: eeschema.adoc:36
 msgid "About KiCad translation: https://github.com/KiCad/kicad-i18n/issues"
-msgstr "关于 kicad 翻译: https://github.com/KiCad/kicad-i18n/issues"
+msgstr "关于 KiCad 翻译: https://github.com/KiCad/kicad-i18n/issues"
 
 #. type: Plain text
 #: eeschema.adoc:40
@@ -91,8 +91,8 @@ msgstr "* 出版日期和软件版本 *\n"
 
 #. type: Plain text
 #: eeschema.adoc:42
-msgid "Published on Feb 30, 2019."
-msgstr "2019年2月30日发布。"
+msgid "Published on Feb 18, 2019."
+msgstr "2019年2月18日发布。"
 
 #. type: Title ==
 #: eeschema_automatic_classification_annotation.adoc:3
@@ -131,7 +131,7 @@ msgstr "可用的注释方案:"
 #. type: Plain text
 #: eeschema_automatic_classification_annotation.adoc:19
 msgid "Annotate all the symbols (reset existing annotation option)"
-msgstr "注释所有符号 (重置现有批注选项)"
+msgstr "注释所有符号 (重置现有注释选项)"
 
 #. type: Plain text
 #: eeschema_automatic_classification_annotation.adoc:21
@@ -141,7 +141,7 @@ msgstr "注释所有符号, 但不要交换任何以前批注的多单位部件�
 #. type: Plain text
 #: eeschema_automatic_classification_annotation.adoc:23
 msgid "Annotate only symbols that are currently not annotated.  Symbols that are not annotated will have a designator which ends with a '?' character."
-msgstr "仅注释当前未批注的符号。 未批注的符号将具有以 \"？\" 字符结尾的指示符。"
+msgstr "仅注释当前未注释的符号。 未批注的符号将具有以 \"？\" 字符结尾的指示符。"
 
 #. type: Plain text
 #: eeschema_automatic_classification_annotation.adoc:24
@@ -156,7 +156,7 @@ msgstr "仅注释当前工作表 (仅使用当前页选项)。"
 #. type: Plain text
 #: eeschema_automatic_classification_annotation.adoc:31
 msgid "The ``Reset, but do not swap any annotated multi-unit parts'' option keeps all existing associations between symbols with multilple units. For example, U2A and U2B may be reannotated to U1A and U1B respectively but they will never be reannotated to U1A and U2A, nor to U2B and U2A. This is useful if you want to ensure that pin groupings are maintained."
-msgstr "\"重置, 但不交换任何带注释的多单元部件\" 选项保留具有多单元的符号之间的所有现有关联。例如, u2a 和 U2A 可能分别重新注释为 U1B 和 u1b, 但它们永远不会重新注释到 U1B 和 u2a, 也不会重新注释为 U2A 和 u2a。如果要确保保持引脚分组, 这很有用。"
+msgstr "\"重置, 但不交换任何带注释的多单元部件\" 选项保留具有多单元的符号之间的所有现有关联。例如, U22 和 U2A 可能分别重新注释为 U1B 和 U1B, 但它们永远不会重新注释到 U1B 和 U2A, 也不会重新注释为 U2B 和 U2A。如果要确保保持引脚分组, 这很有用。"
 
 #. type: Plain text
 #: eeschema_automatic_classification_annotation.adoc:34
@@ -181,12 +181,12 @@ msgstr "在原理图中使用第一个空闲编号：组件从1开始注释（�
 #. type: Plain text
 #: eeschema_automatic_classification_annotation.adoc:49
 msgid "Start to sheet number*100 and use first free number: annotation start from 101 for the sheet 1, from 201 for the sheet 2, etc. If there are more than 99 items having the same reference prefix (U, R) inside the sheet 1, the annotation tool uses the number 200 and more, and annotation for sheet 2 will start from the next free number."
-msgstr "从纸张编号* 100开始并使用第一个空闲编号：从纸张1的101开始注释，从纸张2的201开始，等等。如果在工作表内有超过99个具有相同参考前缀（U，R）的项目 在图1中，注释工具使用数字200和更多，并且工作表2的注释将从下一个空闲编号开始。"
+msgstr "从纸张编号 *100开始并使用第一个空闲编号：从纸张1的101开始注释，从纸张2的201开始，等等。如果在工作表内有超过99个具有相同参考前缀（U，R）的项目 在图1中，注释工具使用数字200和更多，并且工作表2的注释将从下一个空闲编号开始。"
 
 #. type: Plain text
 #: eeschema_automatic_classification_annotation.adoc:51
 msgid "Start to sheet number*1000 and use first free number. Annotation start from 1001 for the sheet 1, from 2001 for the sheet 2."
-msgstr "从表格编号* 1000开始并使用第一个空闲编号。 对于纸张1，注释从1001开始，从纸张2的2001开始。"
+msgstr "从表格编号 *1000开始并使用第一个空闲编号。 对于纸张1，注释从1001开始，从纸张2的2001开始。"
 
 #. type: Title ===
 #: eeschema_automatic_classification_annotation.adoc:53
@@ -259,7 +259,7 @@ msgstr "images/eeschema_annotation_order_y.png"
 #. type: Plain text
 #: eeschema_automatic_classification_annotation.adoc:74
 msgid "You can see that four 74LS00 gates were distributed in U1 package, and that the fifth 74LS00 has been assigned to the next, U2."
-msgstr "您可以看到四个74LS00门分布在U1包中，第五个74LS00已分配给下一个U2。"
+msgstr "您可以看到四个 74LS00 门分布在 U1 包中，第五个 74LS00 已分配给下一个 U2。"
 
 #. type: Title ====
 #: eeschema_automatic_classification_annotation.adoc:76
@@ -287,7 +287,7 @@ msgstr "images/eeschema_annotation_choice_free.png"
 #. type: Plain text
 #: eeschema_automatic_classification_annotation.adoc:85
 msgid "Option start to sheet number*100 and use first free number give the following result."
-msgstr "选项开始到工作表编号*100并使用第一个空闲编号给出以下结果。"
+msgstr "选项开始到工作表编号 *100并使用第一个空闲编号给出以下结果。"
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_automatic_classification_annotation.adoc:86
@@ -304,7 +304,7 @@ msgstr "images/eeschema_annotation_choice_x100.png"
 #. type: Plain text
 #: eeschema_automatic_classification_annotation.adoc:90
 msgid "The option start to sheet number*1000 and use first free number gives the following result."
-msgstr "选项开始到工作表编号*1000并使用第一个空闲编号给出以下结果。"
+msgstr "选项开始到工作表编号 *1000并使用第一个空闲编号给出以下结果。"
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_automatic_classification_annotation.adoc:91
@@ -399,7 +399,7 @@ msgstr "网表格式"
 #. type: Plain text
 #: eeschema_create_a_netlist.adoc:37
 msgid "Select the tool image:images/icons/netlist.png[Netlist icon] to open the netlist creation dialog."
-msgstr "选择工具图像：images/icons/netlist.png【网表图标】以打开网表创建对话框。"
+msgstr "选择工具图像：images/icons/netlist.png[网表图标]以打开网表创建对话框。"
 
 #. type: Plain text
 #: eeschema_create_a_netlist.adoc:39
@@ -947,7 +947,7 @@ msgid ""
 "|%I |Will be replaced by the intermediate file created by Eeschema\n"
 "(*.tmp).\n"
 msgstr ""
-"|％I |将被Eeschema创建的中间文件替换\n"
+"|％I |将被 Eeschema 创建的中间文件替换\n"
 "（*.tmp）。\n"
 
 #. type: Plain text
