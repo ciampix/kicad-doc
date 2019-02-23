@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Getting Started in KiCad\n"
 "POT-Creation-Date: 2019-01-03 18:10+0100\n"
-"PO-Revision-Date: 2019-02-22 00:58+0800\n"
+"PO-Revision-Date: 2019-02-23 20:03+0800\n"
 "Language-Team: <>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2238,18 +2238,21 @@ msgid ""
 "of the track from the drop-down menu while you lay out your board. See the "
 "example below (inches)."
 msgstr ""
+"如果您想添加更多的轨道宽度，请转到：*设置* -> *设计规则* -> *全局设计规则* 选"
+"项卡，在此窗口的右下角添加您希望可用的任何其他宽度。 然后，您可以在布置电路板"
+"时从下拉菜单中选择布线的宽度。 请参阅下面的示例（英寸）。"
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: getting_started_in_kicad.adoc:924
 #, no-wrap
 msgid "custom_tracks_width_png"
-msgstr ""
+msgstr "custom_tracks_width_png"
 
 #. type: Target for macro image
 #: getting_started_in_kicad.adoc:924
 #, no-wrap
 msgid "images/custom_tracks_width.png"
-msgstr ""
+msgstr "images/custom_tracks_width.png"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:932
@@ -2261,6 +2264,10 @@ msgid ""
 "the 'power' class (select 'default' at left and 'power' at right and use the "
 "arrows)."
 msgstr ""
+"或者，您可以添加一个 _网络类_，在其中指定一组选项。 转到 *设置* -> *设计规则"
+"* -> *网络类编辑器* 并添加一个名为 _电源_ 的新类。 将布线宽度从 8mil（表示为"
+"0.0080）更改为 24mil（表示为0.0240）。 接下来，将除地面之外的所有内容添加到 _"
+"电源_ 类（左侧选择 _默认_，右侧选择_电源_ 并使用箭头）。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:936
@@ -2269,6 +2276,8 @@ msgid ""
 "select the appropriate grid size before or after laying down the components "
 "and connecting them together with tracks."
 msgstr ""
+"如果要更改网格大小，*右键单击* -> **网格**。 在放下组件并将它们与轨道连接在一"
+"起之前或之后，请务必选择合适的网格尺寸。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:939
@@ -2276,18 +2285,19 @@ msgid ""
 "Repeat this process until all wires, except pin 3 of J1, are connected. Your "
 "board should look like the example below."
 msgstr ""
+"重复此过程，直到连接除 J1 的引脚3之外的所有电线。 您的电路板应如下所示。"
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: getting_started_in_kicad.adoc:940
 #, no-wrap
 msgid "gsik_tutorial1_090_png"
-msgstr ""
+msgstr "gsik_tutorial1_090_png"
 
 #. type: Target for macro image
 #: getting_started_in_kicad.adoc:940
 #, no-wrap
 msgid "images/gsik_tutorial1_090.png"
-msgstr ""
+msgstr "images/gsik_tutorial1_090.png"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:948
@@ -2298,6 +2308,10 @@ msgid ""
 "3 of J1 and pin 8 of U1. This is actually not necessary since we could do "
 "this with the ground plane. Notice how the colour of the track has changed."
 msgstr ""
+"现在让我们在 PCB 的另一个侧上运行布线。 在顶部工具栏的下拉菜单中选择 _B."
+"Cu_。 点击 _布线_ 图标图像：images/icons/add_tracks.png [add_tracks_png]。 "
+"在 J1 的引脚3和 U1 的引脚8之间画一条线。 这实际上没有必要，因为我们可以用地平"
+"面做到这一点。 注意轨道的颜色是如何变化的。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:954
@@ -2309,18 +2323,23 @@ msgid ""
 "right click and select 'Place Via' or simply press [v]. This will\n"
 "take you to the bottom layer where you can complete your track.\n"
 msgstr ""
+"**通过更改图层** 从引脚A到引脚B。 有可能\n"
+"通过放置布线来运行时更改铜平面\n"
+"过孔通过当您在上部铜平面上运行布线时，\n"
+"右键单击并选择 _放置过孔_ 或只需按[v]。 这将\n"
+"带您到最底层，您可以完成您的布线。\n"
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: getting_started_in_kicad.adoc:955
 #, no-wrap
 msgid "place_a_via_png"
-msgstr ""
+msgstr "place_a_via_png"
 
 #. type: Target for macro image
 #: getting_started_in_kicad.adoc:955
 #, no-wrap
 msgid "images/place_a_via.png"
-msgstr ""
+msgstr "images/place_a_via.png"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:962
@@ -2330,6 +2349,9 @@ msgid ""
 "on the right toolbar.  Click on pin 3 of J1. The track itself and all pads "
 "connected to it should become highlighted."
 msgstr ""
+"当您想要检查特定连接时，可以单击右侧工具栏上的 _高亮网络_ 图标图像：images/"
+"icons/net_highlight.png [net_highlight_png]。 点击 J1 的引脚3。 布线本身和连"
+"接到它的所有焊盘都应高亮显示。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:970
@@ -2341,6 +2363,11 @@ msgid ""
 "dialogue that appears, set 'Default pad connection' to 'Thermal relief' and "
 "'Outline slope' to 'H,V and 45 deg only' and click OK."
 msgstr ""
+"现在我们将制作一个连接到所有 GND 引脚的接地层。 单击右侧工具栏上的 _添加填充"
+"区域_ 图标图像：images/icons/add_zone.png [add_zone_png]。 我们将在板周围布线"
+"一个矩形，因此单击您想要其中一个角的位置。 在出现的对话框中，将 _默认焊盘连接"
+"_ 设置为 _防散热（花焊盘）_ ，将 _轮廓角度_ 设置为 _仅限H，V和45度_ ，然后单"
+"击 _确定_。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:976
@@ -2350,18 +2377,21 @@ msgid ""
 "inside the area you have just traced.  Click on 'Zones'->'Fill or Refill All "
 "Zones'. The board should fill in with green and look something like this:"
 msgstr ""
+"通过单击旋转中的每个角来跟踪板的轮廓。 通过第二次单击第一个角完成矩形。 右键"
+"单击刚刚跟踪的区域。 单击 _区域_ -> _填充或重新填充所有区域_。 板应填充为绿"
+"色，看起来像这样："
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: getting_started_in_kicad.adoc:977
 #, no-wrap
 msgid "gsik_tutorial1_100_png"
-msgstr ""
+msgstr "gsik_tutorial1_100_png"
 
 #. type: Target for macro image
 #: getting_started_in_kicad.adoc:977
 #, no-wrap
 msgid "images/gsik_tutorial1_100.png"
-msgstr ""
+msgstr "images/gsik_tutorial1_100.png"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:984
@@ -2371,6 +2401,9 @@ msgid ""
 "'Start DRC'. There should be no errors. Click on 'List Unconnected'. There "
 "should be no unconnected items. Click OK to close the DRC Control dialogue."
 msgstr ""
+"单击顶部工具栏上的 _执行设计规则检查_ 图标图像：images/icons/drc.png "
+"[drc_png]运行设计规则检查器。 点击 _开始DRC_。 应该没有错误。 点击 _列表未连"
+"接_。 应该没有未连接的项目。 单击 _确定_ 关闭 _DRC控制_ 对话框。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:987
@@ -2378,36 +2411,38 @@ msgid ""
 "Save your file by clicking on *File* -> **Save**. To admire your board in "
 "3D, click on *View* -> **3D Viewer**."
 msgstr ""
+"单击 *文件* -> **保存** 保存文件。 要以 3D 方式观察您的电路板，请单击 *视图* "
+"-> **3D 查看器**。"
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: getting_started_in_kicad.adoc:988
 #, no-wrap
 msgid "pcbnew_3d_viewer_png"
-msgstr ""
+msgstr "pcbnew_3d_viewer_png"
 
 #. type: Target for macro image
 #: getting_started_in_kicad.adoc:988
 #, no-wrap
 msgid "images/pcbnew_3d_viewer.png"
-msgstr ""
+msgstr "images/pcbnew_3d_viewer.png"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:991
 msgid "You can drag your mouse around to rotate the PCB."
-msgstr ""
+msgstr "您可以拖动鼠标来旋转 PCB。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:994
 msgid ""
 "Your board is complete. To send it off to a manufacturer you will need to "
 "generate all Gerber files."
-msgstr ""
+msgstr "你的板是完整的。 要将其发送给制造商，您需要生成所有 Gerber 文件。"
 
 #. type: Title ===
 #: getting_started_in_kicad.adoc:996
 #, no-wrap
 msgid "Generate Gerber files"
-msgstr ""
+msgstr "生成 Gerber 文件"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1001
@@ -2416,11 +2451,13 @@ msgid ""
 "send them to your favourite PCB manufacturer, who will make the board for "
 "you."
 msgstr ""
+"完成 PCB 后，您可以为每一层生成 Gerber 文件，并将它们发送给您最喜欢的 PCB 制"
+"造商，他们将为您制作电路板。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1003
 msgid "From KiCad, open the _Pcbnew_ board editor."
-msgstr ""
+msgstr "从 KiCad，打开 _Pcbnew_ 板编辑器。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1007
@@ -2429,6 +2466,8 @@ msgid ""
 "the folder in which to put all Gerber files.  Proceed by clicking on the "
 "'Plot' button."
 msgstr ""
+"点击 *文件* -> ** 绘制 **。 选择 _Gerber_ 作为 _绘制格式_ 并选择放置所有 "
+"Gerber 文件的文件夹。 单击 _绘制_ 按钮继续。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1010
@@ -2436,12 +2475,14 @@ msgid ""
 "To generate the drill file, from _Pcbnew_ go again to the *File* -> *Plot* "
 "option. Default settings should be fine."
 msgstr ""
+"要生成钻取文件，请从 _Pcbnew_ 再次转到 *文件* -> *绘制* 选项。 默认设置应该没"
+"问题。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1013
 msgid ""
 "These are the layers you need to select for making a typical 2-layer PCB:"
-msgstr ""
+msgstr "这些是您制作典型的2层 PCB 时需要选择的层："
 
 #. type: delimited block |
 #: getting_started_in_kicad.adoc:1024
@@ -2456,12 +2497,20 @@ msgid ""
 "|Top Solder Resist |F.Mask |.GBR |.GTS\n"
 "|Edges |Edge.Cuts |.GBR |.GM1\n"
 msgstr ""
+"|Layer |KiCad Layer Name |Default Gerber Extension\n"
+"    |\"Use Protel filename extensions\" is enabled\n"
+"|Bottom Layer |B.Cu |.GBR |.GBL\n"
+"|Top Layer |F.Cu |.GBR |.GTL\n"
+"|Top Overlay |F.SilkS |.GBR |.GTO\n"
+"|Bottom Solder Resist |B.Mask |.GBR |.GBS\n"
+"|Top Solder Resist |F.Mask |.GBR |.GTS\n"
+"|Edges |Edge.Cuts |.GBR |.GM1\n"
 
 #. type: Title ===
 #: getting_started_in_kicad.adoc:1027
 #, no-wrap
 msgid "Using GerbView"
-msgstr ""
+msgstr "使用 Gerbview"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1036
@@ -2473,11 +2522,15 @@ msgid ""
 "all generated Gerber files. Note how they all get displayed one on top of "
 "the other."
 msgstr ""
+"要查看所有 Gerber 文件，请转到 KiCad 项目管理器并单击 _GerbView_ 图标。 在下"
+"拉菜单或图层管理器中，选择 _图形图层1_。 单击 *文件* -> *打开 Gerber 文件* 或"
+"单击图标图像：images/icons/gerber_file.png [gerber_file_png]。 选择并打开所有"
+"生成的 Gerber 文件。 注意它们如何一个显示在另一个之上。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1038
 msgid "Open the drill files with *File* -> *Open Excellon Drill File(s)*."
-msgstr ""
+msgstr "使用 *文件* -> *打开 Excellon 钻取文件* 打开钻取文件。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1041
@@ -2485,19 +2538,21 @@ msgid ""
 "Use the Layers manager on the right to select/deselect which layer to show.  "
 "Carefully inspect each layer before sending them for production."
 msgstr ""
+"使用右侧的图层管理器选择/取消选择要显示的图层。 在发送生产之前仔细检查每一"
+"层。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1044
 msgid ""
 "The view works similarly to Pcbnew. Right click inside the view and click "
 "'Grid' to change the grid."
-msgstr ""
+msgstr "该视图与 Pcbnew 类似。 在视图内右键单击并单击 _网格_ 以更改网格。"
 
 #. type: Title ===
 #: getting_started_in_kicad.adoc:1046
 #, no-wrap
 msgid "Automatically route with FreeRouter"
-msgstr ""
+msgstr "使用 FreeRouter 自动布线"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1053
@@ -2508,6 +2563,9 @@ msgid ""
 "boring bits. Its work will only account for the unrouted traces. The "
 "autorouter we will use here is FreeRouting."
 msgstr ""
+"手动布线板既快速又有趣，但对于具有大量组件的电路板，您可能希望使用自动布线"
+"器。 请记住，您应首先手动路由关键迹线，然后设置自动布线器以执行无聊位。 它的"
+"工作只会解释未布线的痕迹。 我们将在这里使用的自动布线器是 FreeRouting。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1058
@@ -2517,6 +2575,9 @@ msgid ""
 "an internet search for \"freerouting\".  It may be found in source only form "
 "or as a precompiled java package."
 msgstr ""
+"FreeRouting 是一个开源的 Java 应用程序。 目前，FreeRouting 存在于几个或多或少"
+"相同的副本中，您可以通过互联网搜索_freerouting_ 找到它们。 它可以在源代码形式"
+"或预编译的 Java 包中找到。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1063
@@ -2525,6 +2586,8 @@ msgid ""
 "file locally.  Launch FreeRouter and click on the 'Open Your Own Design' "
 "button, browse for the _dsn_ file and load it."
 msgstr ""
+"从 _Pcbnew_ 单击 *文件* -> *导出* -> * Specctra DSN * 并在本地保存文件。 启"
+"动 FreeRouter 并单击 _打开您自己的设计_ 按钮，浏览 _dsn_ 文件并加载它。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1069
@@ -2534,6 +2597,9 @@ msgid ""
 "steps: first, routing the board and then optimising it. Full optimisation "
 "can take a long time, however you can stop it at any time need be."
 msgstr ""
+"FreeRouter 具有 KiCad 目前不具备的一些功能，包括手动路由和自动路由。 "
+"FreeRouter 主要有两个步骤：首先，对电路板进行布线，然后对其进行优化。 完全优"
+"化可能需要很长时间，但您可以随时停止它。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1077
@@ -2545,6 +2611,10 @@ msgid ""
 "rotate them better and try again. The goal in rotation and position of parts "
 "is to lower the number of crossed airlines in the ratsnest."
 msgstr ""
+"您可以通过单击顶部栏上的 _自动布线器_ 按钮来启动自动路由。 底栏为您提供有关正"
+"在进行的路由过程的信息。 如果 _通过_ 计数超过30，则您的电路板可能无法使用此路"
+"由器自动执行。 更多地展开您的组件或更好地旋转它们并再试一次。 零件的旋转和位"
+"置的目标是降低速率的交叉走线的数量。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1082
@@ -2554,6 +2624,8 @@ msgid ""
 "the optimisation process. Unless you really need to stop, it is better to "
 "let FreeRouter finish its job."
 msgstr ""
+"左键单击鼠标可以停止自动路由并自动启动优化过程。 另一次左键单击将停止优化过"
+"程。 除非你真的需要停下来，否则最好让 FreeRouter 完成它的工作。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1086
@@ -2562,6 +2634,8 @@ msgid ""
 "board file with the _.ses_ extension. You do not really need to save the "
 "FreeRouter rules file."
 msgstr ""
+"单击 *文件* -> *导出 Specctra 会话文件* 菜单并使用 _.ses_ 扩展名保存板文件。 "
+"您实际上不需要保存 FreeRouter 规则文件。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1090
@@ -2569,6 +2643,8 @@ msgid ""
 "Back to __Pcbnew__. You can import your freshly routed board by clicking on "
 "*File* -> *Import* -> *Spectra Session* and selecting your _.ses_ file."
 msgstr ""
+"回到 __Pcbnew__。 您可以通过单击 *文件* -> *导入* -> * Spectra 会话* 并选择 "
+"_.ses_ 文件来导入刚刚布线的电路板。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1095
@@ -2578,12 +2654,15 @@ msgid ""
 "tracks' icon image:images/icons/add_tracks.png[Add Track icon] on the right "
 "toolbar."
 msgstr ""
+"如果有任何您不喜欢的布线，可以使用 [Delete] 和路由工具删除它并重新路由它，这"
+"是 _布线_ 图标图像：images/icons/add_tracks.png [Add Track icon] 在右侧工具栏"
+"上添加。"
 
 #. type: Title ==
 #: getting_started_in_kicad.adoc:1097
 #, no-wrap
 msgid "Forward annotation in KiCad"
-msgstr ""
+msgstr "在 KiCad 中转发注释"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1103
@@ -2592,6 +2671,8 @@ msgid ""
 "the board layout and generated the Gerber files, you are ready to send "
 "everything to a PCB manufacturer so that your board can become reality."
 msgstr ""
+"完成电子原理图，封装分配，电路板布局和生成 Gerber 文件后，您就可以将所有内容"
+"发送给 PCB 制造商，以便您的电路板成为现实。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1111
@@ -2603,18 +2684,22 @@ msgid ""
 "more. During this modification process, what you do not want to do is to re-"
 "route the whole board again from scratch. Instead, this is how you do it:"
 msgstr ""
+"通常，这种线性工作流程并非如此单向。 例如，当您必须修改/扩展您或其他人已经完"
+"成此工作流程的板时，您可能需要移动组件，替换其他组件，更改占用空间等等。 在此"
+"修改过程中，您不想做的是从头开始重新布线整个电路板。 相反，这是你如何做到这一"
+"点："
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1114
 msgid ""
 "Let's suppose that you want to replace a hypothetical connector CON1 with "
 "CON2."
-msgstr ""
+msgstr "假设您想要用 CON2 替换假设的连接器 CON1。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1116
 msgid "You already have a completed schematic and a fully routed PCB."
-msgstr ""
+msgstr "您已经拥有完整的原理图和完全布线的 PCB。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1122
@@ -2624,13 +2709,16 @@ msgid ""
 "save.png[Save icon] and c lick on the 'Netlist generation' icon image:images/"
 "icons/netlist.png[netlist_png] on the top toolbar."
 msgstr ""
+"从 KiCad 开始 __Eeschema__，通过删除 CON1 并添加 CON2 进行修改。 使用图标图像"
+"保存原理图项目：images/icons/save.png [保存图标]并点击顶部工具栏上的 _网表生"
+"成_ 图标图像：images/icons/netlist.png [网表图标]。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1125
 msgid ""
 "Click on 'Netlist' then on 'save'. Save to the default file name.  You have "
 "to rewrite the old one."
-msgstr ""
+msgstr "点击 _网表_ 然后点击 _保存_。 保存为默认文件名。 你必须重写旧的。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1131
@@ -2640,6 +2728,9 @@ msgid ""
 "device CON2. The rest of the components still have the previous footprints "
 "assigned to them. Close __Cvpcb__."
 msgstr ""
+"现在为 CON2 分配封装。 单击顶部工具栏上的 _运行Cvpcb_ 图标图像：images/icons/"
+"cvpcb.png [cvpcb]。 将封装分配给新设备 CON2。 其余组件仍然具有分配给它们的先"
+"前封装。 关闭 __Cvpcb__。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1134
@@ -2647,13 +2738,15 @@ msgid ""
 "Back in the schematic editor, save the project by clicking on 'File' -> "
 "'Save Whole Schematic Project'. Close the schematic editor."
 msgstr ""
+"返回原理图编辑器，单击 _文件_ -> _保存整个原理图项目_ 保存项目。 关闭原理图编"
+"辑器。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1137
 msgid ""
 "From the KiCad project manager, click on the 'Pcbnew' icon. The 'Pcbnew' "
 "window will open."
-msgstr ""
+msgstr "从 KiCad 项目管理器，单击 _Pcbnew_ 图标。 _Pcbnew_ 窗口将打开。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1141
@@ -2662,6 +2755,8 @@ msgid ""
 "new netlist file. Click on the 'Read Netlist' icon image:images/icons/"
 "netlist.png[netlist_png] on the top toolbar."
 msgstr ""
+"旧的，已经布线的电路板应该自动打开。 让我们导入新的网表文件。 单击顶部工具栏"
+"上的 _读取网表_ 图标图像：images/icons/netlist.png [网表图标]。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1145
@@ -2670,6 +2765,8 @@ msgid ""
 "file selection dialogue, and click on 'Read Current Netlist'.  Then click "
 "the 'Close' button."
 msgstr ""
+"单击 _浏览网表文件_ 按钮，在文件选择对话框中选择网表文件，然后单击 _读取当前"
+"网表_。 然后单击 _关闭_ 按钮。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1150
@@ -2679,13 +2776,15 @@ msgid ""
 "unrouted components, in our case the CON2. Select CON2 with the mouse.  Move "
 "the component to the middle of the board."
 msgstr ""
+"此时，您应该能够看到已布置所有先前组件的布局。 在左上角，您应该看到所有未布线"
+"的组件，在我们的例子中是 CON2。 用鼠标选择 CON2。 将组件移动到板的中间。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1153
 msgid ""
 "Place CON2 and route it. Once done, save and proceed with the Gerber file "
 "generation as usual."
-msgstr ""
+msgstr "放置 CON2 并布线它。 完成后，保存并继续照常生成 Gerber 文件。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1161
@@ -2697,12 +2796,15 @@ msgid ""
 "modifications in your schematic and netlist file. The Backward Annotation "
 "method, however, is not that useful and is therefore not described here."
 msgstr ""
+"这里描述的过程可以根据需要轻松地重复多次。除了上面描述的前向注释方法之外，还"
+"有另一种方法称为后向注释。此方法允许您从 Pcbnew 修改已布线的 PCB，并在原理图"
+"和网表文件中更新这些修改。然而，后向注释方法没有那么有用，因此这里不描述它。"
 
 #. type: Title ==
 #: getting_started_in_kicad.adoc:1163
 #, no-wrap
 msgid "Make schematic symbols in KiCad"
-msgstr ""
+msgstr "在 KiCad 中制作原理图符号"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1170
@@ -2713,6 +2815,9 @@ msgid ""
 "KiCad. Nevertheless, remember that you can always find KiCad components on "
 "the Internet."
 msgstr ""
+"有时，您想要放置在原理图中的符号不在 KiCad 库中。 这很正常，没有理由担心。 在"
+"本节中，我们将了解如何使用 KiCad 快速创建新的原理图符号。 不过，请记住，您始"
+"终可以在互联网上找到 KiCad 组件。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1176
@@ -2722,12 +2827,15 @@ msgid ""
 "extension __.lib__. If you want to add symbols to a library file you can "
 "just use the cut and paste commands of a text editor."
 msgstr ""
+"在 KiCad 中，符号是一段以 _DEF_ 开头并以 _ENDDEF_ 结尾的文本。 一个或多个符号"
+"通常放在库文件中，扩展名为 __.lib__。 如果要将符号添加到库文件，只需使用文本"
+"编辑器的剪切和粘贴命令即可。"
 
 #. type: Title ===
 #: getting_started_in_kicad.adoc:1178
 #, no-wrap
 msgid "Using Component Library Editor"
-msgstr ""
+msgstr "使用组件库编辑器"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1184
@@ -2737,6 +2845,9 @@ msgid ""
 "named 'library'. Inside we will put our new library file _myLib.lib_ as soon "
 "as we have created our new component."
 msgstr ""
+"我们可以使用_组件库编辑器_（__Eeschema__ 的一部分）来创建新组件。 在我们的项"
+"目文件夹 _教程1_ 中，让我们创建一个名为 _库_ 的文件夹。 在我们创建新组件后，"
+"我们将在内部放置新的库文件 _myLib.lib_。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1199
@@ -2752,6 +2863,14 @@ msgid ""
 "images/icons/pin.png[pin_png] on the right toolbar. To place the pin, left "
 "click in the centre of the part editor sheet just below the 'MYCONN3' label."
 msgstr ""
+"现在我们可以开始创建新组件了。 从 KiCad 开始 __Eeschema__，单击 _库编辑器_ 图"
+"标图像：images/icons/libedit.png [库编辑器图标]，然后单击 _新组件_ 图标图像："
+"images/icons/new_component.png [新组件图标]。 将出现 _组件属性_ 窗口。 将新组"
+"件命名为 _MYCONN3_，将 _默认参考指示符_ 设置为 _J_，将 _每个包的单位数_ 设置"
+"为 _1_。 单击确定。 如果出现警告，则单击 _是_。 此时，组件仅由其标签组成。 让"
+"我们添加一些引脚。 单击右侧工具栏上的 _添加引脚_ 图标图像：images/icons/pin."
+"png [引脚图标]。 要放置引脚，请在 _MYCONN3_ 标签正下方的零件编辑器工作表中间"
+"单击鼠标左键。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1203
@@ -2760,6 +2879,8 @@ msgid ""
 "the pin number to '1', and the 'Electrical type' to 'Power input' then click "
 "OK."
 msgstr ""
+"在出现的引脚属性窗口中，将引脚名称设置为 _VCC_，将引脚编号设置为 _1_，将 _电"
+"气类型_ 设置为 _电源输入_，然后单击 _确定_。"
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: getting_started_in_kicad.adoc:1204
@@ -2771,14 +2892,14 @@ msgstr "引脚属性"
 #: getting_started_in_kicad.adoc:1204
 #, no-wrap
 msgid "images/pin_properties.png"
-msgstr ""
+msgstr "images/pin_properties.png"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1208
 msgid ""
 "Place the pin by clicking on the location you would like it to go, right "
 "below the 'MYCONN3' label."
-msgstr ""
+msgstr "在 _MYCONN3_ 标签下方单击您想要的位置放置引脚。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1212
@@ -2786,6 +2907,8 @@ msgid ""
 "Repeat the place-pin steps, this time 'Pin name' should be 'INPUT', 'Pin "
 "number' should be '2', and 'Electrical Type' should be 'Passive'."
 msgstr ""
+"重复执行引脚步骤，这次 _引脚名_ 应为 _输入_，_引脚号_ 应为 _2_，_电气类型_ 应"
+"为 _被动_。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1218
@@ -2795,6 +2918,9 @@ msgid ""
 "the pins one on top of the other. The component label 'MYCONN3' should be in "
 "the centre of the page (where the blue lines cross)."
 msgstr ""
+"重复放置引脚步骤，这次 _引脚名称_ 应为 _GND_，_引脚编号_ 应为 _3_，_电气类型"
+"_ 应为 _被动_。 将销钉一个放在另一个的顶部。 组件标签 _MYCONN3_ 应位于页面的"
+"中心（蓝线交叉的位置）。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1226
@@ -2806,18 +2932,21 @@ msgid ""
 "down). Click again where you want the bottom right corner of the rectangle "
 "to be."
 msgstr ""
+"接下来，绘制组件的轮廓。 单击 _添加矩形_ 图标图像：images/icons/"
+"add_rectangle.png [添加矩形图标]。 我们想在引脚旁边绘制一个矩形，如下所示。 "
+"为此，请单击矩形左上角的位置（不要按住鼠标按钮）。 再次单击矩形右下角的位置。"
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: getting_started_in_kicad.adoc:1227
 #, no-wrap
 msgid "gsik_myconn3_l_png"
-msgstr ""
+msgstr "gsik_myconn3_l_png"
 
 #. type: Target for macro image
 #: getting_started_in_kicad.adoc:1227
 #, no-wrap
 msgid "images/gsik_myconn3_l.png"
-msgstr ""
+msgstr "images/gsik_myconn3_l.png"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1233
@@ -2826,6 +2955,8 @@ msgid ""
 "'yellow 4' in *Preferences* -> *Select color scheme*, then select the "
 "rectangle in the editing screen with [e], selecting 'Fill background'."
 msgstr ""
+"如果要用黄色填充矩形，请在 *首选项* -> *选择颜色方案* 中将填充颜色设置为 _黄"
+"色4_，然后使用 [e] 在编辑屏幕中选择矩形，选择 _填充背景_。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1238
@@ -2835,6 +2966,9 @@ msgid ""
 "_tutorial1/library/_ folder and save the new library file with the name "
 "__myLib.lib__."
 msgstr ""
+"将组件保存在库 __myLib.lib__ 中。 单击 _新建库_ 图标图像：images/icons/"
+"new_library.png [新建库图标]，导航到 _教程1/库/_ 文件夹并保存名为 __myLib."
+"lib__ 的新库文件。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1241
@@ -2842,6 +2976,8 @@ msgid ""
 "Go to *Preferences* -> *Component Libraries* and add both _tutorial1/library/"
 "_ in 'User defined search path' and _myLib.lib in_ 'Component library files'."
 msgstr ""
+"转到 *首选项* -> *组件库* 并在 _用户定义的搜索路径_ 中添加 _教程1/库/_ ，在 _"
+"组件库文件_ 中添加 _mylib.lib_。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1247
@@ -2851,6 +2987,9 @@ msgid ""
 "OK. Notice how the heading of the window indicates the library currently in "
 "use, which now should be __myLib__."
 msgstr ""
+"单击 _选择工作库_ 图标图像：images/icons/library.png [library_png]。 在 _选择"
+"库_ 窗口中，单击 _myLib_，然后单击 _确定_。 注意窗口的标题如何表示当前正在使"
+"用的库，现在应该是 __myLib__。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1256
@@ -2863,6 +3002,11 @@ msgid ""
 "component is now done and available in the library indicated in the window "
 "title bar."
 msgstr ""
+"单击顶部工具栏中的 _更新当前库中的当前组件_ 图标图像：images/icons/"
+"save_part_in_mem.png [更新当前库中的当前组件图标]。 单击顶部工具栏中的 _在磁"
+"盘上保存当前加载的库_ 图标图像：images/icons/save_library.png [保存的库图标] "
+"保存所有更改。 在出现的任何确认消息中单击 _是_。 现在，新的逻辑示意图组件已在"
+"窗口标题栏中指示的库中完成并可用。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1260
@@ -2871,6 +3015,8 @@ msgid ""
 "the schematic editor window. Your new component will now be available to you "
 "from the library __myLib__."
 msgstr ""
+"您现在可以关闭 _组件库_ 编辑器窗口。 您将返回到原理图编辑器窗口。 您的新组件"
+"现在可以从库 __myLib__ 中使用。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1265
@@ -2880,12 +3026,15 @@ msgid ""
 "add both the path to it in 'User defined search path' and _file.lib_ in "
 "'Component library files'."
 msgstr ""
+"您可以通过将库 __.lib__ 文件添加到库路径来使其可用。 从 __Eeschema__ 开始，转"
+"到* 首选项 * -> * 库 *并在 _用户定义的搜索路径_ 中添加路径，在 _组件库文件_ "
+"中添加_file.lib_。"
 
 #. type: Title ===
 #: getting_started_in_kicad.adoc:1267
 #, no-wrap
 msgid "Export, import and modify library components"
-msgstr ""
+msgstr "导出，导入和修改库组件"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1273
@@ -2895,6 +3044,9 @@ msgid ""
 "how to export a component from the KiCad standard library 'device' to your "
 "own library _myOwnLib.lib_ and then modify it."
 msgstr ""
+"而不是从头开始创建库组件，有时从已经制作并修改它更容易。 在本节中，我们将了解"
+"如何将组件从 KiCad 标准库 _设备_ 导出到您自己的库 _myOwnLib.lib_，然后进行修"
+"改。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1281
@@ -2906,6 +3058,11 @@ msgid ""
 "images/icons/import_cmp_from_lib.png[import_cmp_from_lib_png] and import the "
 "'RELAY_2RT'."
 msgstr ""
+"从 KiCad 开始 __Eeschema__，点击 _库编辑器_ 图标图片：images/icons/libedit."
+"png [库编辑器图标]，点击 _选择工作库_ 图标图片：images/icons/library.png [库"
+"图标] 并选择库的 _设备_。 单击 _从当前库中加载组件进行编辑_ 图标图像：images/"
+"icons/import_cmp_from_lib.png [从当前库中加载组件进行编辑图标]并导入 "
+"_RELAY_2RT_。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1285
@@ -2914,6 +3071,8 @@ msgid ""
 "png[export_png], navigate into the _library/_ folder and save the new "
 "library file with the name _myOwnLib.lib._"
 msgstr ""
+"单击 _导出组件_ 图标图像：images/icons/export.png [导出图标]，导航到 _库/_ 文"
+"件夹并保存名为 _myOwnLib.lib_ 的新库文件。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1291
@@ -2924,6 +3083,9 @@ msgid ""
 "defined search path' and _myOwnLib.lib_ in the 'Component library files'. "
 "Close the window."
 msgstr ""
+"您可以将此组件和整个库 _myOwnLib.lib_ 添加到库路径中，从而使您可以使用它。 "
+"从  __Eeschema__，转到 *首选项 * -> * 元件库 * 并在 _用户定义的搜索路径_ 中添"
+"加 _library/_，在 _组件库文件_ 中添加 _myOwnLib.lib_。 关闭窗口。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1297
@@ -2933,6 +3095,9 @@ msgid ""
 "OK. Notice how the heading of the window indicates the library currently in "
 "use, it should be __myOwnLib__."
 msgstr ""
+"单击 _选择工作库_ 图标图像：images/icons/library.png [库图标]。 在选择库窗口"
+"中，单击 _myOwnLib_ 并单击 OK。 注意窗口的标题如何表示当前正在使用的库，它应"
+"该是 __myOwnLib__。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1301
@@ -2941,6 +3106,8 @@ msgid ""
 "icons/import_cmp_from_lib.png[import_cmp_from_lib_png] and import the "
 "'RELAY_2RT'."
 msgstr ""
+"单击 _从当前库中加载组件进行编辑_ 图标图像：images/icons/import_cmp_from_lib."
+"png [从当前库中加载组件进行编辑图标]并导入 _RELAY_2RT_。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1304
@@ -2948,6 +3115,8 @@ msgid ""
 "You can now modify the component as you like. Hover over the label "
 "'RELAY_2RT', press [e] and rename it 'MY_RELAY_2RT'."
 msgstr ""
+"您现在可以根据需要修改组件。 将鼠标悬停在 _RELAY_2RT_ 标签上，按 [e] 并将其重"
+"命名为 _MY_RELAY_2RT_。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1311
@@ -2957,12 +3126,16 @@ msgid ""
 "all changes by clicking on the 'Save current loaded library on disk' icon "
 "image:images/icons/save_library.png[save_library_png] in the top toolbar."
 msgstr ""
+"单击顶部工具栏中的 _更新当前库中的当前组件_ 图标图像：images/icons/"
+"save_part_in_mem.png [更新当前库中的当前组件图标]。 单击顶部工具栏中的 _在磁"
+"盘上保存当前加载的库_ 图标图像：images/icons/save_library.png [保存库图标] 保"
+"存所有更改。"
 
 #. type: Title ===
 #: getting_started_in_kicad.adoc:1313
 #, no-wrap
 msgid "Make schematic components with quicklib"
-msgstr ""
+msgstr "使用 quicklib 制作原理图组件"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1318
@@ -2971,12 +3144,14 @@ msgid ""
 "for MYCONN3 (see <<myconn3,MYCONN3>> above) using the Internet tool "
 "__quicklib__."
 msgstr ""
+"本节介绍使用互联网工具 __quicklib__ 为 MYCONN3 创建原理图元件的另一种方法（参"
+"见上面的《myconn3，MYCONN3》）。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1321
 msgid ""
 "Head to the _quicklib_ web page: http://kicad.rohrbacher.net/quicklib.php"
-msgstr ""
+msgstr "前往 _quicklib_ 网页：http://kicad.rohrbacher.net/quicklib.php"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1324
@@ -2984,6 +3159,8 @@ msgid ""
 "Fill out the page with the following information: Component name: MYCONN3 "
 "Reference Prefix: J Pin Layout Style: SIL Pin Count, N: 3"
 msgstr ""
+"使用以下信息填写页面：组件名称：MYCONN3 参考前缀：J引脚布局样式：SIL 引脚数，"
+"N:3"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1328
@@ -2992,6 +3169,8 @@ msgid ""
 "information: Pin 1: VCC Pin 2: input Pin 3: GND.  Type : Passive for all 3 "
 "pins."
 msgstr ""
+"单击 _分配引脚_ 图标。 使用以下信息填写页面：引脚1：VCC;引脚2：输入引脚;3："
+"GND。 类型：所有3个引脚都被动。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1332
@@ -3000,6 +3179,8 @@ msgid ""
 "'Build Library Component'. Download the file and rename it __tutorial1/"
 "library/myQuickLib.lib.__. You are done!"
 msgstr ""
+"单击 _预览_ 图标，如果您满意，请单击 _构建库组件_。 下载文件并将其重命名为 __"
+"教程1/库/myQuickLib.lib__。 你完成了！"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1338
@@ -3010,18 +3191,22 @@ msgid ""
 "import.png[import_png], navigate to _tutorial1/library/_ and select "
 "_myQuickLib.lib._"
 msgstr ""
+"使用 KiCad 查看它。 从 KiCad 项目管理器，启动 __Eeschema__，单击 _库编辑器_ "
+"图标图像：images/icons/libedit.png [库编辑器图标]，单击 _导入组件_ 图标图像："
+"images/icons/import.png [导入组件图标] ，导航到 _教程1/库/_ 并选择 "
+"_myQuickLib.lib_。"
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: getting_started_in_kicad.adoc:1339
 #, no-wrap
 msgid "gsik_myconn3_quicklib_png"
-msgstr ""
+msgstr "gsik_myconn3_quicklib_png"
 
 #. type: Target for macro image
 #: getting_started_in_kicad.adoc:1339
 #, no-wrap
 msgid "images/gsik_myconn3_quicklib.png"
-msgstr ""
+msgstr "images/gsik_myconn3_quicklib.png"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1346
@@ -3031,6 +3216,9 @@ msgid ""
 "*Preferences* -> *Component Libraries* and add _library_ in 'User defined "
 "search path' and _myQuickLib.lib_ in 'Component library files'."
 msgstr ""
+"您可以通过将此组件和整个库 _myQuickLib.lib_ 添加到 KiCad 库路径来使其可用。 "
+"从 __Eeschema__，转到 *首选项* -> *组件库* 并在 _用户定义的搜索路径_ 中添加 "
+"_library_，在 _组件库文件_ 中添加 _myQuickLib.lib_。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1350
@@ -3038,12 +3226,14 @@ msgid ""
 "As you might guess, this method of creating library components can be quite "
 "effective when you want to create components with a large pin count."
 msgstr ""
+"正如您可能猜到的，当您想要创建具有大引脚数的组件时，这种创建库组件的方法非常"
+"有效。"
 
 #. type: Title ===
 #: getting_started_in_kicad.adoc:1352
 #, no-wrap
 msgid "Make a high pin count schematic component"
-msgstr ""
+msgstr "制作高引脚数的原理图元件"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1359
@@ -3054,6 +3244,9 @@ msgid ""
 "with a high number of pins (some hundreds of pins). In KiCad, this is not a "
 "very complicated task."
 msgstr ""
+"在 _quicklib_ 中标题为 _制作原理图组件_ 的部分中，我们了解了如何使用 "
+"_quicklib_ 基于 Web 的工具制作原理图元件。 但是，您偶尔会发现需要创建一个具有"
+"大量引脚（几百个引脚）的原理图元件。 在 KiCad 中，这不是一项非常复杂的任务。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1365
@@ -3063,6 +3256,9 @@ msgid ""
 "drawings, for example two drawings with 25 pins each. This component "
 "representation allows for easy pin connection."
 msgstr ""
+"假设您要为具有 50 个引脚的器件创建原理图元件。 通常的做法是使用多个低引脚数的"
+"图纸来绘制它，例如两个图纸，每个图纸有25个引脚。 该组件表示允许简单的引脚连"
+"接。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1370
@@ -3072,6 +3268,9 @@ msgid ""
 "finally merge the two by using copy and paste to make them into one single "
 "DEF and ENDDEF component."
 msgstr ""
+"创建组件的最佳方法是使用 _quicklib_ 分别生成两个25引脚组件，使用 Python 脚本"
+"重新编号它们的引脚，最后通过使用复制和粘贴将它们合并为一个单独的 DEF 和 "
+"ENDDEF 组件。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1376
@@ -3081,12 +3280,15 @@ msgid ""
 "line: +X PIN1 1 -750 600 300 R 50 50 1 1 I+ into +X PIN26 26 -750 600 300 R "
 "50 50 1 1 I+ this is done for all lines in the file __in.txt__."
 msgstr ""
+"您将在下面找到一个简单的 Python 脚本示例，它可以与 _in.txt_ 文件和 _out.txt_ "
+"文件一起使用以重新编号该行：+X PIN1 1 -750 600 300 R 50 50 1 1 I+ into +X "
+"PIN26 26 -750 600 300 R 50 50 1 1 I+ 这对文件 __in.txt__ 中的所有行都已完成。"
 
 #. type: Block title
 #: getting_started_in_kicad.adoc:1377
 #, no-wrap
 msgid "Simple script"
-msgstr ""
+msgstr "简单的脚本"
 
 #. type: delimited block -
 #: getting_started_in_kicad.adoc:1400
@@ -3113,6 +3315,26 @@ msgid ""
 "# http://gskinner.com/RegExr/\n"
 "# http://kicad.rohrbacher.net/quicklib.php\n"
 msgstr ""
+"#!/usr/bin/env python\n"
+"''' simple script to manipulate KiCad component pins numbering'''\n"
+"import sys, re\n"
+"try:\n"
+"    fin=open(sys.argv[1],'r')\n"
+"    fout=open(sys.argv[2],'w')\n"
+"except:\n"
+"    print \"oh, wrong use of this app, try:\", sys.argv[0], \"in.txt out.txt\"\n"
+"    sys.exit()\n"
+"for ln in fin.readlines():\n"
+"    obj=re.search(\"(X PIN)(\\d*)(\\s)(\\d*)(\\s.*)\",ln)\n"
+"if obj:\n"
+"    num = int(obj.group(2))+25\n"
+"    ln=obj.group(1) + str(num) + obj.group(3) + str(num) + obj.group(5) +'\\n'\n"
+"    fout.write(ln)\n"
+"fin.close(); fout.close()\n"
+"#\n"
+"# for more info about regular expression syntax and KiCad component generation:\n"
+"# http://gskinner.com/RegExr/\n"
+"# http://kicad.rohrbacher.net/quicklib.php\n"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1406
@@ -3122,12 +3344,15 @@ msgid ""
 "does not end up on top of it. Below you will find the final .lib file and "
 "its representation in __Eeschema__."
 msgstr ""
+"在将两个组件合并为一个组件时，有必要使用 Eeschema 的库编辑器移动第一个组件，"
+"以便第二个组件不会在它上面移动。 您将在下面找到最终的 .lib 文件及其在 "
+"__Eeschema__ 中的表示形式。"
 
 #. type: Block title
 #: getting_started_in_kicad.adoc:1407
 #, no-wrap
 msgid "Contents of a *.lib file"
-msgstr ""
+msgstr "*.lib 文件的内容"
 
 #. type: delimited block -
 #: getting_started_in_kicad.adoc:1419
@@ -3144,12 +3369,22 @@ msgid ""
 "S -450 -800 450 800 0 0 0 N\n"
 "X PIN1 1 -2550 600 300 R 50 50 1 1 I\n"
 msgstr ""
+"EESchema-LIBRARY Version 2.3\n"
+"#encoding utf-8\n"
+"# COMP\n"
+"DEF COMP U 0 40 Y Y 1 F N\n"
+"F0 \"U\" -1800 -100 50 H V C CNN\n"
+"F1 \"COMP\" -1800 100 50 H V C CNN\n"
+"DRAW\n"
+"S -2250 -800 -1350 800 0 0 0 N\n"
+"S -450 -800 450 800 0 0 0 N\n"
+"X PIN1 1 -2550 600 300 R 50 50 1 1 I\n"
 
 #. type: delimited block -
 #: getting_started_in_kicad.adoc:1421
 #, no-wrap
 msgid "...\n"
-msgstr ""
+msgstr "...\n"
 
 #. type: delimited block -
 #: getting_started_in_kicad.adoc:1426
@@ -3160,18 +3395,22 @@ msgid ""
 "ENDDEF\n"
 "#End Library\n"
 msgstr ""
+"X PIN49 49 750 -500 300 L 50 50 1 1 I\n"
+"ENDDRAW\n"
+"ENDDEF\n"
+"#End Library\n"
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: getting_started_in_kicad.adoc:1428
 #, no-wrap
 msgid "gsik_high_number_pins_png"
-msgstr ""
+msgstr "gsik_high_number_pins_png"
 
 #. type: Target for macro image
 #: getting_started_in_kicad.adoc:1428
 #, no-wrap
 msgid "images/gsik_high_number_pins.png"
-msgstr ""
+msgstr "images/gsik_high_number_pins.png"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1434
@@ -3181,12 +3420,15 @@ msgid ""
 "the arcane and yet amazingly useful Regular Expression syntax: _http://"
 "gskinner.com/RegExr/._"
 msgstr ""
+"这里介绍的 Python 脚本是一个非常强大的工具，用于操作引脚号和引脚标签。 然而，"
+"请注意，它的所有功能都来自于神秘而且非常有用的正则表达式语法：_http://"
+"gskinner.com/RegExr/._"
 
 #. type: Title ==
 #: getting_started_in_kicad.adoc:1436
 #, no-wrap
 msgid "Make component footprints"
-msgstr ""
+msgstr "制作组件封装"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1442
@@ -3196,6 +3438,9 @@ msgid ""
 "lib_ files contain schematic symbols and _.kicad_mod_ files contain "
 "footprints. _Cvpcb_ is used to map footprints to symbols."
 msgstr ""
+"与其他 EDA 软件工具不同，其中一种类型的库包含原理图符号和封装变化，KiCad _."
+"lib_ 文件包含原理图符号，_.kicad_mod_ 文件包含封装。 _Cvpcb_ 用于将封装映射到"
+"符号。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1445
@@ -3203,6 +3448,8 @@ msgid ""
 "As for _.lib_ files, _.kicad_mod_ library files are text files that can "
 "contain anything from one to several parts."
 msgstr ""
+"对于 _.lib_ 文件，_.kicad_mod_ 库文件是可以包含从一个部分到多个部分的任何文本"
+"文件。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1449
@@ -3211,12 +3458,14 @@ msgid ""
 "might find that the footprint you need is not in the KiCad library.  Here "
 "are the steps for creating a new PCB footprint in KiCad:"
 msgstr ""
+"有一个广泛的足迹库与 KiCad，但有时您可能会发现您需要的足迹不在 KiCad 库中。 "
+"以下是在 KiCad 中创建新 PCB 封装的步骤："
 
 #. type: Title ===
 #: getting_started_in_kicad.adoc:1451
 #, no-wrap
 msgid "Using Footprint Editor"
-msgstr ""
+msgstr "使用封装编辑器"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1457
@@ -3225,6 +3474,9 @@ msgid ""
 "Footprint Editor' icon image:images/icons/edit_module.png[edit_module_png] "
 "on the top toolbar. This will open the 'Footprint Editor'."
 msgstr ""
+"从 KiCad 项目管理器开始 _Pcbnew_ 工具。 单击顶部工具栏上的 _打开封装编辑器_ "
+"图标图像：images/icons/edit_module.png [封装编辑器图标]。 这将打开 _封装编辑"
+"器_。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1469
@@ -3239,6 +3491,12 @@ msgid ""
 "images/icons/open_library.png[open_library_png] on the top toolbar.  Select "
 "the 'myfootprint' library."
 msgstr ""
+"我们将在新的封装库 _myfootprint_ 中保存新的封装 _MYCONN3_。 在 _教程1/_ 项目"
+"文件夹中创建一个新文件夹 _myfootprint.pretty_ 。 单击 *首选项* -> **封装库管"
+"理器** 并按 _附加库_ 按钮。 在表格中，输入 _myfootprint_ 作为昵称，输入 _$"
+"\\{KIPRJMOD\\}/myfootprint.pretty_ 作为库路径，并输入 _KiCad_ 作为插件类型。 "
+"按 _确定_ 关闭 _PCB库表_ 窗口。 单击顶部工具栏上的 _选择活动库_ 图标图像："
+"images/icons/open_library.png [选择活动库图标]。 选择 _myfootprint_ 库。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1477
@@ -3250,6 +3508,11 @@ msgid ""
 "it above 'REF*__'. Right click on 'REF__*', select 'Edit Text' and rename it "
 "to 'SMD'. Set the 'Display' value to 'Invisible'."
 msgstr ""
+"单击顶部工具栏上的 _新封装_ 图标图像：images/icons/new_footprint.png [新封装"
+"图标]。 输入 _MYCONN3_ 作为 _封装名称_。 在屏幕中间将出现 _MYCONN3_ 标签。 在"
+"标签下，您可以看到 ** REF*__ **标签。 右键单击 _MYCONN3_ 并将其移到 ** "
+"REF*__ **上方。 右键单击 ** REF*__ **，选择 _编辑文本_ 并将其重命名为 "
+"_SMD_。 将 _显示_ 值设置为 _不可见_。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1481
@@ -3258,18 +3521,20 @@ msgid ""
 "toolbar. Click on the working sheet to place the pad. Right click on the new "
 "pad and click 'Edit Pad'. You can also use [e]."
 msgstr ""
+"在右侧工具栏中选择 _添加焊盘_ 图标图像：images/icons/pad.png [焊盘图标]。 单"
+"击工作表以放置焊盘。 右键单击新焊盘，然后单击 _编辑焊盘_。 你也可以用[e]。"
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: getting_started_in_kicad.adoc:1482
 #, no-wrap
 msgid "Pad Properties"
-msgstr ""
+msgstr "焊盘属性"
 
 #. type: Target for macro image
 #: getting_started_in_kicad.adoc:1482
 #, no-wrap
 msgid "images/pad_properties.png"
-msgstr ""
+msgstr "images/pad_properties.png"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1487
@@ -3278,6 +3543,9 @@ msgid ""
 "Size X' to '0.4', and 'Shape Size Y' to '0.8'. Click OK.  Click on 'Add "
 "Pads' again and place two more pads."
 msgstr ""
+"将 _焊盘编号_ 设置为 _1_，_焊盘形状_ 设置为 _矩形_， _焊盘类型_ 设置为 "
+"_SMD_，_形状大小 X_ 设置为 _0.4_，_形状大小 Y_ 设置为 _0.8_。 单击确定。 再次"
+"点击 _添加焊盘_ 并再放两个焊盘。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1491
@@ -3285,13 +3553,15 @@ msgid ""
 "If you want to change the grid size, *Right click* -> **Grid Select**. Be "
 "sure to select the appropriate grid size before laying down the components."
 msgstr ""
+"如果要更改网格大小，*右键单击* -> **网格选择**。 在放下组件之前，请务必选择合"
+"适的网格尺寸。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1494
 msgid ""
 "Move the 'MYCONN3' label and the 'SMD' label out of the way so that it looks "
 "like the image shown above."
-msgstr ""
+msgstr "将 _MYCONN3_ 标签和 _SMD_ 标签移开，使其看起来像上图所示。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1501
@@ -3302,6 +3572,9 @@ msgid ""
 "indication of the position of the cursor at the bottom of the page. Press "
 "the space bar at any time to set the new origin."
 msgstr ""
+"放置焊盘时，通常需要测量相对距离。 将光标放在您想要相对坐标点_（0,0）_的位"
+"置，然后按空格键。 移动光标时，您将看到光标在页面底部位置的相对指示。 可以随"
+"时按空格键设置新原点。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1506
@@ -3310,6 +3583,8 @@ msgid ""
 "button image:images/icons/add_polygon.png[add_polygon_png] in the right "
 "toolbar. Draw an outline of the connector around the component."
 msgstr ""
+"现在添加一个封装边框。 单击右侧工具栏中的 _添加图形线或多边形_ 按钮图像："
+"images/icons/add_polygon.png [添加多边形图像]。 绘制组件周围连接器的边框。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1510
@@ -3318,19 +3593,21 @@ msgid ""
 "save_library.png[save_library_png] on the top toolbar, using the default "
 "name MYCONN3."
 msgstr ""
+"单击顶部工具栏上的“在活动库中保存封装”图标图像：images/icons/save_library."
+"png [保存封装图标]，使用默认名称 MYCONN3。"
 
 #. type: Title ==
 #: getting_started_in_kicad.adoc:1512
 #, no-wrap
 msgid "Note about portability of KiCad project files"
-msgstr ""
+msgstr "关于 KiCad 项目文件的可移植性的注意事项"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1516
 msgid ""
 "What files do you need to send to someone so that they can fully load and "
 "use your KiCad project?"
-msgstr ""
+msgstr "您需要将哪些文件发送给某人才能完全加载和使用您的 KiCad 项目？"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1523
@@ -3342,6 +3619,10 @@ msgid ""
 "this way will people have total freedom to modify the schematic and the "
 "board."
 msgstr ""
+"当你有一个 KiCad 项目与某人分享时，重要的是原理图文件 __.sch__，板文件 __."
+"kicad_pcb__，项目文件 _.pro_ 和网表文件 __.net__，与两个原理图一起发送库文件 "
+"_.lib_ 和封装文件 __.kicad_mod__。 只有这样，人们才能完全自由地修改原理图和电"
+"路板。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1535
@@ -3357,6 +3638,13 @@ msgid ""
 "necessary to load the _.kicad_mod_ files in the preferences of _Pcbnew_ in "
 "order for those footprints to show up in __Cvpcb__."
 msgstr ""
+"使用 KiCad 原理图，人们需要包含符号的 _.lib_ 文件。 需要在 _Eeschema_ 首选项"
+"中加载这些库文件。 另一方面，使用板（__.kicad_pcb__ 文件），封装可以存储在_."
+"kicad_pcb_ 文件中。 您可以向某人发送 _.kicad_pcb_ 文件，而不是其他任何内容，"
+"他们仍然可以查看和编辑该板。 但是，当他们想要从网表加载组件时，脚本库（__."
+"kicad_mod__ 文件）需要存在并加载到 _Pcbnew_ 首选项中，就像原理图一样。 此外，"
+"有必要在 _Pcbnew_ 的首选项中加载 _.kicad_mod_ 文件，以便在 __Cvpcb__ 中显示这"
+"些封装。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1543
@@ -3369,6 +3657,11 @@ msgid ""
 "footprint archive**, which will create a new _.kicad_mod_ file with all the "
 "board's footprints."
 msgstr ""
+"如果有人向您发送了一个带有足迹的 _.kicad_pcb_ 文件，您可以在另一个板上使用，"
+"您可以打开封装编辑器，从当前板上加载封装，并将其保存或导出到另一个封装库中。 "
+"您也可以通过 * Pcbnew * - > *文件*  - > *压缩*  - > *封装*  - > **创建封装压"
+"缩**，这将创建一个新的一次导出 _.kicad_pcb_ 文件中的所有封装。 _.kicad_mod_ "
+"文件包含所有板的封装。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1549
@@ -3379,6 +3672,9 @@ msgid ""
 "it is highly recommended that you zip and send the following project "
 "directory:"
 msgstr ""
+"最重要的是，如果 PCB 是你想要分发的唯一东西，那么电路板文件 _.kicad_pcb_ 就足"
+"够了。 但是，如果您想让人们完全能够使用和修改您的原理图，其组件和 PCB，强烈建"
+"议您压缩并发送以下项目目录："
 
 #. type: delimited block -
 #: getting_started_in_kicad.adoc:1567
@@ -3401,12 +3697,28 @@ msgid ""
 "    |-- ...\n"
 "    \\-- ...\n"
 msgstr ""
+"教程1/\n"
+"|-- 教程1.pro\n"
+"|-- 教程1.sch\n"
+"|-- 教程1.kicad_pcb\n"
+"|-- 教程1.net\n"
+"|-- library/\n"
+"|   |-- myLib.lib\n"
+"|   |-- myOwnLib.lib\n"
+"|   \\-- myQuickLib.lib\n"
+"|\n"
+"|-- myfootprint.pretty/\n"
+"|   \\-- MYCONN3.kicad_mod\n"
+"|\n"
+"\\-- gerber/\n"
+"    |-- ...\n"
+"    \\-- ...\n"
 
 #. type: Title ==
 #: getting_started_in_kicad.adoc:1570
 #, no-wrap
 msgid "More about KiCad documentation"
-msgstr ""
+msgstr "有关 KiCad 文档的更多信息"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1575
@@ -3415,18 +3727,20 @@ msgid ""
 "detailed instructions consult the help files which you can access through "
 "each KiCad module. Click on *Help* -> **Manual**."
 msgstr ""
+"这是 KiCad 中大多数功能的快速指南。 有关更详细的说明，请参阅可通过每个 KiCad "
+"模块访问的帮助文件。 点击 *帮助* -> **手册**。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1578
 msgid ""
 "KiCad comes with a pretty good set of multi-language manuals for all its "
 "four software components."
-msgstr ""
+msgstr "KiCad 为其所有四个软件组件提供了一套非常好的多语言手册。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1580
 msgid "The English version of all KiCad manuals are distributed with KiCad."
-msgstr ""
+msgstr "所有 KiCad 手册的英文版都随 KiCad 一起发布。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1586
@@ -3437,13 +3751,16 @@ msgid ""
 "This tutorial as well as the manuals should be packaged with your version of "
 "KiCad on your given platform."
 msgstr ""
+"除了手册之外，KiCad 还随本教程一起发布，该教程已被翻译成其他语言。 本教程的所"
+"有不同版本均免费分发所有最新版本的 KiCad。 本教程以及手册应与您的 KiCad 版本"
+"一起打包在您的指定平台上。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1589
 msgid ""
 "For example, on Linux the typical locations are in the following "
 "directories, depending on your exact distribution:"
-msgstr ""
+msgstr "例如，在 Linux 上，典型位置位于以下目录中，具体取决于您的确切分布："
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1592
@@ -3452,45 +3769,47 @@ msgid ""
 " /usr/share/doc/kicad/help/en/\n"
 " /usr/local/share/doc/kicad/help/en\n"
 msgstr ""
+" /usr/share/doc/kicad/help/en/\n"
+" /usr/local/share/doc/kicad/help/en\n"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1594
 msgid "On Windows it is in:"
-msgstr ""
+msgstr "在Windows上它位于："
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1596
 #, no-wrap
 msgid " <installation directory>/share/doc/kicad/help/en\n"
-msgstr ""
+msgstr " <安装目录>/share/doc/kicad/help/en\n"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1598
 msgid "On OS X:"
-msgstr ""
+msgstr "在 OS X 上："
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1600
 #, no-wrap
 msgid " /Library/Application Support/kicad/help/en\n"
-msgstr ""
+msgstr " /Library/Application Support/kicad/help/en\n"
 
 #. type: Title ===
 #: getting_started_in_kicad.adoc:1602
 #, no-wrap
 msgid "KiCad documentation on the Web"
-msgstr ""
+msgstr "网上的 KiCad 文档"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1605
 msgid ""
 "Latest KiCad documentations are available in multiple languages on the Web."
-msgstr ""
+msgstr "最新的 KiCad 文档可在 Web 上以多种语言提供。"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:1607
 msgid "http://kicad-pcb.org/help/documentation/"
-msgstr ""
+msgstr "http://kicad-pcb.org/help/documentation/"
 
 msgid "sudo add-apt-repository ppa:js-reynaud/ppa-kicad"
 msgstr "sudo add-apt-repository ppa:js-reynaud/ppa-kicad"
