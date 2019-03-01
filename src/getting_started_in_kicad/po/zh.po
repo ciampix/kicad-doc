@@ -5,7 +5,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Getting Started in KiCad\n"
+"Project-Id-Version: Getting_Started_in_KiCad_zh_CN_v0.1\n"
 "POT-Creation-Date: 2019-01-03 18:10+0100\n"
 "PO-Revision-Date: 2019-02-25 10:24+0800\n"
 "Language-Team: <>\n"
