@@ -4735,7 +4735,7 @@ msgstr ""
 #: pcbnew_layers.adoc:179
 #, no-wrap
 msgid "images/Pcbnew_technical_layers_contrast_normal.png"
-msgstr "images/zh/Pcbnew_technical_layers_contrast_normal.png"
+msgstr "images/Pcbnew_technical_layers_contrast_normal.png"
 
 #. type: Plain text
 #: pcbnew_layers.adoc:182
