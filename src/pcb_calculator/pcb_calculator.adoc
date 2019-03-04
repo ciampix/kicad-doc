@@ -60,44 +60,34 @@ needed for linear and low-dropout voltage regulators.
 
 image::images/en/regulators.png[alt="Regulators",scaledwidth="80%"]
 
-For the _Standard Type_, the output voltage 
 
-V_out
+For the _Standard Type_, the output voltage V_out
 
-as a function of the reference voltage 
-
-V_ref
+as a function of the reference voltage V_ref
 
 and resistors
 
 R_1 and R_2 is given by:
 
-image::images/en/Calculation1.svg[alt="Regulators",scaledwidth="80%"]
+image::images/en/Calculation1.svg[alt="Regulators",scaledwidth="50%"]
 
 
 
-For the _3 terminal type_, there is a correction factor due to the quiescent current 
 
-I_adj 
+For the _3 terminal type_, there is a correction factor due to the quiescent current I_adj flowing from the adjust pin:
 
-flowing from the adjust pin:
-
-image::images/en/Calculation2.svg[alt="Regulators",scaledwidth="80%"]
+image::images/en/Calculation2.svg[alt="Regulators",scaledwidth="50%"]
 
 
 
-This current is typically below stem:[100 \mu A] and can be neglected with
-caution.
+
+This current is typically below stem:[100 \mu A] and can be neglected with caution.
 
 To use this calculator, enter the parameters of the regulator (_Type_,
 
-V_ref
+V_ref and, if needed, I_adj ,select the field you want to calculate 
 
-and, if needed, 
-
-I_adj
-
-, select the field you want to calculate (one of the resistors or the output voltage) and enter the other two values.
+(one of the resistors or the output voltage) and enter the other two values.
 
 [[track-width]]
 === Track Width
