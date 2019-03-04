@@ -26,13 +26,13 @@ msgstr "Pcbnew"
 #. type: Plain text
 #: pcbnew.adoc:9
 msgid "_Reference manual_"
-msgstr "_ 参考手册 _"
+msgstr "_参考手册_"
 
 #. type: Plain text
 #: pcbnew.adoc:12
 #, no-wrap
 msgid "*Copyright*\n"
-msgstr "*版权*\n"
+msgstr "* 版权 *\n"
 
 #. type: Plain text
 #: pcbnew.adoc:18
@@ -55,7 +55,7 @@ msgstr "本指南中的所有商标均属于其合法所有者。"
 #: pcbnew.adoc:23
 #, no-wrap
 msgid "*Contributors*\n"
-msgstr "*贡献者*\n"
+msgstr "* 贡献者 *\n"
 
 #. type: Plain text
 #: pcbnew.adoc:25
@@ -66,7 +66,7 @@ msgstr "Jean-Pierre Charras, Fabrizio Tappero."
 #: pcbnew.adoc:28
 #, no-wrap
 msgid "*Feedback*\n"
-msgstr "*反馈*\n"
+msgstr "* 反馈 *\n"
 
 #. type: Plain text
 #: pcbnew.adoc:30
@@ -92,7 +92,7 @@ msgstr "关于 KiCad 软件 i18n：https://github.com/KiCad/kicad-i18n/issues"
 #: pcbnew.adoc:39
 #, no-wrap
 msgid "*Publication date and software version*\n"
-msgstr "*出版日期和软件版本*\n"
+msgstr "* 出版日期和软件版本 *\n"
 
 #. type: Plain text
 #: pcbnew.adoc:41
@@ -1128,7 +1128,7 @@ msgstr "您可以为热释放设置两个参数："
 #: pcbnew_zones.adoc:182
 #, no-wrap
 msgid "images/Pcbnew_thermal_relief_parameters.png"
-msgstr "images/Pcbnew_thermal_relief_parameters.png"
+msgstr "images/zh/Pcbnew_thermal_relief_parameters.png"
 
 #. type: Title ====
 #: pcbnew_zones.adoc:184
@@ -4690,7 +4690,7 @@ msgid ""
 "layer*."
 msgstr ""
 "铜层是用于放置和重新布线的常用工作层。 层编号从0开始（第一个铜层，在前面），结束在31（后面）。 "
-"由于元件不能放在 *内层* （编号1到30）中，因此只有 0 和 31 层是 *元件层* 。"
+"由于元件不能放在 * 内层 *  （编号1到30）中，因此只有 0 和 31 层是  * 元件层 * 。"
 
 #. type: Plain text
 #: pcbnew_layers.adoc:41
@@ -4700,7 +4700,7 @@ msgid ""
 "and *In0* for layer number 0."
 msgstr ""
 "任何铜层的名称都是可编辑的。 铜层具有在使用外部布线 _Freerouter_ 时很有用的功能属性。 默认图层"
-"名称的示例是 *F.Cu* 和 *In0*，用于图层编号0。"
+"名称的示例是 *F.Cu* 和 *In0* ，用于图层编号0。"
 
 #. type: Target for macro image
 #: pcbnew_layers.adoc:42

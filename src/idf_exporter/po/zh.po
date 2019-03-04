@@ -166,7 +166,7 @@ msgstr ""
 "文件，然后输入偏移和旋转所需的任何值。请注意，IDF 导出器仅使用偏移值和 Z 旋转值;所有其他值都将"
 "被忽略。必须使用 IDF 板输出单位（mm 或 thou）和 IDF 坐标系指定偏移量，这是一个右手坐标系，+Z "
 "向观察者移动，+X 向观察者右侧，+Y 向观察者上侧。旋转必须以度为单位，正旋转为逆时针旋转，如 "
-"IDFv3 规范中所述。多个边框可以与适当的偏移组合以表示简单的元件，例如插座中的 DIP 包。 [** "
+"IDFv3 规范中所述。多个边框可以与适当的偏移组合以表示简单的元件，例如插座中的 DIP 包。 [**"
 "BUG：**] 在讨论中已经确定 Z 偏移的单位应该是英寸，这与 VRML 模型偏移的单位一致。忽略（X，Y）偏"
 "移值也可能有用。这里提到的行为将在未来的某个时候发生变化。"
 
@@ -828,7 +828,7 @@ msgstr "idfrect"
 msgid ""
 "When *idfrect* is invoked with no arguments it prints out a usage note and a summary of its "
 "inputs:"
-msgstr "如果在没有参数的情况下调用 * idfrect *，则会打印出使用说明及其输入摘要："
+msgstr "如果在没有参数的情况下调用 *idfrect*，则会打印出使用说明及其输入摘要："
 
 #. type: delimited block -
 #: idf_exporter.adoc:423

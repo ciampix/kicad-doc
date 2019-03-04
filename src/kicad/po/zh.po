@@ -121,25 +121,25 @@ msgstr ""
 #: kicad.adoc:51
 #, no-wrap
 msgid "*KiCad*: Project manager\n"
-msgstr "* KiCad *：项目管理器\n"
+msgstr "*KiCad* ：项目管理器\n"
 
 #. type: Plain text
 #: kicad.adoc:52
 #, no-wrap
 msgid "*Eeschema*: Schematic editor and component editor\n"
-msgstr "* Eeschema *：原理图编辑器和元件编辑器\n"
+msgstr "*Eeschema* ：原理图编辑器和元件编辑器\n"
 
 #. type: Plain text
 #: kicad.adoc:53
 #, no-wrap
 msgid "*Pcbnew*: Circuit board layout editor and footprint editor\n"
-msgstr "* Pcbnew *：电路板布局编辑器和封装编辑器\n"
+msgstr "*Pcbnew* ：电路板布局编辑器和封装编辑器\n"
 
 #. type: Plain text
 #: kicad.adoc:54
 #, no-wrap
 msgid "*GerbView*: Gerber viewer\n"
-msgstr "* GerbView *：Gerber查看器\n"
+msgstr "*GerbView* ：Gerber查看器\n"
 
 #. type: Plain text
 #: kicad.adoc:56
@@ -153,7 +153,7 @@ msgid ""
 "*Bitmap2Component*: Component maker for logos. It creates a schematic\n"
 "component or a footprint from a bitmap picture.\n"
 msgstr ""
-"* Bitmap2Component *：LOGO 的元件制造器。 它创建了一个原理图\n"
+"*Bitmap2Component* ：LOGO 的元件制造器。 它创建了一个原理图\n"
 "元件或来自位图图片的封装。\n"
 
 #. type: Plain text
@@ -164,7 +164,7 @@ msgid ""
 "components for regulators, track width versus current, transmission\n"
 "lines, etc.\n"
 msgstr ""
-"* PcbCalculator *：一个计算器，有助于计算\n"
+"*PcbCalculator* ：一个计算器，有助于计算\n"
 "调节器元件，轨道宽度与电流，传输\n"
 "线等\n"
 
@@ -172,7 +172,7 @@ msgstr ""
 #: kicad.adoc:63
 #, no-wrap
 msgid "*Pl Editor*: Page layout editor.\n"
-msgstr "* Pl Editor *：页面布局编辑器。\n"
+msgstr "*Pl Editor* ：页面布局编辑器。\n"
 
 #. type: Plain text
 #: kicad.adoc:66
@@ -245,7 +245,7 @@ msgstr ""
 #: kicad.adoc:88
 #, no-wrap
 msgid "*Project manager file:*\n"
-msgstr "*项目管理器文件：*\n"
+msgstr "* 项目管理器文件：* \n"
 
 #. type: delimited block |
 #: kicad.adoc:91
@@ -257,7 +257,7 @@ msgstr "| *.pro | 包含当前项目的一些参数的小文件，包括组件�
 #: kicad.adoc:94
 #, no-wrap
 msgid "*Schematic editor files:*\n"
-msgstr "*原理图编辑器文件：*\n"
+msgstr "* 原理图编辑器文件：* \n"
 
 #. type: delimited block |
 #: kicad.adoc:103
@@ -283,7 +283,7 @@ msgstr ""
 #: kicad.adoc:106
 #, no-wrap
 msgid "*Board editor files and folders:*\n"
-msgstr "* 板编辑器文件和文件夹：*\n"
+msgstr "* 板编辑器文件和文件夹：* \n"
 
 #. type: delimited block |
 #: kicad.adoc:118
@@ -424,7 +424,7 @@ msgid ""
 "list of library files loaded by Eeschema.  A few other parameters for Pcbnew "
 "(default text size, default line thickness, etc.) are also stored here."
 msgstr ""
-"名为 * kicad.pro * 的默认配置文件在 kicad/template 中提供。 它作为任何新项目"
+"名为 *kicad.pro* 的默认配置文件在 kicad/template 中提供。 它作为任何新项目"
 "的模板，用于设置 Eeschema 加载的库文件列表。 Pcbnew 的一些其他参数（默认文本"
 "大小，默认行粗细等）也存储在此处。"
 
@@ -435,7 +435,7 @@ msgid ""
 "be used only once to create a footprint library list; otherwise the list "
 "will be created from scratch."
 msgstr ""
-"可能存在另一个名为 * fp-lib-table * 的默认配置文件。 它只会被用一次来创建封装"
+"可能存在另一个名为 *fp-lib-table* 的默认配置文件。 它只会被用一次来创建封装"
 "库列表; 否则列表将从头开始创建。"
 
 #. type: Title ===
@@ -447,7 +447,7 @@ msgstr "修改默认配置"
 #. type: Plain text
 #: kicad.adoc:178
 msgid "The default *kicad.pro* file can be freely modified, if desired."
-msgstr "如果需要，可以自由修改默认的 * kicad.pro * 文件。"
+msgstr "如果需要，可以自由修改默认的 *kicad.pro* 文件。"
 
 #. type: Plain text
 #: kicad.adoc:180
@@ -457,7 +457,7 @@ msgstr "验证您是否具有 kicad/template/kicad.pro 的写入权限"
 #. type: Plain text
 #: kicad.adoc:182
 msgid "Run KiCad and load *kicad.pro* project."
-msgstr "运行 KiCad 并加载 * kicad.pro * 项目。"
+msgstr "运行 KiCad 并加载 *kicad.pro* 项目。"
 
 #. type: Plain text
 #: kicad.adoc:187
@@ -534,7 +534,7 @@ msgid ""
 "using the *KISYSMOD* environment variable, would be defined as *_$\\{KISYSMOD"
 "\\}/connect.pretty_*"
 msgstr ""
-"例如，使用 * KISYSMOD * 环境变量时，*_connect.pretty_* 封装库的路径将被定义"
+"例如，使用 *KISYSMOD* 环境变量时，*_connect.pretty_* 封装库的路径将被定义"
 "为 *_$\\{KISYSMOD\\}/connect.pretty_*"
 
 #. type: Plain text
@@ -550,7 +550,7 @@ msgstr ""
 #: kicad.adoc:218
 #, no-wrap
 msgid "*KiCad environment variables:*\n"
-msgstr "* KiCad 环境变量：*\n"
+msgstr "*KiCad 环境变量：*\n"
 
 #. type: delimited block |
 #: kicad.adoc:232
@@ -594,8 +594,8 @@ msgid ""
 "Note also the environment variable *KIPRJMOD* is *always* internally defined "
 "by KiCad, and is the **current project absolute path**."
 msgstr ""
-"另请注意，环境变量 * KIPRJMOD * 始终由 KiCad 内部定义，并且是 **当前项目绝对"
-"路径**。"
+"另请注意，环境变量 *KIPRJMOD* 始终由 KiCad 内部定义，并且是 ** 当前项目绝对"
+"路径 **。"
 
 #. type: Plain text
 #: kicad.adoc:241
@@ -605,7 +605,7 @@ msgid ""
 "project folder**."
 msgstr ""
 "例如，*_$\\{KIPRJMOD\\}/connect.pretty_* 总是在 *_connect.pretty_* 文件夹（漂"
-"亮的封装库）中找到的 **当前项目文件夹**。"
+"亮的封装库）中找到的 ** 当前项目文件夹 **。"
 
 #. type: Plain text
 #: kicad.adoc:244
@@ -717,7 +717,7 @@ msgid ""
 "*Create a working directory for the project* (using KiCad or by other\n"
 "means).\n"
 msgstr ""
-"*为项目创建一个工作目录*（使用 KiCad 或其\n"
+"*为项目创建一个工作目录* （使用 KiCad 或其\n"
 "方式）。\n"
 
 #. type: Plain text
@@ -728,7 +728,7 @@ msgid ""
 "extension .pro) via the \"Create a new project\"\n"
 "or \"Create a new project from template\" icon.\n"
 msgstr ""
-"*在此目录中，使用 KiCad 创建项目文件*（带有的文件\n"
+"*在此目录中，使用 KiCad 创建项目文件* （带有的文件\n"
 "扩展 .pro）通过“创建一个新项目”\n"
 "或“从模板创建新项目”图标。\n"
 
@@ -909,16 +909,16 @@ msgid ""
 "|8 |*Pl Editor* |Page layout editor, to create/customize frame\n"
 "references.\n"
 msgstr ""
-"| 1 | * Eeschema * |原理图编辑器。\n"
-"| 2 | * LibEdit * |元件编辑器和元件库管理器。\n"
-"| 3 | * Pcbnew * |电路板布局编辑器。\n"
-"| 4 | * FootprintEditor * |封装编辑器和封装库管理器。\n"
-"| 5 | * Gerbview * | Gerber 文件查看器。 它还可以显示钻孔文件。\n"
-"| 6 | * Bitmap2component * |用于构建封装或元件的工具\n"
+"| 1 | *Eeschema* |原理图编辑器。\n"
+"| 2 | *LibEdit* |元件编辑器和元件库管理器。\n"
+"| 3 | *Pcbnew* |电路板布局编辑器。\n"
+"| 4 | *FootprintEditor* |封装编辑器和封装库管理器。\n"
+"| 5 | *Gerbview* | Gerber 文件查看器。 它还可以显示钻孔文件。\n"
+"| 6 | *Bitmap2component* |用于构建封装或元件的工具\n"
 "用于创建 LOGO 的 B＆W 位图图像。\n"
-"| 7 | * Pcb 计算器* |计算轨道宽度的工具，以及许多其他工具\n"
+"| 7 | *Pcb 计算器* |计算轨道宽度的工具，以及许多其他工具\n"
 "的东西。\n"
-"| 8 | * Pl 编辑器 * |页面布局编辑器，用于创建/自定义框架\n"
+"| 8 | *Pl 编辑器* |页面布局编辑器，用于创建/自定义框架\n"
 "引用。\n"
 
 #. type: Title ===
@@ -939,7 +939,7 @@ msgid ""
 "Double-clicking on the schematic file runs the schematic editor, in this "
 "case opening the file *pic_programmer.sch*."
 msgstr ""
-"双击原理图文件运行原理图编辑器，在这种情况下打开文件 * pic_programmer.sch *。"
+"双击原理图文件运行原理图编辑器，在这种情况下打开文件 *pic_programmer.sch*。"
 
 #. type: Plain text
 #: kicad.adoc:375
@@ -947,8 +947,8 @@ msgid ""
 "Double-clicking on the board file runs the layout editor, in this case "
 "opening the file *pic_programmer.kicad_pcb*."
 msgstr ""
-"双击电路板文件运行布局编辑器，在这种情况下打开文件 * pic_programmer."
-"kicad_pcb *。"
+"双击电路板文件运行布局编辑器，在这种情况下打开文件 *pic_programmer."
+"kicad_pcb*。"
 
 #. type: Plain text
 #: kicad.adoc:378
@@ -995,7 +995,7 @@ msgid ""
 msgstr ""
 "|image:images/icons/new_project.png[]\n"
 "|创建一个新项目。 如果找到默认模板文件（kicad.pro）\n"
-"* kicad/template *，将其复制到工作目录中。\n"
+"*kicad/template* ，将其复制到工作目录中。\n"
 "|image:images/icons/new_project_with_template.png[]\n"
 "|从现有模板创建新项目。\n"
 "|image:images/icons/open_project.png[]\n"
@@ -1159,7 +1159,7 @@ msgid ""
 "The metadata directory is a subdirectory named *meta* containing files "
 "describing the template."
 msgstr ""
-"模板名称是存储模板文件的目录名称。 元数据目录是名为 * meta * 的子目录，其中包"
+"模板名称是存储模板文件的目录名称。 元数据目录是名为 *meta* 的子目录，其中包"
 "含描述模板的文件。"
 
 #. type: Plain text
@@ -1168,7 +1168,7 @@ msgid ""
 "All files and directories in a template are copied to the new project path "
 "when a project is created using a template, except *meta*."
 msgstr ""
-"使用模板创建项目时，模板中的所有文件和目录都将复制到新项目路径，* meta * 除"
+"使用模板创建项目时，模板中的所有文件和目录都将复制到新项目路径，*meta* 除"
 "外。"
 
 #. type: Plain text
@@ -1195,7 +1195,7 @@ msgstr ""
 #: kicad.adoc:471
 msgid ""
 "Here is an example showing project files for *raspberrypi-gpio* template:"
-msgstr "这是一个显示 * raspberrypi-gpio * 模板的项目文件的示例："
+msgstr "这是一个显示 *raspberrypi-gpio* 模板的项目文件的示例："
 
 #. type: Target for macro image
 #: kicad.adoc:472

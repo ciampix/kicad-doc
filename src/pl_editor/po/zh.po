@@ -149,20 +149,20 @@ msgid ""
 "*Texts* (with format symbols, that will be replaced by the actual text,\n"
 "like the date, page number...) in Eeschema or Pcbnew.\n"
 msgstr ""
-"*文本 *（带格式符号，将被实际文本替换，\n"
+"*文本 * （带格式符号，将被实际文本替换，\n"
 "比如 Eeschema 或 Pcbnew 中的日期，页码...）。\n"
 
 #. type: Plain text
 #: pl_editor.adoc:63
 #, no-wrap
 msgid "*Poly-polygons* (mainly to place logos and special graphic shapes)\n"
-msgstr "* 多边形 *（主要用于放置 logo 和特殊图形形状）\n"
+msgstr "* 多边形 * （主要用于放置 logo 和特殊图形形状）\n"
 
 #. type: Plain text
 #: pl_editor.adoc:65
 #, no-wrap
 msgid "*Bitmaps*.\n"
-msgstr "*位图*。\n"
+msgstr "* 位图 * 。\n"
 
 #. type: Plain text
 #: pl_editor.adoc:69
@@ -216,7 +216,7 @@ msgid ""
 "The current page layout description can be written in a **.kicad_wks* file, "
 "using the S-expression format, which is widely used in KiCad."
 msgstr ""
-"当前页面布局描述可以使用 S-expression 格式写入 * *.kicad_wks * 文件，该格式"
+"当前页面布局描述可以使用 S-expression 格式写入 **.kicad_wks* 文件，该格式"
 "在 KiCad 中广泛使用。"
 
 #. type: Plain text
@@ -245,7 +245,7 @@ msgid ""
 "*Texts* (with format symbols, with will be replaced by the actual\n"
 "text, like the date, page number...) in Eeschema or Pcbnew.\n"
 msgstr ""
-"* 文本 *（带格式符号，将由实际替换\n"
+"* 文本 * （带格式符号，将由实际替换\n"
 "文字，如 Eeschema 或 Pcbnew 中的日期，页码...）。\n"
 
 #. type: Plain text
@@ -257,8 +257,8 @@ msgid ""
 "built inside pl_editor, because it is not possible to create such shapes\n"
 "by hand.\n"
 msgstr ""
-"* 多边形 *（主要用于放置 logos 和特殊图形形状）。\n"
-"这些多边形由 ** Bitmap2component ** 创建，但不能\n"
+"* 多边形 * （主要用于放置 logos 和特殊图形形状）。\n"
+"这些多边形由 **Bitmap2component** 创建，但不能\n"
 "内置 pl_editor，因为无法创建这样的形状\n"
 "用手。\n"
 
@@ -296,7 +296,7 @@ msgid ""
 "a start point and a end point. They cannot be rotated (this is useless\n"
 "for segments).\n"
 msgstr ""
-"*线*（实际上是段）和 *矩形* 由两点定义：\n"
+"*线* （实际上是段）和 *矩形* 由两点定义：\n"
 "起点和终点。 它们不能旋转（这是没用的\n"
 "对于线）。\n"
 
@@ -333,7 +333,7 @@ msgid ""
 "**This feature ensure you can define a page layout which is not\n"
 "dependent on the paper size**.\n"
 msgstr ""
-"**此功能可确保您可以定义不是的页面布局\n"
+"** 此功能可确保您可以定义不是的页面布局\n"
 "取决于纸张尺寸**。\n"
 
 #. type: Title ===
@@ -455,12 +455,12 @@ msgstr "它们就像 printf 函数中的格式符号。"
 #. type: Plain text
 #: pl_editor.adoc:198
 msgid "A format symbol is *%* followed by 1 letter."
-msgstr "格式符号是 * % * 后跟1个字母。"
+msgstr "格式符号是 *%* 后跟1个字母。"
 
 #. type: Plain text
 #: pl_editor.adoc:200
 msgid "The *%C* format has one digit (comment identifier)."
-msgstr "* %C * 格式有一位数（注释标识符）。"
+msgstr "*%C* 格式有一位数（注释标识符）。"
 
 #. type: Plain text
 #: pl_editor.adoc:202
@@ -471,73 +471,73 @@ msgstr "格式符号是："
 #: pl_editor.adoc:204
 #, no-wrap
 msgid "*%% = replaced by %*\n"
-msgstr "* %% = 替换为 % *\n"
+msgstr "*%% = 替换为 %*\n"
 
 #. type: Plain text
 #: pl_editor.adoc:206
 #, no-wrap
 msgid "*%K = KiCad version*\n"
-msgstr "* %K = KiCad 版本 *\n"
+msgstr "*%K = KiCad 版本 *\n"
 
 #. type: Plain text
 #: pl_editor.adoc:208
 #, no-wrap
 msgid "*%Z = paper format name (A4, USLetter ...)*\n"
-msgstr "* %Z = 纸张格式名称（A4，美国信封 ...）*\n"
+msgstr "*%Z = 纸张格式名称（A4，美国信封 ...）*\n"
 
 #. type: Plain text
 #: pl_editor.adoc:210
 #, no-wrap
 msgid "*%Y = company name*\n"
-msgstr "* %Y = 公司名称 *\n"
+msgstr "*%Y = 公司名称 *\n"
 
 #. type: Plain text
 #: pl_editor.adoc:212
 #, no-wrap
 msgid "*%D = date*\n"
-msgstr "*% D = 日期 *\n"
+msgstr "*%D = 日期 *\n"
 
 #. type: Plain text
 #: pl_editor.adoc:214
 #, no-wrap
 msgid "*%R = revision*\n"
-msgstr "* %R = 修订版 *\n"
+msgstr "*%R = 修订版 *\n"
 
 #. type: Plain text
 #: pl_editor.adoc:216
 #, no-wrap
 msgid "*%S = sheet number*\n"
-msgstr "* %S = 表格编号 *\n"
+msgstr "*%S = 表格编号 *\n"
 
 #. type: Plain text
 #: pl_editor.adoc:218
 #, no-wrap
 msgid "*%N = number of sheets*\n"
-msgstr "* %N = 张数*\n"
+msgstr "*%N = 张数 *\n"
 
 #. type: Plain text
 #: pl_editor.adoc:220
 #, no-wrap
 msgid "*%Cx = comment (x = 0 to 9 to identify the comment)*\n"
-msgstr "* %Cx = 注释（x = 0 到 9 以标识注释）*\n"
+msgstr "*%Cx = 注释（x = 0 到 9 以标识注释）*\n"
 
 #. type: Plain text
 #: pl_editor.adoc:222
 #, no-wrap
 msgid "*%F = filename*\n"
-msgstr "* %F = 文件名*\n"
+msgstr "*%F = 文件名*\n"
 
 #. type: Plain text
 #: pl_editor.adoc:224
 #, no-wrap
 msgid "*%P = sheet path (sheet full name, for Eeschema)*\n"
-msgstr "* %P = 表格路径（表格全名，Eeschema）*\n"
+msgstr "*%P = 表格路径（表格全名，Eeschema）*\n"
 
 #. type: Plain text
 #: pl_editor.adoc:226
 #, no-wrap
 msgid "*%T = title*\n"
-msgstr "* %T = 标题*\n"
+msgstr "*%T = 标题*\n"
 
 #. type: Plain text
 #: pl_editor.adoc:228
@@ -555,7 +555,7 @@ msgid ""
 "User display mode: image:images/icons/pagelayout_normal_view_mode.png[] "
 "activated.  Title block displayed like in Eeschema and Pcbnew"
 msgstr ""
-"用户显示模式：图像：images/icons/pagelayout_normal_view_mode.png[] 已激活。 "
+"用户显示模式：image:images/icons/pagelayout_normal_view_mode.png[] 已激活。 "
 "标题栏显示在 Eeschema 和 Pcbnew 中"
 
 #. type: Target for macro image
@@ -571,7 +571,7 @@ msgid ""
 "png[] activated.  The native texts entered in Pl_Editor, with their format "
 "symbols."
 msgstr ""
-"“原生”显示模式：图像：images/icons/pagelayout_special_view_mode.png[] 已激"
+"“原生”显示模式：image:images/icons/pagelayout_special_view_mode.png[] 已激"
 "活。 在 Pl_Editor 中输入的本机文本及其格式符号。"
 
 #. type: Target for macro image
@@ -814,7 +814,7 @@ msgstr "image:images/zh/constraints_none.png[]"
 #. type: Plain text
 #: pl_editor.adoc:346
 msgid "The *same* text with constraint. Max size X = 40,0 Max size Y = 0,0"
-msgstr "带有约束的 *相同* 文本。 最大尺寸 X = 40,0 最大尺寸 Y = 0,0"
+msgstr "带有约束的 * 相同 * 文本。 最大尺寸 X = 40,0 最大尺寸 Y = 0,0"
 
 #. type: Plain text
 #: pl_editor.adoc:348
@@ -1185,7 +1185,7 @@ msgstr "images/zh/pl_status_bar.png"
 #: pl_editor.adoc:513
 msgid ""
 "Coordinates are *always relative to the corner* selected as **reference**."
-msgstr "坐标 *始终相对于角* 被选为 **参考**。"
+msgstr "坐标 * 始终相对于角 * 被选为 ** 参考 **。"
 
 #. type: Title ==
 #: pl_editor.adoc:517
@@ -1216,7 +1216,7 @@ msgstr "此菜单允许基本操作：添加新项目或删除所选项目。"
 #: pl_editor.adoc:528
 #, no-wrap
 msgid "**-> A selected item is also drawn in a different color on draw panel**.\n"
-msgstr "**  -> 选定的项目也会在绘图面板上以不同的颜色绘制**。\n"
+msgstr "**  -> 选定的项目也会在绘图面板上以不同的颜色绘制 **。\n"
 
 #. type: Plain text
 #: pl_editor.adoc:531
@@ -1618,4 +1618,4 @@ msgstr ""
 #. type: Plain text
 #: pl_editor.adoc:713
 msgid "A bitmap can be repeated, **but not rotated**."
-msgstr "可以重复位图，**但不能旋转**。"
+msgstr "可以重复位图，** 但不能旋转 **。"
