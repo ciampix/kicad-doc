@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pcbnew_zh_CN_v0.1\n"
 "POT-Creation-Date: 2019-02-28 06:46+0000\n"
-"PO-Revision-Date: 2019-03-04 11:13+0800\n"
+"PO-Revision-Date: 2019-03-04 13:04+0800\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2845,7 +2845,7 @@ msgid ""
 "modifications. To do this, check the 'Delete' option in the 'Unconnected Tracks' box of the "
 "netlist dialog:"
 msgstr ""
-"Pcbnew 能够自动删除因修改而变得不正确的布线。 为此，请检查网表对话框的“未连接的跟踪”框中的“删"
+"Pcbnew 能够自动删除因修改而变得不正确的布线。 为此，请检查网表对话框的“未连接的布线踪”框中的“删"
 "除”选项："
 
 #. type: Target for macro image
@@ -3045,14 +3045,14 @@ msgid ""
 "*Change footprints having same value* for all footprints like the current\n"
 "footprint, restricted to components which have the same value.\n"
 msgstr ""
-"*更改当前所有封装的具有相同值*的封装\n"
+"*更改当前所有封装的具有相同值* 的封装\n"
 "封装，仅限于具有相同价值的元件。\n"
 
 #. type: Plain text
 #: pcbnew_create_and_modify_board.adoc:265
 #, no-wrap
 msgid "*Update all footprints of the board* for reloading of all footprints on board.\n"
-msgstr "*更新电路板*的所有封装，以便重新载入板上所有封装。\n"
+msgstr "*更新电路板* 的所有封装，以便重新载入板上所有封装。\n"
 
 #. type: Title ====
 #: pcbnew_routing.adoc:2 pcbnew_routing.adoc:62
@@ -3632,8 +3632,8 @@ msgid ""
 "horizontal or vertical segment. Switching posture changes to a single diagonal segment. "
 "Holding 'Shift' while routing removes the 'snap to object' gravity."
 msgstr ""
-"在非传统画布中布线时按住“Ctrl”会将布线限制为单个水平或垂直段。 切换样式变为单个差分对线段。 在"
-"路由时按住“Shift”可以移除“捕捉到对象”的重力。"
+"在非传统画布中布线时按住“Ctrl” 会将布线限制为单个水平或垂直段。 切换样式变为单个差分对线段。 在"
+"路由时按住“Shift” 可以移除“捕捉到对象”的重力。"
 
 #. type: Plain text
 #: pcbnew_routing.adoc:242
@@ -3686,7 +3686,7 @@ msgstr "通过弹出菜单。"
 #. type: Plain text
 #: pcbnew_routing.adoc:261
 msgid "By the hotkey 'V'."
-msgstr "通过热键‘V’。"
+msgstr "通过热键“V”。"
 
 #. type: Plain text
 #: pcbnew_routing.adoc:263
@@ -3796,7 +3796,7 @@ msgstr ""
 "其他值是过孔从全局设计规则编辑器输入的。\n"
 "| image:images/icons/auto_track_width.png[]\n"
 "| 启用时：自动选择布线宽度。\n"
-"在现有轨道上启动布线时，新布线的宽度与现有布线的宽度相同。\n"
+"在现有布线上启动布线时，新布线的宽度与现有布线的宽度相同。\n"
 "| image:images/zh/Pcbnew_track_toolbar_grid_size_selection.png[width=\"70%\"]\n"
 "| 网格大小选择。\n"
 "| image:images/zh/Pcbnew_track_toolbar_zoom_selection.png[width=\"70%\"]\n"
@@ -4054,7 +4054,7 @@ msgstr "images/Pcbnew_setting_pcb_origin.png"
 #: pcbnew_fabrication_files.adoc:59
 #, no-wrap
 msgid "Generating files for photo-tracing"
-msgstr "生成用于照片跟踪的文件"
+msgstr "生成用于照片布线的文件"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:63
@@ -4127,7 +4127,7 @@ msgid ""
 "For example, for a double-sided circuit with silkscreen, solder mask and solder paste (for SMD "
 "components), 8 files should be generated ('xxxx' represents the name of the .brd file)."
 msgstr ""
-"例如，对于带有丝印层，阻焊层和焊膏层（用于 SMD 元件）的双面电路，应生成8个文件（'xxxx'表示 ."
+"例如，对于带有丝印层，阻焊层和焊膏层（用于 SMD 元件）的双面电路，应生成8个文件（“xxxx”表示 ."
 "brd 文件的名称）。"
 
 #. type: Plain text
@@ -4197,7 +4197,8 @@ msgid ""
 "in the centre of the drawing."
 msgstr ""
 "在 postscript 输出的情况下，输出文件的标准扩展名是 .ps。 对于 HPGL 输出，跟踪可以是用户选择的比"
-"例，并且可以进行镜像。 如果 原点 =中心 选项处于活动状态，则假定跟踪表坐标的原点位于图形的中心。"
+"例，并且可以进行镜像。 如果 原点 = 中心 选项处于活动状态，则假定跟踪表坐标的原点位于图形的中"
+"心。"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:117 pcbnew_fabrication_files.adoc:154
@@ -5563,7 +5564,7 @@ msgid ""
 "Load the similar footprint (image:images/icons/load_module_lib.png[], image:images/icons/"
 "load_module_board.png[] or image:images/icons/import_module.png[])."
 msgstr ""
-"加载类似的足迹（image:images/icons/load_module_lib.png[], image:images/icons/load_module_board."
+"加载类似的封装（image:images/icons/load_module_lib.png[], image:images/icons/load_module_board."
 "png[] 或 image:images/icons/import_module.png[]）。"
 
 #. type: Plain text
@@ -5994,8 +5995,8 @@ msgid ""
 "automatic insertion machines). This attribute is most useful for surface mount components "
 "(SMDs)."
 msgstr ""
-"普通+插入 表示封装必须出现在自动插入文件中（对于自动插入机器）。 此属性对表面贴装元件（SMD）最"
-"有用。"
+"普通 + 插入 表示封装必须出现在自动插入文件中（对于自动插入机器）。 此属性对表面贴装元件（SMD）"
+"最有用。"
 
 #. type: Plain text
 #: pcbnew_creating_editing_footprints.adoc:380
@@ -6061,7 +6062,7 @@ msgid ""
 "possible to type the text `=TO220` into the dialog box to have Pcbnew display a list of the "
 "footprints possessing the keyword `TO220`"
 msgstr ""
-"因此，在使用加载封装命令（Pcbnew 右侧工具栏中的图标）时，可以在对话框中键入文本‘= TO220’，让 "
+"因此，在使用加载封装命令（Pcbnew 右侧工具栏中的图标）时，可以在对话框中键入文本“= TO220”，让 "
 "Pcbnew 显示拥有关键字“TO220”的封装列表"
 
 #. type: Title ===
@@ -6159,7 +6160,7 @@ msgstr ""
 "缩放值对于可视化格式（如 VRML1，VRML2 和 X3D）非常有用。 由于模型可能由任意数量的 VRML/X3D 编辑"
 "器或导出器生成，并且 VRML 不强制模型的长度单位，因此用户可以输入适当的比例值以确保模型在 3D 查"
 "看器中显示。 一些用户使用简单的 VRML 框作为元件的通用模型并选择比例值，以便框具有表示组件的正确"
-"大小。 对于机械  CAD（MCAD）模型，比例值应保持为1。 MCAD 格式始终指定单位长度，任何使用 MCAD 数"
+"大小。 对于机械 CAD（MCAD）模型，比例值应保持为1。 MCAD 格式始终指定单位长度，任何使用 MCAD 数"
 "据格式的导出器都将忽略缩放值。 但是 3D 查看器将始终应用比例值; 如果除了单位以外的比例值与 MCAD "
 "模型一起使用，则 3D 查看器的输出将与任何导出的 MCAD 模型（如 IDF）不同。"
 
@@ -6464,7 +6465,7 @@ msgid ""
 "rad\" for 2 radians)."
 msgstr ""
 "然后输入所需的移动矢量。 您可以使用标签指示的单位（上图中的“mm”），也可以自己指定单位（例"
-"如，“1 in”表示一英寸，“2 rad”表示2弧度）。"
+"如，“1 in” 表示一英寸，“2 rad” 表示2弧度）。"
 
 #. type: Plain text
 #: pcbnew_editing_tools.adoc:53
@@ -7341,7 +7342,7 @@ msgstr ""
 "| 旋转块90°\n"
 "| 按住Shift键+“Ctrl”+鼠标左键\n"
 "| 删除块\n"
-"| 按住'Alt` +鼠标左键\n"
+"| 按住'Alt’ +鼠标左键\n"
 "| 复制块\n"
 
 #. type: Plain text
@@ -8109,7 +8110,7 @@ msgstr ""
 "| image:images/icons/layers_manager.png[]\n"
 "    | 隐藏/显示图层管理器\n"
 "| image:images/icons/mw_toolbar.png[]\n"
-"    | 使用微波炉工具。 正在开发中\n"
+"    | 使用微波工具。 正在开发中\n"
 
 #. type: Title ===
 #: pcbnew_general_operations.adoc:501
@@ -8565,13 +8566,13 @@ msgstr "*封装向导*：帮助您轻松填充参数。 请参阅下面的专用
 #: pcbnew_python_scripting.adoc:14
 #, no-wrap
 msgid "*File I/O* '(planned)': To let you write plugins to export/import other filetypes\n"
-msgstr "*文件I/O*‘（计划）’：允许您编写插件以导出/导入其他文件类型\n"
+msgstr "*文件I/O* “（计划）”：允许您编写插件以导出/导入其他文件类型\n"
 
 #. type: Plain text
 #: pcbnew_python_scripting.adoc:15
 #, no-wrap
 msgid "*Actions* '(experimental)': Associate events to scripting actions or register new menus or toolbar icons.\n"
-msgstr "*行动*‘（实验性）’：将事件与脚本操作相关联或注册新菜单或工具栏图标。\n"
+msgstr "*行动* “（实验性）”：将事件与脚本操作相关联或注册新菜单或工具栏图标。\n"
 
 #. type: Plain text
 #: pcbnew_python_scripting.adoc:17
@@ -10538,7 +10539,7 @@ msgid ""
 "    | Liftoff's GH footprints\n"
 msgstr ""
 "| 昵称| 库路径| 插件类型| 选项| 描述\n"
-"|github上\n"
+"|github 上\n"
 "    |https://github.com/liftoff-sr/pretty_footprints\n"
 "    |Github 上\n"
 "    |\n"
@@ -10631,9 +10632,9 @@ msgid ""
 "${}` notation to create the path in the same way as the \"Library Path\" setting."
 msgstr ""
 "始终为每个 GitHub 库保留一个单独的本地“*.pretty”目录，永远不要通过多次引用同一目录来组合它们。 "
-"另外，不要在封装库表条目中使用相同的COW（“*.pretty”）目录。 这可能会造成混乱。 选项"
-"`allow_pretty_writing_to_this_dir`的值将使用“${}”符号扩展任何环境变量，以与“库路径”设置相同的方"
-"式创建路径。"
+"另外，不要在封装库表条目中使用相同的COW（“*.pretty”）目录。 这可能会造成混乱。 选"
+"项“allow_pretty_writing_to_this_dir”的值将使用“${}”符号扩展任何环境变量，以与“库路径”设置相同的"
+"方式创建路径。"
 
 #. type: Title =====
 #: pcbnew_installation.adoc:390
@@ -10690,7 +10691,7 @@ msgid ""
 msgstr ""
 "Nginx 可以用作 github 服务器的缓存，以加快封装的加载速度。 它可以安装在本地或网络服务器上。 "
 "在“pcbnew/github/nginx.conf”的 KiCad 源代码中有一个示例配置。 最直接的方法就是使用这个"
-"和“`export KIGITHUB=http://my_server:54321/KiCad”覆盖默认的 nginx.conf，其中“my_server”是运行 "
+"和“export KIGITHUB=http://my_server:54321/KiCad”覆盖默认的 nginx.conf，其中“my_server”是运行 "
 "nginx 的机器的 IP 或域名。"
 
 #. type: Title ====
