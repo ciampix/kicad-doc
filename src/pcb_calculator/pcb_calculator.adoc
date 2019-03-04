@@ -62,37 +62,36 @@ image::images/en/regulators.png[alt="Regulators",scaledwidth="80%"]
 
 For the _Standard Type_, the output voltage 
 
-stem:[V_out] 
+V_out
 
 as a function of the reference voltage 
 
-stem:[V_ref] 
+V_ref
 
 and resistors
 
-stem:[R_1] and stem:[R_2] is given by:
+R_1 and R_2 is given by:
 
-stem:[V_out = V_ref \left ( \frac R_1 + R_2(R_1 \right )]
+stem:[V_out = V_ref\left (\frac R_1 + R_2 \R_1 \right )]
 
-For the _3 terminal type_, there is a correction factor due to the quiescent
-current 
+For the _3 terminal type_, there is a correction factor due to the quiescent current 
 
-stem:[I_adj] 
+I_adj 
 
 flowing from the adjust pin:
 
-stem:[V_out = V_ref \left ( \fracR_1 + R_2R_1 \right ) + I_adj R_2]
+stem:[V_out = V_ref \left ( \frac R_1 + R_2R_1 \R1 \right ) + I_adj R_2]
 
 This current is typically below stem:[100 \mu A] and can be neglected with
 caution.
 
 To use this calculator, enter the parameters of the regulator (_Type_,
 
-stem:[V_ref] 
+V_ref
 
 and, if needed, 
 
-stem:[I_adj]
+I_adj
 
 , select the field you want to calculate (one of the resistors or the output voltage) and enter the other two values.
 
