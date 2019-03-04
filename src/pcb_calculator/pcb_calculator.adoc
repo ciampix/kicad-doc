@@ -38,7 +38,7 @@ Please direct any bug reports, suggestions or new versions to here:
 [[publication_date_and_software_version]]
 *Publication date and software version*
 
-04-03-2019
+march 04, 2019
 
 
 [[introduction]]
@@ -89,7 +89,7 @@ image::images/en/Calculation2.svg[alt="Regulators",scaledwidth="20%"]
 
 
 
-This current is typically below stem:100 µA and can be neglected with caution.
+This current is typically below stem:100 \muA and can be neglected with caution.
 
 To use this calculator, enter the parameters of the regulator _Type_,V_ref and, 
 
