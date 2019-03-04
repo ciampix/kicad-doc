@@ -38,19 +38,27 @@ Please direct any bug reports, suggestions or new versions to here:
 [[publication_date_and_software_version]]
 *Publication date and software version*
 
-nov 07, 2018.
+04-03-2019
 
 
 [[introduction]]
 == Introduction
 
-Introductory blablabla here
+The Kicad Calculator gives you the Chance to calculate the most important Things without leaving Kicad.
 
-structure of PCB Calc.
+The Calculator consists the following Options:
+
+* Regulators
+* Track Width
+* Electrical Spacing
+* Trans Line
+* RF Attenuators
+* Color Code
+* Board Classes
+
 
 [[calculators]]
 == Calculators
-
 
 [[regulators]]
 === Regulators
@@ -69,55 +77,99 @@ and resistors
 
 R_1 and R_2 is given by:
 
-image::images/en/Calculation1.svg[alt="Regulators",scaledwidth="50%"]
+image::images/en/Calculation1.svg[alt="Regulators",scaledwidth="20%"]
 
 
 
 
 For the _3 terminal type_, there is a correction factor due to the quiescent current I_adj flowing from the adjust pin:
 
-image::images/en/Calculation2.svg[alt="Regulators",scaledwidth="50%"]
+image::images/en/Calculation2.svg[alt="Regulators",scaledwidth="20%"]
 
 
 
 
-This current is typically below stem:[100 \mu A] and can be neglected with caution.
+This current is typically below stem:100 µA and can be neglected with caution.
 
-To use this calculator, enter the parameters of the regulator (_Type_,
+To use this calculator, enter the parameters of the regulator _Type_,V_ref and, 
 
-V_ref and, if needed, I_adj ,select the field you want to calculate 
+if needed, I_adj ,select the field you want to calculate 
 
 (one of the resistors or the output voltage) and enter the other two values.
+
+
+
 
 [[track-width]]
 === Track Width
 
+The Track Width calculator calculates the trace width for printed circuit board conductors for a given current. 
+It uses formulas from IPC-2221 (formerly IPC-D-275). 
+
+
 image::images/en/trackwidth.png[alt="Track Width",scaledwidth="80%"]
+
+
+
 
 [[electrical-spacing]]
 === Electrical Spacing
 
+In the Picture you can see that you can edit the Voltage and the Calculator gives you the correct Values.
+
+The minimal Values which orientatd at the IPC-2221 too.
+
+
 image::images/en/electricalspacing.png[alt="Electrical Spacing",scaledwidth="80%"]
+
+
+
+
 
 [[transline]]
 === TransLine
 
+Transmission line theory is a cornerstone in the teaching of RF and microwave engineering. 
+
+In the Calculator you can choose different sorts of Line Types and their special Parameters.
+
+
 image::images/en/transline.png[alt="TransLine",scaledwidth="80%"]
+
+
+
 
 [[rf-attenuators]]
 === RF Attenuators
 
+With the RF Attenuator you can calculate different things by choosing:
+
+PI
+Tee
+Bridged Tee 
+Resistive Splitter
+
+and change all their Parameters.
+
+
 image::images/en/rfattenuators.png[alt="RF Attenuators",scaledwidth="80%"]
+
+
+
 
 [[color-code]]
 === Color Code
-
-image::images/en/colorcode.png[alt="Color Code",scaledwidth="80%"]
 
 This calculator helps translating the color bars in a resistor to its value. To use it, first select the _tolerance_ of the resistor: 10%, 5% or smaller than 2%. For example:
 
 * Yellow Violet Red Gold: 4 7 x100 ±5% = 4700 Ω, 5% tolerance
 * 1kΩ, 1% tolerance: Brown Black Black Brown Brown
+ 
+
+image::images/en/colorcode.png[alt="Color Code",scaledwidth="80%"]
+
+
+
 
 [[board-classes]]
 === Board Classes
