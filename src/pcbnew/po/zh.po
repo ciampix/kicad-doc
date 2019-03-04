@@ -2593,7 +2593,7 @@ msgstr "选择板形状（选定的形状用虚线显示）。"
 #. type: Plain text
 #: pcbnew_create_and_modify_board.adoc:62
 msgid "In the **Modify** menu, select **Explode**."
-msgstr "在 **修改** 菜单中，选择 **爆炸**。"
+msgstr "在 **修改** 菜单中，选择 **炸开**。"
 
 #. type: Plain text
 #: pcbnew_create_and_modify_board.adoc:64
@@ -6927,7 +6927,7 @@ msgid ""
 "** The right mouse button reveals a pop-up menu the content of\n"
 "   which depends on the element under the mouse arrow.\n"
 msgstr ""
-"**鼠标右键显示弹出菜单的内容\n"
+"** 鼠标右键显示弹出菜单的内容\n"
 "    这取决于鼠标箭头下的元素。\n"
 
 #. type: Plain text
@@ -6974,7 +6974,7 @@ msgid ""
 "** Single-click displays the characteristics of the footprint or text under\n"
 "   the cursor in the lower status bar.\n"
 msgstr ""
-"**单击可显示封装或文本的特征\n"
+"** 单击可显示封装或文本的特征\n"
 "    光标位于下方状态栏中。\n"
 
 #. type: Plain text
@@ -6984,7 +6984,7 @@ msgid ""
 "** Double-click displays the editor (if the element is editable) of the\n"
 "   element under the cursor.\n"
 msgstr ""
-"**双击显示编辑器（如果元素可编辑）\n"
+"** 双击显示编辑器（如果元素可编辑）\n"
 "    光标下的元素。\n"
 
 #. type: Plain text
@@ -6996,7 +6996,7 @@ msgstr "中心按钮/滚轮"
 #: pcbnew_general_operations.adoc:45
 #, no-wrap
 msgid "** Rapid zoom and some commands in layer manager.\n"
-msgstr "**快速缩放和图层管理器中的一些命令。\n"
+msgstr "** 快速缩放和图层管理器中的一些命令。\n"
 
 #. type: Plain text
 #: pcbnew_general_operations.adoc:49
@@ -7006,7 +7006,7 @@ msgid ""
 "   described area. Rotation of the mouse wheel will allow you to zoom\n"
 "   in and zoom out.\n"
 msgstr ""
-"**按住中心按钮并绘制一个矩形以缩放到\n"
+"** 按住中心按钮并绘制一个矩形以缩放到\n"
 "    描述区域。 旋转鼠标滚轮将允许您缩放\n"
 "    进和缩小。\n"
 
@@ -7019,7 +7019,7 @@ msgstr "右键"
 #: pcbnew_general_operations.adoc:53
 #, no-wrap
 msgid "** Displays a pop-up menu\n"
-msgstr "**显示弹出菜单\n"
+msgstr "** 显示弹出菜单\n"
 
 #. type: Title ====
 #: pcbnew_general_operations.adoc:54
@@ -7160,25 +7160,25 @@ msgstr "使用以下功能键："
 #: pcbnew_general_operations.adoc:116
 #, no-wrap
 msgid "** `F1`: Enlarge (zoom in)\n"
-msgstr "**‘F1’：放大（放大）\n"
+msgstr "** ‘F1’：放大（放大）\n"
 
 #. type: Plain text
 #: pcbnew_general_operations.adoc:118
 #, no-wrap
 msgid "** `F2`: Reduce (zoom out)\n"
-msgstr "**‘F2’：缩小（缩小）\n"
+msgstr "** ‘F2’：缩小（缩小）\n"
 
 #. type: Plain text
 #: pcbnew_general_operations.adoc:120
 #, no-wrap
 msgid "** `F3`: Redraw the display\n"
-msgstr "**‘F3’：重绘显示\n"
+msgstr "** ‘F3’：重绘显示\n"
 
 #. type: Plain text
 #: pcbnew_general_operations.adoc:122
 #, no-wrap
 msgid "** `F4`: Centre view at the current cursor position\n"
-msgstr "**‘F4’：当前光标位置的中心视图\n"
+msgstr "** ‘F4’：当前光标位置的中心视图\n"
 
 #. type: Plain text
 #: pcbnew_general_operations.adoc:124
@@ -8473,7 +8473,7 @@ msgstr "** GERBER RS274X 格式的 Photoplotters 文件。\n"
 #: pcbnew_introduction.adoc:83
 #, no-wrap
 msgid "** Files for drilling in EXCELLON format.\n"
-msgstr "**用于以 EXCELLON 格式钻孔的文件。\n"
+msgstr "** 用于以 EXCELLON 格式钻孔的文件。\n"
 
 #. type: Plain text
 #: pcbnew_introduction.adoc:85
@@ -10728,7 +10728,7 @@ msgid ""
 "** The disadvantage of this is that you may have to search through a lot\n"
 "   of libraries to find the footprint you are looking for.\n"
 msgstr ""
-"**这样做的缺点是你可能需要经常搜索\n"
+"** 这样做的缺点是你可能需要经常搜索\n"
 "    图书馆找到您正在寻找的封装。\n"
 
 #. type: Plain text
@@ -10745,9 +10745,9 @@ msgid ""
 "** The disadvantage is that you always have to remember to add each\n"
 "   footprint library that you need for every project.\n"
 msgstr ""
-"**这样做的好处是您只需要定义库\n"
+"** 这样做的好处是您只需要定义库\n"
 "    你真的需要这个减少搜索的项目。\n"
-"**缺点是你总是要记住添加每个\n"
+"** 缺点是你总是要记住添加每个\n"
 "    每个项目都需要的封装库。\n"
 
 #. type: Plain text
