@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pcbnew_zh_CN_v0.1\n"
 "POT-Creation-Date: 2019-02-28 06:46+0000\n"
-"PO-Revision-Date: 2019-03-04 01:18+0800\n"
+"PO-Revision-Date: 2019-03-04 11:13+0800\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2132,7 +2132,7 @@ msgid ""
 "*Highlight collisions*, which highlights all violating objects with a\n"
 "nice, shiny green color and shows violating clearance regions.\n"
 msgstr ""
-"*突出显示碰撞*，突出显示所有违规对象\n"
+"*突出显示碰撞*，高亮显示所有违规对象\n"
 "漂亮，闪亮的绿色和显示违反间隙区域。\n"
 
 #. type: Plain text
@@ -2213,8 +2213,8 @@ msgid ""
 "png[Interactive Router Button] or the *X* key.  The cursor will turn into a cross and the tool "
 "name, will appear in the status bar."
 msgstr ""
-"要激活布线工具，请按 _交互式布线_ 按钮图片：images/route_icon.png[交互式路由器按钮]或 *X* 键。 "
-"光标将变为十字形，工具名称将显示在状态栏中。"
+"要激活布线工具，请按 _交互式布线_ 按钮图片：images/route_icon.png[交互式布线按钮]或 *X* 键。 光"
+"标将变为十字形，工具名称将显示在状态栏中。"
 
 #. type: Plain text
 #: pcbnew_interactive_router.adoc:46
@@ -2273,7 +2273,7 @@ msgstr "按 */* 或从上下文菜单中选择 _切换布线样式_ 可切换直
 msgid ""
 "By default, the router snaps to centers/axes of the items.  Snapping can be disabled by "
 "holding *Shift* while routing or selecting items."
-msgstr "默认情况下，路由器捕捉到项目的中心/轴。 在路由或选择项目时按住 *Shift* 可以禁用捕捉。"
+msgstr "默认情况下，布线器捕捉到项目的中心/轴。 在布线或选择项目时按住 *Shift* 可以禁用捕捉。"
 
 #. type: Title ===
 #: pcbnew_interactive_router.adoc:73
@@ -2509,8 +2509,8 @@ msgid ""
 "1/10 mils) or via the Options, but this will not be visible unless the graphics are displayed "
 "in other than outline mode."
 msgstr ""
-"可以在“参数”菜单中调整边框的宽度（建议宽度= 150in 1/10 mils）或通过“选项”调整，但除非图形以边框"
-"模式以外的方式显示，否则不会显示。"
+"可以在“参数”菜单中调整边框的宽度（建议宽度 = 150in 1/10 mils）或通过“选项”调整，但除非图形以边"
+"框模式以外的方式显示，否则不会显示。"
 
 #. type: Plain text
 #: pcbnew_create_and_modify_board.adoc:31
@@ -2678,7 +2678,7 @@ msgstr "在 *文件* 菜单中，选择 *导入*，然后选择 *DXF 文件* 选
 #: pcbnew_create_and_modify_board.adoc:98 pcbnew_create_and_modify_board.adoc:113
 msgid ""
 "In the *Import DXF File* dialog use 'Browse' to select the prepared DXF file to be imported."
-msgstr "在 *导入 DXF 文件* 对话框中，使用'浏览'选择要导入的准备好的 DXF 文件。"
+msgstr "在 *导入 DXF 文件* 对话框中，使用“浏览”选择要导入的准备好的 DXF 文件。"
 
 #. type: Plain text
 #: pcbnew_create_and_modify_board.adoc:102
