@@ -22,6 +22,7 @@ version 3.0 or later.
 *Contributors*
 
 Heitor de Bittencourt.
+Mathias Neumann
 
 [[feedback]]
 *Feedback*
@@ -63,24 +64,29 @@ For the _Standard Type_, the output voltage (latexmath:[V_{out}]) as a
 function of the reference voltage (latexmath:[V_{ref}]) and resistors
 latexmath:[R_1] and latexmath:[R_2] is given by:
 
-latexmath:[
-V_{out} = V_{ref} \left ( \frac{R_1 + R_2}{R_1} \right )
-]
+latexmath:[V_{out} = V_{ref} \left ( \frac{R_1 + R_2}{R_1} \right )]
 
 For the _3 terminal type_, there is a correction factor due to the quiescent
-current (latexmath:[I_{adj}]) flowing from the adjust pin:
+current 
 
-latexmath:[
-V_{out} = V_{ref} \left ( \frac{R_1 + R_2}{R_1} \right ) + I_{adj} R_2
-]
+latexmath:[I_{adj}] 
+
+flowing from the adjust pin:
+
+latexmath:[V_{out} = V_{ref} \left ( \frac{R_1 + R_2}{R_1} \right ) + I_{adj} R_2]
 
 This current is typically below latexmath:[100 \mu A] and can be neglected with
 caution.
 
 To use this calculator, enter the parameters of the regulator (_Type_,
-latexmath:[V_{ref}] and, if needed, latexmath:[I_{adj}]), select the field you
-want to calculate (one of the resistors or the output voltage) and enter the
-other two values.
+
+latexmath:[V_{ref}] 
+
+and, if needed, 
+
+latexmath:[I_{adj}]
+
+, select the field you want to calculate (one of the resistors or the output voltage) and enter the other two values.
 
 [[track-width]]
 === Track Width
