@@ -60,8 +60,16 @@ needed for linear and low-dropout voltage regulators.
 
 image::images/en/regulators.png[alt="Regulators",scaledwidth="80%"]
 
-For the _Standard Type_, the output voltage (latexmath:[V_{out}]) as a
-function of the reference voltage (latexmath:[V_{ref}]) and resistors
+For the _Standard Type_, the output voltage 
+
+latexmath:[V_{out}] 
+
+as a function of the reference voltage 
+
+latexmath:[V_{ref}] 
+
+and resistors
+
 latexmath:[R_1] and latexmath:[R_2] is given by:
 
 latexmath:[V_{out} = V_{ref} \left ( \frac{R_1 + R_2}{R_1} \right )]
