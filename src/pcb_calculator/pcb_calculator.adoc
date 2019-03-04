@@ -77,14 +77,14 @@ and resistors
 
 R_1 and R_2 is given by:
 
-image::images/en/Calculation1.svg[alt="Regulators",scaledwidth="20%"]
+image::images/en/Calculation1.png[alt="Regulators",scaledwidth="20%"]
 
 
 
 
 For the _3 terminal type_, there is a correction factor due to the quiescent current I_adj flowing from the adjust pin:
 
-image::images/en/Calculation2.svg[alt="Regulators",scaledwidth="20%"]
+image::images/en/Calculation2.png[alt="Regulators",scaledwidth="20%"]
 
 
 
