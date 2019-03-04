@@ -204,7 +204,7 @@ msgstr "可以通过两种不同的方式访问封装编辑器："
 #: pcbnew_managing_libs.adoc:46
 msgid ""
 "Directly, via the icon image:images/icons/module_editor.png[] in the main toolbar of Pcbnew."
-msgstr "直接通过 Pcbnew 主工具栏中的图标image：images/icons/module_editor.png[]。"
+msgstr "直接通过 Pcbnew 主工具栏中的图标 image:images/icons/module_editor.png[]。"
 
 #. type: Plain text
 #: pcbnew_managing_libs.adoc:48
@@ -376,8 +376,8 @@ msgid ""
 "images/icons/export_module.png[], in which case the file is created by default in your working "
 "directory."
 msgstr ""
-"通过按钮图像创建新库：images/icons/new_library.png[]，在这种情况下，文件默认创建在库目录中或通"
-"过按钮图像：images/icons/export_module.png[]，在这种情况下，默认情况下会在工作目录中创建该文"
+"通过按钮图像创建新库：image:images/icons/new_library.png[]，在这种情况下，文件默认创建在库目录中或通"
+"过按钮 image:images/icons/export_module.png[]，在这种情况下，默认情况下会在工作目录中创建该文"
 "件。"
 
 #. type: Plain text
@@ -406,7 +406,7 @@ msgid ""
 "name already exists, it will be replaced. Since you will depend upon the accuracy of the "
 "library footprints, it is worth double-checking the footprint before saving."
 msgstr ""
-"使用此按钮图像执行保存封装（从而修改活动库的文件）的操作：images/icons/save_library.png[]。 如"
+"使用此按钮图像执行保存封装（从而修改活动库的文件）的操作：image:images/icons/save_library.png[]。 如"
 "果已存在同名的封装，则将替换它。 由于您将依赖于库封装的准确性，因此在保存之前值得仔细检查封装。"
 
 #. type: Plain text
@@ -425,22 +425,22 @@ msgstr "将封装从一个库转移到另一个库"
 #. type: Plain text
 #: pcbnew_managing_libs.adoc:150
 msgid "Select the source library via the button image:images/icons/library.png[]."
-msgstr "通过按钮图像选择源库：images/icons/library.png[]。"
+msgstr "通过按钮图像选择源库：image:images/icons/library.png[]。"
 
 #. type: Plain text
 #: pcbnew_managing_libs.adoc:152
 msgid "Load the footprint via the button image:images/icons/load_module_lib.png[]."
-msgstr "通过按钮图像加载封装：images/icons/load_module_lib.png[]。"
+msgstr "通过按钮图像加载封装：image:images/icons/load_module_lib.png[]。"
 
 #. type: Plain text
 #: pcbnew_managing_libs.adoc:154
 msgid "Select the destination library via the button image:images/icons/library.png[]."
-msgstr "通过按钮图像选择目标库：images/icons/library.png[]。"
+msgstr "通过按钮图像选择目标库：image:images/icons/library.png[]。"
 
 #. type: Plain text
 #: pcbnew_managing_libs.adoc:155
 msgid "Save the footprint via the button image:images/icons/save_library.png[]"
-msgstr "通过按钮图像保存封装：images/icons/save_library.png[]"
+msgstr "通过按钮图像保存封装：image:images/icons/save_library.png[]"
 
 #. type: Plain text
 #: pcbnew_managing_libs.adoc:157
@@ -450,12 +450,12 @@ msgstr "您可能还希望删除源封装。"
 #. type: Plain text
 #: pcbnew_managing_libs.adoc:159
 msgid "Reselect the source library with image:images/icons/library.png[]"
-msgstr "使用重新选择源库图像：images/icons/library.png[]"
+msgstr "使用重新选择源库图像：image:images/icons/library.png[]"
 
 #. type: Plain text
 #: pcbnew_managing_libs.adoc:160
 msgid "Delete the old footprint via the button image:images/icons/delete.png[]"
-msgstr "通过按钮图像删除旧的封装：images/icons/delete.png[]"
+msgstr "通过按钮图像删除旧的封装：image:images/icons/delete.png[]"
 
 #. type: Title ===
 #: pcbnew_managing_libs.adoc:161
@@ -549,7 +549,7 @@ msgid ""
 "Pcbnew toolbar), keywords may be entered in the dialog box. Thus, entering the text `=CONN` "
 "will cause the display of the list of footprints whose keyword lists contain the word `CONN`."
 msgstr ""
-"当直接加载封装（右侧 Pcbnew 工具栏的图标图像：images/icons/module.png[]）时，可以在对话框中输入"
+"当直接加载封装（右侧 Pcbnew 工具栏的图标图像：image:images/icons/module.png[]）时，可以在对话框中输入"
 "关键字。 因此，输入文本‘= CONN’将导致显示其关键字列表包含单词“CONN”的封装列表。"
 
 #. type: Title ===
@@ -798,7 +798,7 @@ msgid ""
 "Use the tool image:images/icons/add_zone.png[]. The active layer must be a copper layer. When "
 "clicking to start the zone outline, the following dialog box will be opened."
 msgstr ""
-"使用工具图像：images/icons/add_zone.png[]。 有源层必须是铜层。 单击以启动区域边框时，将打开以下"
+"使用工具图像：image:images/icons/add_zone.png[]。 有源层必须是铜层。 单击以启动区域边框时，将打开以下"
 "对话框。"
 
 #. type: Target for macro image
@@ -1316,7 +1316,7 @@ msgstr "完成电路板后，必须填写或重新填充所有区域。 去做�
 #. type: Plain text
 #: pcbnew_zones.adoc:252
 msgid "Activate the tool zones via the button image:images/icons/add_zone.png[]."
-msgstr "通过按钮图像激活工具区域：images/icons/add_zone.png[]。"
+msgstr "通过按钮图像激活工具区域：image:images/icons/add_zone.png[]。"
 
 #. type: Plain text
 #: pcbnew_zones.adoc:253
@@ -1376,7 +1376,7 @@ msgstr "创建区域限制"
 msgid ""
 "This is done using the button image:images/icons/add_zone.png[]. The active layer must be a "
 "technical layer."
-msgstr "这是使用按钮图像完成的：images/icons/add_zone.png[]。 活动层必须是技术层。"
+msgstr "这是使用按钮图像完成的：image:images/icons/add_zone.png[]。 活动层必须是技术层。"
 
 #. type: Plain text
 #: pcbnew_zones.adoc:276
@@ -1415,7 +1415,7 @@ msgstr "创建禁止布线区域"
 #. type: Plain text
 #: pcbnew_zones.adoc:291
 msgid "Select the tool image:images/icons/add_keepout_area.png[]"
-msgstr "选择工具图像：images/icons/add_keepout_area.png[]"
+msgstr "选择工具图像：image:images/icons/add_keepout_area.png[]"
 
 #. type: Plain text
 #: pcbnew_zones.adoc:293
@@ -1487,7 +1487,7 @@ msgid ""
 "toolbar must be activated."
 msgstr ""
 "在移动封装的飞线同时，可以显示封装（网络连接）以帮助放置。 要启用此功能，必须激活左侧工具栏的图"
-"标图像：images/icons/modratsnest.png[]。"
+"标图像：image:images/icons/modratsnest.png[]。"
 
 #. type: Title ===
 #: pcbnew_footprint_placement.adoc:11
@@ -1559,7 +1559,7 @@ msgstr ""
 msgid ""
 "Select the option \"Footprint Mode\" (Icon image:images/icons/mode_module.png[] on the upper "
 "toolbar)."
-msgstr "选择上方工具栏上的“封装模式”选项（图标图像：images/icons/mode_module.png[]）。"
+msgstr "选择上方工具栏上的“封装模式”选项（图标 image:images/icons/mode_module.png[]）。"
 
 #. type: Plain text
 #: pcbnew_footprint_placement.adoc:42
@@ -1700,7 +1700,7 @@ msgid ""
 "on the footprint and pick \"Fix Footprint\" on the Pop-up menu. This can also be done through "
 "the Edit/Footprint Pop-up menu."
 msgstr ""
-"完成任何手动放置后，这些封装必须“固定”以防止它们被移动。 选择封装模式图标图像：images/icons/"
+"完成任何手动放置后，这些封装必须“固定”以防止它们被移动。 选择封装模式图标 image:images/icons/"
 "mode_module.png[]右键单击封装并在弹出菜单中选择“修复封装 ”。 这也可以通过编辑/封装弹出菜单完"
 "成。"
 
@@ -1978,7 +1978,7 @@ msgstr "对话框"
 #. type: Plain text
 #: pcbnew_schematics.adoc:74
 msgid "Accessible from the icon image:images/icons/netlist.png[]"
-msgstr "可从图标图像访问：images/icons/netlist.png[]"
+msgstr "可从图标图像访问：image:images/icons/netlist.png[]"
 
 #. type: Target for macro image
 #: pcbnew_schematics.adoc:75 pcbnew_create_and_modify_board.adoc:137
@@ -2071,7 +2071,7 @@ msgstr "新的封装可以一个接一个地移动和排列。 更好的方法�
 #. type: Plain text
 #: pcbnew_schematics.adoc:113
 msgid "Activate footprint mode (image:images/icons/mode_module.png[])"
-msgstr "激活封装模式（图片：images/icons/mode_module.png[]）"
+msgstr "激活封装模式（image:images/icons/mode_module.png[]）"
 
 #. type: Plain text
 #: pcbnew_schematics.adoc:116
@@ -2213,7 +2213,7 @@ msgid ""
 "png[Interactive Router Button] or the *X* key.  The cursor will turn into a cross and the tool "
 "name, will appear in the status bar."
 msgstr ""
-"要激活布线工具，请按 _交互式布线_ 按钮图片：images/route_icon.png[交互式布线按钮]或 *X* 键。 光"
+"要激活布线工具，请按 _交互式布线_ 按钮图片：image:images/route_icon.png[交互式布线按钮]或 *X* 键。 光"
 "标将变为十字形，工具名称将显示在状态栏中。"
 
 #. type: Plain text
@@ -2750,7 +2750,7 @@ msgstr "读取原理图生成的网表"
 #. type: Plain text
 #: pcbnew_create_and_modify_board.adoc:136
 msgid "Activate the image:images/icons/netlist.png[] icon to display the netlist dialog window:"
-msgstr "激活图像：images/icons/netlist.png[] 图标以显示网表对话窗口："
+msgstr "激活图像：image:images/icons/netlist.png[] 图标以显示网表对话窗口："
 
 #. type: Plain text
 #: pcbnew_create_and_modify_board.adoc:144
@@ -3557,7 +3557,7 @@ msgstr "创建布线时的帮助"
 msgid ""
 "Pcbnew can display the full ratsnest, if the button image:images/icons/modratsnest.png[] is "
 "activated."
-msgstr "如果按钮图像:images/icons/modratsnest.png[] 被激活，Pcbnew 可以显示完整的飞线。"
+msgstr "如果按钮图像：image:images/icons/modratsnest.png[] 被激活，Pcbnew 可以显示完整的飞线。"
 
 #. type: Plain text
 #: pcbnew_routing.adoc:208
@@ -3565,7 +3565,7 @@ msgid ""
 "The button image:images/icons/net_highlight.png[] allows one to highlight a net (click to a "
 "pad or an existing track to highlight the corresponding net)."
 msgstr ""
-"按钮图像：images/icons/net_highlight.png[] 允许人们突出显示网络（单击一个焊盘或现有布线以高亮显"
+"按钮图像：image:images/icons/net_highlight.png[] 允许人们突出显示网络（单击一个焊盘或现有布线以高亮显"
 "示相应的网络）。"
 
 #. type: Plain text
@@ -3591,7 +3591,7 @@ msgid ""
 "track must start on a pad or on another track, because Pcbnew must know the net used for the "
 "new track (in order to match the DRC rules)."
 msgstr ""
-"单击按钮图像可以创建一个布线：images/icons/add_tracks.png[]。 新的布线必须在焊盘或另一个布线上"
+"单击按钮图像可以创建一个布线：image:images/icons/add_tracks.png[]。 新的布线必须在焊盘或另一个布线上"
 "开始，因为 Pcbnew 必须知道用于新布线的网络（为了匹配 DRC 规则）。"
 
 #. type: Target for macro image
@@ -3618,7 +3618,7 @@ msgid ""
 "hotkey '/' or the button image:images/icons/change_entry_orient.png[]."
 msgstr ""
 "首先绘制布线的方向（例如，首先，然后是对角线，或者首先是对角线，然后是右侧）称为“布线样式”，可"
-"以使用热键“/”或按钮图像进行切换：images/icons/change_entry_orient.png[]。"
+"以使用热键“/”或按钮图像进行切换：image:images/icons/change_entry_orient.png[]。"
 
 #. type: Plain text
 #: pcbnew_routing.adoc:234
@@ -3664,7 +3664,7 @@ msgid ""
 "positioned can be moved with the hotkey 'M'.  If you want to drag the track you can use the "
 "hotkey 'G'."
 msgstr ""
-"当按钮图像：images/icons/add_tracks.png[] 处于活动状态时，可以使用热键“M”移动光标所在的布线。 "
+"当按钮图像：image:images/icons/add_tracks.png[] 处于活动状态时，可以使用热键“M”移动光标所在的布线。 "
 "如果要拖动布线，可以使用热键“G”。"
 
 #. type: Title ====
@@ -3734,7 +3734,7 @@ msgid ""
 "When the button image:images/icons/add_tracks.png[] is active, the current track width can be "
 "selected from the pop-up menu (accessible as well when creating a track)."
 msgstr ""
-"当按钮图像：images/icons/add_tracks.png[] 处于活动状态时，可以从弹出菜单中选择当前布线宽度（创"
+"当按钮图像：image:images/icons/add_tracks.png[] 处于活动状态时，可以从弹出菜单中选择当前布线宽度（创"
 "建布线时也可以访问）。"
 
 #. type: Plain text
@@ -3991,7 +3991,7 @@ msgstr "images/Pcbnew_final_preparation_example_board.png"
 msgid ""
 "A color key for the 4 copper layers has also been included: image:images/"
 "Pcbnew_layer_colour_key.png[]"
-msgstr "还包括4个铜层的颜色键：images/Pcbnew_layer_colour_key.png[]"
+msgstr "还包括4个铜层的颜色键：image:images/Pcbnew_layer_colour_key.png[]"
 
 #. type: Title ===
 #: pcbnew_fabrication_files.adoc:35
@@ -4010,7 +4010,7 @@ msgid ""
 "Zones are filled or refilled when starting a DRC. Press the button image:images/icons/drc."
 "png[] to launch the following DRC dialog:"
 msgstr ""
-"在启动 DRC 时填充或重新填充区域。 按下按钮图像：images/icons/drc.png[] 以启动以下 DRC 对话框："
+"在启动 DRC 时填充或重新填充区域。 按下按钮图像：image:images/icons/drc.png[] 以启动以下 DRC 对话框："
 
 #. type: Target for macro image
 #: pcbnew_fabrication_files.adoc:44
@@ -4041,7 +4041,7 @@ msgid ""
 "axis on this origin. Activate the icon image:images/icons/pcb_offset.png[]. Move the auxiliary "
 "axis by left-clicking on the chosen location."
 msgstr ""
-"设置照片图和钻取文件的坐标原点，必须将辅助轴放在此原点上。 激活图标图像：images/icons/"
+"设置照片图和钻取文件的坐标原点，必须将辅助轴放在此原点上。 激活图标图像：image:images/icons/"
 "pcb_offset.png[]。 通过左键单击所选位置来移动辅助轴。"
 
 #. type: Target for macro image
@@ -5278,7 +5278,7 @@ msgid ""
 "Directly via the image:images/icons/module_editor.png[] icon from the main toolbar of Pcbnew. "
 "This allows the creation or modification of a footprint in the library."
 msgstr ""
-"直接通过图片：Pcbnew 主工具栏中的images/icons/module_editor.png[] 图标。 这允许创建或修改库中的"
+"直接通过图片：Pcbnew 主工具栏中的 image:images/icons/module_editor.png[] 图标。 这允许创建或修改库中的"
 "封装。"
 
 #. type: Plain text
@@ -5516,7 +5516,7 @@ msgid ""
 "of the new footprint will be requested. This will be the name by which the footprint will be "
 "identified in the library."
 msgstr ""
-"可以通过按钮图像创建新的封装：images/icons/new_footprint.png[]。 将要求新封装的名称。 这将是在"
+"可以通过按钮图像创建新的封装：image:images/icons/new_footprint.png[]。 将要求新封装的名称。 这将是在"
 "库中标识封装的名称。"
 
 #. type: Plain text
@@ -5607,7 +5607,7 @@ msgid ""
 "clicking in the desired position with the left mouse button. Pad properties are predefined in "
 "the pad properties menu."
 msgstr ""
-"从右侧工具栏中选择图像：images/icons/pad.png[] 图标。 可以使用鼠标左键单击所需位置来添加焊盘。 "
+"从右侧工具栏中选择图像：image:images/icons/pad.png[] 图标。 可以使用鼠标左键单击所需位置来添加焊盘。 "
 "焊盘属性在焊盘属性菜单中预定义。"
 
 #. type: Plain text
@@ -5629,7 +5629,7 @@ msgstr "这可以通过三种不同的方式来实现:"
 #. type: Plain text
 #: pcbnew_creating_editing_footprints.adoc:221
 msgid "Selecting the image:images/icons/options_pad.png[] icon from the horizontal toolbar."
-msgstr "从水平工具栏中选择图像：images/icons/options_pad.png[] 图标。"
+msgstr "从水平工具栏中选择图像：image:images/icons/options_pad.png[]。"
 
 #. type: Plain text
 #: pcbnew_creating_editing_footprints.adoc:223
@@ -6326,7 +6326,7 @@ msgstr "将封装保存到活动库中"
 msgid ""
 "The save command (modification of the file of the active library) is activated by the image:"
 "images/icons/save_library.png[] button."
-msgstr "保存命令（修改活动库的文件）由图像激活：images/icons/save_library.png[] 按钮。"
+msgstr "保存命令（修改活动库的文件）由图像激活：image:images/icons/save_library.png[] 按钮。"
 
 #. type: Plain text
 #: pcbnew_creating_editing_footprints.adoc:549
@@ -6357,7 +6357,7 @@ msgid ""
 "If the edited footprint comes from the current board, the button image:images/icons/"
 "update_module_board.png[] will update this footprint on the board."
 msgstr ""
-"如果编辑的封装来自当前板，则按钮图像：images/icons/update_module_board.png[] 将在板上更新此封"
+"如果编辑的封装来自当前板，则按钮图像：image:images/icons/update_module_board.png[] 将在板上更新此封"
 "装。"
 
 #. type: Title ==
@@ -6396,7 +6396,7 @@ msgid ""
 "Duplication is done by using the hotkey (which defaults to Ctrl-D) or the duplicate item "
 "option in the context menu, icon image:images/icons/duplicate.png[]."
 msgstr ""
-"通过使用热键（默认为 Ctrl-D）或上下文菜单中的重复项选项，完成复制图标图像：images/icons/"
+"通过使用热键（默认为 Ctrl-D）或上下文菜单中的重复项选项，完成复制图标图像：image:images/icons/"
 "duplicate.png[] 。"
 
 #. type: Title ===
@@ -6860,7 +6860,7 @@ msgid ""
 "It is accessible via the calipers icon image:images/icons/measurement.png[] in the right hand "
 "toolbar, in the \"Dimension\" menu and with the hotkey (Ctrl-Shift-M by default)."
 msgstr ""
-"可以通过卡尺图标图像访问它：右侧工具栏中的 images/icons/measurement.png[]，“尺寸”菜单中的热键"
+"可以通过卡尺图标图像访问它：右侧工具栏中的 image: images/icons/measurement.png[]，“尺寸”菜单中的热键"
 "（默认为 Ctrl-Shift-M）。"
 
 #. type: Plain text
@@ -7401,8 +7401,8 @@ msgstr ""
 "| 1 *in* | 1 英尺\n"
 "| 1 *\"* | 1 英寸\n"
 "| 25 *th* | 25 thou\n"
-"| 25 * mi * | 25 mils，和 thou 一样\n"
-"| 6 * mm * | 6 毫米\n"
+"| 25 *mi* | 25 mils，和 thou 一样\n"
+"| 6 *mm* | 6 毫米\n"
 
 #. type: Plain text
 #: pcbnew_general_operations.adoc:210
@@ -8235,7 +8235,7 @@ msgstr "封装模式"
 #. type: Plain text
 #: pcbnew_general_operations.adoc:549
 msgid "Same cases in Footprint Mode (image:images/icons/mode_module.png[] enabled)"
-msgstr "封装模式中的相同情况（图像：images/icons/mode_module.png[] 已启用）"
+msgstr "封装模式中的相同情况（image:images/icons/mode_module.png[] 已启用）"
 
 #. type: Target for macro image
 #: pcbnew_general_operations.adoc:552
@@ -8264,7 +8264,7 @@ msgstr "布线模式"
 #. type: Plain text
 #: pcbnew_general_operations.adoc:565
 msgid "Same cases in Track Mode (image:images/icons/mode_track.png[] enabled)"
-msgstr "布线模式中的相同情况（图像：images/icons/mode_track.png[] 已启用）"
+msgstr "布线模式中的相同情况（image:images/icons/mode_track.png[] 已启用）"
 
 #. type: Target for macro image
 #: pcbnew_general_operations.adoc:568
