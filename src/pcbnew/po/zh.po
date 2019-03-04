@@ -32,7 +32,7 @@ msgstr "_ 参考手册 _"
 #: pcbnew.adoc:12
 #, no-wrap
 msgid "*Copyright*\n"
-msgstr "* 版权 *\n"
+msgstr "*版权*\n"
 
 #. type: Plain text
 #: pcbnew.adoc:18
@@ -55,7 +55,7 @@ msgstr "本指南中的所有商标均属于其合法所有者。"
 #: pcbnew.adoc:23
 #, no-wrap
 msgid "*Contributors*\n"
-msgstr "* 贡献者 *\n"
+msgstr "*贡献者*\n"
 
 #. type: Plain text
 #: pcbnew.adoc:25
@@ -66,7 +66,7 @@ msgstr "Jean-Pierre Charras, Fabrizio Tappero."
 #: pcbnew.adoc:28
 #, no-wrap
 msgid "*Feedback*\n"
-msgstr "* 反馈 *\n"
+msgstr "*反馈*\n"
 
 #. type: Plain text
 #: pcbnew.adoc:30
@@ -92,7 +92,7 @@ msgstr "关于 KiCad 软件 i18n：https://github.com/KiCad/kicad-i18n/issues"
 #: pcbnew.adoc:39
 #, no-wrap
 msgid "*Publication date and software version*\n"
-msgstr "* 出版日期和软件版本 *\n"
+msgstr "*出版日期和软件版本*\n"
 
 #. type: Plain text
 #: pcbnew.adoc:41
@@ -1601,7 +1601,7 @@ msgid ""
 "footprints not Fixed.  This is generally used after the first reading of\n"
 "a netlist.\n"
 msgstr ""
-"*展开所有封装*允许自动分配所有\n"
+"*展开所有封装* 允许自动分配所有\n"
 "封装没有固定。 这通常在\n"
 "首次阅读后使用\n"
 "网表。\n"
@@ -2118,7 +2118,7 @@ msgid ""
 "The Interactive Router lets you quickly and efficiently route your PCBs by shoving off or "
 "walking around items on the PCB that collide with the trace you are currently drawing."
 msgstr ""
-"通过交互式布线，您可以通过推移或走动 PCB 上与您当前绘制的布线相撞的项目来快速有效地布线 PCB。"
+"通过交互式布线，您可以通过推移或绕走 PCB 上与您当前绘制的布线相撞的项目来快速有效地布线 PCB。"
 
 #. type: Plain text
 #: pcbnew_interactive_router.adoc:9
@@ -2132,7 +2132,7 @@ msgid ""
 "*Highlight collisions*, which highlights all violating objects with a\n"
 "nice, shiny green color and shows violating clearance regions.\n"
 msgstr ""
-"*突出显示碰撞*，高亮显示所有违规对象\n"
+"*高亮显示碰撞* ，高亮显示所有违规对象\n"
 "漂亮，闪亮的绿色和显示违反间隙区域。\n"
 
 #. type: Plain text
@@ -2142,7 +2142,7 @@ msgid ""
 "*Shove*, attempting to push and shove all items colliding with the\n"
 "currently routed track.\n"
 msgstr ""
-"*推*，试图推动和推动所有碰撞的物品\n"
+"*推* ，试图推动和推动所有碰撞的物品\n"
 "目前布线。\n"
 
 #. type: Plain text
@@ -2152,7 +2152,7 @@ msgid ""
 "*Walk around*, trying to avoid obstacles by hugging/walking around\n"
 "them.\n"
 msgstr ""
-"*走动*，试图通过拥抱/走动来避开障碍物\n"
+"*绕走* ，试图通过拥抱/绕走来避开障碍物\n"
 "他们。\n"
 
 #. type: Title ===
@@ -2593,7 +2593,7 @@ msgstr "选择板形状（选定的形状用虚线显示）。"
 #. type: Plain text
 #: pcbnew_create_and_modify_board.adoc:62
 msgid "In the **Modify** menu, select **Explode**."
-msgstr "在 **修改** 菜单中，选择 **炸开**。"
+msgstr "在 **修改** 菜单中，选择 **炸开** 。"
 
 #. type: Plain text
 #: pcbnew_create_and_modify_board.adoc:64
@@ -3140,7 +3140,7 @@ msgid ""
 "*Tracks 45 Only*: Directions allowed for track segments are 0, 45 or\n"
 "90 degrees.\n"
 msgstr ""
-"*仅限布线45 *：布线段允许的方向为0,45或\n"
+"*仅限布线45 * ：布线段允许的方向为0,45或\n"
 "90度。\n"
 
 #. type: Plain text
@@ -3150,7 +3150,7 @@ msgid ""
 "*Double Segm Track*: When creating tracks, 2 segments will be\n"
 "displayed.\n"
 msgstr ""
-"*双段布线*：创建布线时，将有2段\n"
+"*双段布线* ：创建布线时，将有2段\n"
 "显示。\n"
 
 #. type: Plain text
@@ -3160,7 +3160,7 @@ msgid ""
 "*Tracks Auto Del*: When recreating tracks, the old one will be\n"
 "automatically deleted if considered redundant.\n"
 msgstr ""
-"*布线自动删除*：重新创建布线时，旧布线将是\n"
+"*布线自动删除* ：重新创建布线时，旧布线将是\n"
 "如果被认为是冗余的\n"
 
 #. type: Plain text
@@ -3170,14 +3170,14 @@ msgid ""
 "*Magnetic Pads*: The graphic cursor becomes a pad, centered in the\n"
 "pad area.\n"
 msgstr ""
-"*磁焊盘*：图形光标变成一个焊盘，以中心为中心\n"
+"*磁焊盘* ：图形光标变成一个焊盘，以中心为中心\n"
 "焊盘区。\n"
 
 #. type: Plain text
 #: pcbnew_routing.adoc:42
 #, no-wrap
 msgid "*Magnetic Tracks*: The graphic cursor becomes the track axis.\n"
-msgstr "*磁布线*：图形光标成为布线轴。\n"
+msgstr "*磁布线* ：图形光标成为布线轴。\n"
 
 #. type: Title ===
 #: pcbnew_routing.adoc:43
@@ -4624,25 +4624,25 @@ msgstr "14 个固定用途的技术层："
 #. type: Plain text
 #: pcbnew_layers.adoc:13
 msgid "12 paired layers (Front/Back): *Adhesive*, *Solder Paste*,"
-msgstr "12 对成对层（正面/背面）：*粘合剂*，*焊膏*，"
+msgstr "12 对成对层（正面/背面）：*粘合剂* ，*焊膏*，"
 
 #. type: Plain text
 #: pcbnew_layers.adoc:14
 #, no-wrap
 msgid "*Silk Screen*, *Solder Mask*, *Courtyard*, *Fabrication*\n"
-msgstr "*丝印*，*阻焊层*，*封装*，*制造*\n"
+msgstr "*丝印*，*阻焊层*，*封装* ，*制造*\n"
 
 #. type: Plain text
 #: pcbnew_layers.adoc:16
 msgid "2 standalone layers: *Edge Cuts*, *Margin*"
-msgstr "2 个独立图层：*边缘切割*，*边距*"
+msgstr "2 个独立图层：*边缘切割* ，*边距*"
 
 #. type: Plain text
 #: pcbnew_layers.adoc:19
 msgid ""
 "4 auxiliary layers that you can use any way you want: *Comments*, *E.C.O. 1*, *E.C.O. 2*, "
 "*Drawings*"
-msgstr "您可以以任何方式使用的 4 个辅助层：*注释*，* E.C.O. 1 *，* E.C.O.2 *，*图纸*"
+msgstr "您可以以任何方式使用的 4 个辅助层：*注释* ，* E.C.O. 1 * ，* E.C.O.2 * ，*图纸*"
 
 #. type: Title ===
 #: pcbnew_layers.adoc:20
@@ -4654,7 +4654,7 @@ msgstr "设置图层"
 #: pcbnew_layers.adoc:23
 msgid ""
 "To open the *Layers Setup* from the menu bar, select **Design Rules** -> **Layers Setup**."
-msgstr "要从菜单栏中打开 *图层设置*，请选择 **设计规则**  -> **图层设置**。"
+msgstr "要从菜单栏中打开 *图层设置* ，请选择 **设计规则**  -> **图层设置** 。"
 
 #. type: Plain text
 #: pcbnew_layers.adoc:26
@@ -4690,7 +4690,7 @@ msgid ""
 "layer*."
 msgstr ""
 "铜层是用于放置和重新布线的常用工作层。 层编号从0开始（第一个铜层，在前面），结束在31（后面）。 "
-"由于元件不能放在 *内层*（编号1到30）中，因此只有 0 和 31 层是 *元件层*。"
+"由于元件不能放在 *内层* （编号1到30）中，因此只有 0 和 31 层是 *元件层* 。"
 
 #. type: Plain text
 #: pcbnew_layers.adoc:41
@@ -6611,7 +6611,7 @@ msgstr ""
 #: pcbnew_editing_tools.adoc:100
 #, no-wrap
 msgid "*Vertical offset*: start each column this distance below the previous one\n"
-msgstr "*垂直偏移*：将每一列的距离从前一列开始\n"
+msgstr "*垂直偏移* ：将每一列的距离从前一列开始\n"
 
 #. type: Block title
 #: pcbnew_editing_tools.adoc:101
@@ -6632,7 +6632,7 @@ msgid ""
 "*Stagger*: add an offset to every set of \"n\" rows/columns, with each row\n"
 "progressing by 1/n'th of the relevant spacing dimension:\n"
 msgstr ""
-"*交错*：为每行“n”行/列添加一个偏移量\n"
+"*交错* ：为每行“n”行/列添加一个偏移量\n"
 "进展相关间距尺寸的 1/n：\n"
 
 #. type: Block title
@@ -6674,7 +6674,7 @@ msgid ""
 "the direction on numbering is defined by the sign of the spacing: a negative\n"
 "spacing will result in right-to-left or bottom-to-top numbering.\n"
 msgstr ""
-"*编号方向*：确定数字是否沿行继续\n"
+"*编号方向* ：确定数字是否沿行继续\n"
 "移动到下一行，或向下移动到下一列，然后移动到下一列。 注意\n"
 "编号的方向由间距的符号定义：负数\n"
 "间距将导致从右到左或从下到上的编号。\n"
@@ -6719,7 +6719,7 @@ msgid ""
 "   the last item in the first row is numbered \"7\", the first item in the second\n"
 "   row will be \"8\".\n"
 msgstr ""
-"** *连续*：编号只在行/列中断后继续 - 如果\n"
+"** *连续* ：编号只在行/列中断后继续 - 如果\n"
 "    第一行中的最后一项编号为“7”，第二行中的第一项\n"
 "    行将是“8”。\n"
 
@@ -6731,7 +6731,7 @@ msgid ""
 "   number is made up of the row and column index. Which one comes first\n"
 "   (row or column) is determined by the numbering direction.\n"
 msgstr ""
-"** *坐标*：编号使用双轴方案，其中\n"
+"** *坐标* ：编号使用双轴方案，其中\n"
 "    编号由行和列索引组成。 哪一个是第一位的\n"
 "    （行或列）由编号方向确定。\n"
 
@@ -6739,19 +6739,19 @@ msgstr ""
 #: pcbnew_editing_tools.adoc:140
 #, no-wrap
 msgid "*Axis numberings*: what \"alphabet\" to use to number the axes. Choices are\n"
-msgstr "*轴编号*：用于对轴进行编号的“字母”。 选择是\n"
+msgstr "*轴编号* ：用于对轴进行编号的“字母”。 选择是\n"
 
 #. type: Plain text
 #: pcbnew_editing_tools.adoc:142
 #, no-wrap
 msgid "** *Numerals* for normal integer indices\n"
-msgstr "** *正常整数索引的数字*\n"
+msgstr "** *正常整数* 索引的数字\n"
 
 #. type: Plain text
 #: pcbnew_editing_tools.adoc:144
 #, no-wrap
 msgid "** *Hexadecimal* for base-16 indexing\n"
-msgstr "** *十六进制*表示基数为 16 的索引\n"
+msgstr "** *十六进制* 表示基数为 16 的索引\n"
 
 #. type: Plain text
 #: pcbnew_editing_tools.adoc:148
@@ -6769,7 +6769,7 @@ msgstr ""
 #: pcbnew_editing_tools.adoc:150
 #, no-wrap
 msgid "** *Full alphabet* from A-Z.\n"
-msgstr "** *来自 A-Z 的全字母*。\n"
+msgstr "** 来自 A-Z 的 *全字母*。\n"
 
 #. type: Title ====
 #: pcbnew_editing_tools.adoc:151
@@ -6800,7 +6800,7 @@ msgid ""
 "*Horizontal center*, *Vertical center*: The centre of the circle. The radius\n"
 "field below will update automatically when you adjust these.\n"
 msgstr ""
-"*水平中心*，*垂直中心*：圆的中心。 半径\n"
+"*水平中心* ，*垂直中心* ：圆的中心 。 半径\n"
 "调整这些字段时，下面的字段会自动更新。\n"
 
 #. type: Plain text
@@ -6810,14 +6810,14 @@ msgid ""
 "*Angle*: The angular difference between two adjacent items in the\n"
 "array. Set this to zero to evenly divide the circle with \"count\" elements.\n"
 msgstr ""
-"*角度*：两个相邻项目之间的角度差异\n"
+"*角度* ：两个相邻项目之间的角度差异\n"
 "阵列。 将此值设置为零可将圆圈均匀分配“技术”元素。\n"
 
 #. type: Plain text
 #: pcbnew_editing_tools.adoc:167
 #, no-wrap
 msgid "*Count*: Number of items in the array (including the original item)\n"
-msgstr "*计数*：阵列中的项目数（包括原始项）\n"
+msgstr "*计数* ：阵列中的项目数（包括原始项）\n"
 
 #. type: Plain text
 #: pcbnew_editing_tools.adoc:170
@@ -6827,7 +6827,7 @@ msgid ""
 "item will be translated but not rotated (for example, a square pad\n"
 "will always remain upright if this option is not set).\n"
 msgstr ""
-"*旋转*：围绕自己的位置旋转每个项目。 否则，\n"
+"*旋转* ：围绕自己的位置旋转每个项目。 否则，\n"
 "项目将被翻译但不会旋转（例如，方形焊盘\n"
 "如果未设置此选项，将始终保持直立）。\n"
 
@@ -7988,7 +7988,7 @@ msgid ""
 "    | Grid origin. (grid offset). Useful mainly for editing and\n"
 "    placement of footprints. Can also be set in Dimensions/Grid menu.\n"
 msgstr ""
-"*注意：*\n"
+"     *注意：*\n"
 "     删除时，如果有多个叠加元素\n"
 "     指出，优先考虑最小（在减少\n"
 "     优先级布线，文本，封装库。 功能“取消删除”\n"
@@ -8076,7 +8076,7 @@ msgstr ""
 "    | 打开/关闭 DRC（设计规则检查）。 *注意：* DRC 时\n"
 "     关闭可以进行不正确的连接。\n"
 "| image:images/icons/grid.png[]\n"
-"    | 打开/关闭网格显示*注意：*可能不会显示小网格\n"
+"    | 打开/关闭网格显示 *注意：*可能不会显示小网格\n"
 "     除非放大到足够远\n"
 "| image:images/icons/polar_coord.png[]\n"
 "    | 极性显示状态栏上的相对坐标开/关。\n"
@@ -8553,7 +8553,7 @@ msgstr "使用脚本可以创建："
 #: pcbnew_python_scripting.adoc:12
 #, no-wrap
 msgid "*Plugins*: this type of script is loaded when KiCad starts. Examples:\n"
-msgstr "*插件*：KiCad 启动时会加载此类脚本。 例子：\n"
+msgstr "*插件* ：KiCad 启动时会加载此类脚本。 例子：\n"
 
 #. type: Plain text
 #: pcbnew_python_scripting.adoc:13
@@ -8565,19 +8565,19 @@ msgstr "*封装向导*：帮助您轻松填充参数。 请参阅下面的专用
 #: pcbnew_python_scripting.adoc:14
 #, no-wrap
 msgid "*File I/O* '(planned)': To let you write plugins to export/import other filetypes\n"
-msgstr "*文件I/O* “（计划）”：允许您编写插件以导出/导入其他文件类型\n"
+msgstr "*文件I/O*  “（计划）”：允许您编写插件以导出/导入其他文件类型\n"
 
 #. type: Plain text
 #: pcbnew_python_scripting.adoc:15
 #, no-wrap
 msgid "*Actions* '(experimental)': Associate events to scripting actions or register new menus or toolbar icons.\n"
-msgstr "*行动* “（实验性）”：将事件与脚本操作相关联或注册新菜单或工具栏图标。\n"
+msgstr "*行动*  “（实验性）”：将事件与脚本操作相关联或注册新菜单或工具栏图标。\n"
 
 #. type: Plain text
 #: pcbnew_python_scripting.adoc:17
 #, no-wrap
 msgid "*Command Line Scripts*: scripts that can be used from the command line, load boards or libraries, modify them, and render outputs or new boards.\n"
-msgstr "*命令行脚本*：可以从命令行，加载板或库中使用的脚本，修改它们，以及渲染输出或新板。\n"
+msgstr "*命令行脚本* ：可以从命令行，加载板或库中使用的脚本，修改它们，以及渲染输出或新板。\n"
 
 #. type: Plain text
 #: pcbnew_python_scripting.adoc:20
@@ -8842,7 +8842,7 @@ msgstr ""
 #: pcbnew_python_scripting.adoc:113
 #, no-wrap
 msgid "*board.GetModules():* This method returns a list of MODULE objects, all the modules available in the board will be exposed here.\n"
-msgstr "*board.GetModules（）：*此方法返回 组件（MODULE） 对象列表，板中可用的所有模块都将在此处公开。\n"
+msgstr "*board.GetModules（）：* 此方法返回 组件（MODULE） 对象列表，板中可用的所有模块都将在此处公开。\n"
 
 #. type: Plain text
 #: pcbnew_python_scripting.adoc:114
@@ -9589,13 +9589,13 @@ msgstr "images/Pcbnew_action_menu.png"
 #: pcbnew_python_scripting.adoc:399
 #, no-wrap
 msgid "*Refresh*: reload plugins (create new menu if needed)\n"
-msgstr "*刷新*：重新加载插件（如果需要，创建新菜单）\n"
+msgstr "*刷新* ：重新加载插件（如果需要，创建新菜单）\n"
 
 #. type: Plain text
 #: pcbnew_python_scripting.adoc:400
 #, no-wrap
 msgid "*Add date on PCB*: An example plugin.\n"
-msgstr "*在 PCB 上添加日期*：示例插件。\n"
+msgstr "*在 PCB 上添加日期* ：示例插件。\n"
 
 #. type: Plain text
 #: pcbnew_python_scripting.adoc:403
@@ -9604,7 +9604,7 @@ msgid ""
 "*Warning*: As all other python scripts, undo/redo function not work\n"
 " (yet !).\n"
 msgstr ""
-"*警告*：与所有其他 python 脚本一样，undo/redo 功能不起作用\n"
+"*警告* ：与所有其他 python 脚本一样，undo/redo 功能不起作用\n"
 "  （还是！）。\n"
 
 #. type: Block title
