@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pcbnew_zh_CN_v0.1\n"
 "POT-Creation-Date: 2019-02-28 06:46+0000\n"
-"PO-Revision-Date: 2019-03-04 18:35+0800\n"
+"PO-Revision-Date: 2019-03-04 18:38+0800\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3780,7 +3780,7 @@ msgid ""
 "| image:images/Pcbnew_track_toolbar_zoom_selection.png[width=\"70%\"]\n"
 "| Zoom selection.\n"
 msgstr ""
-"| image:images/zh/Pcbnew_track_toolbar_track_width_selection.png[width=\\\"70%\\\"]\n"
+"| image:images/zh/Pcbnew_track_toolbar_track_width_selection.png[width= \"70% \"]\n"
 "| 布线宽度选择。 符号 * 是默认网类的标记\n"
 "值选择。\n"
 "| image:images/zh/Pcbnew_track_toolbar_track_width_selection_in_use.png[width=\"70%\"]\n"
@@ -7399,7 +7399,7 @@ msgid ""
 "| 6 *mm*  | 6 mm\n"
 msgstr ""
 "| 1 *in* | 1 英尺\n"
-"| 1 *\\\"* | 1 英寸\n"
+"| 1 *\"* | 1 英寸\n"
 "| 25 *th* | 25 thou\n"
 "| 25 * mi * | 25 mils，和 thou 一样\n"
 "| 6 * mm * | 6 毫米\n"
@@ -7942,7 +7942,7 @@ msgid ""
 "| image:images/icons/delete.png[]\n"
 "    | Delete element pointed to by the cursor\n"
 msgstr ""
-".16+^.^|image:images/zh/Pcbnew_right_toolbar.png[width=\\\"80%\\\"]\n"
+".16+^.^|image:images/zh/Pcbnew_right_toolbar.png[width= \"80% \"]\n"
 "| image:images/icons/cursor.png[]\n"
 "    | 选择标准鼠标模式。\n"
 "| image:images/icons/net_highlight.png[]\n"
@@ -7996,7 +7996,6 @@ msgstr ""
 "    删除。\n"
 "| image:images/icons/pcb_offset.png[]\n"
 "    | 偏移调整钻孔和放置文件。\n"
-"files.\n"
 "| image:images/icons/grid_select_axis.png[]\n"
 "    | 网格原点。 （网格偏移）。 主要用于编辑和\n"
 "     放置封装。 也可以在“尺寸/网格”菜单中进行设置。\n"
@@ -8072,7 +8071,7 @@ msgid ""
 "| image:images/icons/mw_toolbar.png[]\n"
 "    | Access to microwaves tools. Under development\n"
 msgstr ""
-".17+^.^|image:images/zh/Pcbnew_left_toolbar.png[width=\\\"80%\\\"]\n"
+".17+^.^|image:images/zh/Pcbnew_left_toolbar.png[width= \"80% \"]\n"
 "| image:images/icons/drc_off.png[]\n"
 "    | 打开/关闭 DRC（设计规则检查）。 *注意：* DRC 时\n"
 "     关闭可以进行不正确的连接。\n"
@@ -8703,7 +8702,7 @@ msgid ""
 msgstr ""
 "pcb = LoadBoard(filename)\n"
 "for module in pcb.GetModules():\n"
-"    print \\\"* Module: %s\\\"%module.GetReference()\n"
+"    print \"* Module: %s\"%module.GetReference()\n"
 "    module.Value().SetVisible(False)      # set Value as Hidden\n"
 "    module.Reference().SetVisible(True)   # set Reference as Visible\n"
 
@@ -8711,7 +8710,7 @@ msgstr ""
 #: pcbnew_python_scripting.adoc:64 pcbnew_python_scripting.adoc:218
 #, no-wrap
 msgid "pcb.Save(\"mod_\"+filename)\n"
-msgstr "pcb.Save(\\\"mod_\\\"+filename)\n"
+msgstr "pcb.Save(\"mod_\"+filename)\n"
 
 #. type: Title ===
 #: pcbnew_python_scripting.adoc:66
@@ -8744,8 +8743,8 @@ msgid ""
 "libpath = \"/usr/share/kicad/modules/Sockets.pretty\"\n"
 "print \">> enumerate footprints, pads of\",libpath\n"
 msgstr ""
-"libpath = \\\"/usr/share/kicad/modules/Sockets.pretty\\\"\n"
-"print \\\">> enumerate footprints, pads of\\\",libpath\n"
+"libpath = \"/usr/share/kicad/modules/Sockets.pretty\"\n"
+"print \">> enumerate footprints, pads of\",libpath\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:83
@@ -8770,8 +8769,8 @@ msgid ""
 "# Print plugin type name: (Expecting \"KiCad\" for a .pretty library)\n"
 "print( \"Selected plugin type: %s\" % plugin.PluginName() )\n"
 msgstr ""
-"# Print plugin type name: (Expecting \\\"KiCad\\\" for a .pretty library)\n"
-"print( \\\"Selected plugin type: %s\\\" % plugin.PluginName() )\n"
+"# Print plugin type name: (Expecting \"KiCad\" for a .pretty library)\n"
+"print( \"Selected plugin type: %s\" % plugin.PluginName() )\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:88
@@ -8799,7 +8798,7 @@ msgstr ""
 "    # followed by ref field, value field, and decription string:\n"
 "    # Remember ref and value texts are dummy texts, replaced by the schematic values\n"
 "    # when reading a netlist.\n"
-"    print \\\"  ->\\\", fp.GetReference(), fp.GetValue(), fp.GetDescription()\n"
+"    print \"  ->\", fp.GetReference(), fp.GetValue(), fp.GetDescription()\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:104
@@ -8807,17 +8806,17 @@ msgstr ""
 msgid ""
 "    # print pad info: GetPos0() is the pad position relative to the footrint position\n"
 "    for pad in fp.Pads():\n"
-"        print \"    pad [%s]\" % pad.GetPadName(), \"at\",\\\n"
-"        \"pos0\", ToMM(pad.GetPos0().x), ToMM(pad.GetPos0().y),\"mm\",\\\n"
+"        print \"    pad [%s]\" % pad.GetPadName(), \"at\",\n"
+"        \"pos0\", ToMM(pad.GetPos0().x), ToMM(pad.GetPos0().y),\"mm\",\n"
 "        \"shape offset\", ToMM(pad.GetOffset().x), ToMM(pad.GetOffset().y), \"mm\"\n"
 "    print \"\"\n"
 msgstr ""
 "    # print pad info: GetPos0() is the pad position relative to the footrint position\n"
 "    for pad in fp.Pads():\n"
-"        print \\\"    pad [%s]\\\" % pad.GetPadName(), \\\"at\\\",\\\n"
-"        \\\"pos0\\\", ToMM(pad.GetPos0().x), ToMM(pad.GetPos0().y),\\\"mm\\\",\\\n"
-"        \\\"shape offset\\\", ToMM(pad.GetOffset().x), ToMM(pad.GetOffset().y), \\\"mm\\\"\n"
-"    print \\\"\\\"\n"
+"        print \"    pad [%s]\" % pad.GetPadName(), \"at\",\n"
+"        \"pos0\", ToMM(pad.GetPos0().x), ToMM(pad.GetPos0().y),\"mm\",\n"
+"        \"shape offset \", ToMM(pad.GetOffset().x), ToMM(pad.GetOffset().y),  \"mm \"\n"
+"    print  \" \"\n"
 
 #. type: Title ===
 #: pcbnew_python_scripting.adoc:106
@@ -8929,7 +8928,7 @@ msgstr ""
 #: pcbnew_python_scripting.adoc:139
 #, no-wrap
 msgid "print \"LISTING VIAS:\"\n"
-msgstr "print \\\"LISTING VIAS:\\\"\n"
+msgstr "print  \"LISTING VIAS: \"\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:142
@@ -8953,7 +8952,7 @@ msgstr ""
 "        pos = item.GetPosition()\n"
 "        drill = item.GetDrillValue()\n"
 "        width = item.GetWidth()\n"
-"        print \\\" * Via:   %s - %f/%f \\\"%(ToUnits(pos),ToUnits(drill),ToUnits(width))\n"
+"        print  \" * Via:   %s - %f/%f  \"%(ToUnits(pos),ToUnits(drill),ToUnits(width))\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:149
@@ -8977,7 +8976,7 @@ msgstr ""
 #: pcbnew_python_scripting.adoc:155
 #, no-wrap
 msgid "        print \" * Track: %s to %s, width %f\" % (ToUnits(start),ToUnits(end),ToUnits(width))\n"
-msgstr "        print \\\" * Track: %s to %s, width %f\\\" % (ToUnits(start),ToUnits(end),ToUnits(width))\n"
+msgstr "        print  \" * Track: %s to %s, width %f \" % (ToUnits(start),ToUnits(end),ToUnits(width))\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:158
@@ -8987,7 +8986,7 @@ msgid ""
 "        print \"Unknown type    %s\" % type(item)\n"
 msgstr ""
 "    else:\n"
-"        print \\\"Unknown type    %s\\\" % type(item)\n"
+"        print  \"Unknown type    %s \" % type(item)\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:161
@@ -8996,8 +8995,8 @@ msgid ""
 "print \"\"\n"
 "print \"LIST DRAWINGS:\"\n"
 msgstr ""
-"print \\\"\\\"\n"
-"print \\\"LIST DRAWINGS:\\\"\n"
+"print  \" \"\n"
+"print  \"LIST DRAWINGS: \"\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:169
@@ -9013,9 +9012,9 @@ msgid ""
 msgstr ""
 "for item in pcb.GetDrawings():\n"
 "    if type(item) is TEXTE_PCB:\n"
-"        print \\\"* Text:    \\'%s\\' at %s\\\"%(item.GetText(), item.GetPosition())\n"
+"        print  \"* Text:     \'%s\' at %s\"%(item.GetText(), item.GetPosition())\n"
 "    elif type(item) is DRAWSEGMENT:\n"
-"        print \\\"* Drawing: %s\\\"%item.GetShapeStr() # dir(item)\n"
+"        print  \"* Drawing: %s \"%item.GetShapeStr() # dir(item)\n"
 "    else:\n"
 "        print type(item)\n"
 
@@ -9026,8 +9025,8 @@ msgid ""
 "print \"\"\n"
 "print \"LIST MODULES:\"\n"
 msgstr ""
-"print \\\"\\\"\n"
-"print \\\"LIST MODULES:\\\"\n"
+"print  \" \"\n"
+"print  \"LIST MODULES: \"\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:175
@@ -9037,7 +9036,7 @@ msgid ""
 "    print \"* Module: %s at %s\"%(module.GetReference(),ToUnits(module.GetPosition()))\n"
 msgstr ""
 "for module in pcb.GetModules():\n"
-"    print \\\"* Module: %s at %s\\\"%(module.GetReference(),ToUnits(module.GetPosition()))\n"
+"    print  \"* Module: %s at %s \"%(module.GetReference(),ToUnits(module.GetPosition()))\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:180
@@ -9048,10 +9047,10 @@ msgid ""
 "print \"track w cnt:\",len(pcb.GetTrackWidthList())\n"
 "print \"via s cnt:\",len(pcb.GetViasDimensionsList())\n"
 msgstr ""
-"print \\\"\\\"\n"
-"print \\\"Ratsnest cnt:\\\",len(pcb.GetFullRatsnest())\n"
-"print \\\"track w cnt:\\\",len(pcb.GetTrackWidthList())\n"
-"print \\\"via s cnt:\\\",len(pcb.GetViasDimensionsList())\n"
+"print  \" \"\n"
+"print  \"Ratsnest cnt: \",len(pcb.GetFullRatsnest())\n"
+"print  \"track w cnt: \",len(pcb.GetTrackWidthList())\n"
+"print  \"via s cnt: \",len(pcb.GetViasDimensionsList())\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:183
@@ -9060,8 +9059,8 @@ msgid ""
 "print \"\"\n"
 "print \"LIST ZONES:\", pcb.GetAreaCount()\n"
 msgstr ""
-"print \\\"\\\"\n"
-"print \\\"LIST ZONES:\\\", pcb.GetAreaCount()\n"
+"print  \" \"\n"
+"print  \"LIST ZONES: \", pcb.GetAreaCount()\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:187
@@ -9073,7 +9072,7 @@ msgid ""
 msgstr ""
 "for idx in range(0, pcb.GetAreaCount()):\n"
 "    zone=pcb.GetArea(idx)\n"
-"    print \\\"zone:\\\", idx, \\\"priority:\\\", zone.GetPriority(), \\\"netname\\\", zone.GetNetname()\n"
+"    print  \"zone: \", idx,  \"priority: \", zone.GetPriority(),  \"netname \", zone.GetNetname()\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:190
@@ -9082,8 +9081,8 @@ msgid ""
 "print \"\"\n"
 "print \"NetClasses:\", pcb.GetNetClasses().GetCount(),\n"
 msgstr ""
-"print \\\"\\\"\n"
-"print \\\"NetClasses:\\\", pcb.GetNetClasses().GetCount(),\n"
+"print  \" \"\n"
+"print  \"NetClasses: \", pcb.GetNetClasses().GetCount(),\n"
 
 #. type: Title ====
 #: pcbnew_python_scripting.adoc:194
@@ -9116,7 +9115,7 @@ msgid ""
 "pads = u304.Pads()\n"
 msgstr ""
 "# Find module U304\n"
-"u304 = pcb.FindModuleByReference(\\'U304\\')\n"
+"u304 = pcb.FindModuleByReference( 'U304 ')\n"
 "pads = u304.Pads()\n"
 
 #. type: delimited block -
@@ -9211,7 +9210,7 @@ msgid ""
 "        return \"FPC (SMT connector)\"\n"
 msgstr ""
 "    def GetName(self):\n"
-"        return \\\"FPC (SMT connector)\\\"\n"
+"        return  \"FPC (SMT connector) \"\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:255
@@ -9221,7 +9220,7 @@ msgid ""
 "        return \"FPC (SMT connector) Footprint Wizard\"\n"
 msgstr ""
 "    def GetDescription(self):\n"
-"        return \\\"FPC (SMT connector) Footprint Wizard\\\"\n"
+"        return  \"FPC (SMT connector) Footprint Wizard \"\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:259
@@ -9232,8 +9231,8 @@ msgid ""
 "        return \"FPC_%d\" % pins\n"
 msgstr ""
 "    def GetValue(self):\n"
-"        pins = self.parameters[\\\"Pads\\\"][\\\"*n\\\"]\n"
-"        return \\\"FPC_%d\\\" % pins\n"
+"        pins = self.parameters[ \"Pads \"][ \"*n \"]\n"
+"        return  \"FPC_%d \" % pins\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:269
@@ -9250,14 +9249,14 @@ msgid ""
 "        self.AddParam( \"Shield\", \"height\", self.uMM, 2 )\n"
 msgstr ""
 "    def GenerateParameterList(self):\n"
-"        self.AddParam( \\\"Pads\\\", \\\"n\\\", self.uNatural, 40 )\n"
-"        self.AddParam( \\\"Pads\\\", \\\"pitch\\\", self.uMM, 0.5 )\n"
-"        self.AddParam( \\\"Pads\\\", \\\"width\\\", self.uMM, 0.25 )\n"
-"        self.AddParam( \\\"Pads\\\", \\\"height\\\", self.uMM, 1.6)\n"
-"        self.AddParam( \\\"Shield\\\", \\\"shield_to_pad\\\", self.uMM, 1.6 )\n"
-"        self.AddParam( \\\"Shield\\\", \\\"from_top\\\", self.uMM, 1.3 )\n"
-"        self.AddParam( \\\"Shield\\\", \\\"width\\\", self.uMM, 1.5 )\n"
-"        self.AddParam( \\\"Shield\\\", \\\"height\\\", self.uMM, 2 )\n"
+"        self.AddParam(  \"Pads \",  \"n \", self.uNatural, 40 )\n"
+"        self.AddParam(  \"Pads \",  \"pitch \", self.uMM, 0.5 )\n"
+"        self.AddParam(  \"Pads \",  \"width \", self.uMM, 0.25 )\n"
+"        self.AddParam(  \"Pads \",  \"height \", self.uMM, 1.6)\n"
+"        self.AddParam(  \"Shield \",  \"shield_to_pad \", self.uMM, 1.6 )\n"
+"        self.AddParam(  \"Shield \",  \"from_top \", self.uMM, 1.3 )\n"
+"        self.AddParam(  \"Shield \",  \"width \", self.uMM, 1.5 )\n"
+"        self.AddParam(  \"Shield \",  \"height \", self.uMM, 2 )\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:282
@@ -9297,7 +9296,7 @@ msgid ""
 msgstr ""
 "    def CheckParameters(self):\n"
 "        p = self.parameters\n"
-"        self.CheckParamInt( \\\"Pads\\\", \\\"*n\\\" )  # not internal units preceded by \\\"*\\\"\n"
+"        self.CheckParamInt(  \"Pads \",  \"*n \" )  # not internal units preceded by  \"* \"\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:298
@@ -9316,14 +9315,14 @@ msgid ""
 msgstr ""
 "    def BuildThisFootprint(self):\n"
 "        p = self.parameters\n"
-"        pad_count       = int(p[\\\"Pads\\\"][\\\"*n\\\"])\n"
-"        pad_width       = p[\\\"Pads\\\"][\\\"width\\\"]\n"
-"        pad_height      = p[\\\"Pads\\\"][\\\"height\\\"]\n"
-"        pad_pitch       = p[\\\"Pads\\\"][\\\"pitch\\\"]\n"
-"        shl_width       = p[\\\"Shield\\\"][\\\"width\\\"]\n"
-"        shl_height      = p[\\\"Shield\\\"][\\\"height\\\"]\n"
-"        shl_to_pad      = p[\\\"Shield\\\"][\\\"shield_to_pad\\\"]\n"
-"        shl_from_top    = p[\\\"Shield\\\"][\\\"from_top\\\"]\n"
+"        pad_count       = int(p[ \"Pads \"][ \"*n \"])\n"
+"        pad_width       = p[ \"Pads \"][ \"width \"]\n"
+"        pad_height      = p[ \"Pads \"][ \"height \"]\n"
+"        pad_pitch       = p[ \"Pads \"][ \"pitch \"]\n"
+"        shl_width       = p[ \"Shield \"][ \"width \"]\n"
+"        shl_height      = p[ \"Shield \"][ \"height \"]\n"
+"        shl_to_pad      = p[ \"Shield \"][ \"shield_to_pad \"]\n"
+"        shl_from_top    = p[ \"Shield \"][ \"from_top \"]\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:303
@@ -9641,14 +9640,14 @@ msgid ""
 "    \"\"\"\n"
 msgstr ""
 "class text_by_date(pcbnew.ActionPlugin):\n"
-"    \\\"\\\"\\\"\n"
+"     \" \" \"\n"
 "    test_by_date: A sample plugin as an example of ActionPlugin\n"
-"    Add the date to any text field of the board where the content is \\'$date$\\'\n"
+"    Add the date to any text field of the board where the content is  '$date$ '\n"
 "    How to use:\n"
-"    - Add a text on your board with the content \\'$date$\\'\n"
+"    - Add a text on your board with the content  '$date$ '\n"
 "    - Call the plugin\n"
 "    - Automaticaly the date will be added to the text (format YYYY-MM-DD)\n"
-"    \\\"\\\"\\\"\n"
+"     \" \" \"\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:432
@@ -9686,7 +9685,7 @@ msgid ""
 "        pcb = pcbnew.GetBoard()\n"
 "        for draw in pcb.GetDrawings():\n"
 "            if draw.GetClass() == 'PTEXT':\n"
-"                txt = re.sub(\"\\$date\\$ [0-9]{4}-[0-9]{2}-[0-9]{2}\",\n"
+"                txt = re.sub(\" $date $ [0-9]{4}-[0-9]{2}-[0-9]{2}\",\n"
 "                                 \"$date$\", draw.GetText())\n"
 "                if txt == \"$date$\":\n"
 "                    draw.SetText(\"$date$ %s\"%datetime.date.today())\n"
@@ -9694,11 +9693,11 @@ msgstr ""
 "    def Run(self):\n"
 "        pcb = pcbnew.GetBoard()\n"
 "        for draw in pcb.GetDrawings():\n"
-"            if draw.GetClass() == \\'PTEXT\\':\n"
-"                txt = re.sub(\\\"\\$date\\$ [0-9]{4}-[0-9]{2}-[0-9]{2}\\\",\n"
-"                                 \\\"$date$\\\", draw.GetText())\n"
-"                if txt == \\\"$date$\\\":\n"
-"                    draw.SetText(\\\"$date$ %s\\\"%datetime.date.today())\n"
+"            if draw.GetClass() ==  'PTEXT ':\n"
+"                txt = re.sub( \" $date $ [0-9]{4}-[0-9]{2}-[0-9]{2} \",\n"
+"                                  \"$date$ \", draw.GetText())\n"
+"                if txt ==  \"$date$ \":\n"
+"                    draw.SetText( \"$date$ %s \"%datetime.date.today())\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:444
@@ -9750,7 +9749,7 @@ msgstr "去做这个："
 #. type: Plain text
 #: pcbnew_installation.adoc:23
 msgid ""
-"Launch Pcbnew using kicad or directly. On Windows it is in `C:\\kicad\\bin\\pcbnew.exe` and on "
+"Launch Pcbnew using kicad or directly. On Windows it is in `C: \\kicad\\bin\\pcbnew.exe` and on "
 "Linux you can run `/usr/local/kicad/bin/kicad` or `/usr/local/kicad/bin/pcbnew` if the "
 "binaries are located in `/usr/local/kicad/bin`."
 msgstr ""
