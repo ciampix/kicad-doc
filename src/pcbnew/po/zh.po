@@ -33,7 +33,7 @@ msgstr "_参考手册_"
 #: pcbnew.adoc:12
 #, no-wrap
 msgid "*Copyright*\n"
-msgstr "* 版权 *\n"
+msgstr "*版权*\n"
 
 #. type: Plain text
 #: pcbnew.adoc:18
@@ -56,7 +56,7 @@ msgstr "本指南中的所有商标均属于其合法所有者。"
 #: pcbnew.adoc:23
 #, no-wrap
 msgid "*Contributors*\n"
-msgstr "* 贡献者 *\n"
+msgstr "*贡献者*\n"
 
 #. type: Plain text
 #: pcbnew.adoc:25
@@ -67,7 +67,7 @@ msgstr "Jean-Pierre Charras, Fabrizio Tappero."
 #: pcbnew.adoc:28
 #, no-wrap
 msgid "*Feedback*\n"
-msgstr "* 反馈 *\n"
+msgstr "*反馈*\n"
 
 #. type: Plain text
 #: pcbnew.adoc:30
@@ -93,7 +93,7 @@ msgstr "关于 KiCad 软件 i18n：https://github.com/KiCad/kicad-i18n/issues"
 #: pcbnew.adoc:39
 #, no-wrap
 msgid "*Publication date and software version*\n"
-msgstr "* 出版日期和软件版本 *\n"
+msgstr "*出版日期和软件版本*\n"
 
 #. type: Plain text
 #: pcbnew.adoc:41
@@ -2668,7 +2668,7 @@ msgstr "使用“默认”画布模式："
 #. type: Plain text
 #: pcbnew_create_and_modify_board.adoc:96 pcbnew_create_and_modify_board.adoc:111
 msgid "In the *File* menu, select *Import* and then the *DXF File* option."
-msgstr "在 *文件* 菜单中，选择 *导入*，然后选择 *DXF 文件* 选项。"
+msgstr "在 *文件* 菜单中，选择 *导入* ，然后选择 *DXF 文件* 选项。"
 
 #. type: Plain text
 #: pcbnew_create_and_modify_board.adoc:98 pcbnew_create_and_modify_board.adoc:113
@@ -4616,13 +4616,13 @@ msgstr "14 个固定用途的技术层："
 #. type: Plain text
 #: pcbnew_layers.adoc:13
 msgid "12 paired layers (Front/Back): *Adhesive*, *Solder Paste*,"
-msgstr "12 对成对层（正面/背面）：*粘合剂* ，*焊膏*，"
+msgstr "12 对成对层（正面/背面）：*粘合剂* ，*焊膏* ，"
 
 #. type: Plain text
 #: pcbnew_layers.adoc:14
 #, no-wrap
 msgid "*Silk Screen*, *Solder Mask*, *Courtyard*, *Fabrication*\n"
-msgstr "*丝印*，*阻焊层*，*封装* ，*制造*\n"
+msgstr "*丝印* ，*阻焊层* ，*封装* ，*制造*\n"
 
 #. type: Plain text
 #: pcbnew_layers.adoc:16
@@ -4634,7 +4634,7 @@ msgstr "2 个独立图层：*边缘切割* ，*边距*"
 msgid ""
 "4 auxiliary layers that you can use any way you want: *Comments*, *E.C.O. 1*, *E.C.O. 2*, "
 "*Drawings*"
-msgstr "您可以以任何方式使用的 4 个辅助层：*注释* ，* E.C.O. 1 * ，* E.C.O.2 * ，*图纸*"
+msgstr "您可以以任何方式使用的 4 个辅助层：*注释* ，*E.C.O. 1* ，*E.C.O. 2* ，*图纸*"
 
 #. type: Title ===
 #: pcbnew_layers.adoc:20
