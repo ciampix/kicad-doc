@@ -7,8 +7,5 @@
 
 set ( PDF_GENERATOR=FOP )
 
-add_a2x_option( --fop )
-add_a2x_option( --xsl-file ${PROJECT_SOURCE_DIR}/xsl/kicad.xsl )
-
 add_adoc_option( -a latexmath )
 KiCadDocumentation( pcb_calculator )
