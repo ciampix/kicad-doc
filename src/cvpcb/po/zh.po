@@ -1767,7 +1767,7 @@ msgstr ""
 #. type: Plain text
 #: cvpcb_footprint_libraries_tables.adoc:116
 msgid "By default, at run time KiCad defines **two environment variables**:"
-msgstr "运行时，KiCad 默认定义 ** 两个环境变量** :"
+msgstr "运行时，KiCad 默认定义 **两个环境变量** :"
 
 #. type: Plain text
 #: cvpcb_footprint_libraries_tables.adoc:119

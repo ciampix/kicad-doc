@@ -5044,7 +5044,7 @@ msgstr "窗口缩放:"
 #, no-wrap
 msgid "** Mouse wheel: Zoom in/out\n"
 msgstr ""
-"**鼠标滚轮：放大/缩小\n"
+"** 鼠标滚轮：放大/缩小\n"
 "\n"
 
 #. type: Plain text
@@ -5550,7 +5550,7 @@ msgid ""
 "hierarchical labels.\n"
 msgstr ""
 "|image:images/icons/add_line_label.png[icons/add_line_label_png]\n"
-"|放置一个本地标签。 本地标签连接位于同一张纸 ** 中的物品 ** 。\n"
+"|放置一个本地标签。 本地标签连接位于同一张纸 **中的物品 * 。\n"
 "对于两个不同工作表之间的连接，您必须使用全局或\n"
 "分层标签。\n"
 
@@ -8697,7 +8697,7 @@ msgstr "添加一个新库"
 #. type: Plain text
 #: eeschema_main_top_menu.adoc:81
 msgid "Add a library either by clicking *Browse Libraries...* button and selecting a file or clicking \"Append Library\" and typing a path to a library file. The selected library will be added to the currently opened library table (Global/Project Specific)."
-msgstr "通过单击 *浏览库...*按钮并选择文件或单击 “附加库” 并键入库文件的路径来添加库。 选定的库将添加到当前打开的库表（全局/项目专用）中。"
+msgstr "通过单击 *浏览库...* 按钮并选择文件或单击 “附加库” 并键入库文件的路径来添加库。 选定的库将添加到当前打开的库表（全局/项目专用）中。"
 
 #. type: Title =====
 #: eeschema_main_top_menu.adoc:82
@@ -9563,7 +9563,7 @@ msgid ""
 "Advanced Regular Expression style], which is similar to Perl regular\n"
 "expressions.\n"
 msgstr ""
-"*正则表达式：*如果你熟悉正则表达式，这些\n"
+"*正则表达式：* 如果你熟悉正则表达式，这些\n"
 "也可以用。 使用的正则表达式风味是\n"
 "http://docs.wxwidgets.org/3.0/overview_resyntax.html[wxWidgets\n"
 "高级正则表达式]，类似于 Perl 常规\n"
@@ -9705,49 +9705,49 @@ msgstr "这些元素是:"
 #: eeschema_schematic_creation_and_editing.adoc:161
 #, no-wrap
 msgid "*Wires:* most connections between symbols.\n"
-msgstr "*电线：*符号之间的大多数连接。\n"
+msgstr "*电线：* 符号之间的大多数连接。\n"
 
 #. type: Plain text
 #: eeschema_schematic_creation_and_editing.adoc:162
 #, no-wrap
 msgid "*Buses:* to graphically join bus labels\n"
-msgstr "*总线：*以图形方式加入总线标签\n"
+msgstr "*总线：* 以图形方式加入总线标签\n"
 
 #. type: Plain text
 #: eeschema_schematic_creation_and_editing.adoc:163
 #, no-wrap
 msgid "*Polylines:* for graphic presentation.\n"
-msgstr "*折线：*用于图形演示。\n"
+msgstr "*折线：* 用于图形演示。\n"
 
 #. type: Plain text
 #: eeschema_schematic_creation_and_editing.adoc:164
 #, no-wrap
 msgid "*Junctions:* to create connections between crossing wires or buses.\n"
-msgstr "*连接点：*用于在交叉线或总线之间建立连接。\n"
+msgstr "*连接点：* 用于在交叉线或总线之间建立连接。\n"
 
 #. type: Plain text
 #: eeschema_schematic_creation_and_editing.adoc:165
 #, no-wrap
 msgid "*Bus entries:* to show connections between wires and buses. Graphical only!\n"
-msgstr "*总线入口：*显示电线和总线之间的连接。 仅限图形！\n"
+msgstr "*总线入口：* 显示电线和总线之间的连接。 仅限图形！\n"
 
 #. type: Plain text
 #: eeschema_schematic_creation_and_editing.adoc:166
 #, no-wrap
 msgid "*Labels:* for labeling or creating connections.\n"
-msgstr "*标签：*用于标记或创建连接。\n"
+msgstr "*标签：* 用于标记或创建连接。\n"
 
 #. type: Plain text
 #: eeschema_schematic_creation_and_editing.adoc:167
 #, no-wrap
 msgid "*Global labels:* for connections between sheets.\n"
-msgstr "*全局标签：*用于表格之间的连接。\n"
+msgstr "*全局标签：* 用于表格之间的连接。\n"
 
 #. type: Plain text
 #: eeschema_schematic_creation_and_editing.adoc:168
 #, no-wrap
 msgid "*Texts:* for comments and annotations.\n"
-msgstr "*文本：*用于评论和注释。\n"
+msgstr "*文本：* 用于评论和注释。\n"
 
 #. type: Plain text
 #: eeschema_schematic_creation_and_editing.adoc:169
