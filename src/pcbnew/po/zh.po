@@ -7,15 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pcbnew_zh_CN_v0.1\n"
 "POT-Creation-Date: 2019-02-28 06:46+0000\n"
-"PO-Revision-Date: 2019-03-04 18:38+0800\n"
+"PO-Revision-Date: 2019-03-05 13:25+0800\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.2.1\n"
 "Last-Translator: taotieren <admin@taotieren.com>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Language: zh\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #. type: Title =
 #: pcbnew.adoc:6
@@ -38,13 +39,13 @@ msgstr "* 版权 *\n"
 #: pcbnew.adoc:18
 msgid ""
 "This document is Copyright (C) 2010-2015 by its contributors as listed below. You may "
-"distribute it and/or modify it under the terms of either the GNU General Public License "
-"(http://www.gnu.org/licenses/gpl.html), version 3 or later, or the Creative Commons "
-"Attribution License (http://creativecommons.org/licenses/by/3.0/), version 3.0 or later."
+"distribute it and/or modify it under the terms of either the GNU General Public License (http://"
+"www.gnu.org/licenses/gpl.html), version 3 or later, or the Creative Commons Attribution License "
+"(http://creativecommons.org/licenses/by/3.0/), version 3.0 or later."
 msgstr ""
 "本文档由以下列出的贡献者版权所有（C）2010-2015。 您可以根据GNU通用公共许可证（http://www.gnu."
-"org/licenses/gpl.html），版本3或更高版本或知识共享署名许可（http）的条款进行分发和/或修"
-"改。 ：//creativecommons.org/licenses/by/3.0/），3.0或更高版本。"
+"org/licenses/gpl.html），版本3或更高版本或知识共享署名许可（http）的条款进行分发和/或修改。 ：//"
+"creativecommons.org/licenses/by/3.0/），3.0或更高版本。"
 
 #. type: Plain text
 #: pcbnew.adoc:20
@@ -119,8 +120,8 @@ msgid ""
 "footprint is found. In what follows, note that the active library is the library selected "
 "within the Footprint Editor, the program will now be described"
 msgstr ""
-"Pcbnew 可以同时维护几个库。 因此，当加载封装时，将搜索库列表中出现的所有库，直到找到封装的第一"
-"个实例。 在下文中，请注意活动库是在封装编辑器中选择的库，现在将描述该程序"
+"Pcbnew 可以同时维护几个库。 因此，当加载封装时，将搜索库列表中出现的所有库，直到找到封装的第一个"
+"实例。 在下文中，请注意活动库是在封装编辑器中选择的库，现在将描述该程序"
 
 #. type: Plain text
 #: pcbnew_managing_libs.adoc:13
@@ -376,9 +377,9 @@ msgid ""
 "images/icons/export_module.png[], in which case the file is created by default in your working "
 "directory."
 msgstr ""
-"通过按钮图像创建新库：image:images/icons/new_library.png[]，在这种情况下，文件默认创建在库目录中或通"
-"过按钮 image:images/icons/export_module.png[]，在这种情况下，默认情况下会在工作目录中创建该文"
-"件。"
+"通过按钮图像创建新库：image:images/icons/new_library.png[]，在这种情况下，文件默认创建在库目录中"
+"或通过按钮 image:images/icons/export_module.png[]，在这种情况下，默认情况下会在工作目录中创建该"
+"文件。"
 
 #. type: Plain text
 #: pcbnew_managing_libs.adoc:130
@@ -406,14 +407,15 @@ msgid ""
 "name already exists, it will be replaced. Since you will depend upon the accuracy of the "
 "library footprints, it is worth double-checking the footprint before saving."
 msgstr ""
-"使用此按钮图像执行保存封装（从而修改活动库的文件）的操作：image:images/icons/save_library.png[]。 如"
-"果已存在同名的封装，则将替换它。 由于您将依赖于库封装的准确性，因此在保存之前值得仔细检查封装。"
+"使用此按钮图像执行保存封装（从而修改活动库的文件）的操作：image:images/icons/save_library."
+"png[]。 如果已存在同名的封装，则将替换它。 由于您将依赖于库封装的准确性，因此在保存之前值得仔细"
+"检查封装。"
 
 #. type: Plain text
 #: pcbnew_managing_libs.adoc:145
 msgid ""
-"It is recommended to edit either the reference or value field text to the name of the "
-"footprint as identified in the library."
+"It is recommended to edit either the reference or value field text to the name of the footprint "
+"as identified in the library."
 msgstr "建议将引用或值字段文本编辑为库中标识的封装名称。"
 
 #. type: Title ===
@@ -469,8 +471,7 @@ msgid ""
 "It is possible to copy all of the footprints of a given board design to the active library. "
 "These footprints will keep their current library names. This command has two uses:"
 msgstr ""
-"可以将给定电路板设计的所有封装复制到活动库中。 这些封装将保留其当前的库名称。 此命令有两个用"
-"途："
+"可以将给定电路板设计的所有封装复制到活动库中。 这些封装将保留其当前的库名称。 此命令有两个用途："
 
 #. type: Plain text
 #: pcbnew_managing_libs.adoc:169
@@ -531,8 +532,8 @@ msgstr "多个关键字。"
 #. type: Plain text
 #: pcbnew_managing_libs.adoc:190
 msgid ""
-"The description is displayed with the component list in Cvpcb and, in Pcbnew, it is used in "
-"the footprint selection dialogs."
+"The description is displayed with the component list in Cvpcb and, in Pcbnew, it is used in the "
+"footprint selection dialogs."
 msgstr "该描述与 Cvpcb 中的元件列表一起显示，并且在 Pcbnew中 ，它在封装选择对话框中使用。"
 
 #. type: Plain text
@@ -549,8 +550,8 @@ msgid ""
 "Pcbnew toolbar), keywords may be entered in the dialog box. Thus, entering the text `=CONN` "
 "will cause the display of the list of footprints whose keyword lists contain the word `CONN`."
 msgstr ""
-"当直接加载封装（右侧 Pcbnew 工具栏的图标图像：image:images/icons/module.png[]）时，可以在对话框中输入"
-"关键字。 因此，输入文本‘= CONN’将导致显示其关键字列表包含单词“CONN”的封装列表。"
+"当直接加载封装（右侧 Pcbnew 工具栏的图标图像：image:images/icons/module.png[]）时，可以在对话框"
+"中输入关键字。 因此，输入文本‘= CONN’将导致显示其关键字列表包含单词“CONN”的封装列表。"
 
 #. type: Title ===
 #: pcbnew_managing_libs.adoc:200
@@ -565,8 +566,8 @@ msgid ""
 "boards that constitute the source of (part of) the library, as follows: Create a circuit board "
 "in A4 format, in order to be able to print easily to scale (scale = 1)."
 msgstr ""
-"建议间接创建库，方法是创建一个或多个辅助电路板，构成库的（部分）源，如下所示：创建 A4 格式的电"
-"路板，以便能够轻松地进行打印（ scale = 1）。"
+"建议间接创建库，方法是创建一个或多个辅助电路板，构成库的（部分）源，如下所示：创建 A4 格式的电路"
+"板，以便能够轻松地进行打印（ scale = 1）。"
 
 #. type: Plain text
 #: pcbnew_managing_libs.adoc:210
@@ -598,8 +599,8 @@ msgid ""
 "(connectors, discretes,...), since Pcbnew is able to search many libraries when loading "
 "footprints."
 msgstr ""
-"为不同类型的组件（连接器，分立器件......）制作不同的库通常是个好主意，因为 Pcbnew 能够在加载封"
-"装时搜索许多库。"
+"为不同类型的组件（连接器，分立器件......）制作不同的库通常是个好主意，因为 Pcbnew 能够在加载封装"
+"时搜索许多库。"
 
 #. type: Plain text
 #: pcbnew_managing_libs.adoc:223
@@ -632,8 +633,8 @@ msgid ""
 "the circuit board file formats are guaranteed to remain compatible during future development, "
 "but this is not the case for the library file format."
 msgstr ""
-"Pcbnew 的未来变化可能需要重新生成库，如果使用了这种类型的电路板源，则可以非常快速地完成。 这很"
-"重要，因为电路板文件格式在未来的开发过程中保证兼容，但库文件格式不是这种情况。"
+"Pcbnew 的未来变化可能需要重新生成库，如果使用了这种类型的电路板源，则可以非常快速地完成。 这很重"
+"要，因为电路板文件格式在未来的开发过程中保证兼容，但库文件格式不是这种情况。"
 
 #. type: Title ===
 #: pcbnew_managing_libs.adoc:237
@@ -648,8 +649,8 @@ msgid ""
 "This allows you to add and remove footprint libraries by hand, and also allows you to invoke "
 "the Footprint Libraries Wizard by pressing the \"Append With Wizard\" button."
 msgstr ""
-"可以使用封装库管理编辑Pcbnew中的封装库列表。 这允许您手动添加和删除封装库，还允许您通过按“附加"
-"向导”按钮调用封装库向导。"
+"可以使用封装库管理编辑Pcbnew中的封装库列表。 这允许您手动添加和删除封装库，还允许您通过按“附加向"
+"导”按钮调用封装库向导。"
 
 #. type: Plain text
 #: pcbnew_managing_libs.adoc:248
@@ -692,9 +693,9 @@ msgstr "创建铜区"
 #. type: Plain text
 #: pcbnew_zones.adoc:7
 msgid ""
-"Copper zones are defined by an outline (closed polygon), and can include holes (closed "
-"polygons inside the outline). A zone can be drawn on a copper layer or alternatively on a "
-"technical layer."
+"Copper zones are defined by an outline (closed polygon), and can include holes (closed polygons "
+"inside the outline). A zone can be drawn on a copper layer or alternatively on a technical "
+"layer."
 msgstr ""
 "铜区域由边框（闭合多边形）定义，并且可以包括孔（边框内的闭合多边形）。 可以在铜层上或在技术层上"
 "绘制区域。"
@@ -744,8 +745,7 @@ msgstr "执行 DRC 测试时。"
 msgid ""
 "Copper zones must be filled or refilled after changes in tracks or pads are made. Copper zones "
 "(usually ground and power planes) are usually attached to a net."
-msgstr ""
-"在更换布线或焊盘后，必须填充或重新填充铜区域。 铜区（通常是地面和电力层）通常连接到网上。"
+msgstr "在更换布线或焊盘后，必须填充或重新填充铜区域。 铜区（通常是地面和电力层）通常连接到网上。"
 
 #. type: Plain text
 #: pcbnew_zones.adoc:30
@@ -757,8 +757,7 @@ msgstr "要创建铜区，您应该："
 msgid ""
 "Select parameters (net name, layer...).  Turning on the layer and highlighting this net is not "
 "mandatory but it is good practice."
-msgstr ""
-"选择参数（网名，图层......）。 打开图层并突出显示此网不是强制性的，但这是一种很好的做法。"
+msgstr "选择参数（网名，图层......）。 打开图层并突出显示此网不是强制性的，但这是一种很好的做法。"
 
 #. type: Plain text
 #: pcbnew_zones.adoc:35
@@ -798,8 +797,8 @@ msgid ""
 "Use the tool image:images/icons/add_zone.png[]. The active layer must be a copper layer. When "
 "clicking to start the zone outline, the following dialog box will be opened."
 msgstr ""
-"使用工具图像：image:images/icons/add_zone.png[]。 有源层必须是铜层。 单击以启动区域边框时，将打开以下"
-"对话框。"
+"使用工具图像：image:images/icons/add_zone.png[]。 有源层必须是铜层。 单击以启动区域边框时，将打"
+"开以下对话框。"
 
 #. type: Target for macro image
 #: pcbnew_zones.adoc:51
@@ -845,11 +844,11 @@ msgstr "优先级"
 msgid ""
 "Draw the zone limit on this layer. This zone limit is a polygon, created by left-clicking at "
 "each corner. A double-click will end and close the polygon. If the starting point and ending "
-"point are not at the same coordinate, Pcbnew will add a segment from the end point to the "
-"start point."
+"point are not at the same coordinate, Pcbnew will add a segment from the end point to the start "
+"point."
 msgstr ""
-"在此图层上绘制区域限制。 此区域限制是一个多边形，通过在每个角上单击鼠标左键创建。 双击将结束并"
-"关闭多边形。 如果起点和终点不在同一坐标，Pcbnew 将添加从终点到起点的段。"
+"在此图层上绘制区域限制。 此区域限制是一个多边形，通过在每个角上单击鼠标左键创建。 双击将结束并关"
+"闭多边形。 如果起点和终点不在同一坐标，Pcbnew 将添加从终点到起点的段。"
 
 #. type: delimited block =
 #: pcbnew_zones.adoc:74
@@ -925,8 +924,8 @@ msgstr "填充区域"
 #. type: Plain text
 #: pcbnew_zones.adoc:105
 msgid ""
-"When filling a zone, Pcbnew removes all unconnected copper islands.  To access the zone "
-"filling command, right-click on the edge zone."
+"When filling a zone, Pcbnew removes all unconnected copper islands.  To access the zone filling "
+"command, right-click on the edge zone."
 msgstr "填充区域时，Pcbnew 将删除所有未连接的孤铜。 要访问区域填充命令，请右键单击边缘区域。"
 
 #. type: Target for macro image
@@ -938,8 +937,8 @@ msgstr "images/zh/Pcbnew_zone_context_menu.png"
 #. type: Plain text
 #: pcbnew_zones.adoc:110
 msgid ""
-"Activate the \"Fill Zone\" command. Below is the filling result for a starting point inside "
-"the polygon:"
+"Activate the \"Fill Zone\" command. Below is the filling result for a starting point inside the "
+"polygon:"
 msgstr "激活“填充区域”命令。 下面是多边形内起点的填充结果："
 
 #. type: Target for macro image
@@ -1019,8 +1018,8 @@ msgid ""
 "Zones can be filled using polygons or segments. The result is the same. If you have problems "
 "with polygon mode (slow screen refresh)  you should use segments."
 msgstr ""
-"可以使用多边形或线段填充区域。 结果是一样的。 如果您遇到多边形模式（慢速刷新屏幕）问题，则应使"
-"用分段。"
+"可以使用多边形或线段填充区域。 结果是一样的。 如果您遇到多边形模式（慢速刷新屏幕）问题，则应使用"
+"分段。"
 
 #. type: Title ====
 #: pcbnew_zones.adoc:141
@@ -1295,9 +1294,9 @@ msgstr "编辑区域参数"
 #. type: Plain text
 #: pcbnew_zones.adoc:245
 msgid ""
-"When right-clicking on an outline, and using 'Edit Zone Params' the Zone params Dialog box "
-"will open. Initial parameters can be inputted . If the zone is already filled, refilling it "
-"will be necessary."
+"When right-clicking on an outline, and using 'Edit Zone Params' the Zone params Dialog box will "
+"open. Initial parameters can be inputted . If the zone is already filled, refilling it will be "
+"necessary."
 msgstr ""
 "右键单击边框并使用“编辑区域参数”时，将打开“区域参数”对话框。 可以输入初始参数。 如果区域已经填"
 "满，则需要重新填充。"
@@ -1500,8 +1499,8 @@ msgstr "手动放置"
 msgid ""
 "Select the footprint with the right mouse button then choose the Move command from the menu. "
 "Move the footprint to the required position and place it with the left mouse button. If "
-"required the selected footprint can also be rotated, inverted or edited. Select Cancel from "
-"the menu (or press the Esc key) to abort."
+"required the selected footprint can also be rotated, inverted or edited. Select Cancel from the "
+"menu (or press the Esc key) to abort."
 msgstr ""
 "用鼠标右键选择覆盖区，然后从菜单中选择“移动”命令。 将足迹移动到所需位置，然后使用鼠标左键将其放"
 "置。 如果需要，也可以旋转，反转或编辑所选足迹。 从菜单中选择取消（或按 Esc 键）中止。"
@@ -1551,8 +1550,8 @@ msgid ""
 "piled up at a single location on the board. Pcbnew allows an automatic distribution of the "
 "footprints to make manual selection and placement easier."
 msgstr ""
-"如上一章所述，在读取网表期间加载的新封装似乎堆积在板上的单个位置。 Pcbnew 允许自动分配封装，使"
-"手动选择和放置更容易。"
+"如上一章所述，在读取网表期间加载的新封装似乎堆积在板上的单个位置。 Pcbnew 允许自动分配封装，使手"
+"动选择和放置更容易。"
 
 #. type: Plain text
 #: pcbnew_footprint_placement.adoc:41
@@ -1644,8 +1643,8 @@ msgstr "自动放置功能允许将封装放置在电路板的两个面上（但
 #. type: Plain text
 #: pcbnew_footprint_placement.adoc:77
 msgid ""
-"It also seeks the best orientation (0, 90, -90, 180 degrees) of the footprint. The placement "
-"is made according to an optimization algorithm, which seeks to minimize the length of the "
+"It also seeks the best orientation (0, 90, -90, 180 degrees) of the footprint. The placement is "
+"made according to an optimization algorithm, which seeks to minimize the length of the "
 "ratsnest, and which seeks to create space between the larger footprints with many pads. The "
 "order of placement is optimized to initially place these larger footprints with many pads."
 msgstr ""
@@ -1701,14 +1700,13 @@ msgid ""
 "the Edit/Footprint Pop-up menu."
 msgstr ""
 "完成任何手动放置后，这些封装必须“固定”以防止它们被移动。 选择封装模式图标 image:images/icons/"
-"mode_module.png[]右键单击封装并在弹出菜单中选择“修复封装 ”。 这也可以通过编辑/封装弹出菜单完"
-"成。"
+"mode_module.png[]右键单击封装并在弹出菜单中选择“修复封装 ”。 这也可以通过编辑/封装弹出菜单完成。"
 
 #. type: Plain text
 #: pcbnew_footprint_placement.adoc:101
 msgid ""
-"Automatic placement can then be carried out. With the Footprint Mode icon selected, right "
-"click and select Glob(al) Move and Place - then Autoplace All Footprints."
+"Automatic placement can then be carried out. With the Footprint Mode icon selected, right click "
+"and select Glob(al) Move and Place - then Autoplace All Footprints."
 msgstr ""
 "然后可以执行自动放置。 选择足迹模式图标后，右键单击并选择全局移动和放置 - 然后选择 自动放置所有"
 "封装。"
@@ -1716,12 +1714,12 @@ msgstr ""
 #. type: Plain text
 #: pcbnew_footprint_placement.adoc:105
 msgid ""
-"During automatic placement, if required, Pcbnew can optimize the orientation of the "
-"footprints. However rotation will only be attempted if this has been authorized for the "
-"footprint (see Edit Footprint Options)."
+"During automatic placement, if required, Pcbnew can optimize the orientation of the footprints. "
+"However rotation will only be attempted if this has been authorized for the footprint (see Edit "
+"Footprint Options)."
 msgstr ""
-"在自动放置期间，如果需要，Pcbnew 可以优化封装的方向。 但是，只有在封装被授权的情况下才会尝试旋"
-"转（请参阅编辑封装选项）。"
+"在自动放置期间，如果需要，Pcbnew 可以优化封装的方向。 但是，只有在封装被授权的情况下才会尝试旋转"
+"（请参阅编辑封装选项）。"
 
 #. type: Plain text
 #: pcbnew_footprint_placement.adoc:109
@@ -1746,9 +1744,9 @@ msgstr ""
 #. type: Plain text
 #: pcbnew_footprint_placement.adoc:119
 msgid ""
-"The rotation authorization can be done by editing the footprint once it is placed on the "
-"board. However it is preferable to set the required options to the footprint in the library as "
-"these settings will then be inherited each time the footprint is used."
+"The rotation authorization can be done by editing the footprint once it is placed on the board. "
+"However it is preferable to set the required options to the footprint in the library as these "
+"settings will then be inherited each time the footprint is used."
 msgstr ""
 "一旦将封装放置在板上，就可以通过编辑封装来完成轮换授权。 但是，最好将所需选项设置为库中的封装，"
 "因为这些设置将在每次使用封装时继承。"
@@ -1762,12 +1760,12 @@ msgstr "互动式自动放置"
 #. type: Plain text
 #: pcbnew_footprint_placement.adoc:126
 msgid ""
-"It may be necessary during automatic placement to stop (press Esc key) and manually re-"
-"position a footprint. Using the command Autoplace Next Footprint will restart the "
-"autoplacement from the point at which it was stopped."
+"It may be necessary during automatic placement to stop (press Esc key) and manually re-position "
+"a footprint. Using the command Autoplace Next Footprint will restart the autoplacement from the "
+"point at which it was stopped."
 msgstr ""
-"在自动放置期间可能需要停止（按 Esc 键）并手动重新定位放置。 使用命令自动放置下一个封装将从停止"
-"的位置重新启动自动放置。"
+"在自动放置期间可能需要停止（按 Esc 键）并手动重新定位放置。 使用命令自动放置下一个封装将从停止的"
+"位置重新启动自动放置。"
 
 #. type: Plain text
 #: pcbnew_footprint_placement.adoc:131
@@ -1840,11 +1838,11 @@ msgid ""
 "Generally speaking, a schematic sheet is linked to its printed circuit board by means of the "
 "netlist file, which is normally generated by the schematic editor used to make the schematic. "
 "Pcbnew accepts netlist files made with Eeschema or Orcad PCB 2. The netlist file, generated "
-"from the schematic is usually missing the footprints that correspond to the various "
-"components. Consequently an intermediate stage is necessary. During this intermediate process "
-"the association of components with footprints is performed. In KiCad, CvPcb is used to create "
-"this association and a file named `*.cmp` is produced. CvPcb also updates the netlist file "
-"using this information."
+"from the schematic is usually missing the footprints that correspond to the various components. "
+"Consequently an intermediate stage is necessary. During this intermediate process the "
+"association of components with footprints is performed. In KiCad, CvPcb is used to create this "
+"association and a file named `*.cmp` is produced. CvPcb also updates the netlist file using "
+"this information."
 msgstr ""
 "一般而言，原理图表通过网表文件链接到其印刷电路板，网表文件通常由用于制作原理图的原理图编辑器生"
 "成。 Pcbnew 接受使用 Eeschema 或 Orcad PCB 2 制作的网表文件。从原理图生成的网表文件通常缺少与各"
@@ -1870,18 +1868,18 @@ msgid ""
 "of a footprint being changed directly in Pcbnew the `.cmp` file is automatically updated "
 "avoiding the requirement to run CvPcb again."
 msgstr ""
-"Pcbnew 读取修改后的网表文件‘.net’，如果存在，则读取‘.cmp’文件。 如果在 Pcbnew 中直接更改了封"
-"装，则会自动更新‘.cmp’文件，从而无需再次运行 CvPcb。"
+"Pcbnew 读取修改后的网表文件‘.net’，如果存在，则读取‘.cmp’文件。 如果在 Pcbnew 中直接更改了封装，"
+"则会自动更新‘.cmp’文件，从而无需再次运行 CvPcb。"
 
 #. type: Plain text
 #: pcbnew_schematics.adoc:33
 msgid ""
-"Refer to the figure of \"Getting Started in KiCad\" manual in the section _KiCad Workflow_ "
-"that illustrates the work-flow of KiCad and how intermediate files are obtained and used by "
-"the different software tools that comprise KiCad."
+"Refer to the figure of \"Getting Started in KiCad\" manual in the section _KiCad Workflow_ that "
+"illustrates the work-flow of KiCad and how intermediate files are obtained and used by the "
+"different software tools that comprise KiCad."
 msgstr ""
-"请参阅 _KiCad 工作流程_ 部分中的“KiCad入门”手册中的图，该部分说明了 KiCad 的工作流程以及如何由"
-"构成 KiCad 的不同软件工具获取和使用中间文件。"
+"请参阅 _KiCad 工作流程_ 部分中的“KiCad入门”手册中的图，该部分说明了 KiCad 的工作流程以及如何由构"
+"成 KiCad 的不同软件工具获取和使用中间文件。"
 
 #. type: Title ===
 #: pcbnew_schematics.adoc:34
@@ -1916,8 +1914,8 @@ msgstr "启动 Pcbnew 并阅读修改后的网表。 这也将读取带封装选
 #. type: Plain text
 #: pcbnew_schematics.adoc:50
 msgid ""
-"Pcbnew will then load automatically all the necessary footprints.  Footprints can now be "
-"placed manually or automatically on the board and tracks can be routed."
+"Pcbnew will then load automatically all the necessary footprints.  Footprints can now be placed "
+"manually or automatically on the board and tracks can be routed."
 msgstr ""
 "然后，Pcbnew 将自动加载所有必要的封装。 现在可以手动或自动将封装放置在电路板上，并且可以布线。"
 
@@ -1957,11 +1955,11 @@ msgstr "启动 Pcbnew 并重新读取修改后的网表（这也将重新读取�
 #: pcbnew_schematics.adoc:68
 msgid ""
 "Pcbnew will then load automatically any new footprints, add the new connections and remove "
-"redundant connections. This process is called forward annotation and is a very common "
-"procedure when a PCB is made and updated."
+"redundant connections. This process is called forward annotation and is a very common procedure "
+"when a PCB is made and updated."
 msgstr ""
-"然后，Pcbnew 将自动加载任何新的占用空间，添加新连接并删除冗余连接。 此过程称为前向注释，是制作"
-"和更新 PCB 时非常常见的过程。"
+"然后，Pcbnew 将自动加载任何新的占用空间，添加新连接并删除冗余连接。 此过程称为前向注释，是制作和"
+"更新 PCB 时非常常见的过程。"
 
 #. type: Title ===
 #: pcbnew_schematics.adoc:69
@@ -2213,18 +2211,18 @@ msgid ""
 "png[Interactive Router Button] or the *X* key.  The cursor will turn into a cross and the tool "
 "name, will appear in the status bar."
 msgstr ""
-"要激活布线工具，请按 _交互式布线_ 按钮图片：image:images/route_icon.png[交互式布线按钮]或 *X* 键。 光"
-"标将变为十字形，工具名称将显示在状态栏中。"
+"要激活布线工具，请按 _交互式布线_ 按钮图片：image:images/route_icon.png[交互式布线按钮]或 *X* "
+"键。 光标将变为十字形，工具名称将显示在状态栏中。"
 
 #. type: Plain text
 #: pcbnew_interactive_router.adoc:46
 msgid ""
-"To start a track, click on any item (a pad, track or a via) or press the *X* key again "
-"hovering the mouse over that item. The new track will use the net of the starting item. "
-"Clicking or pressing *X* on empty PCB space starts a track with no net assigned."
+"To start a track, click on any item (a pad, track or a via) or press the *X* key again hovering "
+"the mouse over that item. The new track will use the net of the starting item. Clicking or "
+"pressing *X* on empty PCB space starts a track with no net assigned."
 msgstr ""
-"要启动布线，请单击任何项目（焊盘，布线或过孔）或再次按 *X* 键将鼠标悬停在该项目上。 新曲目将使"
-"用起始项的网络。 在空 PCB 空间上单击或按 *X* 可启动未分配网络的布线。"
+"要启动布线，请单击任何项目（焊盘，布线或过孔）或再次按 *X* 键将鼠标悬停在该项目上。 新曲目将使用"
+"起始项的网络。 在空 PCB 空间上单击或按 *X* 可启动未分配网络的布线。"
 
 #. type: Plain text
 #: pcbnew_interactive_router.adoc:52
@@ -2240,8 +2238,8 @@ msgstr ""
 #. type: Plain text
 #: pcbnew_interactive_router.adoc:56
 msgid ""
-"Clicking on a pad/track/via in the same net finishes routing. Clicking in empty space fixes "
-"the segments routed so far and continues routing the trace."
+"Clicking on a pad/track/via in the same net finishes routing. Clicking in empty space fixes the "
+"segments routed so far and continues routing the trace."
 msgstr ""
 "单击同一网络中的焊盘/布线/通过完成布线。 单击空白区域可修复到目前为止布线的段，并继续布线跟踪。"
 
@@ -2254,25 +2252,24 @@ msgstr "要停止布线并撤消所有更改（推送项目等），只需按 **
 #: pcbnew_interactive_router.adoc:64
 msgid ""
 "Pressing *V* or selecting _Place Through Via_ from the context menu while routing a track "
-"attaches a via at the end of the trace being routed. Pressing *V* again disables via "
-"placement. Clicking in any spot establishes the via and continues routing (unless 'Shift' is "
-"held)."
+"attaches a via at the end of the trace being routed. Pressing *V* again disables via placement. "
+"Clicking in any spot establishes the via and continues routing (unless 'Shift' is held)."
 msgstr ""
-"按下 *V* 或从上下文菜单中选择 _放置通孔_，同时布线会在路径的末尾附加一个过孔。 按 *V* 再次禁用"
-"通过放置。 单击任何位置可建立通道并继续布线（除非保持“Shift”）。"
+"按下 *V* 或从上下文菜单中选择 _放置通孔_，同时布线会在路径的末尾附加一个过孔。 按 *V* 再次禁用通"
+"过放置。 单击任何位置可建立通道并继续布线（除非保持“Shift”）。"
 
 #. type: Plain text
 #: pcbnew_interactive_router.adoc:68
 msgid ""
-"Pressing */* or selecting _Switch Track Posture_ from the context menu toggles the direction "
-"of the initial track segment between straight or diagonal."
+"Pressing */* or selecting _Switch Track Posture_ from the context menu toggles the direction of "
+"the initial track segment between straight or diagonal."
 msgstr "按 */* 或从上下文菜单中选择 _切换布线样式_ 可切换直线或对角线之间的初始布线线段的方向。"
 
 #. type: Plain text
 #: pcbnew_interactive_router.adoc:72
 msgid ""
-"By default, the router snaps to centers/axes of the items.  Snapping can be disabled by "
-"holding *Shift* while routing or selecting items."
+"By default, the router snaps to centers/axes of the items.  Snapping can be disabled by holding "
+"*Shift* while routing or selecting items."
 msgstr "默认情况下，布线器捕捉到项目的中心/轴。 在布线或选择项目时按住 *Shift* 可以禁用捕捉。"
 
 #. type: Title ===
@@ -2340,8 +2337,8 @@ msgid ""
 "The router behavior can be configured by pressing _E_ or selecting _Routing Options_ from the "
 "context menu while in the Track mode.  It opens a window like the one below:"
 msgstr ""
-"在布线模式下，可以通过按 _E_ 或从上下文菜单中选择 _布线选项_ 来配置布线行为。 它会打开一个如下"
-"所示的窗口："
+"在布线模式下，可以通过按 _E_ 或从上下文菜单中选择 _布线选项_ 来配置布线行为。 它会打开一个如下所"
+"示的窗口："
 
 #. type: Plain text
 #: pcbnew_interactive_router.adoc:104
@@ -2468,13 +2465,13 @@ msgstr "绘制板边框"
 #: pcbnew_create_and_modify_board.adoc:19
 msgid ""
 "It is usually a good idea to define the outline of the board first.  The outline is drawn as a "
-"sequence of line segments. Select 'Edge.Cuts' as the active layer and use the 'Add graphic "
-"line or polygon' tool to trace the edge, clicking at the position of each vertex and double-"
-"clicking to finish the outline. Boards usually have very precise dimensions, so it may be "
-"necessary to use the displayed cursor coordinates while tracing the outline. Remember that the "
-"relative coordinates can be zeroed at any time using the space bar, and that the display units "
-"can also be toggled using 'Ctrl-U'.  Relative coordinates enable very precise dimensions to be "
-"drawn. It is possible to draw a circular (or arc) outline:"
+"sequence of line segments. Select 'Edge.Cuts' as the active layer and use the 'Add graphic line "
+"or polygon' tool to trace the edge, clicking at the position of each vertex and double-clicking "
+"to finish the outline. Boards usually have very precise dimensions, so it may be necessary to "
+"use the displayed cursor coordinates while tracing the outline. Remember that the relative "
+"coordinates can be zeroed at any time using the space bar, and that the display units can also "
+"be toggled using 'Ctrl-U'.  Relative coordinates enable very precise dimensions to be drawn. It "
+"is possible to draw a circular (or arc) outline:"
 msgstr ""
 "通常首先定义电路板的边框是个好主意。 边框绘制为一系列线段。 选择“Edge.Cuts”作为活动图层，并使"
 "用“添加图形线或多边形”工具跟踪边缘，单击每个顶点的位置，然后双击以完成边框。 板通常具有非常精确"
@@ -2509,8 +2506,8 @@ msgid ""
 "1/10 mils) or via the Options, but this will not be visible unless the graphics are displayed "
 "in other than outline mode."
 msgstr ""
-"可以在“参数”菜单中调整边框的宽度（建议宽度 = 150in 1/10 mils）或通过“选项”调整，但除非图形以边"
-"框模式以外的方式显示，否则不会显示。"
+"可以在“参数”菜单中调整边框的宽度（建议宽度 = 150in 1/10 mils）或通过“选项”调整，但除非图形以边框"
+"模式以外的方式显示，否则不会显示。"
 
 #. type: Plain text
 #: pcbnew_create_and_modify_board.adoc:31
@@ -2546,8 +2543,8 @@ msgstr "使用此功能可以实现比 Pcbnew 绘图功能更复杂的板形状�
 #. type: Plain text
 #: pcbnew_create_and_modify_board.adoc:44
 msgid ""
-"For example a mechanical CAD package can be used to define a board shape that fits a "
-"particular enclosure."
+"For example a mechanical CAD package can be used to define a board shape that fits a particular "
+"enclosure."
 msgstr "例如，机械 CAD 包可用于定义适合特定外壳的板形状。"
 
 #. type: Title =====
@@ -2560,11 +2557,11 @@ msgstr "准备 DXF 绘图以导入 KiCad"
 #: pcbnew_create_and_modify_board.adoc:51
 msgid ""
 "The *DXF* import capability in KiCad does not support DXF features like *POLYLINES* and "
-"*ELLIPSIS* and DXF files that use these features require a few conversion steps to prepare "
-"them for import."
+"*ELLIPSIS* and DXF files that use these features require a few conversion steps to prepare them "
+"for import."
 msgstr ""
-"KiCad 中的 *DXF* 导入功能不支持 *POLYLINES* 和 *ELLIPSIS* 等 DXF 功能，使用这些功能的 DXF 文件"
-"需要一些转换步骤来准备导入。"
+"KiCad 中的 *DXF* 导入功能不支持 *POLYLINES* 和 *ELLIPSIS* 等 DXF 功能，使用这些功能的 DXF 文件需"
+"要一些转换步骤来准备导入。"
 
 #. type: Plain text
 #: pcbnew_create_and_modify_board.adoc:53
@@ -2577,8 +2574,7 @@ msgid ""
 "As a first step, any *POLYLINES* need to be split (Exploded)  into their original simpler "
 "shapes. In LibreCAD use the following steps:"
 msgstr ""
-"作为第一步，任何 *POLYLINES* 都需要拆分（爆炸）成原始的简单形状。 在 LibreCAD 中，使用以下步"
-"骤："
+"作为第一步，任何 *POLYLINES* 都需要拆分（爆炸）成原始的简单形状。 在 LibreCAD 中，使用以下步骤："
 
 #. type: Plain text
 #: pcbnew_create_and_modify_board.adoc:58
@@ -2603,17 +2599,17 @@ msgstr "按 ENTER 键。"
 #. type: Plain text
 #: pcbnew_create_and_modify_board.adoc:73
 msgid ""
-"As a next step, complex curves like *ELLIPSIS* need to be broken up in small line segments "
-"that 'approximate' the required shape. This happens automatically when the DXF file is "
-"exported or saved in the older *DXF R12* file format (as the R12 format does not support "
-"complex curve shapes, CAD applications convert these shapes to line segments. Some CAD "
-"applications allow configuration of the number or the length of the line segments used).  In "
-"LibreCAD the segment length it generally small enough for use in board shapes."
+"As a next step, complex curves like *ELLIPSIS* need to be broken up in small line segments that "
+"'approximate' the required shape. This happens automatically when the DXF file is exported or "
+"saved in the older *DXF R12* file format (as the R12 format does not support complex curve "
+"shapes, CAD applications convert these shapes to line segments. Some CAD applications allow "
+"configuration of the number or the length of the line segments used).  In LibreCAD the segment "
+"length it generally small enough for use in board shapes."
 msgstr ""
-"作为下一步，像 *ELLIPSIS* 这样的复杂曲线需要在“近似”所需形状的小线段中分解。 当导出 DXF 文件或"
-"以较旧的 *DXF R12* 文件格式保存时，会自动发生这种情况（因为 R12 格式不支持复杂的曲线形状，CAD "
-"应用程序会将这些形状转换为线段。某些 CAD 应用程序允许配置数字或 所用线段的长度）。 在 LibreCAD "
-"中，段长度通常足够小，可用于板形。"
+"作为下一步，像 *ELLIPSIS* 这样的复杂曲线需要在“近似”所需形状的小线段中分解。 当导出 DXF 文件或以"
+"较旧的 *DXF R12* 文件格式保存时，会自动发生这种情况（因为 R12 格式不支持复杂的曲线形状，CAD 应用"
+"程序会将这些形状转换为线段。某些 CAD 应用程序允许配置数字或 所用线段的长度）。 在 LibreCAD 中，"
+"段长度通常足够小，可用于板形。"
 
 #. type: Plain text
 #: pcbnew_create_and_modify_board.adoc:75
@@ -2631,8 +2627,8 @@ msgid ""
 "In the *Save Drawing As* dialog, there is a *Save as type:* selection near the bottom of the "
 "dialog. Select the option *Drawing Exchange DXF R12*."
 msgstr ""
-"在 *将绘图另存为* 对话框中，对话框底部附近有一个 *保存类型：* 选择。 选择选项 *绘制交换 DXF "
-"R12 *。"
+"在 *将绘图另存为* 对话框中，对话框底部附近有一个 *保存类型：* 选择。 选择选项 *绘制交换 DXF R12 "
+"*。"
 
 #. type: Plain text
 #: pcbnew_create_and_modify_board.adoc:82
@@ -2661,8 +2657,8 @@ msgid ""
 "The following steps describe the import of the prepared DXF file as a board shape into KiCad. "
 "Note that the import bahaviour is slightly different depending on which 'canvas' is used."
 msgstr ""
-"以下步骤描述了将准备好的 DXF 文件作为板形状导入 KiCad。 请注意，导入行为略有不同，具体取决于使"
-"用的“画布”。"
+"以下步骤描述了将准备好的 DXF 文件作为板形状导入 KiCad。 请注意，导入行为略有不同，具体取决于使用"
+"的“画布”。"
 
 #. type: Plain text
 #: pcbnew_create_and_modify_board.adoc:94
@@ -2759,8 +2755,8 @@ msgid ""
 "browse to the desired netlist. Then 'Read' the netlist. Any footprints not already loaded will "
 "appear, superimposed one upon another (we shall see below how to move them automatically)."
 msgstr ""
-"如果窗口标题中网表的名称（路径）不正确，请使用“选择”按钮浏览到所需的网表。 然后‘读’网表。 任何"
-"尚未加载的足迹都会出现，叠加在一起（我们将在下面看到如何自动移动它们）。"
+"如果窗口标题中网表的名称（路径）不正确，请使用“选择”按钮浏览到所需的网表。 然后‘读’网表。 任何尚"
+"未加载的足迹都会出现，叠加在一起（我们将在下面看到如何自动移动它们）。"
 
 #. type: Target for macro image
 #: pcbnew_create_and_modify_board.adoc:145
@@ -2795,8 +2791,8 @@ msgid ""
 "the right mouse button over the footprint in question."
 msgstr ""
 "如果通过在 CvPcb 中用新的封装替换现有封装（例如将 1/8W 电阻更改为 1/2W）来修改电路板，则必须在 "
-"Pcbnew 加载替换封装之前删除现有元件。 但是，如果要用现有的占用空间替换占用空间，则使用通过在相"
-"关覆盖区上单击鼠标右键访问的占用空间对话框更容易。"
+"Pcbnew 加载替换封装之前删除现有元件。 但是，如果要用现有的占用空间替换占用空间，则使用通过在相关"
+"覆盖区上单击鼠标右键访问的占用空间对话框更容易。"
 
 #. type: Title ===
 #: pcbnew_create_and_modify_board.adoc:163
@@ -2807,8 +2803,7 @@ msgstr "校正一块板"
 #. type: Plain text
 #: pcbnew_create_and_modify_board.adoc:167
 msgid ""
-"It is very often necessary to correct a board following a corresponding change in the "
-"schematic."
+"It is very often necessary to correct a board following a corresponding change in the schematic."
 msgstr "在原理图中相应的变化之后，经常需要校正电路板。"
 
 #. type: Title ====
@@ -2895,8 +2890,8 @@ msgid ""
 "found in the netlist will be deleted, unless they have the option \"Locked\" active. It is a "
 "good idea to activate this option for \"mechanical\" footprints:"
 msgstr ""
-"如果选中“额外封装”选项，则将删除与网表中未找到的元件对应的封装，除非他们选择“已锁定”激活。 "
-"为“机械”封装激活此选项是个好主意："
+"如果选中“额外封装”选项，则将删除与网表中未找到的元件对应的封装，除非他们选择“已锁定”激活。 为“机"
+"械”封装激活此选项是个好主意："
 
 #. type: Target for macro image
 #: pcbnew_create_and_modify_board.adoc:203
@@ -2942,15 +2937,15 @@ msgstr "高级选项 - 使用时间戳选择"
 #. type: Plain text
 #: pcbnew_create_and_modify_board.adoc:226
 msgid ""
-"Sometimes the notation of the schematic is changed, without any material changes in the "
-"circuit (this would concern the references - like R5, U4...).The PCB is therefore unchanged "
-"(except possibly for the silkscreen markings). Nevertheless, internally, components and "
-"footprints are represented by their reference. In this situation, the 'Timestamp' option of "
-"the netlist dialog may be selected before re-reading the netlist:"
+"Sometimes the notation of the schematic is changed, without any material changes in the circuit "
+"(this would concern the references - like R5, U4...).The PCB is therefore unchanged (except "
+"possibly for the silkscreen markings). Nevertheless, internally, components and footprints are "
+"represented by their reference. In this situation, the 'Timestamp' option of the netlist dialog "
+"may be selected before re-reading the netlist:"
 msgstr ""
-"有时原理图的符号会发生变化，电路中没有任何重大变化（这会涉及参考文献 - 如 R5，U4 ......）。因"
-"此 PCB 保持不变（除了可能用于丝网印刷标记）。 然而，在内部，元件和封装由它们的参考表示。 在这种"
-"情况下，可以在重新读取网表之前选择网表对话框的“时间戳”选项："
+"有时原理图的符号会发生变化，电路中没有任何重大变化（这会涉及参考文献 - 如 R5，U4 ......）。因此 "
+"PCB 保持不变（除了可能用于丝网印刷标记）。 然而，在内部，元件和封装由它们的参考表示。 在这种情况"
+"下，可以在重新读取网表之前选择网表对话框的“时间戳”选项："
 
 #. type: Target for macro image
 #: pcbnew_create_and_modify_board.adoc:227
@@ -2965,8 +2960,8 @@ msgid ""
 "stamp instead. The time stamp is automatically generated by Eeschema (it is the time and date "
 "when the component was placed in the schematic)."
 msgstr ""
-"使用此选项，Pcbnew 不再通过其引用来标识封装，而是通过其时间戳来标识封装。 时间戳由 Eeschema 自"
-"动生成（它是元件放置在原理图中的时间和日期）。"
+"使用此选项，Pcbnew 不再通过其引用来标识封装，而是通过其时间戳来标识封装。 时间戳由 Eeschema 自动"
+"生成（它是元件放置在原理图中的时间和日期）。"
 
 #. type: Plain text
 #: pcbnew_create_and_modify_board.adoc:241
@@ -2978,8 +2973,8 @@ msgid ""
 "usually resolves re-annotation problems."
 msgstr ""
 "使用此选项时应特别小心（首先保存文件！）。 这是因为在包含多个部件的元件的情况下该技术是复杂的"
-"（例如，7400 具有4个部件和一个壳体）。 在这种情况下，时间戳不是唯一定义的（对于 7400，最多可以"
-"有四个 - 每个部分一个）。 然而，时间戳选项通常可以解决重新注释问题。"
+"（例如，7400 具有4个部件和一个壳体）。 在这种情况下，时间戳不是唯一定义的（对于 7400，最多可以有"
+"四个 - 每个部分一个）。 然而，时间戳选项通常可以解决重新注释问题。"
 
 #. type: Title ===
 #: pcbnew_create_and_modify_board.adoc:242
@@ -3295,8 +3290,8 @@ msgstr "布线和过孔的最小允许值。"
 #. type: Plain text
 #: pcbnew_routing.adoc:90
 msgid ""
-"A DRC error is raised when a value smaller than the minimum value specified is encountered. "
-"The second dialog panel is:"
+"A DRC error is raised when a value smaller than the minimum value specified is encountered. The "
+"second dialog panel is:"
 msgstr "遇到小于指定最小值的值时，会引发 DRC 错误。 第二个对话框面板是："
 
 #. type: Target for macro image
@@ -3313,8 +3308,8 @@ msgstr "此对话框还允许输入布线和过孔尺寸的“库存”。"
 #. type: Plain text
 #: pcbnew_routing.adoc:97
 msgid ""
-"When routing, one can select one of these values to create a track or via, instead of using "
-"the netclass's default value."
+"When routing, one can select one of these values to create a track or via, instead of using the "
+"netclass's default value."
 msgstr "布线时，可以选择其中一个值来创建布线或过孔，而不是使用网类的默认值。"
 
 #. type: Plain text
@@ -3534,17 +3529,17 @@ msgstr "手动布线"
 #: pcbnew_routing.adoc:199
 msgid ""
 "Manual routing is often recommended, because it is the only method offering control over "
-"routing priorities. For example, it is preferable to start by routing power tracks, making "
-"them wide and short and keeping analog and digital supplies well separated. Later, sensitive "
-"signal tracks should be routed. Amongst other problems, automatic routing often requires many "
-"vias. However, automatic routing can offer a useful insight into the positioning of "
-"footprints.  With experience, you will probably find that the automatic router is useful for "
-"quickly routing the 'obvious' tracks, but the remaining tracks will best be routed by hand."
+"routing priorities. For example, it is preferable to start by routing power tracks, making them "
+"wide and short and keeping analog and digital supplies well separated. Later, sensitive signal "
+"tracks should be routed. Amongst other problems, automatic routing often requires many vias. "
+"However, automatic routing can offer a useful insight into the positioning of footprints.  With "
+"experience, you will probably find that the automatic router is useful for quickly routing the "
+"'obvious' tracks, but the remaining tracks will best be routed by hand."
 msgstr ""
 "通常建议使用手动布线，因为它是提供对布线优先级控制的唯一方法。 例如，最好首先布线电源，使其宽而"
-"短，并使模拟和数字电源保持良好分离。 之后，应该布线敏感信号轨道。 在其他问题中，自动布线通常需"
-"要许多过孔。 但是，自动布线可以提供有关封装定位的有用信息。 根据经验，您可能会发现自动布线对于"
-"快速“明显”的非常有用，但其余的最好是手动布线。"
+"短，并使模拟和数字电源保持良好分离。 之后，应该布线敏感信号轨道。 在其他问题中，自动布线通常需要"
+"许多过孔。 但是，自动布线可以提供有关封装定位的有用信息。 根据经验，您可能会发现自动布线对于快"
+"速“明显”的非常有用，但其余的最好是手动布线。"
 
 #. type: Title ===
 #: pcbnew_routing.adoc:200
@@ -3562,11 +3557,11 @@ msgstr "如果按钮图像：image:images/icons/modratsnest.png[] 被激活，Pc
 #. type: Plain text
 #: pcbnew_routing.adoc:208
 msgid ""
-"The button image:images/icons/net_highlight.png[] allows one to highlight a net (click to a "
-"pad or an existing track to highlight the corresponding net)."
+"The button image:images/icons/net_highlight.png[] allows one to highlight a net (click to a pad "
+"or an existing track to highlight the corresponding net)."
 msgstr ""
-"按钮图像：image:images/icons/net_highlight.png[] 允许人们突出显示网络（单击一个焊盘或现有布线以高亮显"
-"示相应的网络）。"
+"按钮图像：image:images/icons/net_highlight.png[] 允许人们突出显示网络（单击一个焊盘或现有布线以"
+"高亮显示相应的网络）。"
 
 #. type: Plain text
 #: pcbnew_routing.adoc:213
@@ -3591,8 +3586,8 @@ msgid ""
 "track must start on a pad or on another track, because Pcbnew must know the net used for the "
 "new track (in order to match the DRC rules)."
 msgstr ""
-"单击按钮图像可以创建一个布线：image:images/icons/add_tracks.png[]。 新的布线必须在焊盘或另一个布线上"
-"开始，因为 Pcbnew 必须知道用于新布线的网络（为了匹配 DRC 规则）。"
+"单击按钮图像可以创建一个布线：image:images/icons/add_tracks.png[]。 新的布线必须在焊盘或另一个布"
+"线上开始，因为 Pcbnew 必须知道用于新布线的网络（为了匹配 DRC 规则）。"
 
 #. type: Target for macro image
 #: pcbnew_routing.adoc:221
@@ -3617,8 +3612,8 @@ msgid ""
 "diagonally first then right) is called the \"Track Posture\" and can be switched with the "
 "hotkey '/' or the button image:images/icons/change_entry_orient.png[]."
 msgstr ""
-"首先绘制布线的方向（例如，首先，然后是对角线，或者首先是对角线，然后是右侧）称为“布线样式”，可"
-"以使用热键“/”或按钮图像进行切换：image:images/icons/change_entry_orient.png[]。"
+"首先绘制布线的方向（例如，首先，然后是对角线，或者首先是对角线，然后是右侧）称为“布线样式”，可以"
+"使用热键“/”或按钮图像进行切换：image:images/icons/change_entry_orient.png[]。"
 
 #. type: Plain text
 #: pcbnew_routing.adoc:234
@@ -3629,8 +3624,8 @@ msgstr "image:images/Pcbnew_routing_posture.png[]"
 #: pcbnew_routing.adoc:239
 msgid ""
 "Holding 'Ctrl' while routing in the non-legacy canvases constrains the routing to a single "
-"horizontal or vertical segment. Switching posture changes to a single diagonal segment. "
-"Holding 'Shift' while routing removes the 'snap to object' gravity."
+"horizontal or vertical segment. Switching posture changes to a single diagonal segment. Holding "
+"'Shift' while routing removes the 'snap to object' gravity."
 msgstr ""
 "在非传统画布中布线时按住“Ctrl” 会将布线限制为单个水平或垂直段。 切换样式变为单个差分对线段。 在"
 "路由时按住“Shift” 可以移除“捕捉到对象”的重力。"
@@ -3664,8 +3659,8 @@ msgid ""
 "positioned can be moved with the hotkey 'M'.  If you want to drag the track you can use the "
 "hotkey 'G'."
 msgstr ""
-"当按钮图像：image:images/icons/add_tracks.png[] 处于活动状态时，可以使用热键“M”移动光标所在的布线。 "
-"如果要拖动布线，可以使用热键“G”。"
+"当按钮图像：image:images/icons/add_tracks.png[] 处于活动状态时，可以使用热键“M”移动光标所在的布"
+"线。 如果要拖动布线，可以使用热键“G”。"
 
 #. type: Title ====
 #: pcbnew_routing.adoc:254
@@ -3712,8 +3707,8 @@ msgstr "选择/编辑布线宽度和过孔尺寸"
 #. type: Plain text
 #: pcbnew_routing.adoc:274
 msgid ""
-"When clicking on a track or a pad, Pcbnew automatically selects the corresponding Netclass, "
-"and the track size and via dimensions are derived from this netclass."
+"When clicking on a track or a pad, Pcbnew automatically selects the corresponding Netclass, and "
+"the track size and via dimensions are derived from this netclass."
 msgstr "单击布线或焊盘时，Pcbnew 会自动选择相应的网类，并且布线大小和过孔尺寸将从此网类导出 。"
 
 #. type: Plain text
@@ -3734,8 +3729,8 @@ msgid ""
 "When the button image:images/icons/add_tracks.png[] is active, the current track width can be "
 "selected from the pop-up menu (accessible as well when creating a track)."
 msgstr ""
-"当按钮图像：image:images/icons/add_tracks.png[] 处于活动状态时，可以从弹出菜单中选择当前布线宽度（创"
-"建布线时也可以访问）。"
+"当按钮图像：image:images/icons/add_tracks.png[] 处于活动状态时，可以从弹出菜单中选择当前布线宽度"
+"（创建布线时也可以访问）。"
 
 #. type: Plain text
 #: pcbnew_routing.adoc:285
@@ -3824,11 +3819,10 @@ msgstr "images/zh/Pcbnew_track_context_menu.png"
 #. type: Plain text
 #: pcbnew_routing.adoc:325
 msgid ""
-"If you want to change many via (or track) sizes, the best way is to use a specific Netclass "
-"for the net(s) that must be edited (see global changes)."
+"If you want to change many via (or track) sizes, the best way is to use a specific Netclass for "
+"the net(s) that must be edited (see global changes)."
 msgstr ""
-"如果要更改许多过孔（或布线）大小，最好的方法是为必须编辑的网络使用特定的网类（请参阅全局更"
-"改）。"
+"如果要更改许多过孔（或布线）大小，最好的方法是为必须编辑的网络使用特定的网类（请参阅全局更改）。"
 
 #. type: Title ===
 #: pcbnew_routing.adoc:326
@@ -3883,8 +3877,8 @@ msgstr "全局更改"
 #. type: Plain text
 #: pcbnew_routing.adoc:346
 msgid ""
-"Global tracks and via sizes dialog editor is accessible via the pop-up window by right "
-"clicking on a track:"
+"Global tracks and via sizes dialog editor is accessible via the pop-up window by right clicking "
+"on a track:"
 msgstr "通过右键单击布线，可以通过弹出窗口访问全局布线和过孔尺寸对话框编辑器："
 
 #. type: Target for macro image
@@ -3923,8 +3917,8 @@ msgstr "用于电路制造的文件"
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:5
 msgid ""
-"Let us see now what the steps are for the creation of the necessary files for the production "
-"of your printed circuit board."
+"Let us see now what the steps are for the creation of the necessary files for the production of "
+"your printed circuit board."
 msgstr "现在让我们看看为生产印刷电路板创建必要文件的步骤。"
 
 #. type: Plain text
@@ -3943,8 +3937,8 @@ msgstr "最后的准备"
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:14
 msgid ""
-"The generation of the necessary files for the production of your printed circuit board "
-"includes the following preparatory steps."
+"The generation of the necessary files for the production of your printed circuit board includes "
+"the following preparatory steps."
 msgstr "生成印刷电路板所需的文件包括以下准备步骤。"
 
 #. type: Plain text
@@ -3953,8 +3947,7 @@ msgid ""
 "Mark any layer (e.g., 'top or front' and 'bottom or back') with the project name by placing "
 "appropriate text upon each of the layers."
 msgstr ""
-"使用项目名称标记任何图层（例如，“顶部或前部”和“底部或后部”），方法是在每个图层上放置适当的文"
-"本。"
+"使用项目名称标记任何图层（例如，“顶部或前部”和“底部或后部”），方法是在每个图层上放置适当的文本。"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:20
@@ -3976,8 +3969,8 @@ msgstr "放置对齐十字准线和可能的板边框尺寸（这些通常放置
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:29
 msgid ""
-"Here is an example showing all of these elements, except ground planes, which have been "
-"omitted for better visibility:"
+"Here is an example showing all of these elements, except ground planes, which have been omitted "
+"for better visibility:"
 msgstr "下面是一个示例，显示除了地平面之外的所有这些元素，为了更好的可见性而省略了这些元素："
 
 #. type: Target for macro image
@@ -4007,10 +4000,11 @@ msgstr "在生成输出文件之前，强烈建议进行全局 DRC 测试。"
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:43
 msgid ""
-"Zones are filled or refilled when starting a DRC. Press the button image:images/icons/drc."
-"png[] to launch the following DRC dialog:"
+"Zones are filled or refilled when starting a DRC. Press the button image:images/icons/drc.png[] "
+"to launch the following DRC dialog:"
 msgstr ""
-"在启动 DRC 时填充或重新填充区域。 按下按钮图像：image:images/icons/drc.png[] 以启动以下 DRC 对话框："
+"在启动 DRC 时填充或重新填充区域。 按下按钮图像：image:images/icons/drc.png[] 以启动以下 DRC 对话"
+"框："
 
 #. type: Target for macro image
 #: pcbnew_fabrication_files.adoc:44
@@ -4073,8 +4067,8 @@ msgid ""
 "Usually, the files are in the GERBER format. Nevertheless, it is possible to produce output in "
 "both HPGL and POSTSCRIPT formats. When Postscript format is selected, this dialog will appear."
 msgstr ""
-"通常，文件采用 GERBER 格式。 然而，可以以 HPGL 和 POSTSCRIPT 格式生成输出。 选择 Postscript 格"
-"式后，将出现此对话框。"
+"通常，文件采用 GERBER 格式。 然而，可以以 HPGL 和 POSTSCRIPT 格式生成输出。 选择 Postscript 格式"
+"后，将出现此对话框。"
 
 #. type: Target for macro image
 #: pcbnew_fabrication_files.adoc:70
@@ -4085,8 +4079,8 @@ msgstr "images/zh/Pcbnew_plot_postscript_dialog.png"
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:74
 msgid ""
-"In these formats, a fine scale adjust can be used to compensate for the plotter accuracy and "
-"to have a true scale of 1 for the output:"
+"In these formats, a fine scale adjust can be used to compensate for the plotter accuracy and to "
+"have a true scale of 1 for the output:"
 msgstr "在这些格式中，可以使用精细刻度调整来补偿绘图仪的精度，并使输出的真实比例为1："
 
 #. type: Target for macro image
@@ -4104,9 +4098,9 @@ msgstr "GERBER 格式"
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:84
 msgid ""
-"For each layer, Pcbnew generates a separate file following the GERBER 274X standard, by "
-"default in 4.6 format (each coordinate in the file is represented by 10 digits, of which 4 are "
-"before the decimal point and 6 follow it), units in inches, and a scale of 1."
+"For each layer, Pcbnew generates a separate file following the GERBER 274X standard, by default "
+"in 4.6 format (each coordinate in the file is represented by 10 digits, of which 4 are before "
+"the decimal point and 6 follow it), units in inches, and a scale of 1."
 msgstr ""
 "对于每一层，Pcbnew 按照 GERBER 274X 标准生成一个单独的文件，默认为 4.6 格式（文件中的每个坐标用"
 "10位数字表示，其中4位在小数点之前，6位在它之后），单位为英寸， 和1的比例。"
@@ -4127,8 +4121,8 @@ msgid ""
 "For example, for a double-sided circuit with silkscreen, solder mask and solder paste (for SMD "
 "components), 8 files should be generated ('xxxx' represents the name of the .brd file)."
 msgstr ""
-"例如，对于带有丝印层，阻焊层和焊膏层（用于 SMD 元件）的双面电路，应生成8个文件（“xxxx”表示 ."
-"brd 文件的名称）。"
+"例如，对于带有丝印层，阻焊层和焊膏层（用于 SMD 元件）的双面电路，应生成8个文件（“xxxx”表示 .brd "
+"文件的名称）。"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:95
@@ -4197,8 +4191,7 @@ msgid ""
 "in the centre of the drawing."
 msgstr ""
 "在 postscript 输出的情况下，输出文件的标准扩展名是 .ps。 对于 HPGL 输出，跟踪可以是用户选择的比"
-"例，并且可以进行镜像。 如果 原点 = 中心 选项处于活动状态，则假定跟踪表坐标的原点位于图形的中"
-"心。"
+"例，并且可以进行镜像。 如果 原点 = 中心 选项处于活动状态，则假定跟踪表坐标的原点位于图形的中心。"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:117 pcbnew_fabrication_files.adoc:154
@@ -4330,7 +4323,7 @@ msgstr "封装值。 如果为空："
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:170
 msgid "Global values."
-msgstr "全局值"
+msgstr "全局值。"
 
 #. type: Title ====
 #: pcbnew_fabrication_files.adoc:171
@@ -4409,8 +4402,7 @@ msgstr "生成钻孔文件"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:203
-msgid ""
-"The creation of a drill file xxxx.drl following the EXCELLON standard is always necessary."
+msgid "The creation of a drill file xxxx.drl following the EXCELLON standard is always necessary."
 msgstr "始终需要遵循 EXCELLON 标准创建钻孔文件 xxxx.drl。"
 
 #. type: Plain text
@@ -4473,8 +4465,8 @@ msgstr "绝对：使用绝对坐标系。"
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:226
 msgid ""
-"Auxiliary axis: coordinates are relative to the auxiliary axis, use the icon (right toolbar) "
-"to set it."
+"Auxiliary axis: coordinates are relative to the auxiliary axis, use the icon (right toolbar) to "
+"set it."
 msgstr "辅助轴：坐标相对于辅助轴，使用图标（右侧工具栏）进行设置。"
 
 #. type: Title ===
@@ -4491,8 +4483,8 @@ msgid ""
 "If the copper-side silkscreen is used, the text it contains should be mirrored in order to be "
 "readable."
 msgstr ""
-"要生成布线文档文件，可以跟踪组件和铜丝印层。 通常，仅元件侧丝印标记足以连接 PCB。 如果使用铜端"
-"丝印，则应对其包含的文本进行镜像以便可读。"
+"要生成布线文档文件，可以跟踪组件和铜丝印层。 通常，仅元件侧丝印标记足以连接 PCB。 如果使用铜端丝"
+"印，则应对其包含的文本进行镜像以便可读。"
 
 #. type: Title ===
 #: pcbnew_fabrication_files.adoc:235
@@ -4510,8 +4502,8 @@ msgid ""
 "of the file(s) created."
 msgstr ""
 "可以通过 后处理/创建 Cmp 文件菜单选项访问此选项。 但是，除非至少有一个封装激活了 普通+插入 属"
-"性，否则不会生成任何文件（请参阅编辑封装）。 将生成一个或两个文件，具体取决于 PCB 的一侧或两侧"
-"是否存在可插入元件。 对话框将显示创建的文件的名称。"
+"性，否则不会生成任何文件（请参阅编辑封装）。 将生成一个或两个文件，具体取决于 PCB 的一侧或两侧是"
+"否存在可插入元件。 对话框将显示创建的文件的名称。"
 
 #. type: Title ===
 #: pcbnew_fabrication_files.adoc:244
@@ -4522,12 +4514,12 @@ msgstr "高级布线选项"
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:250
 msgid ""
-"The options described below (part of the Files/Plot dialogue) allow for fine-grained control "
-"of the tracing process. They are particularly useful when printing the silkscreen markings for "
+"The options described below (part of the Files/Plot dialogue) allow for fine-grained control of "
+"the tracing process. They are particularly useful when printing the silkscreen markings for "
 "wiring documentation."
 msgstr ""
-"下面描述的选项（文件/绘图对话框的一部分）允许对布线过程进行细粒度控制。 在打印布线文档的丝印标"
-"记时，它们特别有用。"
+"下面描述的选项（文件/绘图对话框的一部分）允许对布线过程进行细粒度控制。 在打印布线文档的丝印标记"
+"时，它们特别有用。"
 
 #. type: Target for macro image
 #: pcbnew_fabrication_files.adoc:251
@@ -4652,8 +4644,7 @@ msgstr "设置图层"
 
 #. type: Plain text
 #: pcbnew_layers.adoc:23
-msgid ""
-"To open the *Layers Setup* from the menu bar, select **Design Rules** -> **Layers Setup**."
+msgid "To open the *Layers Setup* from the menu bar, select **Design Rules** -> **Layers Setup**."
 msgstr "要从菜单栏中打开 *图层设置* ，请选择 **设计规则**  -> **图层设置** 。"
 
 #. type: Plain text
@@ -4686,8 +4677,7 @@ msgstr "铜层"
 msgid ""
 "Copper layers are the usual working layers used to place and re-arrange tracks.  Layer numbers "
 "start from 0 (the first copper layer, on Front) and end at 31 (Back). Since components cannot "
-"be placed in *inner layers* (number 1 to 30), only layers number 0 and 31 are *component "
-"layer*."
+"be placed in *inner layers* (number 1 to 30), only layers number 0 and 31 are *component layer*."
 msgstr ""
 "铜层是用于放置和重新布线的常用工作层。 层编号从0开始（第一个铜层，在前面），结束在31（后面）。 "
 "由于元件不能放在 * 内层 *  （编号1到30）中，因此只有 0 和 31 层是  * 元件层 * 。"
@@ -4699,8 +4689,8 @@ msgid ""
 "useful when using the external router _Freerouter_.  Example of default layer names are *F.Cu* "
 "and *In0* for layer number 0."
 msgstr ""
-"任何铜层的名称都是可编辑的。 铜层具有在使用外部布线 _Freerouter_ 时很有用的功能属性。 默认图层"
-"名称的示例是 *F.Cu* 和 *In0* ，用于图层编号0。"
+"任何铜层的名称都是可编辑的。 铜层具有在使用外部布线 _Freerouter_ 时很有用的功能属性。 默认图层名"
+"称的示例是 *F.Cu* 和 *In0* ，用于图层编号0。"
 
 #. type: Target for macro image
 #: pcbnew_layers.adoc:42
@@ -4717,10 +4707,10 @@ msgstr "配对技术层"
 #. type: Plain text
 #: pcbnew_layers.adoc:51
 msgid ""
-"12 technical layers come in pairs: one for the front, one for the back.  You can recognize "
-"them with the \"F.\" or \"B.\" prefix in their names. The elements making up a footprint (pad, "
-"drawing, text) of one of these layers are automatically mirrored and moved to the "
-"complementary layer when the footprint is flipped."
+"12 technical layers come in pairs: one for the front, one for the back.  You can recognize them "
+"with the \"F.\" or \"B.\" prefix in their names. The elements making up a footprint (pad, "
+"drawing, text) of one of these layers are automatically mirrored and moved to the complementary "
+"layer when the footprint is flipped."
 msgstr ""
 "12 个技术层成对出现：一个用于前面，一个用于后面。 你可以用“F”识别它们。 或“B” 名字前缀。 构成这"
 "些层之一的覆盖区（焊盘，绘图，文本）的元素将自动镜像，并在翻转覆盖区时移动到补充层。"
@@ -4781,8 +4771,8 @@ msgstr "*阻焊层*（F.Mask 和 B.Mask）"
 #. type: Plain text
 #: pcbnew_layers.adoc:68
 msgid ""
-"These define the solder masks. All pads should appear on one of these layers (SMT) or both "
-"(for through hole) to prevent the varnish from covering the pads."
+"These define the solder masks. All pads should appear on one of these layers (SMT) or both (for "
+"through hole) to prevent the varnish from covering the pads."
 msgstr ""
 "这些定义了阻焊层。 所有焊盘应出现在其中一个层（SMT）或两者（用于通孔）上，以防止绿油覆盖焊盘。"
 
@@ -5144,8 +5134,8 @@ msgstr "封装编辑器用于编辑和创建 PCB 封装。 这包括："
 msgid ""
 "Changing pad properties (shape, layer), for individual pads or for all the pads in a footprint."
 msgstr ""
-"封装编辑器用于编辑和更改焊盘属性（形状，层），用于单个焊盘或封装中的所有焊盘。创建 PCB 封装。 "
-"这包括："
+"封装编辑器用于编辑和更改焊盘属性（形状，层），用于单个焊盘或封装中的所有焊盘。这包括创建 PCB 封"
+"装。 "
 
 #. type: Plain text
 #: pcbnew_creating_editing_footprints.adoc:14
@@ -5170,8 +5160,8 @@ msgid ""
 "and it must be linked to the relative component in your schematic. Each footprint includes "
 "three different elements:"
 msgstr ""
-"封装是要插入 PCB 中的元件的物理表示（封装），并且必须链接到原理图中的相关元件。 每个封装包括三"
-"个不同的元素："
+"封装是要插入 PCB 中的元件的物理表示（封装），并且必须链接到原理图中的相关元件。 每个封装包括三个"
+"不同的元素："
 
 #. type: Plain text
 #: pcbnew_creating_editing_footprints.adoc:27
@@ -5186,21 +5176,20 @@ msgstr "图形边框和文本。"
 #. type: Plain text
 #: pcbnew_creating_editing_footprints.adoc:31
 msgid "Fields."
-msgstr "字段"
+msgstr "字段。"
 
 #. type: Plain text
 #: pcbnew_creating_editing_footprints.adoc:35
 msgid ""
 "In addition, a number of other parameters must be correctly defined if the auto-placement "
 "function will be used. The same holds for the generation of auto-insertion files."
-msgstr ""
-"此外，如果将使用自动放置功能，则必须正确定义许多其他参数。 这同样适用于生成自动插入文件。"
+msgstr "此外，如果将使用自动放置功能，则必须正确定义许多其他参数。 这同样适用于生成自动插入文件。"
 
 #. type: Title ====
 #: pcbnew_creating_editing_footprints.adoc:36
 #, no-wrap
 msgid "Pads"
-msgstr "焊盘。"
+msgstr "焊盘"
 
 #. type: Plain text
 #: pcbnew_creating_editing_footprints.adoc:39
@@ -5215,10 +5204,10 @@ msgstr "几何形状（形状，层，钻孔）。"
 #. type: Plain text
 #: pcbnew_creating_editing_footprints.adoc:46
 msgid ""
-"The pad number, which is constituted by up to four alphanumeric characters. Thus, the "
-"following are all valid pad numbers: 1, 45 and 9999, but also AA56 and ANOD. The pad number "
-"must be identical to that of the corresponding pin number in the schematic, because it defines "
-"the matching pin and pad numbers that Pcbnew links pins and pads with."
+"The pad number, which is constituted by up to four alphanumeric characters. Thus, the following "
+"are all valid pad numbers: 1, 45 and 9999, but also AA56 and ANOD. The pad number must be "
+"identical to that of the corresponding pin number in the schematic, because it defines the "
+"matching pin and pad numbers that Pcbnew links pins and pads with."
 msgstr ""
 "焊盘编号，由最多四个字母数字字符组成。 因此，以下都是有效的垫号：1,45 和 9999，还有 AA56 和 "
 "ANOD。 焊盘编号必须与原理图中相应引脚编号的焊盘编号相同，因为它定义了 Pcbnew 链接引脚和焊盘的匹"
@@ -5237,8 +5226,8 @@ msgid ""
 "types of contour are available: lines, circles, arcs, and text. Contours have no electrical "
 "significance, they are simply graphical aids."
 msgstr ""
-"图形边框用于绘制封装的物理形状。 有几种不同类型的边框可供选择：直线，圆，圆弧和文本。 边框没有"
-"电学意义，它们只是图形辅助工具。"
+"图形边框用于绘制封装的物理形状。 有几种不同类型的边框可供选择：直线，圆，圆弧和文本。 边框没有电"
+"学意义，它们只是图形辅助工具。"
 
 #. type: Title ====
 #: pcbnew_creating_editing_footprints.adoc:54
@@ -5249,17 +5238,17 @@ msgstr "字段"
 #. type: Plain text
 #: pcbnew_creating_editing_footprints.adoc:64
 msgid ""
-"These are text elements associated with a footprint. Two are obligatory and always present: "
-"the reference field and the value field. These are automatically read and updated by Pcbnew "
-"when a netlist is read during the loading of footprints into your board. The reference is "
-"replaced by the appropriate schematic reference (U1, IC3, etc.). The value is replaced by the "
-"value of the corresponding part in the schematic (47K, 74LS02, etc.). Other fields can be "
-"added and these will behave like graphical text."
+"These are text elements associated with a footprint. Two are obligatory and always present: the "
+"reference field and the value field. These are automatically read and updated by Pcbnew when a "
+"netlist is read during the loading of footprints into your board. The reference is replaced by "
+"the appropriate schematic reference (U1, IC3, etc.). The value is replaced by the value of the "
+"corresponding part in the schematic (47K, 74LS02, etc.). Other fields can be added and these "
+"will behave like graphical text."
 msgstr ""
-"这些是与封装相关联的文本元素。 两个是强制性的并且始终存在：参考字段和值字段。 在将封装加载到您"
-"的电路板期间读取网表时，Pcbnew 会自动读取和更新这些内容。 参考值由适当的原理图参考（U1，IC3 "
-"等）代替。 该值将替换为原理图中相应部件的值（47K，74LS02 等）。 可以添加其他字段，这些字段的行"
-"为类似于图形文本。"
+"这些是与封装相关联的文本元素。 两个是强制性的并且始终存在：参考字段和值字段。 在将封装加载到您的"
+"电路板期间读取网表时，Pcbnew 会自动读取和更新这些内容。 参考值由适当的原理图参考（U1，IC3 等）代"
+"替。 该值将替换为原理图中相应部件的值（47K，74LS02 等）。 可以添加其他字段，这些字段的行为类似于"
+"图形文本。"
 
 #. type: Title ===
 #: pcbnew_creating_editing_footprints.adoc:65
@@ -5278,8 +5267,8 @@ msgid ""
 "Directly via the image:images/icons/module_editor.png[] icon from the main toolbar of Pcbnew. "
 "This allows the creation or modification of a footprint in the library."
 msgstr ""
-"直接通过图片：Pcbnew 主工具栏中的 image:images/icons/module_editor.png[] 图标。 这允许创建或修改库中的"
-"封装。"
+"直接通过图片：Pcbnew 主工具栏中的 image:images/icons/module_editor.png[] 图标。 这允许创建或修改"
+"库中的封装。"
 
 #. type: Plain text
 #: pcbnew_creating_editing_footprints.adoc:76
@@ -5516,8 +5505,8 @@ msgid ""
 "of the new footprint will be requested. This will be the name by which the footprint will be "
 "identified in the library."
 msgstr ""
-"可以通过按钮图像创建新的封装：image:images/icons/new_footprint.png[]。 将要求新封装的名称。 这将是在"
-"库中标识封装的名称。"
+"可以通过按钮图像创建新的封装：image:images/icons/new_footprint.png[]。 将要求新封装的名称。 这将"
+"是在库中标识封装的名称。"
 
 #. type: Plain text
 #: pcbnew_creating_editing_footprints.adoc:179
@@ -5582,14 +5571,14 @@ msgstr "编辑并保存新的封装。"
 #: pcbnew_creating_editing_footprints.adoc:200
 #, no-wrap
 msgid "Adding and Editing Pads"
-msgstr "添加和编辑焊盘。"
+msgstr "添加和编辑焊盘"
 
 #. type: Plain text
 #: pcbnew_creating_editing_footprints.adoc:205
 msgid ""
-"Once a footprint has been created, pads can be added, deleted or modified. Modification of "
-"pads can be local, affecting only the pad under the cursor, or global, affecting all pads of "
-"the footprint."
+"Once a footprint has been created, pads can be added, deleted or modified. Modification of pads "
+"can be local, affecting only the pad under the cursor, or global, affecting all pads of the "
+"footprint."
 msgstr ""
 "创建封装后，可以添加，删除或修改焊盘。 焊盘的修改可以是局部的，仅影响光标下的焊盘或全局，影响封"
 "装的所有焊盘。"
@@ -5607,8 +5596,8 @@ msgid ""
 "clicking in the desired position with the left mouse button. Pad properties are predefined in "
 "the pad properties menu."
 msgstr ""
-"从右侧工具栏中选择图像：image:images/icons/pad.png[] 图标。 可以使用鼠标左键单击所需位置来添加焊盘。 "
-"焊盘属性在焊盘属性菜单中预定义。"
+"从右侧工具栏中选择图像：image:images/icons/pad.png[] 图标。 可以使用鼠标左键单击所需位置来添加焊"
+"盘。 焊盘属性在焊盘属性菜单中预定义。"
 
 #. type: Plain text
 #: pcbnew_creating_editing_footprints.adoc:214
@@ -5640,8 +5629,8 @@ msgstr "单击现有焊盘并选择“编辑焊盘”。 然后可以编辑焊�
 #. type: Plain text
 #: pcbnew_creating_editing_footprints.adoc:226
 msgid ""
-"Clicking on an existing pad and selecting 'Export Pad Settings'.  In this case, the "
-"geometrical properties of the selected pad will become the default pad properties."
+"Clicking on an existing pad and selecting 'Export Pad Settings'.  In this case, the geometrical "
+"properties of the selected pad will become the default pad properties."
 msgstr "单击现有焊盘并选择“导出焊盘设置”。 在这种情况下，所选焊盘的几何属性将成为默认焊盘属性。"
 
 #. type: Plain text
@@ -5685,9 +5674,9 @@ msgid ""
 "rectangle) and to place it with different orientations (0 for horizontal and 90 degrees for "
 "vertical). Global resizing of pads can then be done in a single operation."
 msgstr ""
-"对于 VQFP/PQFP 类型的 SMD 封装，其四边都有矩形焊盘（水平和垂直），建议仅使用一种形状（例如，水"
-"平矩形）并将其放置在不同的方向（水平为 0 和 90 度垂直）。 然后可以在单个操作中完成焊盘的全局尺"
-"寸调整。"
+"对于 VQFP/PQFP 类型的 SMD 封装，其四边都有矩形焊盘（水平和垂直），建议仅使用一种形状（例如，水平"
+"矩形）并将其放置在不同的方向（水平为 0 和 90 度垂直）。 然后可以在单个操作中完成焊盘的全局尺寸调"
+"整。"
 
 #. type: Title =====
 #: pcbnew_creating_editing_footprints.adoc:249
@@ -5788,8 +5777,8 @@ msgid ""
 "based on a fixed clearance and/or a ratio of the pad geometry.  The non-zero settings used to "
 "calculate the final pad size is based on the following order of precedence:"
 msgstr ""
-"在定义包含铜层的焊盘时，KiCad 会根据固定间隙和/或焊盘几何形状的比例创建阻焊层和焊膏层。 用于计"
-"算最终焊盘尺寸的非零设置基于以下优先顺序："
+"在定义包含铜层的焊盘时，KiCad 会根据固定间隙和/或焊盘几何形状的比例创建阻焊层和焊膏层。 用于计算"
+"最终焊盘尺寸的非零设置基于以下优先顺序："
 
 #. type: Plain text
 #: pcbnew_creating_editing_footprints.adoc:290
@@ -5813,8 +5802,8 @@ msgid ""
 "positive. The solder paste mask pad shape is usually smaller than the pad itself. So the "
 "clearance value is negative."
 msgstr ""
-"阻焊层焊盘的形状通常比焊盘本身大。 所以间隙值是正的。锡膏层焊盘的形状通常小于焊盘本身。 所以间"
-"隙值是负的。"
+"阻焊层焊盘的形状通常比焊盘本身大。 所以间隙值是正的。锡膏层焊盘的形状通常小于焊盘本身。 所以间隙"
+"值是负的。"
 
 #. type: Title =====
 #: pcbnew_creating_editing_footprints.adoc:300
@@ -5851,11 +5840,11 @@ msgstr "焊盘不在铜层上"
 #. type: Plain text
 #: pcbnew_creating_editing_footprints.adoc:318
 msgid ""
-"There is second method for creating pads that do not have any copper layers defined. These "
-"pads are commonly referred to as aperture pads and can be use to create custom apertures not "
-"based on the outline of a copper pad geometry. This method was introduced in version 5.0.0-"
-"rc2. Pads defined without any copper layers ignore the global and footprint level settings and "
-"only use the pad level settings."
+"There is second method for creating pads that do not have any copper layers defined. These pads "
+"are commonly referred to as aperture pads and can be use to create custom apertures not based "
+"on the outline of a copper pad geometry. This method was introduced in version 5.0.0-rc2. Pads "
+"defined without any copper layers ignore the global and footprint level settings and only use "
+"the pad level settings."
 msgstr ""
 "存在第二种用于创建没有定义任何铜层的焊盘的方法。 这些焊盘通常被称为孔焊盘，并且可用于创建不基于"
 "铜焊盘几何形状边框的定制孔。 此方法是在 5.0.0-rc2 版本中引入的。 没有任何铜层定义的焊盘忽略全局"
@@ -5865,11 +5854,11 @@ msgstr ""
 #: pcbnew_creating_editing_footprints.adoc:325
 msgid ""
 "Pads without copper layers defined prior to version 5.0.0-rc2 were plotted using precedence "
-"defined above with the global and footprint settings.  Adjustments will have to be made for "
-"any boards designed prior to this version in order to achieve the same output plots."
+"defined above with the global and footprint settings.  Adjustments will have to be made for any "
+"boards designed prior to this version in order to achieve the same output plots."
 msgstr ""
-"使用版本 5.0.0-rc2 之前定义的没有铜层的焊盘使用上面定义的优先级和全局和占位设置进行绘制。 必须"
-"对此版本之前设计的任何电路板进行调整，以获得相同的输出图。"
+"使用版本 5.0.0-rc2 之前定义的没有铜层的焊盘使用上面定义的优先级和全局和占位设置进行绘制。 必须对"
+"此版本之前设计的任何电路板进行调整，以获得相同的输出图。"
 
 #. type: Plain text
 #: pcbnew_creating_editing_footprints.adoc:328
@@ -5941,16 +5930,16 @@ msgstr "images/zh/Modedit_module_autoplace_settings.png"
 #. type: Plain text
 #: pcbnew_creating_editing_footprints.adoc:355
 msgid ""
-"Usually, rotation of 180 degrees is permitted for resistors, non-polarized capacitors and "
-"other symmetrical elements."
+"Usually, rotation of 180 degrees is permitted for resistors, non-polarized capacitors and other "
+"symmetrical elements."
 msgstr "通常，电阻器，非极化电容器和其他对称元件允许旋转180度。"
 
 #. type: Plain text
 #: pcbnew_creating_editing_footprints.adoc:360
 msgid ""
-"Some footprints (small transistors, for example) are often permitted to rotate by +/- 90 or "
-"180 degrees. By default, a new footprint will have its rotation permissions set to zero. This "
-"can be adjusted according to the following rule:"
+"Some footprints (small transistors, for example) are often permitted to rotate by +/- 90 or 180 "
+"degrees. By default, a new footprint will have its rotation permissions set to zero. This can "
+"be adjusted according to the following rule:"
 msgstr ""
 "一些封装（例如小晶体管）通常允许旋转 +/- 90 或 180度。 默认情况下，新的封装将其旋转权限设置为"
 "零。 这可以根据以下规则进行调整："
@@ -5995,8 +5984,8 @@ msgid ""
 "automatic insertion machines). This attribute is most useful for surface mount components "
 "(SMDs)."
 msgstr ""
-"普通 + 插入 表示封装必须出现在自动插入文件中（对于自动插入机器）。 此属性对表面贴装元件（SMD）"
-"最有用。"
+"普通 + 插入 表示封装必须出现在自动插入文件中（对于自动插入机器）。 此属性对表面贴装元件（SMD）最"
+"有用。"
 
 #. type: Plain text
 #: pcbnew_creating_editing_footprints.adoc:380
@@ -6052,8 +6041,8 @@ msgid ""
 "menus in Pcbnew. The keywords can be used to restrict searches to those parts possessing the "
 "given keywords."
 msgstr ""
-"注释行与 CvPcb 中的元件列表和 Pcbnew 中的封装选择菜单一起显示。 关键字可用于限制搜索具有给定关"
-"键字的那些部分。"
+"注释行与 CvPcb 中的元件列表和 Pcbnew 中的封装选择菜单一起显示。 关键字可用于限制搜索具有给定关键"
+"字的那些部分。"
 
 #. type: Plain text
 #: pcbnew_creating_editing_footprints.adoc:405
@@ -6075,11 +6064,11 @@ msgstr "三维可视化"
 #: pcbnew_creating_editing_footprints.adoc:411
 msgid ""
 "A footprint may be associated with a file containing a three-dimensional representation of the "
-"component. In order to associate a footprint with a model file, select the _3D Settings_ tab "
-"as shown below."
+"component. In order to associate a footprint with a model file, select the _3D Settings_ tab as "
+"shown below."
 msgstr ""
-"足迹可以与包含元件的三维表示的文件相关联。 要将封装与模型文件相关联，请选择 _3D 设置_ 选项卡，"
-"如下所示。"
+"足迹可以与包含元件的三维表示的文件相关联。 要将封装与模型文件相关联，请选择 _3D 设置_ 选项卡，如"
+"下所示。"
 
 #. type: Block title
 #: pcbnew_creating_editing_footprints.adoc:413
@@ -6151,18 +6140,18 @@ msgid ""
 "enforce a unit of length for the models, users can enter an appropriate scale value to ensure "
 "that the model appears as it should within the 3DViewer.  Some users employ a simple VRML box "
 "as a generic model for components and select scale values so that the box has the correct size "
-"to represent the component. For Mechanical CAD (MCAD) models the scale values should be left "
-"at unity.  MCAD formats always specify a unit length and any exporters which make use of MCAD "
-"data formats will ignore the scale values.  However the 3DViewer will always apply the scale "
-"values; if scale values other than unity are used with MCAD models, the output of the 3DViewer "
-"will differ from any exported MCAD models such as IDF."
+"to represent the component. For Mechanical CAD (MCAD) models the scale values should be left at "
+"unity.  MCAD formats always specify a unit length and any exporters which make use of MCAD data "
+"formats will ignore the scale values.  However the 3DViewer will always apply the scale values; "
+"if scale values other than unity are used with MCAD models, the output of the 3DViewer will "
+"differ from any exported MCAD models such as IDF."
 msgstr ""
 "缩放值对于可视化格式（如 VRML1，VRML2 和 X3D）非常有用。 由于模型可能由任意数量的 VRML/X3D 编辑"
-"器或导出器生成，并且 VRML 不强制模型的长度单位，因此用户可以输入适当的比例值以确保模型在 3D 查"
-"看器中显示。 一些用户使用简单的 VRML 框作为元件的通用模型并选择比例值，以便框具有表示组件的正确"
-"大小。 对于机械 CAD（MCAD）模型，比例值应保持为1。 MCAD 格式始终指定单位长度，任何使用 MCAD 数"
-"据格式的导出器都将忽略缩放值。 但是 3D 查看器将始终应用比例值; 如果除了单位以外的比例值与 MCAD "
-"模型一起使用，则 3D 查看器的输出将与任何导出的 MCAD 模型（如 IDF）不同。"
+"器或导出器生成，并且 VRML 不强制模型的长度单位，因此用户可以输入适当的比例值以确保模型在 3D 查看"
+"器中显示。 一些用户使用简单的 VRML 框作为元件的通用模型并选择比例值，以便框具有表示组件的正确大"
+"小。 对于机械 CAD（MCAD）模型，比例值应保持为1。 MCAD 格式始终指定单位长度，任何使用 MCAD 数据格"
+"式的导出器都将忽略缩放值。 但是 3D 查看器将始终应用比例值; 如果除了单位以外的比例值与 MCAD 模型"
+"一起使用，则 3D 查看器的输出将与任何导出的 MCAD 模型（如 IDF）不同。"
 
 #. type: Plain text
 #: pcbnew_creating_editing_footprints.adoc:458
@@ -6170,10 +6159,10 @@ msgid ""
 "Offset and Rotation values are typically required to align a 3D model with a footprint. Due to "
 "differences in 3D modeling software as well as differences in how users construct a model, in "
 "the vast majority of cases it is necessary for users to enter Offset and Rotation values to "
-"achieve the desired positioning of a 3D model. The Rotation values are given in degrees and "
-"are applied successively in the order ZYX; the convention used is that a positive angle "
-"results in a clockwise rotation of the part when viewing from the positive position of the "
-"axis towards the origin."
+"achieve the desired positioning of a 3D model. The Rotation values are given in degrees and are "
+"applied successively in the order ZYX; the convention used is that a positive angle results in "
+"a clockwise rotation of the part when viewing from the positive position of the axis towards "
+"the origin."
 msgstr ""
 "通常需要偏移和旋转值以使 3D 模型与封装对齐。 由于 3D 建模软件的差异以及用户构建模型的方式不同，"
 "在绝大多数情况下，用户必须输入偏移和旋转值才能实现 3D 模型的所需定位。 旋转值以度为单位，并以 "
@@ -6187,8 +6176,8 @@ msgid ""
 "STEP are supported via the OCE Plugin which requires a suitable version of the OpenCascade or "
 "OpenCascade Community Edition (OCE) software."
 msgstr ""
-"KiCad 通过插件系统支持 3D 模型格式，并为视觉模型格式 VRML1，VRML2 和 X3D 以及 MCAD 格式 IDF 提"
-"供支持。 MCAD 格式 IGES 和 STEP 通过 OCE 插件支持，该插件需要合适版本的 OpenCascade 或 "
+"KiCad 通过插件系统支持 3D 模型格式，并为视觉模型格式 VRML1，VRML2 和 X3D 以及 MCAD 格式 IDF 提供"
+"支持。 MCAD 格式 IGES 和 STEP 通过 OCE 插件支持，该插件需要合适版本的 OpenCascade 或 "
 "OpenCascade Community Edition（OCE）软件。"
 
 #. type: Title ====
@@ -6205,13 +6194,13 @@ msgid ""
 "directories for models could be specified by using additional environment variables. The "
 "current version of KiCad has a specialized _alias_ system for handling 3D model names. The aim "
 "of the new file name management system (filename resolution system)  is to provide a scheme "
-"which is compatible with earlier versions of KiCad while offering a more flexible mechanism "
-"for specifying 3D model file names and improving the ability to share project files."
+"which is compatible with earlier versions of KiCad while offering a more flexible mechanism for "
+"specifying 3D model file names and improving the ability to share project files."
 msgstr ""
 "在过去，KiCad 使用固定路径到 3D 模型目录，后来依靠 _KISYS3DMOD_ 环境变量来指定模型目录的位置。 "
-"可以使用其他环境变量指定模型的其他基目录。 当前版本的 KiCad 具有专门的 _别名_ 系统，用于处理 "
-"3D 模型名称。 新文件名管理系统（文件名解析系统）的目的是提供一种与早期版本的 KiCad 兼容的方案，"
-"同时提供更灵活的机制来指定 3D 模型文件名并提高共享项目文件的能力。"
+"可以使用其他环境变量指定模型的其他基目录。 当前版本的 KiCad 具有专门的 _别名_ 系统，用于处理 3D "
+"模型名称。 新文件名管理系统（文件名解析系统）的目的是提供一种与早期版本的 KiCad 兼容的方案，同时"
+"提供更灵活的机制来指定 3D 模型文件名并提高共享项目文件的能力。"
 
 #. type: Plain text
 #: pcbnew_creating_editing_footprints.adoc:485
@@ -6220,32 +6209,31 @@ msgid ""
 "finding 3D models, there are two distinct methods for specifying base search paths for 3D "
 "models."
 msgstr ""
-"由于需要支持先前的方案，同时提供用于查找 3D 模型的灵活的新方案，因此有两种不同的方法来指定 3D "
-"模型的基本搜索路径。"
+"由于需要支持先前的方案，同时提供用于查找 3D 模型的灵活的新方案，因此有两种不同的方法来指定 3D 模"
+"型的基本搜索路径。"
 
 #. type: Plain text
 #: pcbnew_creating_editing_footprints.adoc:505
 msgid ""
 "In order to maintain the legibility of the _kicad_pcb_ and _pretty_ data files, KiCad prefers "
-"to use filenames which have been shortened via the use of environment variables (old method) "
-"or aliases (new method). Since setting environment variables can be cumbersome especially on "
-"GUI-based operating systems, the environment variable scheme for supporting model search paths "
-"has been extended to make use of KiCad's existing internally defined _Path Configuration_ "
-"dialog.  This dialog is available via the _Preferences->Configure Paths_ menu and is shown "
-"below. Setting additional paths within this dialog will extend the search paths used to find "
-"3D model files.  The dialog does not actually set environment variables but the filename "
-"resolution system acts as if it does; in cases where an actual environment variable with the "
-"same name is defined, the environment variable's value overrides any internally defined "
-"values. File names relative to these defined variables begin with _${MY_ENV_VAR}_ where "
-"_MY_ENV_VAR_ is a variable defined via the _Path Configuration_ dialog or an actual "
-"environment variable."
+"to use filenames which have been shortened via the use of environment variables (old method) or "
+"aliases (new method). Since setting environment variables can be cumbersome especially on GUI-"
+"based operating systems, the environment variable scheme for supporting model search paths has "
+"been extended to make use of KiCad's existing internally defined _Path Configuration_ dialog.  "
+"This dialog is available via the _Preferences->Configure Paths_ menu and is shown below. "
+"Setting additional paths within this dialog will extend the search paths used to find 3D model "
+"files.  The dialog does not actually set environment variables but the filename resolution "
+"system acts as if it does; in cases where an actual environment variable with the same name is "
+"defined, the environment variable's value overrides any internally defined values. File names "
+"relative to these defined variables begin with _${MY_ENV_VAR}_ where _MY_ENV_VAR_ is a variable "
+"defined via the _Path Configuration_ dialog or an actual environment variable."
 msgstr ""
 "为了保持 _kicad_pcb_ 和 _pretty_ 数据文件的易读性，KiCad 更喜欢使用通过使用环境变量（旧方法）或"
 "别名（新方法）缩短的文件名。由于设置环境变量可能很麻烦，尤其是在基于 GUI 的操作系统上，因此扩展"
 "了支持模型搜索路径的环境变量方案，以利用 KiCad 现有的内部定义的 _路径配置_ 对话框。该对话框可通"
-"过 _首选项 -> 配置路径_ 菜单获得，如下所示。在此对话框中设置其他路径将扩展用于查找 3D 模型文件"
-"的搜索路径。该对话框实际上并没有设置环境变量，但文件名解析系统就像它一样;如果定义了具有相同名称"
-"的实际环境变量，则环境变量的值将覆盖任何内部定义的值。相对于这些已定义变量的文件名以 _$ "
+"过 _首选项 -> 配置路径_ 菜单获得，如下所示。在此对话框中设置其他路径将扩展用于查找 3D 模型文件的"
+"搜索路径。该对话框实际上并没有设置环境变量，但文件名解析系统就像它一样;如果定义了具有相同名称的"
+"实际环境变量，则环境变量的值将覆盖任何内部定义的值。相对于这些已定义变量的文件名以 _$ "
 "{MY_ENV_VAR}_ 开头，其中 _MY_ENV_VAR_ 是通过 _路径配置_ 对话框或实际环境变量定义的变量。"
 
 #. type: Block title
@@ -6267,14 +6255,14 @@ msgid ""
 "begins with the string _:my alias:_ where _my alias_ is a text string which is preferably "
 "chosen to be short while also being significant to the user; for example an alias to a "
 "directory containing the official KiCad models may have an alias _Official Models_ while your "
-"personal model collection may have an alias _My Models_.  The aliases may be set up by "
-"clicking on the *Configure Paths* button within the *3D Settings* tab shown previously. The "
-"alias configuration dialog is shown below."
+"personal model collection may have an alias _My Models_.  The aliases may be set up by clicking "
+"on the *Configure Paths* button within the *3D Settings* tab shown previously. The alias "
+"configuration dialog is shown below."
 msgstr ""
 "支持缩短文件名的新方案是 _别名_ 系统。 在这个系统中，一个路径以字符串 _:my alias开头：_ 其中 "
-"_my alias_ 是一个文本字符串，最好选择为短，同时对用户也很重要; 例如，包含官方 KiCad 模型的目录"
-"的别名可能具有别名 _官方模型_，而您的个人模型集合可能具有别名 _My Models_。 可以通过单击前面显"
-"示的 *3D 设置* 选项卡中的 *配置路径* 按钮来设置别名。 别名配置对话框如下所示。"
+"_my alias_ 是一个文本字符串，最好选择为短，同时对用户也很重要; 例如，包含官方 KiCad 模型的目录的"
+"别名可能具有别名 _官方模型_，而您的个人模型集合可能具有别名 _My Models_。 可以通过单击前面显示"
+"的 *3D 设置* 选项卡中的 *配置路径* 按钮来设置别名。 别名配置对话框如下所示。"
 
 #. type: Block title
 #: pcbnew_creating_editing_footprints.adoc:522
@@ -6291,17 +6279,17 @@ msgstr "images/Modedit_alias_path_config.png"
 #. type: Plain text
 #: pcbnew_creating_editing_footprints.adoc:534
 msgid ""
-"3D model files can be selected by clicking *Add 3D Shape* to display the 3D Model Browser "
-"shown below. The model browser provides a 3D preview, file filter, and a drop-down path "
-"selector which contains the current list of search paths defined via environment variables or "
-"aliases. Depending on the model size and complexity it may take a few seconds for a model to "
-"be displayed when it is selected. In an extreme case a BGA package model which was used during "
+"3D model files can be selected by clicking *Add 3D Shape* to display the 3D Model Browser shown "
+"below. The model browser provides a 3D preview, file filter, and a drop-down path selector "
+"which contains the current list of search paths defined via environment variables or aliases. "
+"Depending on the model size and complexity it may take a few seconds for a model to be "
+"displayed when it is selected. In an extreme case a BGA package model which was used during "
 "testing took around 12 seconds to display."
 msgstr ""
 "单击 *添加3D形状* 可以选择 3D 模型文件以显示如下所示的 3D 模型浏览器。 模型浏览器提供 3D 预览，"
 "文件过滤器和下拉路径选择器，其中包含通过环境变量或别名定义的当前搜索路径列表。 根据型号尺寸和复"
-"杂程度，选择模型时可能需要几秒钟才能显示模型。 在极端情况下，在测试期间使用的 BGA 封装模型花费"
-"大约12秒来显示。"
+"杂程度，选择模型时可能需要几秒钟才能显示模型。 在极端情况下，在测试期间使用的 BGA 封装模型花费大"
+"约12秒来显示。"
 
 #. type: Block title
 #: pcbnew_creating_editing_footprints.adoc:536
@@ -6357,8 +6345,8 @@ msgid ""
 "If the edited footprint comes from the current board, the button image:images/icons/"
 "update_module_board.png[] will update this footprint on the board."
 msgstr ""
-"如果编辑的封装来自当前板，则按钮图像：image:images/icons/update_module_board.png[] 将在板上更新此封"
-"装。"
+"如果编辑的封装来自当前板，则按钮图像：image:images/icons/update_module_board.png[] 将在板上更新"
+"此封装。"
 
 #. type: Title ==
 #: pcbnew_editing_tools.adoc:1
@@ -6384,17 +6372,16 @@ msgstr "复制项目"
 msgid ""
 "Duplication is a method to clone an item and pick it up in the same action. It is broadly "
 "similar to copy-and-pasting, but it allows you to \"sprinkle\" components over the PCB and it "
-"allows you to manually lay out components using the \"Move Exact\" tool (see below) more "
-"easily."
+"allows you to manually lay out components using the \"Move Exact\" tool (see below) more easily."
 msgstr ""
-"复制是一种克隆项目并在同一操作中拾取它的方法。 它大致类似于复制和粘贴，但它允许您在 PCB "
-"上“洒”元件，并允许您使用“移动精确”工具（见下文）更轻松地手动布局元件。"
+"复制是一种克隆项目并在同一操作中拾取它的方法。 它大致类似于复制和粘贴，但它允许您在 PCB 上“洒”元"
+"件，并允许您使用“移动精确”工具（见下文）更轻松地手动布局元件。"
 
 #. type: Plain text
 #: pcbnew_editing_tools.adoc:17
 msgid ""
-"Duplication is done by using the hotkey (which defaults to Ctrl-D) or the duplicate item "
-"option in the context menu, icon image:images/icons/duplicate.png[]."
+"Duplication is done by using the hotkey (which defaults to Ctrl-D) or the duplicate item option "
+"in the context menu, icon image:images/icons/duplicate.png[]."
 msgstr ""
 "通过使用热键（默认为 Ctrl-D）或上下文菜单中的重复项选项，完成复制图标图像：image:images/icons/"
 "duplicate.png[] 。"
@@ -6413,16 +6400,16 @@ msgid ""
 "units. This is useful when it would otherwise be cumbersome to switch to a different grid, or "
 "when a feature is not spaced according to any existing grids."
 msgstr ""
-"“移动精确”工具允许您将项目（或项目组）移动一定量，可以以笛卡尔或极坐标格式输入，并且可以在任何"
-"支持的单位中输入。 当切换到不同的网格或者根据任何现有网格没有间隔特征时，这将是有用的。"
+"“移动精确”工具允许您将项目（或项目组）移动一定量，可以以笛卡尔或极坐标格式输入，并且可以在任何支"
+"持的单位中输入。 当切换到不同的网格或者根据任何现有网格没有间隔特征时，这将是有用的。"
 
 #. type: Plain text
 #: pcbnew_editing_tools.adoc:31
 msgid ""
-"To use this tool, select the items you wish to move and then use either the hotkey (defaults "
-"to Ctrl-M) or the context menu items to invoke the dialog. You can also invoke the dialog with "
-"the hotkey when moving or duplicating items, which can make it easy to repeatedly apply an "
-"offset to multiple components."
+"To use this tool, select the items you wish to move and then use either the hotkey (defaults to "
+"Ctrl-M) or the context menu items to invoke the dialog. You can also invoke the dialog with the "
+"hotkey when moving or duplicating items, which can make it easy to repeatedly apply an offset "
+"to multiple components."
 msgstr ""
 "要使用此工具，请选择要移动的项目，然后使用热键（默认为Ctrl-M）或上下文菜单项来调用对话框。 您还"
 "可以在移动或复制项目时使用热键调用对话框，这样可以轻松地将偏移重复应用于多个元件。"
@@ -6464,8 +6451,8 @@ msgid ""
 "in the images above) or you can specify the units yourself (e.g. \"1 in\" for an inch, or \"2 "
 "rad\" for 2 radians)."
 msgstr ""
-"然后输入所需的移动矢量。 您可以使用标签指示的单位（上图中的“mm”），也可以自己指定单位（例"
-"如，“1 in” 表示一英寸，“2 rad” 表示2弧度）。"
+"然后输入所需的移动矢量。 您可以使用标签指示的单位（上图中的“mm”），也可以自己指定单位（例如，“1 "
+"in” 表示一英寸，“2 rad” 表示2弧度）。"
 
 #. type: Plain text
 #: pcbnew_editing_tools.adoc:53
@@ -6506,8 +6493,8 @@ msgid ""
 "be accessed either via the context menu, icon image:images/icons/array.png[] for the selection "
 "or by a keyboard shortcut (defaults to Ctrl-N)."
 msgstr ""
-"阵列工具作用于光标下的元件，或者在 GAL 模式下作用于选择。 可以通过上下文菜单，图标image："
-"images/icons/array.png[] 进行选择，也可以通过键盘快捷键（默认为 Ctrl-N）访问。"
+"阵列工具作用于光标下的元件，或者在 GAL 模式下作用于选择。 可以通过上下文菜单，图标image：images/"
+"icons/array.png[] 进行选择，也可以通过键盘快捷键（默认为 Ctrl-N）访问。"
 
 #. type: Plain text
 #: pcbnew_editing_tools.adoc:70
@@ -6784,8 +6771,8 @@ msgid ""
 "location of the selection (or the centre of a selected group)  and a centre point that is "
 "specified. Below is the circular array configuration dialog:"
 msgstr ""
-"圆形阵列围绕圆形或圆弧布置项目。 圆由定义的位置（或所选组的中心）和指定的中心点定义。 下面是循"
-"环阵列配置对话框："
+"圆形阵列围绕圆形或圆弧布置项目。 圆由定义的位置（或所选组的中心）和指定的中心点定义。 下面是循环"
+"阵列配置对话框："
 
 #. type: Target for macro image
 #: pcbnew_editing_tools.adoc:158
@@ -6850,8 +6837,8 @@ msgstr "测量（标尺）工具"
 #. type: Plain text
 #: pcbnew_editing_tools.adoc:182
 msgid ""
-"The measurement tool is a linear ruler that can be used to visually check sizes and spacings "
-"on a PCB."
+"The measurement tool is a linear ruler that can be used to visually check sizes and spacings on "
+"a PCB."
 msgstr "测量工具是一个线性标尺，可用于目视检查 PCB 上的尺寸和间距。"
 
 #. type: Plain text
@@ -6860,8 +6847,8 @@ msgid ""
 "It is accessible via the calipers icon image:images/icons/measurement.png[] in the right hand "
 "toolbar, in the \"Dimension\" menu and with the hotkey (Ctrl-Shift-M by default)."
 msgstr ""
-"可以通过卡尺图标图像访问它：右侧工具栏中的 image: images/icons/measurement.png[]，“尺寸”菜单中的热键"
-"（默认为 Ctrl-Shift-M）。"
+"可以通过卡尺图标图像访问它：右侧工具栏中的 image: images/icons/measurement.png[]，“尺寸”菜单中的"
+"热键（默认为 Ctrl-Shift-M）。"
 
 #. type: Plain text
 #: pcbnew_editing_tools.adoc:191
@@ -7046,12 +7033,12 @@ msgstr "通过在按住鼠标左键的同时移动鼠标来跟踪块的框架。
 #. type: Plain text
 #: pcbnew_general_operations.adoc:68
 msgid ""
-"By holding down one of the hotkeys `Shift` or `Ctrl`, or both keys `Shift` and `Ctrl` "
-"together, while the block is drawn the operation invert, rotate or delete is automatically "
-"selected as shown in the table below:"
+"By holding down one of the hotkeys `Shift` or `Ctrl`, or both keys `Shift` and `Ctrl` together, "
+"while the block is drawn the operation invert, rotate or delete is automatically selected as "
+"shown in the table below:"
 msgstr ""
-"通过按住其中一个热键“Shift”或“Ctrl”，或同时按住“Shift”和“Ctrl”两个键，在绘制块时，操作反转，旋"
-"转或删除将自动选择，如下表所示："
+"通过按住其中一个热键“Shift”或“Ctrl”，或同时按住“Shift”和“Ctrl”两个键，在绘制块时，操作反转，旋转"
+"或删除将自动选择，如下表所示："
 
 #. type: delimited block |
 #: pcbnew_general_operations.adoc:82
@@ -7101,8 +7088,8 @@ msgstr "要取消操作，请使用鼠标右键并从菜单中选择“取消阻
 #. type: Plain text
 #: pcbnew_general_operations.adoc:94
 msgid ""
-"Alternatively if no key is pressed when drawing the block use the right mouse button to "
-"display the pop-up menu and select the required operation."
+"Alternatively if no key is pressed when drawing the block use the right mouse button to display "
+"the pop-up menu and select the required operation."
 msgstr "或者，如果在绘制块时未按任何键，请使用鼠标右键显示弹出菜单并选择所需的操作。"
 
 #. type: Plain text
@@ -7129,8 +7116,8 @@ msgstr "在元素布局期间，光标在网格上移动。 可以使用左侧�
 #: pcbnew_general_operations.adoc:106
 msgid ""
 "Any of the pre-defined grid sizes, or a User Defined grid, can be chosen using the pop-up "
-"window, or the drop-down selector on the toolbar at the top of the screen. The size of the "
-"User Defined grid is set using the menu bar option Dimensions -> User Grid Size."
+"window, or the drop-down selector on the toolbar at the top of the screen. The size of the User "
+"Defined grid is set using the menu bar option Dimensions -> User Grid Size."
 msgstr ""
 "可以使用弹出窗口或屏幕顶部工具栏上的下拉选择器来选择任何预定义的网格大小或用户定义的网格。 使用"
 "菜单栏选项“尺寸” - >“用户网格大小”设置“用户定义”网格的大小。"
@@ -7226,9 +7213,9 @@ msgstr "光标的绝对位置。"
 #. type: Plain text
 #: pcbnew_general_operations.adoc:138
 msgid ""
-"The relative position of the cursor. Note the relative coordinates (x,y) can be set to (0,0) "
-"at any position by pressing the space bar. The cursor position is then displayed relative to "
-"this new datum."
+"The relative position of the cursor. Note the relative coordinates (x,y) can be set to (0,0) at "
+"any position by pressing the space bar. The cursor position is then displayed relative to this "
+"new datum."
 msgstr ""
 "光标的相对位置。 注意，通过按空格键可以在任何位置将相对坐标（x，y）设置为（0,0）。 然后相对于该"
 "新数据显示光标位置。"
@@ -7239,8 +7226,8 @@ msgid ""
 "In addition the relative position of the cursor can be displayed using its polar co-ordinates "
 "(ray + angle). This can be turned on and off using the icon in the left hand side toolbar."
 msgstr ""
-"此外，可以使用其极坐标（光线+角度）显示光标的相对位置。 可以使用左侧工具栏中的图标打开和关闭此"
-"功能。"
+"此外，可以使用其极坐标（光线+角度）显示光标的相对位置。 可以使用左侧工具栏中的图标打开和关闭此功"
+"能。"
 
 #. type: Target for macro image
 #: pcbnew_general_operations.adoc:141
@@ -7257,8 +7244,8 @@ msgstr "键盘命令 - 热键"
 #. type: Plain text
 #: pcbnew_general_operations.adoc:146
 msgid ""
-"Many commands are accessible directly with the keyboard. Selection can be either upper or "
-"lower case. Most hot keys are shown in menus. Some hot keys that do not appear are:"
+"Many commands are accessible directly with the keyboard. Selection can be either upper or lower "
+"case. Most hot keys are shown in menus. Some hot keys that do not appear are:"
 msgstr ""
 "可以使用键盘直接访问许多命令。 选择可以是大写或小写。 大多数热键都显示在菜单中。 一些没有出现的"
 "热键是："
@@ -7273,8 +7260,7 @@ msgstr "‘删除’：删除封装或布线。 （_仅在封装模式或布线�
 #. type: Plain text
 #: pcbnew_general_operations.adoc:149
 msgid ""
-"`V`: if the track tool is active switches working layer or place via, if a track is in "
-"progress."
+"`V`: if the track tool is active switches working layer or place via, if a track is in progress."
 msgstr "‘V’：如果布线正在进行中，如果布线工具处于活动状态，则切换工作层或放置过孔。"
 
 #. type: Plain text
@@ -7301,8 +7287,8 @@ msgstr "在块上操作"
 #. type: Plain text
 #: pcbnew_general_operations.adoc:158
 msgid ""
-"Operations to move, invert (mirror), copy, rotate and delete a block are all available from "
-"the pop-up menu. In addition, the view can zoom to that described by the block."
+"Operations to move, invert (mirror), copy, rotate and delete a block are all available from the "
+"pop-up menu. In addition, the view can zoom to that described by the block."
 msgstr ""
 "弹出菜单中提供了移动，反转（镜像），复制，旋转和删除块的操作。 此外，视图可以缩放到块描述的视"
 "图。"
@@ -7311,8 +7297,8 @@ msgstr ""
 #: pcbnew_general_operations.adoc:167
 msgid ""
 "By holding down one of the keys `Shift` or `Ctrl`, both `Shift` and `Ctrl` together, or `Alt`, "
-"while the block is drawn the operation invert, rotate, delete or copy is automatically "
-"selected as shown in the table below:"
+"while the block is drawn the operation invert, rotate, delete or copy is automatically selected "
+"as shown in the table below:"
 msgstr ""
 "通过按住“Shift”或“Ctrl”键中的一个键，同时将“Shift”和“Ctrl”键合在一起，或者“Alt”，在绘制块时，将"
 "自动选择反转，旋转，删除或复制操作，如图所示 下表："
@@ -8003,7 +7989,7 @@ msgstr ""
 #. type: Plain text
 #: pcbnew_general_operations.adoc:446
 msgid "Placement of footprints, tracks, zones of copper, texts, etc."
-msgstr "放置封装，轨道，铜区，文本等"
+msgstr "放置封装，轨道，铜区，文本等。"
 
 #. type: Plain text
 #: pcbnew_general_operations.adoc:447
@@ -8013,7 +7999,7 @@ msgstr "网络高亮显示。"
 #. type: Plain text
 #: pcbnew_general_operations.adoc:448
 msgid "Creating notes, graphic elements, etc."
-msgstr "创建笔记，图形元素等"
+msgstr "创建笔记，图形元素等。"
 
 #. type: Title ===
 #: pcbnew_general_operations.adoc:452
@@ -8312,8 +8298,8 @@ msgid ""
 "Pcbnew manages libraries of footprints. Each footprint is a drawing of the physical component "
 "including its land pattern (the layout of pads on the circuit board). The required footprints "
 "are automatically loaded during the reading of the Netlist. Any changes to footprint selection "
-"or annotation can be changed in the schematic and updated in pcbnew by regenerating the "
-"netlist and reading it in pcbnew again."
+"or annotation can be changed in the schematic and updated in pcbnew by regenerating the netlist "
+"and reading it in pcbnew again."
 msgstr ""
 "Pcbnew 管理封装库。 每个覆盖区都是物理元件的图形，包括其焊盘图案（电路板上焊盘的布局）。 在读取"
 "网表期间会自动加载所需的封装。 封装选择或注释的任何更改都可以在原理图中更改，并通过重新生成网表"
@@ -8323,9 +8309,9 @@ msgstr ""
 #: pcbnew_introduction.adoc:22
 msgid ""
 "Pcbnew provides a design rules check (DRC) tool which prevents track and pad clearance issues "
-"as well as preventing nets from being connected that aren't connected in the netlist/"
-"schematic. When using the interactive router it continuously runs the design rules check and "
-"will help automatically route individual traces."
+"as well as preventing nets from being connected that aren't connected in the netlist/schematic. "
+"When using the interactive router it continuously runs the design rules check and will help "
+"automatically route individual traces."
 msgstr ""
 "Pcbnew 提供了一种设计规则检查（DRC）工具，可防止布线和焊盘间隙问题，并防止网络/原理图中未连接的"
 "网络连接。 使用交互式布线时，它会持续运行设计规则检查，并有助于自动布线各个布线。"
@@ -8334,11 +8320,11 @@ msgstr ""
 #: pcbnew_introduction.adoc:26
 msgid ""
 "Pcbnew provides a rats nest display, a hairline connecting the pads of footprints which are "
-"connected on the schematic. These connections move dynamically as track and footprint "
-"movements are made."
+"connected on the schematic. These connections move dynamically as track and footprint movements "
+"are made."
 msgstr ""
-"Pcbnew 提供了一个飞线显示器，一条连接封装焊盘的飞线连接在原理图上。 这些连接在布线和封装移动时"
-"动态移动。"
+"Pcbnew 提供了一个飞线显示器，一条连接封装焊盘的飞线连接在原理图上。 这些连接在布线和封装移动时动"
+"态移动。"
 
 #. type: Plain text
 #: pcbnew_introduction.adoc:30
@@ -8346,8 +8332,8 @@ msgid ""
 "Pcbnew has a simple but effective autorouter to assist in the production of the circuit board. "
 "An Export/Import in SPECCTRA dsn format allows the use of more advanced auto-routers."
 msgstr ""
-"Pcbnew 有一个简单但有效的自动布线器，可以帮助生产电路板。 SPECCTRA dsn 格式的导出/导入允许使用"
-"更高级的自动布线器。"
+"Pcbnew 有一个简单但有效的自动布线器，可以帮助生产电路板。 SPECCTRA dsn 格式的导出/导入允许使用更"
+"高级的自动布线器。"
 
 #. type: Plain text
 #: pcbnew_introduction.adoc:34
@@ -8375,8 +8361,8 @@ msgstr "pcbnew 中最小的单位是1纳米。 所有尺寸都存储为整数纳
 #: pcbnew_introduction.adoc:44
 msgid ""
 "Pcbnew can generate up to 32 layers of copper, 14 technical layers (silk screen, solder mask, "
-"component adhesive, solder paste and edge cuts) plus 4 auxiliary layers (drawings and "
-"comments) and manages in real time the hairline indication (rats nest) of missing tracks."
+"component adhesive, solder paste and edge cuts) plus 4 auxiliary layers (drawings and comments) "
+"and manages in real time the hairline indication (rats nest) of missing tracks."
 msgstr ""
 "Pcbnew 可生成多达 32层铜，14层技术层（丝印层，阻焊层，元件粘合剂层，焊膏层和边缘切割层）以及4个"
 "辅助层（图纸和注释），并实时管理飞线指示（飞线） 丢失的布线。"
@@ -8399,9 +8385,8 @@ msgstr "有无布线间隙。"
 #. type: Plain text
 #: pcbnew_introduction.adoc:54
 msgid ""
-"For complex circuits, the display of layers, zones, and components can be hidden in a "
-"selective way for clarity on screen. Nets of traces can be highlighted to provide high "
-"contrast as well."
+"For complex circuits, the display of layers, zones, and components can be hidden in a selective "
+"way for clarity on screen. Nets of traces can be highlighted to provide high contrast as well."
 msgstr ""
 "对于复杂电路，可以选择性地隐藏层，区域和元件的显示以便在屏幕上清晰显示。 可以高亮显示网的布线以"
 "提供高对比度。"
@@ -8445,13 +8430,13 @@ msgstr "半自动对齐行或列的焊盘。"
 msgid ""
 "Footprint pads have a variety of properties that can be adjusted. The pads can be round, "
 "rectangular, oval or trapezoidal. For through-hole parts drills can be offset inside the pad "
-"and be round or a slot. Individual pads can also be rotated and have unique soldermask, net, "
-"or paste clearance. Pads can also have a solid connection or a thermal relief connection for "
+"and be round or a slot. Individual pads can also be rotated and have unique soldermask, net, or "
+"paste clearance. Pads can also have a solid connection or a thermal relief connection for "
 "easier manufacturing. Any combination of unique pads can be placed within a footprint."
 msgstr ""
-"封装焊盘具有可调节的各种属性。 焊盘可以是圆形，矩形，椭圆形或梯形。 对于通孔部件，钻头可以在焊"
-"盘内部偏移并且是圆形或槽。 单个焊盘也可以旋转并具有独特的阻焊，网或焊膏间隙。 焊盘还可以具有牢"
-"固的连接或热释放连接，以便于制造。 可以在封装内放置任何独特焊盘的组合。"
+"封装焊盘具有可调节的各种属性。 焊盘可以是圆形，矩形，椭圆形或梯形。 对于通孔部件，钻头可以在焊盘"
+"内部偏移并且是圆形或槽。 单个焊盘也可以旋转并具有独特的阻焊，网或焊膏间隙。 焊盘还可以具有牢固的"
+"连接或热释放连接，以便于制造。 可以在封装内放置任何独特焊盘的组合。"
 
 #. type: Plain text
 #: pcbnew_introduction.adoc:77
@@ -8508,14 +8493,14 @@ msgstr ""
 #: pcbnew_introduction.adoc:100
 msgid ""
 "In the new release of KiCad, pcbnew has seen wide sweeping changes from developers at CERN. "
-"This includes features such as a new renderer (OpenGL and Cairo view modes), an interative "
-"push and shove router, differential and meander trace routing and tuning, a reworked Footprint "
+"This includes features such as a new renderer (OpenGL and Cairo view modes), an interative push "
+"and shove router, differential and meander trace routing and tuning, a reworked Footprint "
 "Editor, and many other features. Please note that most of these new features *only* exist in "
 "the new OpenGL and Cairo view modes."
 msgstr ""
 "在 KiCad 的新版本中，pcbnew 已经从 CERN 的开发人员那里看到了广泛的变化。 这包括诸如新渲染器"
-"（OpenGL 和 Cairo 视图模式），交互式推送布线器，差分和曲折布线和调整，重新设计的封装编辑器以及"
-"许多其他功能等功能。 请注意，大多数这些新功能 *仅* 存在于新的 OpenGL 和 Cairo 视图模式中。"
+"（OpenGL 和 Cairo 视图模式），交互式推送布线器，差分和曲折布线和调整，重新设计的封装编辑器以及许"
+"多其他功能等功能。 请注意，大多数这些新功能 *仅* 存在于新的 OpenGL 和 Cairo 视图模式中。"
 
 #. type: Title ==
 #: pcbnew_python_scripting.adoc:1
@@ -8536,8 +8521,8 @@ msgid ""
 "Also see the doxygen documentation on http://docs.kicad-pcb.org/doxygen-python/namespaces."
 "html[Python Scripting Reference]."
 msgstr ""
-"另请参阅 http://docs.kicad-pcb.org/doxygen-python/namespaces.html(Python脚本参考） 中的 "
-"doxygen 文档。"
+"另请参阅 http://docs.kicad-pcb.org/doxygen-python/namespaces.html(Python脚本参考） 中的 doxygen "
+"文档。"
 
 #. type: Plain text
 #: pcbnew_python_scripting.adoc:8
@@ -8582,8 +8567,8 @@ msgstr "*命令行脚本* ：可以从命令行，加载板或库中使用的脚
 #. type: Plain text
 #: pcbnew_python_scripting.adoc:20
 msgid ""
-"It shall be noted that the only KiCad application that supports scripting is Pcbnew. It is "
-"also planned for Eeschema in the future."
+"It shall be noted that the only KiCad application that supports scripting is Pcbnew. It is also "
+"planned for Eeschema in the future."
 msgstr "需要注意的是，唯一支持脚本编写的 KiCad 应用程序是 Pcbnew。 未来还计划为 Eeschema。"
 
 #. type: Title ===
@@ -8595,13 +8580,13 @@ msgstr "KiCad 对象"
 #. type: Plain text
 #: pcbnew_python_scripting.adoc:27
 msgid ""
-"The scripting API reflects the internal object structure inside KiCad/pcbnew. BOARD is the "
-"main object, that has a set of properties and a set of MODULEs, and TRACKs/VIAs, TEXTE_PCB, "
+"The scripting API reflects the internal object structure inside KiCad/pcbnew. BOARD is the main "
+"object, that has a set of properties and a set of MODULEs, and TRACKs/VIAs, TEXTE_PCB, "
 "DIMENSION, DRAWSEGMENT.  Then MODULEs have D_PADs, EDGEs, etc."
 msgstr ""
-"脚本 API 反映了 KiCad/pcbnew 中的内部对象结构。  板（BOARD）是主要对象，它具有一组属性和一组组"
-"件（MODULEs），以及 布线（TRACKs）/过孔（VIAs），文本_PCB（TEXTE_PCB），尺寸（DIMENSION），绘制"
-"段（DRAWSEGMENT）。 然后元件有 D_焊盘（D_PADs），边缘（EDGEs）等。"
+"脚本 API 反映了 KiCad/pcbnew 中的内部对象结构。  板（BOARD）是主要对象，它具有一组属性和一组组件"
+"（MODULEs），以及 布线（TRACKs）/过孔（VIAs），文本_PCB（TEXTE_PCB），尺寸（DIMENSION），绘制段"
+"（DRAWSEGMENT）。 然后元件有 D_焊盘（D_PADs），边缘（EDGEs）等。"
 
 #. type: Plain text
 #: pcbnew_python_scripting.adoc:29
@@ -8621,8 +8606,8 @@ msgid ""
 "return the current pcb open at editor, useful for commands written from the integrated "
 "scripting shell inside pcbnew or action plugins."
 msgstr ""
-"所有 pcbnew API 都是从 Python 中的“pcbnew”模块提供的。 GetBoard() 方法将在编辑器中返回当前打开"
-"的PCB，对于从 pcbnew 或 action 插件中的集成脚本 shell 编写的命令非常有用。"
+"所有 pcbnew API 都是从 Python 中的“pcbnew”模块提供的。 GetBoard() 方法将在编辑器中返回当前打开的"
+"PCB，对于从 pcbnew 或 action 插件中的集成脚本 shell 编写的命令非常有用。"
 
 #. type: Title ===
 #: pcbnew_python_scripting.adoc:37
@@ -8835,8 +8820,8 @@ msgid ""
 "BOARD contains a set of object lists that can be accessed using the following methods, they "
 "will return iterable lists that can be iterated using \"for obj in list:\""
 msgstr ""
-"板（BOARD）包含一组可以使用以下方法访问的对象列表，它们将返回可以使用“for obj in list：”迭代的"
-"可迭代列表："
+"板（BOARD）包含一组可以使用以下方法访问的对象列表，它们将返回可以使用“for obj in list：”迭代的可"
+"迭代列表："
 
 #. type: Plain text
 #: pcbnew_python_scripting.adoc:113
@@ -9012,7 +8997,7 @@ msgid ""
 msgstr ""
 "for item in pcb.GetDrawings():\n"
 "    if type(item) is TEXTE_PCB:\n"
-"        print  \"* Text:     \'%s\' at %s\"%(item.GetText(), item.GetPosition())\n"
+"        print  \"* Text:     '%s' at %s\"%(item.GetText(), item.GetPosition())\n"
 "    elif type(item) is DRAWSEGMENT:\n"
 "        print  \"* Drawing: %s \"%item.GetShapeStr() # dir(item)\n"
 "    else:\n"
@@ -9750,8 +9735,8 @@ msgstr "去做这个："
 #: pcbnew_installation.adoc:23
 msgid ""
 "Launch Pcbnew using kicad or directly. On Windows it is in `C: \\kicad\\bin\\pcbnew.exe` and on "
-"Linux you can run `/usr/local/kicad/bin/kicad` or `/usr/local/kicad/bin/pcbnew` if the "
-"binaries are located in `/usr/local/kicad/bin`."
+"Linux you can run `/usr/local/kicad/bin/kicad` or `/usr/local/kicad/bin/pcbnew` if the binaries "
+"are located in `/usr/local/kicad/bin`."
 msgstr ""
 "使用 kiCad 或直接启动 Pcbnew。 在 Windows 上它位于“C:\\kicad\\bin\\pcbnew.exe”中，在 Linux 上你"
 "可以运行“/usr/local/kicad/bin/kicad”或“/usr/local/kicad/bin/pcbnew” 二进制文件位于“/usr/local/"
@@ -9783,8 +9768,8 @@ msgstr "管理封装库"
 msgid ""
 "As of release 4.0, Pcbnew organises the footprint libraries using files called \"footprint "
 "library tables\". A footprint library table contains descriptions of some number of individual "
-"footprint libraries, along with a \"nickname\" for each library, which is used to refer to "
-"that library when referencing a footprint."
+"footprint libraries, along with a \"nickname\" for each library, which is used to refer to that "
+"library when referencing a footprint."
 msgstr ""
 "从 4.0 版本开始，Pcbnew 使用名为“封装库表”的文件组织封装库。 封装库表包含一些单独的封装库的描"
 "述，以及每个库的“昵称”，用于在引用封装时引用该库。"
@@ -9792,8 +9777,8 @@ msgstr ""
 #. type: Plain text
 #: pcbnew_installation.adoc:38
 msgid ""
-"There are several kinds of library supported by Pcbnew, each of which is supported by a "
-"\"plugin\":"
+"There are several kinds of library supported by Pcbnew, each of which is supported by a \"plugin"
+"\":"
 msgstr "Pcbnew 支持几种库，每种都由“插件”支持："
 
 #. type: Plain text
@@ -9844,8 +9829,8 @@ msgstr "所有其他格式都是只读的。"
 #: pcbnew_installation.adoc:58
 msgid ""
 "It is allowed to have footprints with the same name in different libraries. The footprint will "
-"be stored as a combination of library _and_ footprint name, ensuring that the correct "
-"footprint is loaded from the appropriate library."
+"be stored as a combination of library _and_ footprint name, ensuring that the correct footprint "
+"is loaded from the appropriate library."
 msgstr ""
 "允许在不同的库中具有相同名称的封装。 封装将存储为库 _和_ 封装名称的组合，以确保从相应的库加载正"
 "确的封装。"
@@ -9865,9 +9850,8 @@ msgstr "全局封装库表"
 #: pcbnew_installation.adoc:69
 msgid ""
 "The global footprint library table contains the list of libraries that are always available "
-"regardless of the currently loaded project file.  The table is saved in the file `fp-lib-"
-"table` in the user's home folder.  The location of this folder is dependent on the operating "
-"system."
+"regardless of the currently loaded project file.  The table is saved in the file `fp-lib-table` "
+"in the user's home folder.  The location of this folder is dependent on the operating system."
 msgstr ""
 "全局封装库表包含始终可用的库列表，与当前加载的项目文件无关。 该表保存在用户主文件夹中的文件“fp-"
 "lib-table”中。 此文件夹的位置取决于操作系统。"
@@ -9908,15 +9892,15 @@ msgstr "初始配置"
 #. type: Plain text
 #: pcbnew_installation.adoc:94
 msgid ""
-"The first time CvPcb or Pcbnew is run and the global footprint table file `fp-lib-table` is "
-"not found in the user's home folder, Pcbnew will attempt to copy the default footprint table "
-"file `fp_global_table` stored in the system's KiCad template folder to the file `fp-lib-table` "
-"in the user's home folder.  If `fp_global_table` cannot be found, an empty footprint library "
-"table will be created in the user's home folder.  If this happens, the user can either copy "
+"The first time CvPcb or Pcbnew is run and the global footprint table file `fp-lib-table` is not "
+"found in the user's home folder, Pcbnew will attempt to copy the default footprint table file "
+"`fp_global_table` stored in the system's KiCad template folder to the file `fp-lib-table` in "
+"the user's home folder.  If `fp_global_table` cannot be found, an empty footprint library table "
+"will be created in the user's home folder.  If this happens, the user can either copy "
 "`fp_global_table` manually or configure the table by hand."
 msgstr ""
-"第一次运行 CvPcb 或 Pcbnew 并且在用户的主文件夹中找不到全局封装表文件“fp-lib-table”，Pcbnew 将"
-"尝试复制存储在系统的 KiCad 模板文件夹中的默认封装表文件“fp_global_table” 到用户主文件夹中的“fp-"
+"第一次运行 CvPcb 或 Pcbnew 并且在用户的主文件夹中找不到全局封装表文件“fp-lib-table”，Pcbnew 将尝"
+"试复制存储在系统的 KiCad 模板文件夹中的默认封装表文件“fp_global_table” 到用户主文件夹中的“fp-"
 "lib-table”文件。 如果找不到“fp_global_table”，将在用户的主文件夹中创建一个空的封装库表。 如果发"
 "生这种情况，用户可以手动复制“fp_global_table”或手动配置表。"
 
@@ -9974,11 +9958,11 @@ msgstr "标准 Eagle 库（适用于 Eagle 6.4.0）"
 #. type: delimited block =
 #: pcbnew_installation.adoc:110
 msgid ""
-"https://github.com/KiCad/kicad-library/blob/master/template/fp-lib-table.for-eagle-6.4.0[fp-"
-"lib-table.for-eagle-6.4.0]"
+"https://github.com/KiCad/kicad-library/blob/master/template/fp-lib-table.for-eagle-6.4.0[fp-lib-"
+"table.for-eagle-6.4.0]"
 msgstr ""
-"https://github.com/KiCad/kicad-library/blob/master/template/fp-lib-table.for-eagle-6.4.0[fp-"
-"lib-table.for-eagle-6.4.0]"
+"https://github.com/KiCad/kicad-library/blob/master/template/fp-lib-table.for-eagle-6.4.0[fp-lib-"
+"table.for-eagle-6.4.0]"
 
 #. type: Plain text
 #: pcbnew_installation.adoc:115
@@ -9990,9 +9974,8 @@ msgstr "配置 KiCad 时要做的第一件事就是根据您的工作和项目�
 #. type: Plain text
 #: pcbnew_installation.adoc:119
 msgid ""
-"It can be time consuming to have many libraries, especially if they are only found online "
-"(such as the Github libraries). If you find libraries slow to load, try removing ones you "
-"don't need."
+"It can be time consuming to have many libraries, especially if they are only found online (such "
+"as the Github libraries). If you find libraries slow to load, try removing ones you don't need."
 msgstr ""
 "拥有许多库可能非常耗时，特别是如果它们只在网上找到（例如 Github 库）。 如果您发现库加载缓慢，请"
 "尝试删除不需要的库。"
@@ -10034,8 +10017,7 @@ msgid ""
 "In order to use a footprint library, it must first be added to either the global table or the "
 "project specific table.  The project specific table is only applicable when a board file is "
 "open."
-msgstr ""
-"要使用封装库，必须先将其添加到全局表或项目特定表中。 项目特定表仅适用于打开板文件的情况。"
+msgstr "要使用封装库，必须先将其添加到全局表或项目特定表中。 项目特定表仅适用于打开板文件的情况。"
 
 #. type: Plain text
 #: pcbnew_installation.adoc:140
@@ -10043,8 +10025,8 @@ msgid ""
 "Each library table entry has a nickname. This _must_ be unique within that table. The nickname "
 "does not have to be related in any way to the actual library file name or path."
 msgstr ""
-"每个库表条目都有一个昵称。 这个 _必须（must）_ 在该表中是唯一的。 昵称不必以任何方式与实际库文"
-"件名或路径相关。"
+"每个库表条目都有一个昵称。 这个 _必须（must）_ 在该表中是唯一的。 昵称不必以任何方式与实际库文件"
+"名或路径相关。"
 
 #. type: Plain text
 #: pcbnew_installation.adoc:142
@@ -10062,8 +10044,8 @@ msgid ""
 "Each library entry must have a valid path and/or file name depending on the type of library. "
 "Paths can be defined as absolute, relative, or by environment variable substitution (see below)"
 msgstr ""
-"每个库条目必须具有有效的路径和/或文件名，具体取决于库的类型。 路径可以定义为绝对，相对或环境变"
-"量替换（见下文）"
+"每个库条目必须具有有效的路径和/或文件名，具体取决于库的类型。 路径可以定义为绝对，相对或环境变量"
+"替换（见下文）"
 
 #. type: Plain text
 #: pcbnew_installation.adoc:149
@@ -10082,9 +10064,9 @@ msgstr "还有一个描述字段用于添加库条目的描述。 选项字段�
 #: pcbnew_installation.adoc:159
 msgid ""
 "Although you cannot have duplicate library nicknames in the same table, you can have duplicate "
-"library nicknames in both the global and project specific footprint library table.  The "
-"project specific table entry will take precedence over the global table entry when duplicated "
-"names occur."
+"library nicknames in both the global and project specific footprint library table.  The project "
+"specific table entry will take precedence over the global table entry when duplicated names "
+"occur."
 msgstr ""
 "虽然在同一个表中不能有重复的库昵称，但是在全局和项目特定的封装库表中都可以有重复的库昵称。 当出"
 "现重复的名称时，项目特定的表条目将优先于全局表条目。"
@@ -10150,8 +10132,7 @@ msgstr "有一个交互式向导，可以帮助您将库添加到库表。 可�
 
 #. type: Plain text
 #: pcbnew_installation.adoc:189
-msgid ""
-"It can also be launched from the library manager, using the \"Append With Wizard\" button."
+msgid "It can also be launched from the library manager, using the \"Append With Wizard\" button."
 msgstr "它也可以使用“附加向导”按钮从库管理器启动。"
 
 #. type: Plain text
@@ -10330,8 +10311,8 @@ msgid ""
 "_Github_ library, and will resync on every library reload. If you _do_ save a local copy, the "
 "library will be a _KiCad_ (pretty) library and will not automatically update in future."
 msgstr ""
-"您可以选择保存本地副本。 如果您执行_not_保存本地副本，则该库将是_Github_库，并将在每次重新加载"
-"库时重新同步。 如果您 _do_ 保存本地副本，该库将是 _KiCad_（漂亮）库，并且将来不会自动更新。"
+"您可以选择保存本地副本。 如果您执行_not_保存本地副本，则该库将是_Github_库，并将在每次重新加载库"
+"时重新同步。 如果您 _do_ 保存本地副本，该库将是 _KiCad_（漂亮）库，并且将来不会自动更新。"
 
 #. type: Plain text
 #: pcbnew_installation.adoc:250
@@ -10380,8 +10361,8 @@ msgstr "KiCad 插件处理您计算机上存在的本机 KiCad 库（或某些�
 #: pcbnew_installation.adoc:267
 msgid ""
 "It is used for pre-installed libraries that are installed along with KiCad, as well as other "
-"KiCad libraries, either from the official KiCad library collection, 3rd party libraries or "
-"your own curated libraries."
+"KiCad libraries, either from the official KiCad library collection, 3rd party libraries or your "
+"own curated libraries."
 msgstr ""
 "它用于与 KiCad 一起安装的预安装库，以及其他 KiCad 库，可以是官方的 KiCad 库集，第三方库或您自己"
 "的策划库。"
@@ -10398,8 +10379,8 @@ msgid ""
 "The Footprint Library Wizard can help you install libraries already on disk or on Github. "
 "However, for libraries on disk, you need to put them there yourself in the first place."
 msgstr ""
-"Footprint Library Wizard可以帮助您安装磁盘或Github 上的库。 但是，对于磁盘上的库，您需要首先将"
-"它们放在那里。"
+"Footprint Library Wizard可以帮助您安装磁盘或Github 上的库。 但是，对于磁盘上的库，您需要首先将它"
+"们放在那里。"
 
 #. type: Plain text
 #: pcbnew_installation.adoc:276
@@ -10416,9 +10397,9 @@ msgstr "这通常通过解压缩归档文件，从其他位置复制目录或克
 #. type: Plain text
 #: pcbnew_installation.adoc:283
 msgid ""
-"The KiCad plugin does not specify any kind of version control, but Git is very commonly used "
-"to track changes to libraries, which can be critical to ensuring library data is safely "
-"recorded and backed up."
+"The KiCad plugin does not specify any kind of version control, but Git is very commonly used to "
+"track changes to libraries, which can be critical to ensuring library data is safely recorded "
+"and backed up."
 msgstr ""
 "KiCad 插件没有指定任何类型的版本控制，但 Git 非常常用于跟踪库的更改，这对于确保库数据的安全记录"
 "和备份至关重要。"
@@ -10460,22 +10441,22 @@ msgid ""
 "remote GitHub repository consisting of _.pretty_ footprints and optionally provides \"Copy-On-"
 "Write\" (COW) support for editing footprints read from the GitHub repo and saving them locally."
 msgstr ""
-"GitHub 插件是一个特殊的插件，它提供了一个接口，用于对包含 _.pretty_ 封装的远程 GitHub 存储库进"
-"行只读访问，并可选择提供“写时复制”（COW）支持，用于编辑从 GitHub 存储库读取的封装和在本地保存它"
+"GitHub 插件是一个特殊的插件，它提供了一个接口，用于对包含 _.pretty_ 封装的远程 GitHub 存储库进行"
+"只读访问，并可选择提供“写时复制”（COW）支持，用于编辑从 GitHub 存储库读取的封装和在本地保存它"
 "们。"
 
 #. type: delimited block =
 #: pcbnew_installation.adoc:307
 msgid ""
-"The \"GitHub\" plugin is for *read-only access of remote pretty footprint libraries* at "
-"https://github.com."
+"The \"GitHub\" plugin is for *read-only access of remote pretty footprint libraries* at https://"
+"github.com."
 msgstr "“GitHub”插件用于 *上的远程漂亮封装库* 的只读访问 https://github.com 。"
 
 #. type: delimited block =
 #: pcbnew_installation.adoc:309
 msgid ""
-"You will not be told if a remote repository changed since your last use of it. Be cautious "
-"when using footprint directly from Github."
+"You will not be told if a remote repository changed since your last use of it. Be cautious when "
+"using footprint directly from Github."
 msgstr "自上次使用它以来，您不会被告知远程存储库是否已更改。 直接从 Github 使用封装时要小心。"
 
 #. type: Plain text
@@ -10516,8 +10497,7 @@ msgstr "“插件类型”必须设置为“Github”。"
 #. type: Plain text
 #: pcbnew_installation.adoc:326
 msgid ""
-"The table below shows a footprint library table entry with the default options (no COW "
-"support):"
+"The table below shows a footprint library table entry with the default options (no COW support):"
 msgstr "下表显示了具有默认选项（无 COW 支持）的封装库表条目："
 
 #. type: delimited block |
@@ -10549,24 +10529,24 @@ msgstr "写入时复制（Copy-On-Write）"
 msgid ""
 "To enable the \"Copy-On-Write\" feature the option `allow_pretty_writing_to_this_dir` must be "
 "added to the \"Options\" setting of the footprint library table entry.  This option is the "
-"\"Library Path\" for local storage of modified copies of footprints read from the GitHub "
-"repo.  The footprints saved to this path are combined with the read-only part of the GitHub "
-"repository to create the footprint library.  If this option is missing, then the GitHub "
-"library is read-only.  If the option is present for a GitHub library, then any writes to this "
-"hybrid library will go to the local `*.pretty` directory."
+"\"Library Path\" for local storage of modified copies of footprints read from the GitHub repo.  "
+"The footprints saved to this path are combined with the read-only part of the GitHub repository "
+"to create the footprint library.  If this option is missing, then the GitHub library is read-"
+"only.  If the option is present for a GitHub library, then any writes to this hybrid library "
+"will go to the local `*.pretty` directory."
 msgstr ""
-"要启用“写入时复制”功能，必须将“allow_pretty_writing_to_this_dir”选项添加到封装库表条目的“选"
-"项”设置中。 此选项是“库路径”，用于本地存储从 GitHub 存储库读取的修改过的封装副本。 保存到此路径"
-"的占用空间与 GitHub 存储库的只读部分组合以创建封装库。 如果缺少此选项，则 GitHub 库是只读的。 "
-"如果 GitHub 库存在该选项，则对该混合库的任何写入都将转到本地“*.pretty”目录。"
+"要启用“写入时复制”功能，必须将“allow_pretty_writing_to_this_dir”选项添加到封装库表条目的“选项”设"
+"置中。 此选项是“库路径”，用于本地存储从 GitHub 存储库读取的修改过的封装副本。 保存到此路径的占用"
+"空间与 GitHub 存储库的只读部分组合以创建封装库。 如果缺少此选项，则 GitHub 库是只读的。 如果 "
+"GitHub 库存在该选项，则对该混合库的任何写入都将转到本地“*.pretty”目录。"
 
 #. type: Plain text
 #: pcbnew_installation.adoc:356
 msgid ""
 "The github.com resident portion of this hybrid COW library is always read-only, meaning you "
-"cannot delete anything or modify any footprint in the specified GitHub repository directly. "
-"The aggregate library type remains \"Github\" in all further discussions, but it consists of "
-"both the local read/write portion and the remote read-only portion."
+"cannot delete anything or modify any footprint in the specified GitHub repository directly. The "
+"aggregate library type remains \"Github\" in all further discussions, but it consists of both "
+"the local read/write portion and the remote read-only portion."
 msgstr ""
 "此混合 COW 库的 github.com 常驻部分始终是只读的，这意味着您无法删除任何内容或直接修改指定 "
 "GitHub 存储库中的任何封装。 在所有进一步的讨论中，聚合库类型仍然是“Github”，但它包括本地读/写部"
@@ -10640,14 +10620,14 @@ msgstr "使用写入时复制（Copy-On-Write）共享封装"
 msgid ""
 "What's the point of COW? If you periodically email your COW pretty footprint modifications to "
 "the GitHub repository maintainer, you can help update the GitHub copy.  Simply email the "
-"individual `*.kicad_mod` files you find in your COW directories to the maintainer of the "
-"GitHub repository.  After you've received confirmation that your changes have been committed, "
-"you can safely delete your COW file(s)  and the updated footprint from the read-only part of "
-"GitHub library will flow down.  Your goal should be to keep the COW file set as small as "
-"possible by contributing frequently to the shared master copies at https://github.com."
+"individual `*.kicad_mod` files you find in your COW directories to the maintainer of the GitHub "
+"repository.  After you've received confirmation that your changes have been committed, you can "
+"safely delete your COW file(s)  and the updated footprint from the read-only part of GitHub "
+"library will flow down.  Your goal should be to keep the COW file set as small as possible by "
+"contributing frequently to the shared master copies at https://github.com."
 msgstr ""
-"COW 有什么意义？ 如果您定期通过电子邮件将您的 COW 相当封装修改发送给 GitHub 存储库维护者，您可"
-"以帮助更新 GitHub 副本。 只需将您在 COW 目录中找到的单个“*.kicad_mod”文件通过电子邮件发送给 "
+"COW 有什么意义？ 如果您定期通过电子邮件将您的 COW 相当封装修改发送给 GitHub 存储库维护者，您可以"
+"帮助更新 GitHub 副本。 只需将您在 COW 目录中找到的单个“*.kicad_mod”文件通过电子邮件发送给 "
 "GitHub 存储库的维护者。 在收到确认已提交更改后，您可以安全地删除您的 COW 文件，并且 GitHub 库的"
 "只读部分中更新的封装将向下流动。 您的目标应该是通过 https://github.com 上的共享主副本频繁提供 "
 "COW 文件设置尽可能小。"
@@ -10676,16 +10656,16 @@ msgstr "Github 插件可能很慢，因为它必须先从 Internet 下载所有�
 #. type: Plain text
 #: pcbnew_installation.adoc:419
 msgid ""
-"Nginx can be used as a cache to the github server to speed up the loading of footprints. It "
-"can be installed locally or on a network server. There is an example configuration in KiCad "
-"sources at `pcbnew/github/nginx.conf`. The most straightforward way to get this working is to "
-"overwrite the default nginx.conf with this one and `export KIGITHUB=http://my_server:54321/"
-"KiCad`, where `my_server` is the IP or domain name of the machine running nginx."
+"Nginx can be used as a cache to the github server to speed up the loading of footprints. It can "
+"be installed locally or on a network server. There is an example configuration in KiCad sources "
+"at `pcbnew/github/nginx.conf`. The most straightforward way to get this working is to overwrite "
+"the default nginx.conf with this one and `export KIGITHUB=http://my_server:54321/KiCad`, where "
+"`my_server` is the IP or domain name of the machine running nginx."
 msgstr ""
 "Nginx 可以用作 github 服务器的缓存，以加快封装的加载速度。 它可以安装在本地或网络服务器上。 "
-"在“pcbnew/github/nginx.conf”的 KiCad 源代码中有一个示例配置。 最直接的方法就是使用这个"
-"和“export KIGITHUB=http://my_server:54321/KiCad”覆盖默认的 nginx.conf，其中“my_server”是运行 "
-"nginx 的机器的 IP 或域名。"
+"在“pcbnew/github/nginx.conf”的 KiCad 源代码中有一个示例配置。 最直接的方法就是使用这个和“export "
+"KIGITHUB=http://my_server:54321/KiCad”覆盖默认的 nginx.conf，其中“my_server”是运行 nginx 的机器"
+"的 IP 或域名。"
 
 #. type: Title ====
 #: pcbnew_installation.adoc:420
@@ -10705,8 +10685,8 @@ msgid ""
 "board file.  You are free to define libraries in either table."
 msgstr ""
 "封装库可以全局定义，也可以专门定义到当前加载的项目。 用户全局表中定义的封装库始终可用，并存储在"
-"用户主文件夹的“fp-lib-table”文件中。 即使没有打开项目网表文件，也可以随时访问全局封装库。 项目"
-"特定的封装表仅对当前打开的网络列表文件有效。 项目特定的封装库表保存在当前打开的板文件路径中的文"
+"用户主文件夹的“fp-lib-table”文件中。 即使没有打开项目网表文件，也可以随时访问全局封装库。 项目特"
+"定的封装表仅对当前打开的网络列表文件有效。 项目特定的封装库表保存在当前打开的板文件路径中的文"
 "件“fp-lib-table”中。 您可以在任一表中自由定义库。"
 
 #. type: Plain text
@@ -10758,11 +10738,10 @@ msgstr "您还可以在全局和项目中专门定义封装库。"
 #. type: Plain text
 #: pcbnew_installation.adoc:455
 msgid ""
-"One usage pattern would be to define your most commonly used libraries globally and the "
-"library only required for the project in the project specific library table.  There is no "
-"restriction on how you define your libraries."
-msgstr ""
-"一种用法模式是全局定义最常用的库，而库只需要项目特定库表中的项目。 您如何定义库没有限制。"
+"One usage pattern would be to define your most commonly used libraries globally and the library "
+"only required for the project in the project specific library table.  There is no restriction "
+"on how you define your libraries."
+msgstr "一种用法模式是全局定义最常用的库，而库只需要项目特定库表中的项目。 您如何定义库没有限制。"
 
 #. type: Title =====
 #: pcbnew_installation.adoc:456
@@ -10774,8 +10753,8 @@ msgstr "修改PCB项目中的封装"
 #: pcbnew_installation.adoc:461
 msgid ""
 "When a footprint is added to a PCB, the entire footprint is copied into the PCB file (_."
-"kicad_pcb_). This means changes to the footprint in the library do not automatically affect "
-"the PCB."
+"kicad_pcb_). This means changes to the footprint in the library do not automatically affect the "
+"PCB."
 msgstr ""
 "将占位面积添加到 PCB 时，整个封装将复制到 PCB 文件中（_.kicad_pcb_）。 这意味着库中的封装的更改"
 "不会自动影响 PCB。"
@@ -10804,5 +10783,5 @@ msgid ""
 "libraries. Also, it ensures all the footprint resources used for the PCB can be easily "
 "distributed with the PCB file."
 msgstr ""
-"通常的做法是将您使用的所有占用空间复制到单独的版本控制位置，以便此项目不会因系统或用户库的更改"
-"而意外受到影响。 此外，它确保用于 PCB 的所有封装资源都可以轻松地与 PCB 文件一起分发。"
+"通常的做法是将您使用的所有占用空间复制到单独的版本控制位置，以便此项目不会因系统或用户库的更改而"
+"意外受到影响。 此外，它确保用于 PCB 的所有封装资源都可以轻松地与 PCB 文件一起分发。"
