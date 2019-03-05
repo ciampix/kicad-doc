@@ -101,26 +101,26 @@ if needed, I_adj ,select the field you want to calculate
 
 
 [[track-width]]
-=== Track Width
+=== Track-Width
 
 The Track Width calculator calculates the trace width for printed circuit board conductors for a given current. 
 It uses formulas from IPC-2221 (formerly IPC-D-275). 
 
 
-image::images/en/trackwidth.png[alt="Track Width",scaledwidth="80%"]
+image::images/en/trackwidth.png[alt="Track-Width",scaledwidth="80%"]
 
 
 
 
 [[electrical-spacing]]
-=== Electrical Spacing
+=== Electrical-Spacing
 
 In the Picture you can see that you can edit the Voltage and the Calculator gives you the correct Values.
 
 The minimal Values which orientatd at the IPC-2221 too.
 
 
-image::images/en/electricalspacing.png[alt="Electrical Spacing",scaledwidth="80%"]
+image::images/en/electricalspacing.png[alt="Electrical-Spacing",scaledwidth="80%"]
 
 
 
@@ -140,7 +140,7 @@ image::images/en/transline.png[alt="TransLine",scaledwidth="80%"]
 
 
 [[rf-attenuators]]
-=== RF Attenuators
+=== RF-Attenuators
 
 With the RF Attenuator you can calculate different things by choosing:
 
@@ -158,7 +158,7 @@ image::images/en/rfattenuators.png[alt="RF Attenuators",scaledwidth="80%"]
 
 
 [[color-code]]
-=== Color Code
+=== Color-Code
 
 This calculator helps translating the color bars in a resistor to its value. To use it, first select the _tolerance_ of the resistor: 10%, 5% or smaller than 2%. For example:
 
@@ -166,13 +166,13 @@ This calculator helps translating the color bars in a resistor to its value. To 
 * 1kΩ, 1% tolerance: Brown Black Black Brown Brown
  
 
-image::images/en/colorcode.png[alt="Color Code",scaledwidth="80%"]
+image::images/en/colorcode.png[alt="Color-Code",scaledwidth="80%"]
 
 
 
 
 [[board-classes]]
-=== Board Classes
+=== Board-Classes
 
-image::images/en/boardclasses.png[alt="Board Classes",scaledwidth="80%"]
+image::images/en/boardclasses.png[alt="Board-Classes",scaledwidth="80%"]
 
