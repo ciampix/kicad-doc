@@ -3135,7 +3135,7 @@ msgid ""
 "*Tracks 45 Only*: Directions allowed for track segments are 0, 45 or\n"
 "90 degrees.\n"
 msgstr ""
-"*仅限布线45 * ：布线段允许的方向为0,45或\n"
+"*仅限布线45* ：布线段允许的方向为0,45或\n"
 "90度。\n"
 
 #. type: Plain text
@@ -6554,13 +6554,13 @@ msgstr "几何选项如下："
 #: pcbnew_editing_tools.adoc:91
 #, no-wrap
 msgid "*Horizontal count*: the number of \"columns\" in the grid.\n"
-msgstr "*水平计数*：网格中“列”的数量。\n"
+msgstr "*水平计数* ：网格中“列”的数量。\n"
 
 #. type: Plain text
 #: pcbnew_editing_tools.adoc:92
 #, no-wrap
 msgid "*Vertical count*: the number of \"rows\" in the grid.\n"
-msgstr "*垂直计数*：网格中的“行”数。\n"
+msgstr "*垂直计数* ：网格中的“行”数。\n"
 
 #. type: Plain text
 #: pcbnew_editing_tools.adoc:94
@@ -6569,7 +6569,7 @@ msgid ""
 "*Horizontal spacing*: the horizontal distance from item to the item in the same row\n"
 "and next column. If this is negative, the grid progresses from right to left.\n"
 msgstr ""
-"*水平间距*：从项目到同一行中项目的水平距离\n"
+"*水平间距* ：从项目到同一行中项目的水平距离\n"
 "和下一栏。 如果这是负数，则网格从右向左进行。\n"
 
 #. type: Plain text
@@ -6580,7 +6580,7 @@ msgid ""
 "column and the next row. If this is negative, the grid progress bottom to\n"
 "top.\n"
 msgstr ""
-"*垂直间距*：从一个项目到项目的垂直距离\n"
+"*垂直间距* ：从一个项目到项目的垂直距离\n"
 "列和下一行。 如果这是负数，则网格进度最低\n"
 "最佳。\n"
 
@@ -6591,7 +6591,7 @@ msgid ""
 "*Horizontal offset*: start each row this distance to the right of the previous\n"
 "one\n"
 msgstr ""
-"*水平偏移*：从前一行的右边开始每\n"
+"*水平偏移* ：从前一行的右边开始每\n"
 "一行\n"
 
 #. type: Plain text
@@ -8544,7 +8544,7 @@ msgstr "*插件* ：KiCad 启动时会加载此类脚本。 例子：\n"
 #: pcbnew_python_scripting.adoc:13
 #, no-wrap
 msgid "*Footprint Wizards*: To help you build footprints easily filling in parameters. See the dedicated section <<Footprint_Wizards,Footprint Wizards>> below.\n"
-msgstr "*封装向导*：帮助您轻松填充参数。 请参阅下面的专用部分《 Footprint_Wizards，Footprint Wizards 》。\n"
+msgstr "*封装向导* ：帮助您轻松填充参数。 请参阅下面的专用部分《 Footprint_Wizards，Footprint Wizards 》。\n"
 
 #. type: Plain text
 #: pcbnew_python_scripting.adoc:14

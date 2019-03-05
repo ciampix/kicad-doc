@@ -26,13 +26,13 @@ msgstr "KiCad"
 #. type: Plain text
 #: kicad.adoc:9
 msgid "_Reference manual_"
-msgstr "_ 参考手册 _"
+msgstr "_参考手册_"
 
 #. type: Plain text
 #: kicad.adoc:12
 #, no-wrap
 msgid "*Copyright*\n"
-msgstr "* 版权 *\n"
+msgstr "*版权*\n"
 
 #. type: Plain text
 #: kicad.adoc:18
@@ -57,7 +57,7 @@ msgstr "本指南中的所有商标均属于其合法所有者。"
 #: kicad.adoc:23
 #, no-wrap
 msgid "*Contributors*\n"
-msgstr "* 贡献者 *\n"
+msgstr "*贡献者*\n"
 
 #. type: Plain text
 #: kicad.adoc:25
@@ -68,7 +68,7 @@ msgstr "Jean-Pierre Charras, Fabrizio Tappero."
 #: kicad.adoc:28
 #, no-wrap
 msgid "*Feedback*\n"
-msgstr "* 反馈 *\n"
+msgstr "*反馈*\n"
 
 #. type: Plain text
 #: kicad.adoc:30
@@ -94,7 +94,7 @@ msgstr "关于 KiCad 翻译: https://github.com/KiCad/kicad-i18n/issues"
 #: kicad.adoc:39
 #, no-wrap
 msgid "*Publication date and software version*\n"
-msgstr "* 出版日期和软件版本 *\n"
+msgstr "*出版日期和软件版本*\n"
 
 #. type: Plain text
 #: kicad.adoc:41
@@ -245,7 +245,7 @@ msgstr ""
 #: kicad.adoc:88
 #, no-wrap
 msgid "*Project manager file:*\n"
-msgstr "* 项目管理器文件：* \n"
+msgstr "*项目管理器文件：* \n"
 
 #. type: delimited block |
 #: kicad.adoc:91
@@ -257,7 +257,7 @@ msgstr "| *.pro | 包含当前项目的一些参数的小文件，包括组件�
 #: kicad.adoc:94
 #, no-wrap
 msgid "*Schematic editor files:*\n"
-msgstr "* 原理图编辑器文件：* \n"
+msgstr "*原理图编辑器文件：* \n"
 
 #. type: delimited block |
 #: kicad.adoc:103
@@ -283,7 +283,7 @@ msgstr ""
 #: kicad.adoc:106
 #, no-wrap
 msgid "*Board editor files and folders:*\n"
-msgstr "* 板编辑器文件和文件夹：* \n"
+msgstr "*板编辑器文件和文件夹：* \n"
 
 #. type: delimited block |
 #: kicad.adoc:118
@@ -480,7 +480,7 @@ msgid ""
 "directory) is optional and specific to the project."
 msgstr ""
 "通过 KiCad 管理器运行 Pcbnew。 修改和更新 Pcbnew 配置，尤其是封装库列表。 "
-"Pcbnew 将创建或更新名为 ** 封装库列表 ** 的库列表文件。 有2个库列表文件（名"
+"Pcbnew 将创建或更新名为 **封装库列表** 的库列表文件。 有2个库列表文件（名"
 "为 fp-lib-table）：第一个（位于用户主目录中）对于所有项目都是全局的，第二个"
 "（位于项目目录中）是可选的，特定于项目。"
 
@@ -594,8 +594,8 @@ msgid ""
 "Note also the environment variable *KIPRJMOD* is *always* internally defined "
 "by KiCad, and is the **current project absolute path**."
 msgstr ""
-"另请注意，环境变量 *KIPRJMOD* 始终由 KiCad 内部定义，并且是 ** 当前项目绝对"
-"路径 **。"
+"另请注意，环境变量 *KIPRJMOD* 始终由 KiCad 内部定义，并且是 **当前项目绝对"
+"路径**。"
 
 #. type: Plain text
 #: kicad.adoc:241
@@ -605,7 +605,7 @@ msgid ""
 "project folder**."
 msgstr ""
 "例如，*_$\\{KIPRJMOD\\}/connect.pretty_* 总是在 *_connect.pretty_* 文件夹（漂"
-"亮的封装库）中找到的 ** 当前项目文件夹 **。"
+"亮的封装库）中找到的 **当前项目文件夹**。"
 
 #. type: Plain text
 #: kicad.adoc:244
@@ -662,7 +662,7 @@ msgstr ""
 msgid ""
 "Select *_Preferences -> Set Text Editor_* to set the text editor you want to "
 "use."
-msgstr "选择 *_ 首选项 -> 设置文本编辑器 _* 以设置要使用的文本编辑器。"
+msgstr "选择 *_首选项->设置文本编辑器_* 以设置要使用的文本编辑器。"
 
 #. type: Title ====
 #: kicad.adoc:261
@@ -751,7 +751,7 @@ msgid ""
 msgstr ""
 "KiCad 创建一个扩展名为 .pro 的文件，该文件维护了许多项目管理参数（例如原理图"
 "中使用的库列表）。 主要原理图文件和印刷电路板文件的默认名称都是从项目名称派生"
-"的。 因此，如果在名为 * example * 的目录中创建了名为 * example.pro * 的项目，"
+"的。 因此，如果在名为 *example* 的目录中创建了名为 *example.pro* 的项目，"
 "则将创建默认文件："
 
 #. type: delimited block |
@@ -1039,7 +1039,7 @@ msgid ""
 "The *_File -> New Project -> New Project from Template_* menu will open the "
 "Project Template Selector dialog:"
 msgstr ""
-"* _文件 -> 新项目 -> 模板_ * 菜单中的新项目将打开项目模板选择器对话框："
+"*_文件->新项目->模板_* 菜单中的新项目将打开项目模板选择器对话框："
 
 #. type: Target for macro image
 #: kicad.adoc:416
@@ -1249,7 +1249,7 @@ msgstr ""
 #. type: Plain text
 #: kicad.adoc:494
 msgid "Here is a sample *info.html* file:"
-msgstr "这是一个示例 * info.html * 文件："
+msgstr "这是一个示例 *info.html* 文件："
 
 #. type: delimited block -
 #: kicad.adoc:522

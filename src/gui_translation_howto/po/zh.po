@@ -21,13 +21,13 @@ msgstr "如何翻译 GUI"
 #. type: Plain text
 #: gui_translation_howto.adoc:9
 msgid "_Reference manual_"
-msgstr "_ 参考手册 _"
+msgstr "_参考手册_"
 
 #. type: Plain text
 #: gui_translation_howto.adoc:12
 #, no-wrap
 msgid "*Copyright*\n"
-msgstr "* 版权 *\n"
+msgstr "*版权*\n"
 
 #. type: Plain text
 #: gui_translation_howto.adoc:18
@@ -52,7 +52,7 @@ msgstr "本指南中的所有商标均属于其合法所有者。"
 #: gui_translation_howto.adoc:23
 #, no-wrap
 msgid "*Contributors*\n"
-msgstr "* 贡献者 *\n"
+msgstr "*贡献者*\n"
 
 #. type: Plain text
 #: gui_translation_howto.adoc:25
@@ -63,7 +63,7 @@ msgstr "Jean-Pierre Charras, Fabrizio Tappero, Wayne Stambaugh."
 #: gui_translation_howto.adoc:28
 #, no-wrap
 msgid "*Feedback*\n"
-msgstr "* 反馈 *\n"
+msgstr "*反馈*\n"
 
 #. type: Plain text
 #: gui_translation_howto.adoc:30
@@ -89,7 +89,7 @@ msgstr "关于 KiCad 软件 i18n：https://github.com/KiCad/kicad-i18n/issues"
 #: gui_translation_howto.adoc:40
 #, no-wrap
 msgid "*Publication date and software version*\n"
-msgstr "* 出版日期和软件版本 *\n"
+msgstr "*出版日期和软件版本*\n"
 
 #. type: Plain text
 #: gui_translation_howto.adoc:42
@@ -249,7 +249,7 @@ msgid ""
 "\")**, and displayed \"hello world\" but if a dictionary is found translated "
 "into the locale language before displaying."
 msgstr ""
-"必须翻译的所有字符串都写成： ** _（ _hello world_ ）**，并显示 _hello world_ "
+"必须翻译的所有字符串都写成： **_（_hello world_）**，并显示 _hello world_ "
 "但是如果在显示之前发现字典翻译成语言环境语言。"
 
 #. type: Plain text

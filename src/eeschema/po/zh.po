@@ -28,13 +28,13 @@ msgstr "Eeschema 简介"
 #. type: Plain text
 #: eeschema.adoc:9
 msgid "_Reference manual_"
-msgstr "_ 参考手册 _"
+msgstr "_参考手册_"
 
 #. type: Plain text
 #: eeschema.adoc:12
 #, no-wrap
 msgid "*Copyright*\n"
-msgstr "* 版权 *\n"
+msgstr "*版权*\n"
 
 #. type: Plain text
 #: eeschema.adoc:18
@@ -50,7 +50,7 @@ msgstr "本指南中的所有商标均属于其合法所有者。"
 #: eeschema.adoc:23
 #, no-wrap
 msgid "*Contributors*\n"
-msgstr "* 贡献者 *\n"
+msgstr "*贡献者*\n"
 
 #. type: Plain text
 #: eeschema.adoc:25
@@ -61,7 +61,7 @@ msgstr "Jean-Pierre Charras, Fabrizio Tappero."
 #: eeschema.adoc:28
 #, no-wrap
 msgid "*Feedback*\n"
-msgstr "* 反馈 *\n"
+msgstr "*反馈*\n"
 
 #. type: Plain text
 #: eeschema.adoc:30
@@ -87,7 +87,7 @@ msgstr "关于 KiCad 翻译: https://github.com/KiCad/kicad-i18n/issues"
 #: eeschema.adoc:40
 #, no-wrap
 msgid "*Publication date and software version*\n"
-msgstr "* 出版日期和软件版本 *\n"
+msgstr "*出版日期和软件版本*\n"
 
 #. type: Plain text
 #: eeschema.adoc:42
@@ -4579,7 +4579,7 @@ msgstr "images/zh/dialog_component_properties.png"
 #. type: Plain text
 #: eeschema_general_top_toolbar.adoc:236
 msgid "On **MS Windows**, BOM generator dialog has a special option (pointed by red arrow) that controls visibility of external plugin window. + By default, BOM generator command is executed console window hidden and output is redirected to __Plugin info__ field. Set this option to show the window of the running command. It may be necessary if plugin has provides a graphical user interface."
-msgstr "在 **MS Windows**上，BOM 生成器对话框有一个特殊选项（由红色箭头指示），用于控制外部插件窗口的可见性。 + 默认情况下，BOM 生成器命令执行控制台窗口隐藏，输出重定向到 __Plugin info__ 字段。 设置此选项可显示正在运行的命令的窗口。 如果插件提供了图形用户界面，则可能是必要的。"
+msgstr "在 **MS Windows** 上，BOM 生成器对话框有一个特殊选项（由红色箭头指示），用于控制外部插件窗口的可见性。 + 默认情况下，BOM 生成器命令执行控制台窗口隐藏，输出重定向到 __Plugin info__ 字段。 设置此选项可显示正在运行的命令的窗口。 如果插件提供了图形用户界面，则可能是必要的。"
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_general_top_toolbar.adoc:237
