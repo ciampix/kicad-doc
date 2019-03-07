@@ -90,6 +90,8 @@ To install the dependencies on Manjaro run the following:
 	texlive-langjapanese texlive-langextra texlive-langkorean \
 	texlive-langgreek perl-unicode-linebreak
 	
+NOTE: yaourt -S ttf-vlgothic  	
+
 == Building the docs
 
 === Windows
