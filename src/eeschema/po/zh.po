@@ -5,7 +5,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Eeschema_zh_CN_v0.2\n"
+"Project-Id-Version: Eeschema_zh_CN_v0.3\n"
 "POT-Creation-Date: 2019-03-09 23:19+0800\n"
 "PO-Revision-Date: 2019-03-09 22:52+0800\n"
 "Last-Translator: taotieren <admin@taotieren.com>\n"
@@ -1830,7 +1830,7 @@ msgid ""
 "into U3A, U3B, U3C and U3D)."
 msgstr ""
 "对于多部件元件（例如包含4个门的 7400 TTL），还分配了多部件后缀（因此，指定为 "
-"U3 的 7400 TTL将分为 U3A，U3B，U3C和U3D）。"
+"U3 的 7400 TTL将分为 U3A，U3B，U3C 和 U3D）。"
 
 #. type: Plain text
 #: eeschema_general_top_toolbar.adoc:95
@@ -2216,7 +2216,7 @@ msgid ""
 "Once you modify field values, you need to either accept changes by clicking "
 "on 'Apply' button or undo them by clicking on 'Revert' button."
 msgstr ""
-"修改字段值后，您需要通过单击 “应用” 按钮接受更改，或通过单击 _恢复_按钮撤消更"
+"修改字段值后，您需要通过单击 “应用” 按钮接受更改，或通过单击 _恢复_ 按钮撤消更"
 "改。"
 
 #. type: Title ====
@@ -5010,7 +5010,7 @@ msgid ""
 "function again by selecting \"Rescue Cached Components\" in the \"Tools\" "
 "menu to call up the rescue dialog again."
 msgstr ""
-"如果按 _取消_，则不会进行任何救援，因此 Eeschema 默认会加载所有新元件。 如果"
+"如果按 _取消_ ，则不会进行任何救援，因此 Eeschema 默认会加载所有新元件。 如果"
 "此时保存原理图，则将覆盖缓存并且旧符号将无法恢复。 如果已保存原理图，则仍可以"
 "通过选择 “工具” 菜单中的 “救援缓存元件” 再次调用救援对话框，再次运行救援功"
 "能。"
@@ -5022,7 +5022,7 @@ msgid ""
 "\". The default will be to do nothing and allow the new components to be "
 "loaded. This option can be changed back in the Libraries preferences."
 msgstr ""
-"如果您不想看到此对话框，可以按 _从不再显示_。 默认设置是不执行任何操作并允许"
+"如果您不想看到此对话框，可以按 _从不再显示_ 。 默认设置是不执行任何操作并允许"
 "加载新元件。 可以在 _库_ 首选项中更改此选项。"
 
 #. type: Title ==
@@ -5886,7 +5886,7 @@ msgid ""
 msgstr ""
 "实际上，必须检查所有检测到的错误，然后在正常进行之前进行纠正。 ERC 的质量与在"
 "符号库创建期间声明电引脚属性时所采取的谨慎直接相关。 ERC 输出报告为 _错误_ "
-"或 _警告_。"
+"或 _警告_ 。"
 
 #. type: Title ===
 #: eeschema_design_verification_with_erc.adoc:23
@@ -7576,7 +7576,7 @@ msgid ""
 "icons/add_hierarchical_label.png[icons/add_hierarchical_label_png]."
 msgstr ""
 "刚刚创建的工作表符号的每个引脚必须对应于子工作表中名为分层标签的标签。 分层标"
-"签与标签类似，但它们提供子表和根表之间的连接。 两个互补标签（pin和HLabel）的"
+"签与标签类似，但它们提供子表和根表之间的连接。 两个互补标签（pin 和 HLabel）的"
 "图形表示是类似的。 使用工具图像创建分层标签：image:images/icons/"
 "add_hierarchical_label.png[icons/add_hierarchical_label_png]。"
 
@@ -8712,7 +8712,7 @@ msgstr ""
 "new_symbol_png] 。 系统将要求您输入符号名称（此名称用作原理图编辑器中值字段的"
 "默认值），参考编号（U，IC，R ...），每个包装的单位数（例如一个 7400 由每个包"
 "装4个单元组成）并且如果需要替代的体型（有时称为 DeMorgan）。 如果参考指示符字"
-"段为空，则默认为 _U_。 稍后可以更改这些属性，但最好在创建符号时正确设置它们。"
+"段为空，则默认为 _U_ 。 稍后可以更改这些属性，但最好在创建符号时正确设置它们。"
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_library_editor.adoc:378
@@ -9108,7 +9108,7 @@ msgid ""
 "one unit per package (logic gates for example). Some symbols can have more "
 "than one unit per package each with different symbols and pin configurations."
 msgstr ""
-"符号可以具有两个符号表示（标准符号和备用符号，通常称为 _DeMorgan_）和/或每个"
+"符号可以具有两个符号表示（标准符号和备用符号，通常称为 _DeMorgan_ ）和/或每个"
 "包具有多于一个单元（例如逻辑门）。 某些符号每个封装可以有多个单元，每个单元具"
 "有不同的符号和引脚配置。"
 
@@ -12216,7 +12216,7 @@ msgid ""
 "identifier: the sheetpath + its tstamp"
 msgstr ""
 "复杂层次结构中的给定工作表具有唯一标识符：其 sheetpath。 给定元件（在复杂层次"
-"结构内）具有唯一标识符：sheetpath + 其tstamp"
+"结构内）具有唯一标识符：sheetpath + 其 tstamp"
 
 #. type: Title ====
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1087
