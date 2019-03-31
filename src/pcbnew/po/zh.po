@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pcbnew_zh_CN_v0.3\n"
 "POT-Creation-Date: 2019-02-28 06:46+0000\n"
-"PO-Revision-Date: 2019-03-31 03:09+0800\n"
+"PO-Revision-Date: 2019-03-31 15:20+0800\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,9 +33,7 @@ msgstr "_参考手册_"
 #: pcbnew.adoc:12
 #, no-wrap
 msgid "*Copyright*\n"
-msgstr ""
-"*Copyright*\n"
-"\n"
+msgstr "*Copyright*\n"
 
 #. type: Plain text
 #: pcbnew.adoc:18
@@ -45,7 +43,7 @@ msgid ""
 "License (http://creativecommons.org/licenses/by/3.0/), version 3.0 or later."
 msgstr ""
 "本文档由以下列出的贡献者版权所有（C）2010-2015。 您可以根据GNU通用公共许可证（http://www.gnu.org/licenses/gpl.html），版本3或更高版本或知识"
-"共享署名许可的条款进行分发和/或修改。(http://creativecommons.org/licenses/by/3.0/)，3.0或更高版本。"
+"共享署名许可的条款进行分发和/或修改。(http://creativecommons.org/licenses/by/3.0/),3.0或更高版本。"
 
 #. type: Plain text
 #: pcbnew.adoc:20
@@ -2012,7 +2010,7 @@ msgid ""
 "dialog and make sure at least the default clearance value looks\n"
 "sensible.\n"
 msgstr ""
-"*间隙设置* 要设置间隙，请打开 _设计规则_\n"
+"*间隙设置* 要设置间隙，请打开 _设计规则_ \n"
 "对话框并确保至少看到默认的间隙值\n"
 "明智的。\n"
 
@@ -2036,7 +2034,7 @@ msgid ""
 "option or pressing **F11**.\n"
 msgstr ""
 "*启用 OpenGL 模式* 通过选择 _视图 -> 切换画布到 OpenGL_ 菜单\n"
-"选项或按 **F11**。\n"
+"选项或按 **F11** 。\n"
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: pcbnew_interactive_router.adoc:33
@@ -2102,7 +2100,7 @@ msgid ""
 "Pressing *V* or selecting _Place Through Via_ from the context menu while routing a track attaches a via at the end of the trace being "
 "routed. Pressing *V* again disables via placement. Clicking in any spot establishes the via and continues routing (unless 'Shift' is held)."
 msgstr ""
-"按下 *V* 或从上下文菜单中选择 _放置通孔_，同时布线会在路径的末尾附加一个过孔。 按 *V* 再次禁用通过放置。 单击任何位置可建立通道并继续布线"
+"按下 *V* 或从上下文菜单中选择 _放置通孔_ ，同时布线会在路径的末尾附加一个过孔。 按 *V* 再次禁用通过放置。 单击任何位置可建立通道并继续布线"
 "（除非保持“Shift”）。"
 
 #. type: Plain text
@@ -2163,7 +2161,7 @@ msgid ""
 "The router can drag track segments, corners and vias. To drag an item, click on it with *Ctrl* key pressed, hover the mouse and press *G* "
 "or select _Drag Track/Via_ from the context menu. Finish dragging by clicking again or abort by pressing __Esc__."
 msgstr ""
-"路由器可以拖动布线段，角落和过孔。 要拖动项目，请按住 *Ctrl* 键单击它，将鼠标悬停在鼠标上并按 *G* 或从上下文菜单中选择 _拖动布线/过孔_。 通"
+"路由器可以拖动布线段，角落和过孔。 要拖动项目，请按住 *Ctrl* 键单击它，将鼠标悬停在鼠标上并按 *G* 或从上下文菜单中选择 _拖动布线/过孔_ 。 通"
 "过再次单击完成拖动或按 __Esc__ 中止。"
 
 #. type: Title ===
@@ -3348,7 +3346,7 @@ msgid ""
 "alias configuration dialog is shown below."
 msgstr ""
 "支持缩短文件名的新方案是 _别名_ 系统。 在这个系统中，一个路径以字符串 _:my alias开头：_ 其中 _my alias_ 是一个文本字符串，最好选择为短，同时"
-"对用户也很重要; 例如，包含官方 KiCad 模型的目录的别名可能具有别名 _官方模型_，而您的个人模型集合可能具有别名 _My Models_。 可以通过单击前面"
+"对用户也很重要; 例如，包含官方 KiCad 模型的目录的别名可能具有别名 _官方模型_，而您的个人模型集合可能具有别名 _My Models_ 。 可以通过单击前面"
 "显示的 *3D 设置* 选项卡中的 *配置路径* 按钮来设置别名。 别名配置对话框如下所示。"
 
 #. type: Block title
@@ -5373,7 +5371,7 @@ msgstr "可以使用封装库管理编辑Pcbnew中的封装库列表。 这允�
 msgid ""
 "The Footprint Libraries Wizard can also be invoked through the Preferences menu, and can automatically add a library (detecting its type) "
 "from a file or from a Github URL. The URL for the official libraries is: https://github.com/KiCad"
-msgstr "封装库向导也可以通过“首选项”菜单调用，并可以从文件或 Github URL 自动添加库（检测其类型）。 官方库的 URL 是：https://github.com/KiCad"
+msgstr "封装库向导也可以通过“首选项”菜单调用，并可以从文件或 Github URL 自动添加库（检测其类型）。 官方库的 URL 是: https://github.com/KiCad"
 
 #. type: Plain text
 #: pcbnew_managing_libs.adoc:252
@@ -5431,7 +5429,7 @@ msgstr "12 对成对层（正面/背面）： *粘合剂* ， *焊膏* ，"
 #: pcbnew_layers.adoc:14
 #, no-wrap
 msgid "*Silk Screen*, *Solder Mask*, *Courtyard*, *Fabrication*\n"
-msgstr "*丝印* ，*阻焊层* ，*封装* ，*制造*\n"
+msgstr "*丝印* ， *阻焊层* ， *封装* ， *制造*\n"
 
 #. type: Plain text
 #: pcbnew_layers.adoc:16
@@ -5441,7 +5439,7 @@ msgstr "2 个独立图层：*边缘切割* ，*边距*"
 #. type: Plain text
 #: pcbnew_layers.adoc:19
 msgid "4 auxiliary layers that you can use any way you want: *Comments*, *E.C.O. 1*, *E.C.O. 2*, *Drawings*"
-msgstr "您可以以任何方式使用的 4 个辅助层：*注释* ，*E.C.O. 1* ，*E.C.O. 2* ，*图纸*"
+msgstr "您可以以任何方式使用的 4 个辅助层：*注释* ， *E.C.O. 1* ， *E.C.O. 2* ， *图纸*"
 
 #. type: Title ===
 #: pcbnew_layers.adoc:20
@@ -5452,7 +5450,7 @@ msgstr "设置图层"
 #. type: Plain text
 #: pcbnew_layers.adoc:23
 msgid "To open the *Layers Setup* from the menu bar, select **Design Rules** -> **Layers Setup**."
-msgstr "要从菜单栏中打开 *图层设置* ，请选择 **设计规则**  -> **图层设置** 。"
+msgstr "要从菜单栏中打开 *图层设置* ，请选择 **设计规则** -> **图层设置** 。"
 
 #. type: Plain text
 #: pcbnew_layers.adoc:26
@@ -5606,7 +5604,7 @@ msgstr "独立技术层"
 #: pcbnew_layers.adoc:77
 #, no-wrap
 msgid "*Edge.Cuts*"
-msgstr "*边缘切割（Edge.Cuts）*"
+msgstr "*边缘切割*（Edge.Cuts）"
 
 #. type: Plain text
 #: pcbnew_layers.adoc:81
@@ -5619,7 +5617,7 @@ msgstr "该层保留用于绘制电路板边框。 放置在该图层上的任�
 #: pcbnew_layers.adoc:82
 #, no-wrap
 msgid "*Margin*"
-msgstr "*余量（Margin）*"
+msgstr "*余量*（Margin）"
 
 #. type: Plain text
 #: pcbnew_layers.adoc:84
@@ -5923,7 +5921,7 @@ msgstr ""
 msgid ""
 "Duplication is done by using the hotkey (which defaults to Ctrl-D) or the duplicate item option in the context menu, icon image:images/"
 "icons/duplicate.png[]."
-msgstr "通过使用热键（默认为 Ctrl-D）或上下文菜单中的重复项选项，完成复制图标图像：image:images/icons/duplicate.png[] 。"
+msgstr "通过使用热键（默认为 Ctrl-D）或上下文菜单中的重复项选项，完成复制图标图像: image:images/icons/duplicate.png[] 。"
 
 #. type: Title ===
 #: pcbnew_editing_tools.adoc:18
@@ -5948,8 +5946,8 @@ msgid ""
 "the dialog. You can also invoke the dialog with the hotkey when moving or duplicating items, which can make it easy to repeatedly apply an "
 "offset to multiple components."
 msgstr ""
-"要使用此工具，请选择要移动的项目，然后使用热键（默认为Ctrl-M）或上下文菜单项来调用对话框。 您还可以在移动或复制项目时使用热键调用对话框，这"
-"样可以轻松地将偏移重复应用于多个元件。"
+"要使用此工具，请选择要移动的项目，然后使用热键（默认为 Ctrl-M ）或上下文菜单项来调用对话框。 您还可以在移动或复制项目时使用热键调用对话框，"
+"这样可以轻松地将偏移重复应用于多个元件。"
 
 #. type: Plain text
 #: pcbnew_editing_tools.adoc:33
@@ -6200,7 +6198,7 @@ msgid ""
 "option is useful for packages like DIPs where the numbering proceeds up one\n"
 "side and down the other.\n"
 msgstr ""
-"*在备用行或列上反向编号*：如果选择，则为编号顺序\n"
+"*在备用行或列上反向编号* ：如果选择，则为编号顺序\n"
 "（在替代行或列上，从左到右或从右到左）。\n"
 "行或列是否交替取决于编号方向。 这个\n"
 "选项对于 DIP 这样的包很有用，其中编号会增加一个\n"
@@ -6213,7 +6211,7 @@ msgid ""
 "*Restart numbering*: if laying out using items that already have numbers,\n"
 "reset to the start, otherwise continue if possible from this item's number\n"
 msgstr ""
-"*重新开始编号*：如果使用已有数字的项目进行布局，\n"
+"*重新开始编号* ：如果使用已有数字的项目进行布局，\n"
 "重置为开始，否则从该项目的编号继续\n"
 
 #. type: Plain text
@@ -6230,7 +6228,7 @@ msgid ""
 "the last item in the first row is numbered \"7\", the first item in the second\n"
 "row will be \"8\".\n"
 msgstr ""
-"*连续*: 编号只在行/列中断后继续 - 如果\n"
+"*连续* : 编号只在行/列中断后继续 - 如果\n"
 "第一行中的最后一项编号为“7”，第二行中的第一项\n"
 "行将是“8”。\n"
 
@@ -6242,7 +6240,7 @@ msgid ""
 "number is made up of the row and column index. Which one comes first\n"
 "(row or column) is determined by the numbering direction.\n"
 msgstr ""
-"*坐标*: 编号使用双轴方案\n"
+"*坐标* : 编号使用双轴方案\n"
 "number由行和列索引组成。 哪一个是第一位的\n"
 "（行或列）由编号方向确定。\n"
 
@@ -6250,7 +6248,7 @@ msgstr ""
 #: pcbnew_editing_tools.adoc:140
 #, no-wrap
 msgid "*Axis numberings*: what \"alphabet\" to use to number the axes. Choices are\n"
-msgstr "*轴编号*: 用于对轴进行编号的“字母”。 选择是\n"
+msgstr "*轴编号* : 用于对轴进行编号的“字母”。 选择是\n"
 
 #. type: Plain text
 #: pcbnew_editing_tools.adoc:142
@@ -6272,8 +6270,8 @@ msgid ""
 "recommended by ASME Y14.35M-1997 sec. 5.2 (previously MIL-STD-100 sec. 406.5)\n"
 "to avoid confusion with numerals.\n"
 msgstr ""
-"*字母，减去 IOSQXZ*，电子元件的通用方案，\n"
-"ASME 推荐 Y14.35M-1997 sec。 5.2（以前的 MIL-STD-100 sec。 406.5）\n"
+"*字母，减去 IOSQXZ* ，电子元件的通用方案，\n"
+"ASME 推荐 Y14.35M-1997 sec. 5.2（以前的 MIL-STD-100 sec. 406.5）\n"
 "避免与数字混淆。\n"
 
 #. type: Plain text
@@ -6308,7 +6306,7 @@ msgid ""
 "*Horizontal center*, *Vertical center*: The centre of the circle. The radius\n"
 "field below will update automatically when you adjust these.\n"
 msgstr ""
-"*水平中心* ，*垂直中心* ：圆的中心 。 半径\n"
+"*水平中心* ， *垂直中心* ：圆的中心 。 半径\n"
 "调整这些字段时，下面的字段会自动更新。\n"
 
 #. type: Plain text
@@ -6624,22 +6622,22 @@ msgstr "使用以下功能键："
 #. type: Plain text
 #: pcbnew_general_operations.adoc:116
 msgid "`F1`: Enlarge (zoom in)"
-msgstr "`F1`: 放大（放大）"
+msgstr "‘F1’: 放大（放大）"
 
 #. type: Plain text
 #: pcbnew_general_operations.adoc:118
 msgid "`F2`: Reduce (zoom out)"
-msgstr "`F2`: 减少（缩小）"
+msgstr "‘F2’: 减少（缩小）"
 
 #. type: Plain text
 #: pcbnew_general_operations.adoc:120
 msgid "`F3`: Redraw the display"
-msgstr "`F3`: 重绘显示"
+msgstr "‘F3’: 重绘显示"
 
 #. type: Plain text
 #: pcbnew_general_operations.adoc:122
 msgid "`F4`: Centre view at the current cursor position"
-msgstr "`F4`: 当前光标位置的中心视图"
+msgstr "‘F4’: 当前光标位置的中心视图"
 
 #. type: Plain text
 #: pcbnew_general_operations.adoc:124
@@ -8287,12 +8285,15 @@ msgid ""
 "import sys\n"
 "from pcbnew import *\n"
 msgstr ""
+"#!/usr/bin/env python\n"
+"import sys\n"
+"from pcbnew import *\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:132
 #, no-wrap
 msgid "pcb = LoadBoard(filename)\n"
-msgstr ""
+msgstr "pcb = LoadBoard(filename)\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:137
@@ -8303,12 +8304,16 @@ msgid ""
 "#ToUnits=ToMils\n"
 "#FromUnits=FromMils\n"
 msgstr ""
+"ToUnits = ToMM\n"
+"FromUnits = FromMM\n"
+"#ToUnits=ToMils\n"
+"#FromUnits=FromMils\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:139
 #, no-wrap
 msgid "print \"LISTING VIAS:\"\n"
-msgstr ""
+msgstr "print \"LISTING VIAS:\"\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:142
@@ -8317,6 +8322,8 @@ msgid ""
 "for item in pcb.GetTracks():\n"
 "    if type(item) is VIA:\n"
 msgstr ""
+"for item in pcb.GetTracks():\n"
+"    if type(item) is VIA:\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:147
@@ -8327,12 +8334,16 @@ msgid ""
 "        width = item.GetWidth()\n"
 "        print \" * Via:   %s - %f/%f \"%(ToUnits(pos),ToUnits(drill),ToUnits(width))\n"
 msgstr ""
+"        pos = item.GetPosition()\n"
+"        drill = item.GetDrillValue()\n"
+"        width = item.GetWidth()\n"
+"        print \" * Via:   %s - %f/%f \"%(ToUnits(pos),ToUnits(drill),ToUnits(width))\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:149
 #, no-wrap
 msgid "    elif type(item) is TRACK:\n"
-msgstr ""
+msgstr "    elif type(item) is TRACK:\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:153
@@ -8342,12 +8353,15 @@ msgid ""
 "        end = item.GetEnd()\n"
 "        width = item.GetWidth()\n"
 msgstr ""
+"        start = item.GetStart()\n"
+"        end = item.GetEnd()\n"
+"        width = item.GetWidth()\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:155
 #, no-wrap
 msgid "        print \" * Track: %s to %s, width %f\" % (ToUnits(start),ToUnits(end),ToUnits(width))\n"
-msgstr ""
+msgstr "        print \" * Track: %s to %s, width %f\" % (ToUnits(start),ToUnits(end),ToUnits(width))\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:158
@@ -8356,6 +8370,8 @@ msgid ""
 "    else:\n"
 "        print \"Unknown type    %s\" % type(item)\n"
 msgstr ""
+"    else:\n"
+"        print \"Unknown type    %s\" % type(item)\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:161
@@ -8364,6 +8380,8 @@ msgid ""
 "print \"\"\n"
 "print \"LIST DRAWINGS:\"\n"
 msgstr ""
+"print \"\"\n"
+"print \"LIST DRAWINGS:\"\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:169
@@ -8377,6 +8395,13 @@ msgid ""
 "    else:\n"
 "        print type(item)\n"
 msgstr ""
+"for item in pcb.GetDrawings():\n"
+"    if type(item) is TEXTE_PCB:\n"
+"        print \"* Text:    '%s' at %s\"%(item.GetText(), item.GetPosition())\n"
+"    elif type(item) is DRAWSEGMENT:\n"
+"        print \"* Drawing: %s\"%item.GetShapeStr() # dir(item)\n"
+"    else:\n"
+"        print type(item)\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:172
@@ -8385,6 +8410,8 @@ msgid ""
 "print \"\"\n"
 "print \"LIST MODULES:\"\n"
 msgstr ""
+"print \"\"\n"
+"print \"LIST MODULES:\"\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:175
@@ -8393,6 +8420,8 @@ msgid ""
 "for module in pcb.GetModules():\n"
 "    print \"* Module: %s at %s\"%(module.GetReference(),ToUnits(module.GetPosition()))\n"
 msgstr ""
+"for module in pcb.GetModules():\n"
+"    print \"* Module: %s at %s\"%(module.GetReference(),ToUnits(module.GetPosition()))\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:180
@@ -8403,6 +8432,10 @@ msgid ""
 "print \"track w cnt:\",len(pcb.GetTrackWidthList())\n"
 "print \"via s cnt:\",len(pcb.GetViasDimensionsList())\n"
 msgstr ""
+"print \"\"\n"
+"print \"Ratsnest cnt:\",len(pcb.GetFullRatsnest())\n"
+"print \"track w cnt:\",len(pcb.GetTrackWidthList())\n"
+"print \"via s cnt:\",len(pcb.GetViasDimensionsList())\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:183
@@ -8411,6 +8444,8 @@ msgid ""
 "print \"\"\n"
 "print \"LIST ZONES:\", pcb.GetAreaCount()\n"
 msgstr ""
+"print \"\"\n"
+"print \"LIST ZONES:\", pcb.GetAreaCount()\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:187
@@ -8420,6 +8455,9 @@ msgid ""
 "    zone=pcb.GetArea(idx)\n"
 "    print \"zone:\", idx, \"priority:\", zone.GetPriority(), \"netname\", zone.GetNetname()\n"
 msgstr ""
+"for idx in range(0, pcb.GetAreaCount()):\n"
+"    zone=pcb.GetArea(idx)\n"
+"    print \"zone:\", idx, \"priority:\", zone.GetPriority(), \"netname\", zone.GetNetname()\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:190
@@ -8428,6 +8466,8 @@ msgid ""
 "print \"\"\n"
 "print \"NetClasses:\", pcb.GetNetClasses().GetCount(),\n"
 msgstr ""
+"print \"\"\n"
+"print \"NetClasses:\", pcb.GetNetClasses().GetCount(),\n"
 
 #. type: Title ====
 #: pcbnew_python_scripting.adoc:194
@@ -8448,6 +8488,8 @@ msgid ""
 "filename=sys.argv[1]\n"
 "pcb = LoadBoard(filename)\n"
 msgstr ""
+"filename=sys.argv[1]\n"
+"pcb = LoadBoard(filename)\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:209
@@ -8457,6 +8499,9 @@ msgid ""
 "u304 = pcb.FindModuleByReference('U304')\n"
 "pads = u304.Pads()\n"
 msgstr ""
+"# Find module U304\n"
+"u304 = pcb.FindModuleByReference('U304')\n"
+"pads = u304.Pads()\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:216
@@ -8469,6 +8514,12 @@ msgid ""
 "    # Set margin to 0 for all but pad (pin) 15\n"
 "    if id<15: p.SetLocalSolderPasteMargin(0)\n"
 msgstr ""
+"#  Iterate over pads, printing solder paste margin\n"
+"for p in pads:\n"
+"    print p.GetPadName(), ToMM(p.GetLocalSolderPasteMargin())\n"
+"    id = int(p.GetPadName())\n"
+"    # Set margin to 0 for all but pad (pin) 15\n"
+"    if id<15: p.SetLocalSolderPasteMargin(0)\n"
 
 #. type: Title ===
 #: pcbnew_python_scripting.adoc:221
@@ -8517,18 +8568,20 @@ msgid ""
 "from __future__ import division\n"
 "import pcbnew\n"
 msgstr ""
+"from __future__ import division\n"
+"import pcbnew\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:246
 #, no-wrap
 msgid "import HelpfulFootprintWizardPlugin as HFPW\n"
-msgstr ""
+msgstr "import HelpfulFootprintWizardPlugin as HFPW\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:249
 #, no-wrap
 msgid "class FPC_FootprintWizard(HFPW.HelpfulFootprintWizardPlugin):\n"
-msgstr ""
+msgstr "class FPC_FootprintWizard(HFPW.HelpfulFootprintWizardPlugin):\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:252
@@ -8537,6 +8590,8 @@ msgid ""
 "    def GetName(self):\n"
 "        return \"FPC (SMT connector)\"\n"
 msgstr ""
+"    def GetName(self):\n"
+"        return \"FPC (SMT connector)\"\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:255
@@ -8545,6 +8600,8 @@ msgid ""
 "    def GetDescription(self):\n"
 "        return \"FPC (SMT connector) Footprint Wizard\"\n"
 msgstr ""
+"    def GetDescription(self):\n"
+"        return \"FPC (SMT connector) Footprint Wizard\"\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:259
@@ -8554,6 +8611,9 @@ msgid ""
 "        pins = self.parameters[\"Pads\"][\"*n\"]\n"
 "        return \"FPC_%d\" % pins\n"
 msgstr ""
+"    def GetValue(self):\n"
+"        pins = self.parameters[\"Pads\"][\"*n\"]\n"
+"        return \"FPC_%d\" % pins\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:269
@@ -8569,6 +8629,15 @@ msgid ""
 "        self.AddParam( \"Shield\", \"width\", self.uMM, 1.5 )\n"
 "        self.AddParam( \"Shield\", \"height\", self.uMM, 2 )\n"
 msgstr ""
+"    def GenerateParameterList(self):\n"
+"        self.AddParam( \"Pads\", \"n\", self.uNatural, 40 )\n"
+"        self.AddParam( \"Pads\", \"pitch\", self.uMM, 0.5 )\n"
+"        self.AddParam( \"Pads\", \"width\", self.uMM, 0.25 )\n"
+"        self.AddParam( \"Pads\", \"height\", self.uMM, 1.6)\n"
+"        self.AddParam( \"Shield\", \"shield_to_pad\", self.uMM, 1.6 )\n"
+"        self.AddParam( \"Shield\", \"from_top\", self.uMM, 1.3 )\n"
+"        self.AddParam( \"Shield\", \"width\", self.uMM, 1.5 )\n"
+"        self.AddParam( \"Shield\", \"height\", self.uMM, 2 )\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:282
@@ -8586,6 +8655,17 @@ msgid ""
 "        pad.SetPadName(name)\n"
 "        return pad\n"
 msgstr ""
+"    # build a rectangular pad\n"
+"    def smdRectPad(self,module,size,pos,name):\n"
+"        pad = pcbnew.D_PAD(module)\n"
+"        pad.SetSize(size)\n"
+"        pad.SetShape(pcbnew.PAD_SHAPE_RECT)\n"
+"        pad.SetAttribute(pcbnew.PAD_ATTRIB_SMD)\n"
+"        pad.SetLayerSet( pad.SMDMask() )\n"
+"        pad.SetPos0(pos)\n"
+"        pad.SetPosition(pos)\n"
+"        pad.SetPadName(name)\n"
+"        return pad\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:286
@@ -8595,6 +8675,9 @@ msgid ""
 "        p = self.parameters\n"
 "        self.CheckParamInt( \"Pads\", \"*n\" )  # not internal units preceded by \"*\"\n"
 msgstr ""
+"    def CheckParameters(self):\n"
+"        p = self.parameters\n"
+"        self.CheckParamInt( \"Pads\", \"*n\" )  # not internal units preceded by \"*\"\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:298
@@ -8611,6 +8694,16 @@ msgid ""
 "        shl_to_pad      = p[\"Shield\"][\"shield_to_pad\"]\n"
 "        shl_from_top    = p[\"Shield\"][\"from_top\"]\n"
 msgstr ""
+"    def BuildThisFootprint(self):\n"
+"        p = self.parameters\n"
+"        pad_count       = int(p[\"Pads\"][\"*n\"])\n"
+"        pad_width       = p[\"Pads\"][\"width\"]\n"
+"        pad_height      = p[\"Pads\"][\"height\"]\n"
+"        pad_pitch       = p[\"Pads\"][\"pitch\"]\n"
+"        shl_width       = p[\"Shield\"][\"width\"]\n"
+"        shl_height      = p[\"Shield\"][\"height\"]\n"
+"        shl_to_pad      = p[\"Shield\"][\"shield_to_pad\"]\n"
+"        shl_from_top    = p[\"Shield\"][\"from_top\"]\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:303
@@ -8621,6 +8714,10 @@ msgid ""
 "        size_shld = pcbnew.wxSize(shl_width, shl_height)\n"
 "        size_text = self.GetTextSize()  # IPC nominal\n"
 msgstr ""
+"        offsetX         = pad_pitch * ( pad_count-1 ) / 2\n"
+"        size_pad = pcbnew.wxSize( pad_width, pad_height )\n"
+"        size_shld = pcbnew.wxSize(shl_width, shl_height)\n"
+"        size_text = self.GetTextSize()  # IPC nominal\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:307
@@ -8630,6 +8727,9 @@ msgid ""
 "        textposy = pad_height/2 + pcbnew.FromMM(1) + self.GetTextThickness()\n"
 "        self.draw.Reference( 0, textposy, size_text )\n"
 msgstr ""
+"        # Gives a position and size to ref and value texts:\n"
+"        textposy = pad_height/2 + pcbnew.FromMM(1) + self.GetTextThickness()\n"
+"        self.draw.Reference( 0, textposy, size_text )\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:310
@@ -8638,6 +8738,8 @@ msgid ""
 "        textposy = textposy + size_text + self.GetTextThickness()\n"
 "        self.draw.Value( 0, textposy, size_text )\n"
 msgstr ""
+"        textposy = textposy + size_text + self.GetTextThickness()\n"
+"        self.draw.Value( 0, textposy, size_text )\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:316
@@ -8649,6 +8751,11 @@ msgid ""
 "            pad = self.smdRectPad(self.module,size_pad, pcbnew.wxPoint(xpos,0),str(n+1))\n"
 "            self.module.Add(pad)\n"
 msgstr ""
+"        # create a pad array and add it to the module\n"
+"        for n in range ( 0, pad_count ):\n"
+"            xpos = pad_pitch*n - offsetX\n"
+"            pad = self.smdRectPad(self.module,size_pad, pcbnew.wxPoint(xpos,0),str(n+1))\n"
+"            self.module.Add(pad)\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:325
@@ -8662,6 +8769,13 @@ msgid ""
 "        pad_s1_pos = pcbnew.wxPoint(xpos,shl_from_top)\n"
 "        pad_s1 = self.smdRectPad(self.module, size_shld, pad_s1_pos, \"0\")\n"
 msgstr ""
+"        # Mechanical shield pads: left pad and right pad\n"
+"        xpos = -shl_to_pad-offsetX\n"
+"        pad_s0_pos = pcbnew.wxPoint(xpos,shl_from_top)\n"
+"        pad_s0 = self.smdRectPad(self.module, size_shld, pad_s0_pos, \"0\")\n"
+"        xpos = (pad_count-1) * pad_pitch+shl_to_pad - offsetX\n"
+"        pad_s1_pos = pcbnew.wxPoint(xpos,shl_from_top)\n"
+"        pad_s1 = self.smdRectPad(self.module, size_shld, pad_s1_pos, \"0\")\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:328
@@ -8670,6 +8784,8 @@ msgid ""
 "        self.module.Add(pad_s0)\n"
 "        self.module.Add(pad_s1)\n"
 msgstr ""
+"        self.module.Add(pad_s0)\n"
+"        self.module.Add(pad_s1)\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:332
@@ -8679,6 +8795,9 @@ msgid ""
 "        linewidth = self.draw.GetLineThickness()\n"
 "        margin = linewidth\n"
 msgstr ""
+"        # add footprint outline\n"
+"        linewidth = self.draw.GetLineThickness()\n"
+"        margin = linewidth\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:338
@@ -8690,6 +8809,11 @@ msgid ""
 "        xend = pad_pitch * pad_count + xstart;\n"
 "        self.draw.Line( xstart, posy, xend, posy )\n"
 msgstr ""
+"        # upper line\n"
+"        posy = -pad_height/2 - linewidth/2 - margin\n"
+"        xstart = - pad_pitch*0.5-offsetX\n"
+"        xend = pad_pitch * pad_count + xstart;\n"
+"        self.draw.Line( xstart, posy, xend, posy )\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:342
@@ -8699,6 +8823,9 @@ msgid ""
 "        posy = pad_height/2 + linewidth/2 + margin\n"
 "        self.draw.Line(xstart, posy, xend, posy)\n"
 msgstr ""
+"        # lower line\n"
+"        posy = pad_height/2 + linewidth/2 + margin\n"
+"        self.draw.Line(xstart, posy, xend, posy)\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:347
@@ -8709,6 +8836,10 @@ msgid ""
 "        self.draw.Line(xstart, posy, xstart, yend)\n"
 "        self.draw.Line(-xstart, posy, -xstart, yend)\n"
 msgstr ""
+"        # around left mechanical pad (the outline around right pad is mirrored/y axix)\n"
+"        yend = pad_s0_pos.y + shl_height/2 + margin\n"
+"        self.draw.Line(xstart, posy, xstart, yend)\n"
+"        self.draw.Line(-xstart, posy, -xstart, yend)\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:351
@@ -8718,6 +8849,9 @@ msgid ""
 "        xend = pad_s0_pos.x - (shl_width/2 + linewidth + margin*2)\n"
 "        self.draw.Line(xstart, posy, xend, posy)\n"
 msgstr ""
+"        posy = yend\n"
+"        xend = pad_s0_pos.x - (shl_width/2 + linewidth + margin*2)\n"
+"        self.draw.Line(xstart, posy, xend, posy)\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:354 pcbnew_python_scripting.adoc:365 pcbnew_python_scripting.adoc:382
@@ -8726,6 +8860,8 @@ msgid ""
 "        # right pad side\n"
 "        self.draw.Line(-xstart, posy, -xend, yend)\n"
 msgstr ""
+"        # right pad side\n"
+"        self.draw.Line(-xstart, posy, -xend, yend)\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:357
@@ -8734,6 +8870,8 @@ msgid ""
 "        # set SMD attribute\n"
 "        self.module.SetAttributes(pcbnew.MOD_CMS)\n"
 msgstr ""
+"        # set SMD attribute\n"
+"        self.module.SetAttributes(pcbnew.MOD_CMS)\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:362
@@ -8744,6 +8882,10 @@ msgid ""
 "        yend = posy - (shl_height + linewidth + margin*2)\n"
 "        self.draw.Line(xstart, posy, xend, yend)\n"
 msgstr ""
+"        # vertical segment at left of the pad\n"
+"        xstart = xend\n"
+"        yend = posy - (shl_height + linewidth + margin*2)\n"
+"        self.draw.Line(xstart, posy, xend, yend)\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:371
@@ -8755,6 +8897,11 @@ msgid ""
 "        posy = yend\n"
 "        self.draw.Line(xstart, posy, xend, yend)\n"
 msgstr ""
+"        # horizontal segment above the pad\n"
+"        xstart = xend\n"
+"        xend = - pad_pitch*0.5-offsetX\n"
+"        posy = yend\n"
+"        self.draw.Line(xstart, posy, xend, yend)\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:374
@@ -8763,6 +8910,8 @@ msgid ""
 "        # right pad side\n"
 "        self.draw.Line(-xstart, posy,-xend, yend)\n"
 msgstr ""
+"        # right pad side\n"
+"        self.draw.Line(-xstart, posy,-xend, yend)\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:379
@@ -8773,6 +8922,10 @@ msgid ""
 "        yend = -pad_height/2 - linewidth/2 - margin\n"
 "        self.draw.Line(xstart, posy, xend, yend)\n"
 msgstr ""
+"        # vertical segment above the pad\n"
+"        xstart = xend\n"
+"        yend = -pad_height/2 - linewidth/2 - margin\n"
+"        self.draw.Line(xstart, posy, xend, yend)\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:386
@@ -8781,6 +8934,8 @@ msgid ""
 "# register into pcbnew\n"
 "FPC_FootprintWizard().register()\n"
 msgstr ""
+"# register into pcbnew\n"
+"FPC_FootprintWizard().register()\n"
 
 #. type: Title ===
 #: pcbnew_python_scripting.adoc:390
@@ -8840,6 +8995,9 @@ msgid ""
 "import re\n"
 "import datetime\n"
 msgstr ""
+"import pcbnew\n"
+"import re\n"
+"import datetime\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:420
@@ -8855,6 +9013,15 @@ msgid ""
 "    - Automaticaly the date will be added to the text (format YYYY-MM-DD)\n"
 "    \"\"\"\n"
 msgstr ""
+"class text_by_date(pcbnew.ActionPlugin):\n"
+"    \"\"\"\n"
+"    test_by_date: A sample plugin as an example of ActionPlugin\n"
+"    Add the date to any text field of the board where the content is '$date$'\n"
+"    How to use:\n"
+"    - Add a text on your board with the content '$date$'\n"
+"    - Call the plugin\n"
+"    - Automaticaly the date will be added to the text (format YYYY-MM-DD)\n"
+"    \"\"\"\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:432
@@ -8872,6 +9039,17 @@ msgid ""
 "        self.category = \"Modify PCB\"\n"
 "        self.description = \"Automaticaly add date on an existing PCB\"\n"
 msgstr ""
+"    def defaults(self):\n"
+"        \"\"\"\n"
+"        Method defaults must be redefined\n"
+"        self.name should be the menu label to use\n"
+"        self.category should be the category (not yet used)\n"
+"        self.description should be a comprehensive description\n"
+"          of the plugin\n"
+"        \"\"\"\n"
+"        self.name = \"Add date on PCB\"\n"
+"        self.category = \"Modify PCB\"\n"
+"        self.description = \"Automaticaly add date on an existing PCB\"\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:441
@@ -8886,12 +9064,20 @@ msgid ""
 "                if txt == \"$date$\":\n"
 "                    draw.SetText(\"$date$ %s\"%datetime.date.today())\n"
 msgstr ""
+"    def Run(self):\n"
+"        pcb = pcbnew.GetBoard()\n"
+"        for draw in pcb.GetDrawings():\n"
+"            if draw.GetClass() == 'PTEXT':\n"
+"                txt = re.sub(\"\\$date\\$ [0-9]{4}-[0-9]{2}-[0-9]{2}\",\n"
+"                                 \"$date$\", draw.GetText())\n"
+"                if txt == \"$date$\":\n"
+"                    draw.SetText(\"$date$ %s\"%datetime.date.today())\n"
 
 #. type: delimited block -
 #: pcbnew_python_scripting.adoc:444
 #, no-wrap
 msgid "text_by_date().register()\n"
-msgstr ""
+msgstr "text_by_date().register()\n"
 
 #. type: Title ==
 #: pcbnew_installation.adoc:2
@@ -9540,7 +9726,7 @@ msgid ""
 "Sending pull requests via Github will allow the automatic library standards checker to verify your proposed changes. See https://github.com/"
 "KiCad/kicad-library/wiki/Kicad-Library-Convention[KiCad Library Conventions] for details of the library conventions."
 msgstr ""
-"通过 Github 发送拉取请求将允许自动库标准检查器验证您提议的更改。 有关库约定的详细信息，请参阅https://github.com/KiCad/kicad-library/wiki/"
+"通过 Github 发送拉取请求将允许自动库标准检查器验证您提议的更改。 有关库约定的详细信息，请参阅 https://github.com/KiCad/kicad-library/wiki/"
 "Kicad-Library-Convention[KiCad Library Conventions]。"
 
 #. type: Title ====
@@ -9619,9 +9805,9 @@ msgid ""
 "    | Liftoff's GH footprints\n"
 msgstr ""
 "| 昵称| 库路径| 插件类型| 选项| 描述\n"
-"|github 上\n"
+"|GitHub 上\n"
 "    |https://github.com/liftoff-sr/pretty_footprints\n"
-"    |Github 上\n"
+"    |GitHub 上\n"
 "    |\n"
 "    | Liftoff 的 GH 封装\n"
 
@@ -9676,9 +9862,9 @@ msgid ""
 "    | Liftoff's GH footprints\n"
 msgstr ""
 "| 昵称| 库路径| 插件类型| 选项| 描述\n"
-"|github 上\n"
+"|GitHub 上\n"
 "    |https://github.com/liftoff-sr/pretty_footprints\n"
-"    |Github 上\n"
+"    |GitHub 上\n"
 "    |“allow_pretty_writing_to_this_dir=$ {HOME}/pretty/github.pretty”\n"
 "    | Liftoff 的 GH 封装\n"
 

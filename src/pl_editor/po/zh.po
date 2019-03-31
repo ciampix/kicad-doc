@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pl_Editor_zh_CN_v0.3\n"
 "POT-Creation-Date: 2019-02-28 06:47+0000\n"
-"PO-Revision-Date: 2019-03-31 01:07+0800\n"
+"PO-Revision-Date: 2019-03-31 15:17+0800\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -479,43 +479,43 @@ msgstr "*%% = 替换为 %*\n"
 #: pl_editor.adoc:206
 #, no-wrap
 msgid "*%K = KiCad version*\n"
-msgstr "*%K = KiCad 版本 *\n"
+msgstr "*%K = KiCad 版本*\n"
 
 #. type: Plain text
 #: pl_editor.adoc:208
 #, no-wrap
 msgid "*%Z = paper format name (A4, USLetter ...)*\n"
-msgstr "*%Z = 纸张格式名称（A4，美国信封 ...）*\n"
+msgstr "*%Z = 纸张格式名称（A4，美国信封 ...*\n"
 
 #. type: Plain text
 #: pl_editor.adoc:210
 #, no-wrap
 msgid "*%Y = company name*\n"
-msgstr "*%Y = 公司名称 *\n"
+msgstr "*%Y = 公司名称*\n"
 
 #. type: Plain text
 #: pl_editor.adoc:212
 #, no-wrap
 msgid "*%D = date*\n"
-msgstr "*%D = 日期 *\n"
+msgstr "*%D = 日期*\n"
 
 #. type: Plain text
 #: pl_editor.adoc:214
 #, no-wrap
 msgid "*%R = revision*\n"
-msgstr "*%R = 修订版 *\n"
+msgstr "*%R = 修订版*\n"
 
 #. type: Plain text
 #: pl_editor.adoc:216
 #, no-wrap
 msgid "*%S = sheet number*\n"
-msgstr "*%S = 表格编号 *\n"
+msgstr "*%S = 表格编号*\n"
 
 #. type: Plain text
 #: pl_editor.adoc:218
 #, no-wrap
 msgid "*%N = number of sheets*\n"
-msgstr "*%N = 张数 *\n"
+msgstr "*%N = 张数*\n"
 
 #. type: Plain text
 #: pl_editor.adoc:220
@@ -850,7 +850,7 @@ msgstr "通常从命令行或 KiCad 管理器调用 Pl_Editor。"
 #: pl_editor.adoc:370
 msgid ""
 "From a command line, the syntax is pl_editor <*.kicad_wks file to open>."
-msgstr "从命令行，语法是 pl_editor < *.kicad_wks 文件打开>。"
+msgstr "从命令行，语法是 pl_editor <*.kicad_wks 文件打开>。"
 
 #. type: Title ==
 #: pl_editor.adoc:372
@@ -1135,7 +1135,7 @@ msgstr "images/zh/pl_status_bar.png"
 #: pl_editor.adoc:513
 msgid ""
 "Coordinates are *always relative to the corner* selected as **reference**."
-msgstr "坐标 *始终相对于角* 被选为 **参考**。"
+msgstr "坐标 *始终相对于角* 被选为 **参考** 。"
 
 #. type: Title ==
 #: pl_editor.adoc:517
@@ -1166,7 +1166,7 @@ msgstr "此菜单允许基本操作：添加新项目或删除所选项目。"
 #: pl_editor.adoc:528
 #, no-wrap
 msgid "**-> A selected item is also drawn in a different color on draw panel**.\n"
-msgstr "**-> 选定的项目也会在绘图面板上以不同的颜色绘制**。\n"
+msgstr "**-> 选定的项目也会在绘图面板上以不同的颜色绘制** 。\n"
 
 #. type: Plain text
 #: pl_editor.adoc:531
@@ -1558,4 +1558,4 @@ msgstr ""
 #. type: Plain text
 #: pl_editor.adoc:713
 msgid "A bitmap can be repeated, **but not rotated**."
-msgstr "可以重复位图，**但不能旋转**。"
+msgstr "可以重复位图，**但不能旋转** 。"
