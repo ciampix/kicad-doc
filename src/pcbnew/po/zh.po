@@ -43,7 +43,7 @@ msgid ""
 "License (http://creativecommons.org/licenses/by/3.0/), version 3.0 or later."
 msgstr ""
 "本文档由以下列出的贡献者版权所有（C）2010-2015。 您可以根据GNU通用公共许可证（http://www.gnu.org/licenses/gpl.html），版本3或更高版本或知识"
-"共享署名许可的条款进行分发和/或修改。(http://creativecommons.org/licenses/by/3.0/),3.0或更高版本。"
+"共享署名许可的条款进行分发和/或修改。(http://creativecommons.org/licenses/by/3.0/) ,3.0或更高版本。"
 
 #. type: Plain text
 #: pcbnew.adoc:20
@@ -5767,7 +5767,7 @@ msgstr "如果在右侧工具栏上选择了 *添加布线和过孔* 图标，�
 #: pcbnew_layers.adoc:133
 #, no-wrap
 msgid "images/Pcbnew_via_layer_pair_popup.png"
-msgstr "images/zh/Pcbnew_via_layer_pair_popup.png"
+msgstr "images/Pcbnew_via_layer_pair_popup.png"
 
 #. type: Plain text
 #: pcbnew_layers.adoc:137
@@ -7629,7 +7629,7 @@ msgstr "没有选择的弹出菜单："
 #: pcbnew_general_operations.adoc:536
 #, no-wrap
 msgid "images/Pcbnew_popup_normal_mode.png"
-msgstr "images/zh/Pcbnew_popup_normal_mode.png"
+msgstr "images/Pcbnew_popup_normal_mode.png"
 
 #. type: Plain text
 #: pcbnew_general_operations.adoc:539 pcbnew_general_operations.adoc:555 pcbnew_general_operations.adoc:571
@@ -7640,7 +7640,7 @@ msgstr "选择了布线的弹出菜单："
 #: pcbnew_general_operations.adoc:540
 #, no-wrap
 msgid "images/Pcbnew_popup_normal_mode_track.png"
-msgstr "images/zh/Pcbnew_popup_normal_mode_track.png"
+msgstr "images/Pcbnew_popup_normal_mode_track.png"
 
 #. type: Plain text
 #: pcbnew_general_operations.adoc:543 pcbnew_general_operations.adoc:559 pcbnew_general_operations.adoc:575
@@ -7651,7 +7651,7 @@ msgstr "选择封装的弹出菜单："
 #: pcbnew_general_operations.adoc:544
 #, no-wrap
 msgid "images/Pcbnew_popup_normal_mode_footprint.png"
-msgstr "images/zh/Pcbnew_popup_normal_mode_footprint.png"
+msgstr "images/Pcbnew_popup_normal_mode_footprint.png"
 
 #. type: Title ====
 #: pcbnew_general_operations.adoc:546
@@ -7697,19 +7697,19 @@ msgstr "布线模式中的相同情况（image:images/icons/mode_track.png[] 已
 #: pcbnew_general_operations.adoc:568
 #, no-wrap
 msgid "images/Pcbnew_popup_track_mode.png"
-msgstr "images/zh/Pcbnew_popup_track_mode.png"
+msgstr "images/Pcbnew_popup_track_mode.png"
 
 #. type: Target for macro image
 #: pcbnew_general_operations.adoc:572
 #, no-wrap
 msgid "images/Pcbnew_popup_track_mode_track.png"
-msgstr "images/zh/Pcbnew_popup_track_mode_track.png"
+msgstr "images/Pcbnew_popup_track_mode_track.png"
 
 #. type: Target for macro image
 #: pcbnew_general_operations.adoc:576
 #, no-wrap
 msgid "images/Pcbnew_popup_track_mode_footprint.png"
-msgstr "images/zh/Pcbnew_popup_track_mode_footprint.png"
+msgstr "images/Pcbnew_popup_track_mode_footprint.png"
 
 #. type: Title ==
 #: pcbnew_introduction.adoc:2
