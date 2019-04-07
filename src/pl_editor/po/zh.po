@@ -47,7 +47,7 @@ msgid ""
 msgstr ""
 "本文档由以下列出的贡献者版权所有（C）2015。 您可以根据 GNU 通用公共许可证"
 "（http://www.gnu.org/licenses/gpl.html），版本3或更高版本或知识共享署名许可 "
-"的条款进行分发和/或修改。 (http://creativecommons.org/licenses/by/3.0/)，3.0"
+"的条款进行分发和/或修改。 (http://creativecommons.org/licenses/by/3.0/) ，3.0"
 "或更高版本。"
 
 #. type: Plain text
