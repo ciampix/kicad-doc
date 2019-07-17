@@ -74,7 +74,7 @@ For the _Standard Type_, the output voltage Vout as a function of the reference 
 image::images/Calculation1.png[alt="Regulators",scaledwidth="20%"]
 
 
-For the _3 terminal type_, there is a correction factor due to the quiescent current I_adj flowing from the adjust pin:
+For the _3 terminal type_, there is a correction factor due to the quiescent current Iadj flowing from the adjust pin:
 
 image::images/Calculation2.png[alt="Regulators",scaledwidth="20%"]
 
@@ -87,7 +87,7 @@ To use this calculator, enter the parameters of the regulator _Type_, _Vref_ and
 [[track-width]]
 === Track-Width
 
-The Track Width calculator calculates the trace width for printed circuit board conductors for a given current.
+The Track Width tool calculates the trace width for printed circuit board conductors for a given current and temperature rise.
 It uses formulas from IPC-2221 (formerly IPC-D-275).
 
 
@@ -100,8 +100,9 @@ image::images/en/trackwidth.png[alt="Track-Width",scaledwidth="80%"]
 This table helps finding the minimum clearance between conductors.
 
 Each line of the table has a minimum recomended distance between conductors
-for a given voltage (DC or AC peaks) range. If you need the values for a higher
-than 500V, type in the box in the right and press _Update Values_.
+for a given voltage (DC or AC peaks) range. If you need the values for voltages
+higher than 500V, enter the value in the box in the left corner and press
+_Update Values_.
 
 image::images/en/electricalspacing.png[alt="Electrical-Spacing",scaledwidth="80%"]
 
