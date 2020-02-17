@@ -46,12 +46,266 @@ Published on January 3, 2016.
 [[_content]]
 == Content
 
+The documentation for KiCad is done in English.
 
+=== Wording
+
+* Generally the documentation is described in a passive style. This means there
+  are no sentences like "Now I will tell you how KiCad works." This would be
+  phrased: "KiCad works in the following way."
+* The documentation for KiCad will be done in a formal way. Use the appropriate
+  words to address the reader in a formal way, i.e. do not address the reader
+  as you would address a friend but as you would address a business partner.
+  This is especially meant for translations as English mostly does not use such
+  distinction. (e.g. the English 'Click on X' translates in German either to
+  'Klicke auf X' when talking to a friend but to 'Klicken Sie auf X' when
+  talking to a stranger.)
+* Working instructions in tutorial passages are written like actual instructions
+  to the reader, i.e. Use „To close the window click on the 'OK' button.“
+  but not „Clicking on the 'OK' button will close the window.“.
+* Use short sentences. Sentences that span several lines are hard to understand
+  and also hard to translate. 
+
+=== Terminology
+
+This section collects all definitions for a uniform use of the same terms for
+naming things througout all documentation.
+
+* *Software suite*: This term describes KiCad as a whole including
+  all software modules.
+* *Software module*: This term describes each individual software, i.e.
+  Eeschema, Pcbnew, etc.
 
 [[_style]]
 == Style
 
+=== Unicode
+The documentation for KiCad uses Unicode for character encoding.
+Unicode characters should be used where no equivalent AsciiDoc entity exists.
+Here is a list of commonly used charakters where an AsciiDoc entity exists (see
+also
+http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/#text-replacement):
+
+* Ellipsis: three dots in a row are translated to …
+* Em-Dash: two hyphens in a row are translated to —
+
+Nonetheless AsciiDoc respects and preserves Unicode characters, so you are free
+to use Unicode also.
+
+=== Translations
+Text must be written in the correct language characters.
+If there are other conventions for formatting content than in English these
+conventions must be used.
+For instance English numbers use the '.' as decimal whereas in German the ','
+is used (e.g. \'2.54' vs. \'2,54').
+
+=== Medium Dependend Styles
+* documentation for electronic display
+** uses a sans serif font for better readability
+** has top, bottom, left and right margin of 2em
+* documentation for print
+** may use a serif font (though the trend in print also goes sans serif)
+** has top, bottom, left and right margin of 2 cm
+
+=== Titles
+* Titles are used only once per document to define the title of the document.
+* Titles are centered and set in a 22pt bold font.
+
+=== Headings
+* There is a maximum of only four levels of headings that are numbered within
+  a document and may occur in a table of contents.
+* Headings are written with capital letters for each noun, verb, adjective and
+  adverb.
+* Headings have no additional indentation relative to the paragraphs.
+* Headings are numbered with arabic numbers.
+* Headings have a padding top and bottom of 12 pt.
+* *First level headings* are set in a 18 pt bold font.
+** First level headings are numbered concecutively with a single leading number.
+** First level headings are used to form chapters.
+** Chapters may stand alone without any sections.
+* *Second level headings* are set in a 16 pt bold font
+** Second level headings are numbered with two numbers seperated by a period.
+   The first number is the number of the chapter, the second number is the
+   concecutive number of the section in that chapter.
+** Second level headings are used to form sections.
+** Sections may only exist if there is more than one section or it contains
+   more than one subsection.
+* *Third level headings* are set in a 14 pt bold font.
+** Third level headings are numbered with three numbers seperated by a period.
+   The first number is the number of the chapter, the second number of the
+   section and the third is the concecutive number of the subsection in that
+   section.
+** Third level headings are used to form subsections.
+** Subsections may only exist if there is more than one subsection or it
+   contains more than one sub-subsection.
+* *Forth and higher level headings* are set in a 12 pt bold font.
+** Forth level headings are numbered analog to the lower level headings
+   numbering scheme.
+** Forth level headings are used to form sub-subsections.
+** Sub-subsections may only exist if there is more than one sub-subsection.
+* *Fifth level headings* are not numbered and are only used for subheadings
+  e.g. in a chapter with no sections.
+
+=== Paragraphs
+* Paragraphs are set in a 12 pt font.
+* Paragraphs have a bottom padding of 12 pt.
+* Each paragraph starts with a capital letter.
+
+== Quotes and Quotations
+* *Single quotes* (\') are used for literal names of files and such (e.g. \'netlist.net' or \'*.sch').
+* *Double quotes* (") are used for naming things that would literally look
+  different (e.g. "n-dash" vs. \'–' or "alpha" vs. \'α' or "netlist file" vs.
+  \'netlist.net').
+* *Typographic quotes* („“) are used for inline quotations like „These are not
+  the diodes you're looking for.“.
+* *Block quotes* are used to quote larger amounts of text.
+** Block quotes are indented with a padding left and right by 2em.
+** Block quotes have a padding top and bottom of 12pt.
+** Block quotes have a frame of 2px with a color of 50% grey.
+
+=== Lists
+* There are only two kinds of lists in use: ordered (numbered) lists and
+  unordered (unnumbered) lists.
+* *Unordered lists* use the bullet character (•) for the first level and
+  hyphens ("n-dash": \'–') for the second level for displaying the list
+  elements.
+** Unordered lists are the default lists.
+** Up to three list levels are allowed.
+** When an unordered list is used to explain things, the first item of the
+   list entry (thing to explain) is set in bold font
+* *Ordered lists* use arabic numbers, the second level of an ordered list uses
+  lowercase letters
+** Ordered lists are used for working instructions and such where the order of
+   steps is important
+** More than two list levels are not allowed.
+
+=== Tables
+* The caption for tables is put above the table, set in bold font and left aligned.
+* Captions are useful for reference such as "look on Table 3.2 row 6".
+* The caption of tables is numbered with two numbers separated by a period. The
+  first number is the number of the current chapter, the second number is the
+  consecutive number of the table in the current chapter. 
+** Example: *Table 2.3: Table Example*
+* Tables should be kept short enough to fit on a single page for readability.
+* The header of the table is set in bold font.
+* The lines between table cells are drawn in a grey color (80% grey). 
+
+=== Images
+* The caption for images is put below the image, set in bold font and left
+  aligned.
+* The caption of images starts with the text \'Image' is numbered with two
+  numbers separated by a period. The first number is the number of the current
+  chapter, the second number is the concecutive number of the image in the
+  current chapter.
+** Example: *Image 1.3: Example Image*
+* The image size for online display should not exceed 640 pixels width.
+* The image size for online display of tool icons should be between 24x24 and
+  32x32 pixels.
+* Images for print should not contain less than 150 dpi pixel density for high
+  image quality. Screenshots are generally not good for print output.
+* Images from screenshots should be made in PNG format, JPG is inferior for
+  this kind of images.
+
+
+=== Code Examples
+* code examples are command line examples, script examples, text file contents
+  or similar
+* code examples are set in a monospaced font
+* the caption for code examples is put above the example
+* code examples are displayed with a thin frame around them and a shaded
+  background (≈80% grey)
+
+=== Footnotes
+* Footnotes must not be used.
+** For online display in a long document the footnotes will be out of screen
+   for the reader and therefore not very helpful.
+* Instead use the NOTE syntax of AsciiDoc. These will be displayed different
+  than normal paragraphs.
+** Notes have a note-title set in 14pt bold font that is left aligned.
+** Notes are numbered with a trailing number consecutively throughout the
+   document, i.e. \'Note 1', \'Note 2' etc.
+** The body of the note is set below the note-title and left-indented by 3em.
+** The note text is set in a italic style.
+** Notes have a light grey background.
+** The space provided by the indentation shows a symbol according to the type
+   of note, i.e. `NOTE:`, `TIP:`, `IMPORTANT:`, `CAUTION:`, `WARNING:`. These
+   symbols are defined globally and shared between all documents.
 
 [[_structure]]
 == Structure
+=== Documentation Structure
+The KiCad documentation has a structure that provides information on a single
+place. Duplicate information in different documents is to be avoided and proper
+linking to the document containing the information is mandatory. I.e.:
+* There is one document that describes the common GUI elements and all other
+  documents point to that document. 
+* There is one document that describes how the component editor works and all
+  other documents link to that document.
 
+The whole documentation of KiCad follows the structure shown below whereas each
+individual document follows the structure given in <<_document_structure>>.
+
+* KiCad
+** This document gives general information about the software suite and
+   introduction of all software modules.
+** Description of the KiCad Manager
+** Description of the common GUI elements that are available in every individual
+   software module.
+* Getting Started
+** This document describes the basic usage and general workflow of all KiCad
+   modules to give the user an idea what can be accomplished using KiCad. For
+   all deeper information will be referenced to the individual Reference
+   Manuals.
+* Eeschema
+** This document describes the schematic capture module of KiCad.
+* LibEdit
+** This document describes the component editor an component library manager
+   module of KiCad.
+* Pcbnew
+** This document describes the PCB layout module of KiCad.
+* FootprintEditor
+** This document describes the footprint editor and footprint library manager
+   module of KiCad.
+* Gerbview
+** This document describes the Gerber file viewer module of KiCad.
+* Bitmap2component
+** This document describes the module of KiCad that generates footprints from
+   bitmaps.
+* Pcb Calculator
+** This document describes the module of KiCad that helps with calculations
+   related to PCB layout and such.
+* Pl Editor
+** This document describes the module of KiCad that helps setting up frame
+   references.
+
+[[_document_structure]]
+=== Document Structure
+
+The documentation (Reference Manual) for all modules of KiCad (Eeschema,
+Pcbnew, etc.) shares the same basic structure. This is to give the reader
+a better experience when searching for support.
+
+* Document title
+** Copyright information
+** Author(s) information
+** Feedback information
+** Date of creation
+* Chapter 1: Introduction
+** purpose of this document, what information will be found here
+** short description of the software module
+* Chapter 2: Installation and Setup
+** since all software modules will be installed by installing the main software
+   package there will be no installation information for the individual modules
+** Setup section describes how to set up default and project specifc values for
+   this module
+* Chapter 3: Basic Usage
+** This section describes all menu items and the use of all tools available in
+   individual tool bars. The description is done in a tutorial style following
+   a simple simple design workflow.
+* Chapter 4: Advanced Usage
+** This section describes all deeper nested menu settings and special tool
+   configurations needed for advanced designs (e.g. differential designs). Also
+   information regarding scripting and other advanced usage is to be found here.
+* Chapter 5: References (optional)
+** This section provides further references to (external) sources related to the
+   current topic, e.g. PCB layout guides or schematic style guides.
